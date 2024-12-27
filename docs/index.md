@@ -2,6 +2,48 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+## PDFs
+
+
+### HTML object
+
+<object class="pdf"
+            data= "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+            width="800"
+            height="500">
+</object>
+
+### iframe
+
+<iframe class="pdf"
+                src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+            width="800" height="500">
+        </iframe>
+
+### Embed
+
+<embed class="pdf"
+               src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf"
+            width="800" height="500">
+
+### Small mkdocs-pdf
+
+Without {}
+
+![Alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf)
+
+With
+
+![Alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf){ type=application/pdf }
+
+Redirect
+
+![Alt text](https://arxiv.org/pdf/2411.14251v1.pdf){ type=application/pdf }
+
+### Large mkdocs-pdf
+
+![Alt text](https://arxiv.org/pdf/2411.14251v1.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
+
 ## Commands s
 
 * `mkdocs new [dir-name]` - Create a new project.
@@ -43,5 +85,3 @@ this ==text is highlighted== isn't it?
 ![type:video](https://www.youtube.com/watch?v=rIehsqqYFEM)
 ![type:video](https://www.youtube.com/embed/rIehsqqYFEM)
 
-![Alt text](https://arxiv.org/pdf/2411.14251v1.pdf){ type=application/pdf }
-![Alt text](https://arxiv.org/pdf/2411.14251v1.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
