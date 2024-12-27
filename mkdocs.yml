@@ -155,15 +155,19 @@ plugins:
   #
   # Shorter links between pages and anchor manipulation
   # @ https://github.com/mkdocstrings/autorefs
+  # pip install mkdocs-autorefs
   - autorefs
   # Include other files in a markdown file
   # @ https://github.com/mondeja/mkdocs-include-markdown-plugin
+  # pip install mkdocs-include-markdown-plugin
   - include-markdown
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
+  # pip install mkdocs-pdf
   - mkdocs-pdf
   # Support for embedded videos
-  # @ https://github.com/soulless-viewer/mkdocs-video  
+  # @ https://github.com/soulless-viewer/mkdocs-video
+  # pip install mkdocs-video
   - mkdocs-video:
       is_video: False           # Use <video/> instead of <iframe/>
 
