@@ -40,6 +40,10 @@ Redirect
 
 ![Alt text](https://arxiv.org/pdf/2411.14251v1.pdf){ type=application/pdf }
 
+Without redirect
+
+![Alt text](https://arxiv.org/pdf/2411.14251v1){ type=application/pdf }
+
 ### Large mkdocs-pdf
 
 ![Alt text](https://arxiv.org/pdf/2411.14251v1.pdf){ type=application/pdf style="min-height:100vh;width:100%" }
