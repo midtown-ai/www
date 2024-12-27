@@ -1,0 +1,230 @@
+site_name: Midtown AI
+site_url: https://glossary.midtown.ai/
+site_author: Emmanuel Mayssat
+site_description: >-
+  A clean, responsive site
+  that is searchable, customizable
+
+#
+# For the 'mkdocs gh-deploy' command
+#
+remote_branch: gh-pages
+remote_name: origin
+  
+# Banner
+# repo_name: midtown-ai/glossary
+# repo_url: "https://github.com/midtown-ai/glossary"
+
+# Footer
+# copyright: Copyright &copy; 2020 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
+
+theme:
+  language: en                # default language is english
+  # name: mkdocs              # default theme
+  # name: readthedocs
+  name: material              # pip install mkdocs-material
+  custom_dir: overrides
+  # highlightjs: True
+  # hljs_languages: [yaml, ]
+  #
+  # Feature flags
+  #
+  features:
+    - announce.dismiss        # show cross-button to dismiss announcement
+    # - content.action.edit
+    # - content.action.view
+    # - content.code.annotation
+    # - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    # - content.tooltips
+    - header.autohide         # hide page header when scrolling down to show more content
+    # - navigation.expand     # sections are expanded, i.e. sub-menus appears and are indented
+    # - navigation.footer     # include previous and next links in footer
+    # - navigation.indexes    # click on top menus show their index pages
+    # - navigation.instant    # site behaves like a single page application (XHR)
+    # - navigation.instant.prefetch  # prefetch a page when user hovers a link
+    # - navigation.instant.preview   # preview page when hovering an external link
+    # - navigation.instant.progress  # show progress indicator on top of page for slow connection
+    # - navigation.path       # show breadcrumbs above title of each page
+    # - navigation.prune      # only visible navigation items are included in the rendered HTML
+    # - navigation.sections   # sub-menus appears as if they were top-menus
+    # - navigation.tabs       # top menu in page front matter, sub menus in navigation sidebar
+    # - navigation.tabs.sticky # sub menus in navigation sidebar on left stay visible even when scrolling
+    # - navigation.top        # move navigation from left-hand side back to top
+    # - navigation.tracking
+    # - search.boost          # boost pages in local search engine based on search boost in front matter
+    # - search.exclude        # allow pages to be excluded from local search engine
+    - search.highlight        # highlight word piece after opening page found in search results
+    # - search.share
+    - search.suggest          # enable auto-complete in search box
+    # - toc.follow            # table of contents is highlight active anchor which always stay visible
+    # - toc.integrate         # table of contents is part of navigation sidebar on left, disabled on right
+    # - toc.top               # back to top button appears when user schools down and then up
+  #
+  # Light and dark mode
+  #
+  palette:
+    - scheme: default
+      accent: purple
+      primary: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate
+      accent: lime
+      primary: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+
+#
+# Markdown Extensions
+#
+# are extensions to the standard Markdown syntax
+# written in python and packaged in modules
+# may require a `pip install pymdown-extensions` unless `pip install mkdocs-material-extensions` was run!
+#
+markdown_extensions:
+  # - admonition              # support for UI call-outs (note, warning, danger, etc.)
+  - attr_list                 # allow addition of HTML and CSS to Markdown ![](image.png){align:center}
+  # - def_list                # enable the use of definition list
+  # - footnotes               # allow footnotes in a page using[^1] and then [^1]: footnote text
+  # - pymdownx.arithmatex     # preserve LaTeX math equations
+  # - pymdownx.betterm        # improve emphasis (bold and italic) handling
+  # - pymdownx.caret          # caret can be used as an ^^insert tag^^ or for superscript H^2^O
+  # - pymdownx.critic         # support for review of page contents to be reviewed and approved
+  # - pymdownx.details        # support for collapsible UI elements that hide or show their content
+  - pymdownx.emoji:           # adds support for inserting emoji via simple short names :smile:
+      # emoji_generator: !!python/name:materialx.emoji.to_svg
+      # emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  # - pymdownx.fancylist      # extends the list handling formats
+  # - pymdownx.highlight      # adds support for code highlighting
+  # - pymdownx.inlinehilite   # inline code highligther
+  # - pymdownx.key            # for better visual rendering of keyboard press, e.g. press ++ctrl+alt+delete++
+  - pymdownx.magiclink        # turn URLs, mentions, Jira ID into clickable links
+  - pymdownx.mark             # use a marker to highlight text, such as ==highlighted text==
+  # - pymdownx.progressbar    # render a static progress bar toward a goal
+  - pymdownx.saneheaders      # recognize a markdown headers only if spaces are present after the hashes (#)
+  # - pymdownx.smartsymbols   # add syntax for creating special characters such as <--> 1/4 2nd etc.
+  - pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
+      base_path:
+        - docs/.snippets
+        - LICENSE.md
+        - SECURITY.md
+      # auto_append:          # files to automatically include in all other md files
+      #   - refs.md
+      # check_paths: true
+  - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
+  # - pymdownx.superfences
+  # - pymdownx.tabbed         # allows rendering of page contents with multi-tab widget, e.g. === Tab 1
+  # - pymdownx.tasklist       # enable the use of [X] tasks lists
+  # - pymdownx.tilde          # tilde can be used for text strike through ~~delete~~ or subscript H~2O
+  # - smarty                  # turn ASCII dashes, quotes, ellipses into their HTML entity equivalents
+
+#
+# Plugins
+#
+# are builtin python scripts or distributed in module
+# include functions that are hooks triggered at particular events (on_build, on_serve, on_templatiing, etc.)
+#
+plugins:
+  #
+  # Built-in plugins
+  #
+  # - blog                    # to create a blog
+  # - group                   # enable/disable plugins in groups
+  # - info                    # used to report bugs using zip files
+  # - meta                    # set frontmatter for files in a directory
+  # - offline                 # package site in a zip file to be shared
+  # - optimize                # optimize/compress media files for best latency
+  # - privacy                 # all external asset URLs are rewritten to point to local copies
+  # - projects                # split very large sites/projects into smaller ones
+  - search                    # add search bar to header
+  # - social                  # used to build social card for post on WhatsApp, etc
+  # - tags                    # add support for categorization
+  # - typeset                 # enrich titles and headlines in navigation and table-of-contents
+  #
+  # External plugins
+  #
+  # > pip install mkdocs-<plugin>
+  #
+  # Shorter links between pages and anchor manipulation
+  # @ https://github.com/mkdocstrings/autorefs
+  - autorefs
+  # Include other files in a markdown file
+  # @ https://github.com/mondeja/mkdocs-include-markdown-plugin
+  - include-markdown
+  # Support for embedded PDFs
+  # @ https://github.com/ThomasTNO/mkdocs-pdf
+  - mkdocs-pdf
+  # Support for embedded videos
+  # @ https://github.com/soulless-viewer/mkdocs-video  
+  - mkdocs-video:
+      is_video: False           # Use <video/> instead of <iframe/>
+
+#
+# Extra Object
+#
+# is a python dictionary passed to to the templates
+# is useful for custom themes
+#
+extra:
+  # analytics:
+  #   provider: google
+  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  generator: false              # remove the 'Made with Material from MkDocs' notice from footer
+  social:                       
+    # add social icon at bottom-right of page
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/midtown_ai
+    - icon: fontawesome/brands/github
+      link: https://github.com/midtown-ai
+    # - icon: fontawesome/brands/linkedin
+    #   link: https://www.linkedin.com/in/emayssat/
+  status:
+    new: Recently added
+    deprecated: Deprecated
+
+#
+# Documentation layout
+#
+nav:
+  - Home: index.md
+  # - Blog:
+  #   - blog/index.md
+  # - Glossary:
+  #   - glossary/index.md
+  #   - A: glossary/a.md
+  #   - B: glossary/b.md
+  - A: a.md
+  - B: b.md
+  - C: c.md
+  - D: d.md
+  - E: e.md
+  - F: f.md
+  - G: g.md
+  - H: h.md
+  - I: i.md
+  - J: j.md
+  - K: k.md
+  - L: l.md
+  - M: m.md
+  - N: n.md
+  - O: o.md
+  - P: p.md
+  - Q: q.md
+  - R: r.md
+  - S: s.md
+  - T: t.md
+  - U: u.md
+  - V: v.md
+  - W: w.md
+  - X: x.md
+  - Y: y.md
+  - Z: z.md
+
