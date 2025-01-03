@@ -32,16 +32,16 @@ theme:
   # Feature flags
   #
   features:
-    ##  - announce.dismiss        # show cross-button to dismiss announcement
-    ##  - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
-    ##  - content.action.view     # add button to view source of page on github /!\ requires edit_uri
-    # - content.code.annotation # offer a way to attach arbitrary content to specific sections of code blocks
-    ##  - content.code.copy       # code blocks have a button to allow user to copy code to clipboard
-    ##  - content.code.select     # code blocks have a button to allow for the selection of line ranges by user
+    - announce.dismiss        # show cross-button to dismiss announcement
+    # - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
+    # - content.action.view     # add button to view source of page on github /!\ requires edit_uri
+    - content.code.annotation # offer a way to attach arbitrary content to specific sections of code blocks
+    - content.code.copy       # code blocks have a button to allow user to copy code to clipboard
+    - content.code.select     # code blocks have a button to allow for the selection of line ranges by user
     # - content.footnote.tooltips
     # - content.tabs.link
     # - content.tooltips
-    # - header.autohide         # hide page header when scrolling down to show more content
+    - header.autohide         # hide page header when scrolling down to show more content
     # - navigation.expand     # sections are expanded, i.e. sub-menus appears and are indented
     # - navigation.footer     # include previous and next links in footer
     # - navigation.indexes    # click on top menus show their index pages
@@ -73,9 +73,9 @@ theme:
   #
   # Icon
   #
-  ##  icon:
-  ##    logo: fontawesome/solid/m
-  ##    favicon: img/favicon.ico
+  icon:
+    logo: fontawesome/solid/m
+    favicon: img/favicon.ico
   # logo: img/logo.png
   #
   # Color palette
@@ -109,20 +109,20 @@ theme:
 # may require a `pip install pymdown-extensions` unless `pip install mkdocs-material-extensions` was run!
 #
 markdown_extensions:
-  ##  - abbr                      # support for abbreviation files which are similar to reference links
+  - abbr                      # support for abbreviation files which are similar to reference links
   # - admonition              # (!) deprecated by pymdownx.blocks.admonition
-  ##  - attr_list                 # allow addition of HTML and CSS to markdown ![](image.png){align:left}
+  - attr_list                 # allow addition of HTML and CSS to markdown ![](image.png){align:left}
   # - def_list                # enable the use of definition list
   # - footnotes               # allow footnotes in a page using[^1] and then [^1]: footnote text
   # - md_in_html
-  ##  - pymdownx.arithmatex:      # preserve LaTeX math equations /!\ require extra_javascript file
-  ##      generic: true           # - escape necessary symbols and wrap output
+  - pymdownx.arithmatex:      # preserve LaTeX math equations /!\ require extra_javascript file
+      generic: true           # - escape necessary symbols and wrap output
   # - pymdownx.betterm        # improve emphasis (bold and italic) handling
   # - pymdownx.caret          # caret can be used as an ^^insert tag^^ or for superscript H^2^O
   # - pymdownx.critic         # support for review of page contents to be reviewed and approved
-  ##  - pymdownx.blocks.admonition # support for UI call-outs (warning, ...) ex /// warning | "Beware" + /// 
-  ##  - pymdownx.blocks.caption   # support for captions onUI elements ex /// details | "Beware" +type/open+ ///
-  ##  - pymdownx.blocks.details   # support for collapsible UI elements ex /// details | "Beware" +type/open+ ///
+  - pymdownx.blocks.admonition # support for UI call-outs (warning, ...) ex /// warning | "Beware" + /// 
+  - pymdownx.blocks.caption   # support for captions onUI elements ex /// details | "Beware" +type/open+ ///
+  - pymdownx.blocks.details   # support for collapsible UI elements ex /// details | "Beware" +type/open+ ///
   - pymdownx.emoji:           # adds support for inserting emoji via simple short names :smile:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -135,18 +135,18 @@ markdown_extensions:
   - pymdownx.inlinehilite     # inline code highligther /!\ requires highlight ex: `#!python range()`
   # - pymdownx.key            # for better visual rendering of keyboard press, e.g. press ++ctrl+alt+delete++
   - pymdownx.magiclink        # turn URLs, mentions, Jira ID into clickable links
-  ## - pymdownx.mark             # use a marker to highlight text, such as ==highlighted text==
+  - pymdownx.mark             # use a marker to highlight text, such as ==highlighted text==
   # - pymdownx.progressbar    # render a static progress bar toward a goal
-  ## - pymdownx.saneheaders      # recognize a markdown headers only if spaces are present after the hashes (#)
+  - pymdownx.saneheaders      # recognize a markdown headers only if spaces are present after the hashes (#)
   # - pymdownx.smartsymbols   # add syntax for creating special characters such as <--> 1/4 2nd etc.
-  ## - pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
-  ##     auto_append:            # - files automatically appended to the end of all md files
-  ##       - links.md            # -- reference links 
-  ##     base_path:              # - search paths for snippets files that are included (or automatically appended)
-  ##       - includes
-  ##     check_paths: true       # - check snippet file paths
-  ## - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
-  ## - pymdownx.superfences:     # add method to create block without indentation using /// and options /!\ used by highlight ext
+  - pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
+      auto_append:            # - files automatically appended to the end of all md files
+        - links.md            # -- reference links 
+      base_path:              # - search paths for snippets files that are included (or automatically appended)
+        - includes
+      check_paths: true       # - check snippet file paths
+  - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
+  - pymdownx.superfences:     # add method to create block without indentation using /// and options /!\ used by highlight ext
     # custom_fences:          # - code fence to live as-is and whose processing is done by another plugin/extension
     #    - name: mermaid       # -- ```mermaid
     #      class: mermaid      # -- turn code block into a <div class="mermaid"> ... </div>
@@ -155,10 +155,10 @@ markdown_extensions:
   # - pymdownx.tasklist       # enable the use of [X] tasks lists
   # - pymdownx.tilde          # tilde can be used for text strike through ~~delete~~ or subscript H~2O
   # - smarty                  # turn ASCII dashes, quotes, ellipses into their HTML entity equivalents
-  ## - tables                    # support for tables (enabled by default!)
-  ## - toc:                      # create permalinks and customize display of table-of-contents
-  ##     permalink: true         # - add permalinks to menus
-  ##     permalink: "#"          # - character to make permalink visible
+  - tables                    # support for tables (enabled by default!)
+  - toc:                      # create permalinks and customize display of table-of-contents
+      permalink: true         # - add permalinks to menus
+      permalink: "#"          # - character to make permalink visible
 
 #
 # Plugins
@@ -194,8 +194,8 @@ plugins:
   # Support for adding the date of the last update and creation of a doc at the bottom of each page
   # @ https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
   # pip install mkdocs-git-revision-date-localized-plugin
-  ## - git-revision-date-localized:
-  ##     enable_creation_date: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
   # Include other files in a markdown file
   # @ https://github.com/mondeja/mkdocs-include-markdown-plugin
   # pip install mkdocs-include-markdown-plugin
@@ -205,7 +205,7 @@ plugins:
   # @ https://github.com/fralau/mkdocs-mermaid2-plugin
   # pip install mkdocs-mermaid2-plugin
   # /!\ With material theme, use pymdownx.superfences
-  ## - mermaid2
+  # - mermaid2
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
@@ -235,7 +235,7 @@ extra:
   # analytics:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
-  ## generator: false              # remove the 'Made with Material from MkDocs' notice from footer
+  generator: false              # remove the 'Made with Material from MkDocs' notice from footer
   social:                       
     # add social icon at bottom-right of page
     - icon: fontawesome/brands/x-twitter
@@ -251,28 +251,28 @@ extra:
 #
 # Extra CSS
 #
-## extra_css:
-##   - stylesheets/extra.css
-##   - stylesheets/icon_styles.css
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/icon_styles.css
 
 #
 # Extra JavaScript
 #
-## extra_javascript:
+extra_javascript:
   # Support Latex math equations
-  ##   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  ##   - javascript/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+  - javascript/mathjax.js
   # Make data tables sortable by clicking on column names
   # More on tablesort at https://tristen.ca/tablesort/demo/
-  ##   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  ##   - javascript/tablesort.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascript/tablesort.js
 
 #
 # Documentation layout
 #
 nav:
   - Home: index.md
-  ## - Tests: tests.md
+  - Tests: tests.md
   # - Blog:
   #   - blog/index.md
   # - Glossary:
@@ -282,27 +282,27 @@ nav:
   - A: glossary/a.md
   - B: glossary/b.md
   - C: glossary/c.md
-  ## - D: glossary/d.md
-  ## - E: glossary/e.md
-  ## - F: glossary/f.md
-  ## - G: glossary/g.md
-  ## - H: glossary/h.md
-  ## - I: glossary/i.md
-  ## - J: glossary/j.md
-  ## - K: glossary/k.md
-  ## - L: glossary/l.md
-  ## - M: glossary/m.md
-  ## - N: glossary/n.md
-  ## - O: glossary/o.md
-  ## - P: glossary/p.md
-  ## - Q: glossary/q.md
-  ## - R: glossary/r.md
-  ## - S: glossary/s.md
-  ## - T: glossary/t.md
-  ## - U: glossary/u.md
-  ## - V: glossary/v.md
-  ## - W: glossary/w.md
-  ## - X: glossary/x.md
-  ## - Y: glossary/y.md
-  ## - Z: glossary/z.md
+  - D: glossary/d.md
+  - E: glossary/e.md
+  - F: glossary/f.md
+  - G: glossary/g.md
+  - H: glossary/h.md
+  - I: glossary/i.md
+  - J: glossary/j.md
+  - K: glossary/k.md
+  - L: glossary/l.md
+  - M: glossary/m.md
+  - N: glossary/n.md
+  - O: glossary/o.md
+  - P: glossary/p.md
+  - Q: glossary/q.md
+  - R: glossary/r.md
+  - S: glossary/s.md
+  - T: glossary/t.md
+  - U: glossary/u.md
+  - V: glossary/v.md
+  - W: glossary/w.md
+  - X: glossary/x.md
+  - Y: glossary/y.md
+  - Z: glossary/z.md
 
