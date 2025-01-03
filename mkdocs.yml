@@ -120,9 +120,9 @@ markdown_extensions:
   # - pymdownx.betterm        # improve emphasis (bold and italic) handling
   # - pymdownx.caret          # caret can be used as an ^^insert tag^^ or for superscript H^2^O
   # - pymdownx.critic         # support for review of page contents to be reviewed and approved
-  ##  - pymdownx.blocks.admonition # support for UI call-outs (warning, ...) ex /// warning | "Beware" + /// 
-  ##  - pymdownx.blocks.caption   # support for captions onUI elements ex /// details | "Beware" +type/open+ ///
-  ##  - pymdownx.blocks.details   # support for collapsible UI elements ex /// details | "Beware" +type/open+ ///
+  - pymdownx.blocks.admonition # support for UI call-outs (warning, ...) ex /// warning | "Beware" + /// 
+  - pymdownx.blocks.caption   # support for captions onUI elements ex /// details | "Beware" +type/open+ ///
+  - pymdownx.blocks.details   # support for collapsible UI elements ex /// details | "Beware" +type/open+ ///
   - pymdownx.emoji:           # adds support for inserting emoji via simple short names :smile:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -135,9 +135,9 @@ markdown_extensions:
   - pymdownx.inlinehilite     # inline code highligther /!\ requires highlight ex: `#!python range()`
   # - pymdownx.key            # for better visual rendering of keyboard press, e.g. press ++ctrl+alt+delete++
   - pymdownx.magiclink        # turn URLs, mentions, Jira ID into clickable links
-  ## - pymdownx.mark             # use a marker to highlight text, such as ==highlighted text==
+  - pymdownx.mark             # use a marker to highlight text, such as ==highlighted text==
   # - pymdownx.progressbar    # render a static progress bar toward a goal
-  ## - pymdownx.saneheaders      # recognize a markdown headers only if spaces are present after the hashes (#)
+  - pymdownx.saneheaders      # recognize a markdown headers only if spaces are present after the hashes (#)
   # - pymdownx.smartsymbols   # add syntax for creating special characters such as <--> 1/4 2nd etc.
   ## - pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
   ##     auto_append:            # - files automatically appended to the end of all md files
@@ -145,7 +145,7 @@ markdown_extensions:
   ##     base_path:              # - search paths for snippets files that are included (or automatically appended)
   ##       - includes
   ##     check_paths: true       # - check snippet file paths
-  ## - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
+  - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
   ## - pymdownx.superfences:     # add method to create block without indentation using /// and options /!\ used by highlight ext
     # custom_fences:          # - code fence to live as-is and whose processing is done by another plugin/extension
     #    - name: mermaid       # -- ```mermaid
@@ -155,10 +155,10 @@ markdown_extensions:
   # - pymdownx.tasklist       # enable the use of [X] tasks lists
   # - pymdownx.tilde          # tilde can be used for text strike through ~~delete~~ or subscript H~2O
   # - smarty                  # turn ASCII dashes, quotes, ellipses into their HTML entity equivalents
-  ## - tables                    # support for tables (enabled by default!)
-  ## - toc:                      # create permalinks and customize display of table-of-contents
-  ##     permalink: true         # - add permalinks to menus
-  ##     permalink: "#"          # - character to make permalink visible
+  - tables                    # support for tables (enabled by default!)
+  - toc:                      # create permalinks and customize display of table-of-contents
+      permalink: true         # - add permalinks to menus
+      permalink: "#"          # - character to make permalink visible
 
 #
 # Plugins
@@ -251,21 +251,21 @@ extra:
 #
 # Extra CSS
 #
-## extra_css:
-##   - stylesheets/extra.css
-##   - stylesheets/icon_styles.css
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/icon_styles.css
 
 #
 # Extra JavaScript
 #
-## extra_javascript:
+extra_javascript:
   # Support Latex math equations
-  ##   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
-  ##   - javascript/mathjax.js
+    - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+    - javascript/mathjax.js
   # Make data tables sortable by clicking on column names
   # More on tablesort at https://tristen.ca/tablesort/demo/
-  ##   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  ##   - javascript/tablesort.js
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+    - javascript/tablesort.js
 
 #
 # Documentation layout
@@ -282,27 +282,27 @@ nav:
   - A: glossary/a.md
   - B: glossary/b.md
   - C: glossary/c.md
-  ## - D: glossary/d.md
-  ## - E: glossary/e.md
-  ## - F: glossary/f.md
-  ## - G: glossary/g.md
-  ## - H: glossary/h.md
-  ## - I: glossary/i.md
-  ## - J: glossary/j.md
-  ## - K: glossary/k.md
-  ## - L: glossary/l.md
-  ## - M: glossary/m.md
-  ## - N: glossary/n.md
-  ## - O: glossary/o.md
-  ## - P: glossary/p.md
-  ## - Q: glossary/q.md
-  ## - R: glossary/r.md
-  ## - S: glossary/s.md
-  ## - T: glossary/t.md
-  ## - U: glossary/u.md
-  ## - V: glossary/v.md
-  ## - W: glossary/w.md
-  ## - X: glossary/x.md
-  ## - Y: glossary/y.md
-  ## - Z: glossary/z.md
+  - D: glossary/d.md
+  - E: glossary/e.md
+  - F: glossary/f.md
+  - G: glossary/g.md
+  - H: glossary/h.md
+  - I: glossary/i.md
+  - J: glossary/j.md
+  - K: glossary/k.md
+  - L: glossary/l.md
+  - M: glossary/m.md
+  - N: glossary/n.md
+  - O: glossary/o.md
+  - P: glossary/p.md
+  - Q: glossary/q.md
+  - R: glossary/r.md
+  - S: glossary/s.md
+  - T: glossary/t.md
+  - U: glossary/u.md
+  - V: glossary/v.md
+  - W: glossary/w.md
+  - X: glossary/x.md
+  - Y: glossary/y.md
+  - Z: glossary/z.md
 
