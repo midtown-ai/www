@@ -1,41 +1,16 @@
-# A
+# C
 
 ## Ixiona simul aqua
-
-[lnkn to b](b.md#per-capta-non)
-
-[#big]
-
-![](a/activation_function.png)
-
-[Reference-Style Links][some reference id]
-
-![](img/a/activation_function.png)
-
-[some reference id]
-
-[super big]
-
-[Super BIG]
-
-[super Super BIG]
-
-[super super Super BIG]
-
-[toto]
-
-[titi]
-
-[some reference id]: https://daringfireball.net/projects/markdown/syntax#link "title"
-[super big]: b.md#big "title"
-
-{% include '../includes/links.md' %}
 
 Lorem [markdownum profusis](http://et.io/nix.php), Ianthe, spemque sanguine,
 fretum a mecumque, miseris monendo scelerato. Quod **domo talia** tangit tetigit
 illic fiat ipse; et currum numerum adempto! Captam suae tolle lucosque Haemonio
 meritorum ense quo adurat qua iuvenesque avumque moderantur, Thermodontiaca Ilus
 gentis!
+
+## crab
+
+This is a crab
 
 ## Per capta non
 

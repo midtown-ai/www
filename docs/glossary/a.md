@@ -1,4 +1,51 @@
-# C
+# A
+
+
+Work:
+
+ * https://www.ggogle.com
+ * [markdown link to b](b.md#per-capta-non)
+ * [in-page Reference-Style external Links][markdown syntax]
+ * [in-page Reference-Style internal Links][glossary link]
+ * [markdown syntax]
+ * [glossary link] and [GloSSAry Link]
+ * [include-markdown links toto]
+ * [include-markdown links_a titi] = include of include!
+ * [snippets admonition][admonition]
+ * direct snippets [admonition] and [_admonition_block] 
+ * direct snippets [bleach] and [_b64]
+ * direct snippets to c [crab]
+
+[markdown syntax]: https://daringfireball.net/projects/markdown/syntax#link "title"
+[glossary link]: b.md#big "title"
+
+{% include '../includes/links.md' %}
+
+This is an FAQ or what?
+
+Fail:
+
+ * [#big] just to anchor (fails)
+ * [in-page Reference-Style no match][no match]
+
+
+## image
+
+### Works
+
+up 
+
+![](../img/a/activation_function.png)
+
+absolute /
+
+![](/img/a/activation_function.png)
+
+### Fails
+
+![](a/activation_function.png)
+
+![](img/a/activation_function.png)
 
 ## Ixiona simul aqua
 
