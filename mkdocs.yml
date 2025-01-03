@@ -205,7 +205,7 @@ plugins:
   # @ https://github.com/fralau/mkdocs-mermaid2-plugin
   # pip install mkdocs-mermaid2-plugin
   # /!\ With material theme, use pymdownx.superfences
-  - mermaid2
+  # - mermaid2
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
