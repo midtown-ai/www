@@ -4,7 +4,6 @@ site_author: Emmanuel Mayssat
 site_description: >-
   A clean, responsive site
   that is searchable, customizable
-edit_uri: edit/main/docs/
 
 #
 # For the 'mkdocs gh-deploy' command
@@ -15,6 +14,8 @@ remote_name: origin
 # Banner
 # repo_name: midtown-ai/glossary
 # repo_url: "https://github.com/midtown-ai/glossary"
+# edit_uri: edit/main/docs/
+# edit_uri: https://www.github.com/edit/main/docs/
 
 # Footer
 # copyright: Copyright &copy; 2020 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
@@ -32,8 +33,8 @@ theme:
   #
   features:
     - announce.dismiss        # show cross-button to dismiss announcement
-    - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
-    - content.action.view     # add button to view source of page on github /!\ requires edit_uri
+    # - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
+    # - content.action.view     # add button to view source of page on github /!\ requires edit_uri
     - content.code.annotation # offer a way to attach arbitrary content to specific sections of code blocks
     - content.code.copy       # code blocks have a button to allow user to copy code to clipboard
     - content.code.select     # code blocks have a button to allow for the selection of line ranges by user
@@ -193,8 +194,8 @@ plugins:
   # Support for adding the date of the last update and creation of a doc at the bottom of each page
   # @ https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
   # pip install mkdocs-git-revision-date-localized-plugin
-  - git-revision-date-localized:
-      enable_creation_date: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
   # Include other files in a markdown file
   # @ https://github.com/mondeja/mkdocs-include-markdown-plugin
   # pip install mkdocs-include-markdown-plugin
