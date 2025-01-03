@@ -147,10 +147,10 @@ markdown_extensions:
       check_paths: true       # - check snippet file paths
   - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
   - pymdownx.superfences:     # add method to create block without indentation using /// and options /!\ used by highlight ext
-      custom_fences:          # - code fence to live as-is and whose processing is done by another plugin/extension
-        - name: mermaid       # -- ```mermaid
-          class: mermaid      # -- turn code block into a <div class="mermaid"> ... </div>
-          format: !!python/name:mermaid2.fence_mermaid_custom
+    # custom_fences:          # - code fence to live as-is and whose processing is done by another plugin/extension
+    #    - name: mermaid       # -- ```mermaid
+    #      class: mermaid      # -- turn code block into a <div class="mermaid"> ... </div>
+    #      format: !!python/name:mermaid2.fence_mermaid_custom
   # - pymdownx.tabbed         # allows rendering of page contents with multi-tab widget, e.g. === Tab 1
   # - pymdownx.tasklist       # enable the use of [X] tasks lists
   # - pymdownx.tilde          # tilde can be used for text strike through ~~delete~~ or subscript H~2O
