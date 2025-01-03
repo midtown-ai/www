@@ -139,18 +139,18 @@ markdown_extensions:
   # - pymdownx.progressbar    # render a static progress bar toward a goal
   - pymdownx.saneheaders      # recognize a markdown headers only if spaces are present after the hashes (#)
   # - pymdownx.smartsymbols   # add syntax for creating special characters such as <--> 1/4 2nd etc.
-   pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
-     auto_append:            # - files automatically appended to the end of all md files
-       - links.md            # -- reference links 
-     base_path:              # - search paths for snippets files that are included (or automatically appended)
-       - includes
-     check_paths: true       # - check snippet file paths
+  - pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
+      auto_append:            # - files automatically appended to the end of all md files
+        - links.md            # -- reference links 
+      base_path:              # - search paths for snippets files that are included (or automatically appended)
+        - includes
+      check_paths: true       # - check snippet file paths
   - pymdownx.striphtml        # sanitize rendered html by striping JavaScript, tags, attributes, etc.
-   pymdownx.superfences:     # add method to create block without indentation using /// and options /!\ used by highlight ext
-    # custom_fences:          # - code fence to live as-is and whose processing is done by another plugin/extension
-    #    - name: mermaid       # -- ```mermaid
-    #      class: mermaid      # -- turn code block into a <div class="mermaid"> ... </div>
-    #      format: !!python/name:mermaid2.fence_mermaid_custom
+  - pymdownx.superfences:     # add method to create block without indentation using /// and options /!\ used by highlight ext
+      custom_fences:          # - code fence to live as-is and whose processing is done by another plugin/extension
+        - name: mermaid       # -- ```mermaid
+          class: mermaid      # -- turn code block into a <div class="mermaid"> ... </div>
+          format: !!python/name:mermaid2.fence_mermaid_custom
   # - pymdownx.tabbed         # allows rendering of page contents with multi-tab widget, e.g. === Tab 1
   # - pymdownx.tasklist       # enable the use of [X] tasks lists
   # - pymdownx.tilde          # tilde can be used for text strike through ~~delete~~ or subscript H~2O
