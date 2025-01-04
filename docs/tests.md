@@ -10,14 +10,14 @@ with code annotation
 ``` yaml
 theme:
   features:
-    - content.code.annotate # // (1)! 
+    - content.code.annotate # (1)! 
 ```
 
 1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be written in Markdown.
 
 ``` yaml
-# // (1)!
+# (1)!
 ```
 
 1.  Look ma, less line noise!
@@ -164,10 +164,36 @@ Without redirect
 
 text below rule
 
-## Links
+## Links & Abbreviations & footnotes
+
+### links
 
  * open pdf - https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf
  * open web - pagehttps://www.google.com
+
+ Do these abbreviations work: CSS, W3C, and not HTML ? What about FAQ, TOC, and GFM?
+ Yes if you hover the acronym and 
+
+### abbreviations
+
+In-page abbreviations
+*[CSS]: Custom Style Sheet
+*[W3C]:  World Wide Web Consortium
+
+Disabled reference abbreviations
+*[HTML]: 'H'
+
+### footnotes
+
+Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
+
+[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+[^2]:
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
 
 ## Videos
 
@@ -192,22 +218,22 @@ text below rule
 /// note | note: ...
 ///
 
-/// attention | attention ...
+/// attention | attention ~ note ...
 ///
 
-/// caution | caution ...
+/// caution | caution ~ note ...
 ///
 
 /// danger | danger ...
 ///
 
-/// error | error ...
+/// error | error ~ note ...
+///
+
+/// hint | hint ~ note ...
 ///
 
 /// tip | tip ...
-///
-
-/// hint | hint ...
 ///
 
 /// warning | warning ...

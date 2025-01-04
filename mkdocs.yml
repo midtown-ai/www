@@ -12,10 +12,10 @@ remote_branch: gh-pages
 remote_name: origin
   
 # Banner
-repo_name: midtown-ai/www
-repo_url: "https://github.com/midtown-ai/www"
-edit_uri: edit/main/docs/
-# edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
+# repo_name: midtown-ai/www   # banner link to documentation source
+# repo_url: "https://github.com/midtown-ai/www" # complete url for documentation source
+# edit_uri: edit/main/docs/   # used for page view/edit /!\ prepended with repo_url if provided
+edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
 
 # Footer
 # copyright: Copyright &copy; 2020 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
@@ -43,19 +43,19 @@ theme:
     # - content.tooltips
     - header.autohide         # hide page header/banner when scrolling down to show more content
     # - navigation.expand     # sections are expanded, i.e. sub-menus appears and are indented
-    # - navigation.footer     # include previous and next links in footer
-    # - navigation.indexes    # click on top menus show their index pages
+    - navigation.footer       # include previous and next links in footer
+    # - navigation.indexes    # click on folders/top-menus show their index.md pages
     # - navigation.instant    # site behaves like a single page application (XHR)
     # - navigation.instant.prefetch  # prefetch a page when user hovers a link
     # - navigation.instant.preview   # preview page when hovering an external link
     # - navigation.instant.progress  # show progress indicator on top of page for slow connection
-    # - navigation.path       # show breadcrumbs above title of each page
+    # - navigation.path       # (?) show breadcrumbs above title of each page
     # - navigation.prune      # only visible navigation items are included in the rendered HTML
     # - navigation.sections   # sub-menus appears as if they were top-menus
     # - navigation.tabs       # top menu in page front matter, sub menus in navigation sidebar
     # - navigation.tabs.sticky # sub menus in navigation sidebar on left stay visible even when scrolling
-    # - navigation.top        # (?) move navigation from left-hand side back to top
-    # - navigation.tracking
+    - navigation.top          # show back-to-top button when user scrolls down and then up
+    - navigation.tracking     # automatically update the url in browser with the active anchor
     # - search.boost          # boost pages in local search engine based on search boost in front matter
     # - search.exclude        # allow pages to be excluded from local search engine
     - search.highlight        # highlight word piece after opening page found in search results
@@ -74,23 +74,64 @@ theme:
   # Icon
   #
   icon:
-    logo: fontawesome/solid/m
-    favicon: img/favicon.ico
+    logo: fontawesome/solid/m # top-left site banner logo
+    favicon: img/favicon.ico  # icon for browser tab
+    edit: material/pencil     # icon for content.action.edit button
+    view: material/eye        # icon for content.action.view button
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+    admonition:
+      # octicons
+      abstract: octicons/checklist-16
+      bug: octicons/bug-16
+      # danger: octicons/zap-16
+      example: octicons/beaker-16
+      failure: octicons/x-circle-16
+      info: octicons/info-16
+      # note: octicons/tag-16
+      # question: octicons/question-16
+      quote: octicons/quote-16
+      success: octicons/check-16
+      # tip: octicons/squirrel-16
+      # warning: octicons/alert-16
+      # fontawesome
+      abstract: fontawesome/solid/book
+      bug: fontawesome/solid/robot
+      # danger: fontawesome/solid/skull
+      example: fontawesome/solid/flask
+      failure: fontawesome/solid/bomb
+      info: fontawesome/solid/circle-info
+      # note: fontawesome/solid/note-sticky
+      # question: fontawesome/solid/circle-question
+      quote: fontawesome/solid/quote-left
+      success: fontawesome/solid/check
+      # tip: fontawesome/solid/bullhorn
+      # warning: fontawesome/solid/triangle-exclamation
+
   # logo: img/logo.png
   #
   # Color palette
   #
   # use to set the light and dark mode
+  # colors: red, pink, purple, deep purple, indigo, blue, light blue, cyan, teal, green, light green
+  # colors: lime, yellow, amber, orange, deep orange, brown, grey, blue grey, black, white, and CUSTOM
   #
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default         # color scheme
-      accent: purple          # color when you hover a link
-      primary: teal           # color of top bar
+      accent: purple          # color of interactive elements, e.g. hovered links, buttons, scrollbars
+      primary: teal           # color of top bar, the sidebar, text links and other components
       toggle:                 # toggle button for light/dark mode
         icon: material/toggle-switch-off-outline
         icon: material/weather-night
         name: Switch to dark mode
+    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       accent: lime
@@ -113,7 +154,7 @@ markdown_extensions:
   # - admonition              # (!) deprecated by pymdownx.blocks.admonition
   - attr_list                 # allow addition of HTML and CSS to markdown ![](image.png){align:left}
   # - def_list                # enable the use of definition list
-  # - footnotes               # allow footnotes in a page using[^1] and then [^1]: footnote text
+  - footnotes                 # allow footnotes in a page using[^1] and then [^1]: footnote text
   # - md_in_html
   - pymdownx.arithmatex:      # preserve LaTeX math equations /!\ require extra_javascript file
       generic: true           # - escape necessary symbols and wrap output
@@ -141,7 +182,8 @@ markdown_extensions:
   # - pymdownx.smartsymbols   # add syntax for creating special characters such as <--> 1/4 2nd etc.
   - pymdownx.snippets:        # include content of one or more files with --8<-- (scissor) notation
       auto_append:            # - files automatically appended to the end of all md files
-        - links.md            # -- reference links 
+        - abbreviations.md    # -- abbreviations
+        - reference_links.md  # -- reference links 
       base_path:              # - search paths for snippets files that are included (or automatically appended)
         - includes
       check_paths: true       # - check snippet file paths
@@ -159,6 +201,9 @@ markdown_extensions:
   - toc:                      # create permalinks and customize display of table-of-contents
       permalink: true         # - add permalinks to menus
       permalink: "#"          # - character to make permalink visible
+      # permalink_title: Anchor link to this section for reference # (?) title when hovering the permalink
+      title: On this page     # - title of the table-of-contents
+      # toc_depth: 3          # hide level 4-6+ from table-of-contents
 
 #
 # Plugins
@@ -236,12 +281,15 @@ extra:
   #   provider: google
   #   property: !ENV GOOGLE_ANALYTICS_KEY
   generator: false              # remove the 'Made with Material from MkDocs' notice from footer
+  # homepage: https://www.google.com # Where you go when you click on logo in header and sidebar link to homepage
   social:                       
     # add social icon at bottom-right of page
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/midtown_ai
-    - icon: fontawesome/brands/github
-      link: https://github.com/midtown-ai
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@midtown.ai
+    # - icon: fontawesome/brands/github
+    #   link: https://github.com/midtown-ai
     # - icon: fontawesome/brands/linkedin
     #   link: https://www.linkedin.com/in/emayssat/
   status:
@@ -252,7 +300,7 @@ extra:
 # Extra CSS
 #
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/custom_theme.css
   - stylesheets/icon_styles.css
 
 #
