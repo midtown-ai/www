@@ -3,24 +3,50 @@
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 
-## Not working! debug in progress!
+## Content Tabs
 
-with code annotation
+### simple
 
-``` yaml
-theme:
-  features:
-    - content.code.annotate # (1)! 
-```
+=== "Tab A"
+    In a different tab set.
 
-1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
-    text__, images, ... basically anything that can be written in Markdown.
+=== "Tab B"
+    ```
+    More content.
+    ```
 
-``` yaml
-# (1)!
-```
+### linked tabs
 
-1.  Look ma, less line noise!
+=== "C"
+
+    C code linked tab
+
+=== "C++"
+
+    C++ code linked tab
+
+===! "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
 
 
 ## CSS
@@ -81,7 +107,9 @@ $$
 \cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
 $$
 
-## code and blocks
+## blocks and code-blocks
+
+### blocks
 
 Indented block (old way!)
 
@@ -96,6 +124,9 @@ Triple ticks (new way!)
 import tensorflow as tf
 def watever
 ```
+
+
+### code
 
 Highlight in an inline block `#!python range()` is used to generate a sequence of numbers
 
@@ -120,6 +151,24 @@ def highlighted_line():
     pass
 ```
 
+with code annotation
+
+``` yaml
+theme:
+  features:
+    - content.code.annotate # (1)! 
+```
+
+1.  :man_raising_hand: I'm a code annotation! I can contain `code`, __formatted
+    text__, images, ... basically anything that can be written in Markdown.
+
+``` yaml
+# (1)!
+# (2)!
+```
+
+1.  Look ma, less line noise!
+2.  Look ma, more noise!
 
 ## images
 
@@ -164,17 +213,33 @@ Without redirect
 
 text below rule
 
-## Links & Abbreviations & footnotes
+## Links & Tooltips & Abbreviations & footnotes
 
 ### links
 
  * open pdf - https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf
  * open web - pagehttps://www.google.com
 
- Do these abbreviations work: CSS, W3C, and not HTML ? What about FAQ, TOC, and GFM?
- Yes if you hover the acronym and 
+### tooltips
+
+:material-information-outline:{ title="Important information" }
+
+[Hover me using inline syntax](https://example.com "I'm a tooltip!")
+
+[Hover me using external reference link][example]
+
+[Hover me using internal reference link][example2]
+
+  [example2]: https://example.com "I'm a tooltip!"
 
 ### abbreviations
+
+ Do these abbreviations work: CSS, W3C, and not HTML ? What about FAQ, Faq, TOC, Toc, and GFM?
+ Yes if you hover the acronym !
+
+/// danger| beware
+abbreviations are case sensitive
+///
 
 In-page abbreviations
 *[CSS]: Custom Style Sheet

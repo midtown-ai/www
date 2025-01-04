@@ -20,46 +20,53 @@ edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
 # Footer
 # copyright: Copyright &copy; 2020 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
 
+# Directory to watch outside of 'docs'
+watch:
+  - includes
+
 theme:
   language: en                # default language is english
+  name: material              # pip install mkdocs-material
   # name: mkdocs              # default theme
   # name: readthedocs
-  name: material              # pip install mkdocs-material
   custom_dir: overrides
   # highlightjs: True
   # hljs_languages: [yaml, ]
   #
   # Feature flags
   #
+  # features are on if listed
+  # /!\ beware of typos in feature flags
+  #
   features:
     - announce.dismiss        # show cross-button to dismiss announcement
     - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
     - content.action.view     # add button to view source of page on github /!\ requires edit_uri
-    # - content.code.annotation # offer a way to attach arbitrary content to specific sections of code blocks
+    - content.code.annotate   # offer a way to attach arbitrary content to specific sections of code blocks
     - content.code.copy       # code blocks have a button to allow user to copy code to clipboard
     - content.code.select     # code blocks have a button to allow for the selection of line ranges by user
-    # - content.footnote.tooltips
-    # - content.tabs.link
-    # - content.tooltips
+    # - content.footnote.tooltips # (Sponsor Only) content of footnote appears when hovering its reference link
+    - content.tabs.link       # content tabs across all the documentation site will be linked and switch to the same label
+    - content.tooltips        # better tooltips for elements with a title, permalinks, code copy button, header title, etc.
     - header.autohide         # hide page header/banner when scrolling down to show more content
     # - navigation.expand     # sections are expanded, i.e. sub-menus appears and are indented
     - navigation.footer       # include previous and next links in footer
     # - navigation.indexes    # click on folders/top-menus show their index.md pages
     # - navigation.instant    # site behaves like a single page application (XHR)
-    # - navigation.instant.prefetch  # prefetch a page when user hovers a link
-    # - navigation.instant.preview   # preview page when hovering an external link
-    # - navigation.instant.progress  # show progress indicator on top of page for slow connection
+    # - navigation.instant.prefetch  # (Sponsor Only) prefetch a page when user hovers a link to reduce loading time
+    # - navigation.instant.preview   # (Sponsor Only) preview page when hovering an external link
+    # - navigation.instant.progress  # show progress indicator on top of page for slow connection, i.e. phones
     # - navigation.path       # (?) show breadcrumbs above title of each page
     # - navigation.prune      # only visible navigation items are included in the rendered HTML
     # - navigation.sections   # sub-menus appears as if they were top-menus
-    # - navigation.tabs       # top menu in page front matter, sub menus in navigation sidebar
-    # - navigation.tabs.sticky # sub menus in navigation sidebar on left stay visible even when scrolling
+    # - navigation.tabs       # top-level sections in menu layer below page's header, sub-sections in navigation sidebar
+    # - navigation.tabs.sticky # top-level sections in menu layer always stay visible even when scrolling
     - navigation.top          # show back-to-top button when user scrolls down and then up
     - navigation.tracking     # automatically update the url in browser with the active anchor
     # - search.boost          # boost pages in local search engine based on search boost in front matter
     # - search.exclude        # allow pages to be excluded from local search engine
     - search.highlight        # highlight word piece after opening page found in search results
-    # - search.share
+    - search.share            # a share button in rendered in search box, which allows deep link to current search query
     - search.suggest          # enable auto-complete in search box
     # - toc.follow            # table of contents highlights active anchor which always stay visible
     # - toc.integrate         # table of contents is part of navigation sidebar on left, disabled on right
@@ -74,7 +81,7 @@ theme:
   # Icon
   #
   icon:
-    logo: fontawesome/solid/m # top-left site banner logo
+    logo: fontawesome/solid/m # logo at the top-left of the header
     favicon: img/favicon.ico  # icon for browser tab
     edit: material/pencil     # icon for content.action.edit button
     view: material/eye        # icon for content.action.view button
@@ -120,7 +127,8 @@ theme:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/brightness-auto
+        # icon: material/brightness-auto
+        icon: material/link
         name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -128,8 +136,8 @@ theme:
       accent: purple          # color of interactive elements, e.g. hovered links, buttons, scrollbars
       primary: teal           # color of top bar, the sidebar, text links and other components
       toggle:                 # toggle button for light/dark mode
-        icon: material/toggle-switch-off-outline
-        icon: material/weather-night
+        # icon: material/weather-night
+        icon: material/toggle-switch
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -137,8 +145,8 @@ theme:
       accent: lime
       primary: teal
       toggle:
-        icon: material/toggle-switch
-        icon: material/weather-sunny
+        # icon: material/weather-sunny
+        icon: material/toggle-switch-off-outline
         name: Switch to light mode
 
 
@@ -193,7 +201,11 @@ markdown_extensions:
         - name: mermaid       # -- ```mermaid
           class: mermaid      # -- turn code block into a <div class="mermaid"> ... </div>
           format: !!python/name:mermaid2.fence_mermaid_custom
-  # - pymdownx.tabbed         # allows rendering of page contents with multi-tab widget, e.g. === Tab 1
+  - pymdownx.tabbed:          # allows rendering of page contents with multi-tab widget, e.g. === Tab 1 /!\ require superfences
+      alternate_style: true   # - tabs are created with CSS, no JS needed!
+      slugify: !!python/object/apply:pymdownx.slugs.slugify # - generate anchor links (slugs) for each tab from their titles
+        kwds:                 # --
+          case: lower         # --- lowercase anchor links with #anchor-links-<tab_title>
   # - pymdownx.tasklist       # enable the use of [X] tasks lists
   # - pymdownx.tilde          # tilde can be used for text strike through ~~delete~~ or subscript H~2O
   # - smarty                  # turn ASCII dashes, quotes, ellipses into their HTML entity equivalents
@@ -202,7 +214,7 @@ markdown_extensions:
       permalink: true         # - add permalinks to menus
       permalink: "#"          # - character to make permalink visible
       # permalink_title: Anchor link to this section for reference # (?) title when hovering the permalink
-      title: On this page     # - title of the table-of-contents
+      # title: On this page     # - title of the table-of-contents
       # toc_depth: 3          # hide level 4-6+ from table-of-contents
 
 #
@@ -225,7 +237,7 @@ plugins:
   # - projects                # split very large sites/projects into smaller ones
   - search                    # add search bar to header
   # - social                  # used to build social card for post on WhatsApp, etc
-  # - tags                    # add support for categorization
+  - tags                      # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
   #
   # External plugins
