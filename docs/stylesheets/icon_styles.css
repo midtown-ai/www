@@ -1,6 +1,9 @@
 .twitter {
   color: #1DA1F2;
 }
+.youtube {
+  color: #EE0F0F;
+}
 
 @keyframes heart {
   0%, 40%, 80%, 100% {

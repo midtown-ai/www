@@ -2,6 +2,77 @@
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
+## Grid of cards (md_in_html)
+
+### card grids
+
+/// warning | Warning
+
+First div must not be indented
+
+///
+
+<div class="grid cards" markdown>
+
+- :fontawesome-brands-html5: __HTML__ for content and structure
+- :fontawesome-brands-js: __JavaScript__ for interactivity
+- :fontawesome-brands-css3: __CSS__ for text running out of boxes
+- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+
+</div>
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+
+    ---
+
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+
+
+<div class="grid" markdown>
+
+:fontawesome-brands-html5: __HTML__ for content and structure
+{ .card }
+
+:fontawesome-brands-js: __JavaScript__ for interactivity
+{ .card }
+
+:fontawesome-brands-css3: __CSS__ for text running out of boxes
+{ .card }
+
+> :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+
+</div>
 
 ## Content Tabs
 
@@ -51,11 +122,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## CSS
 
- :fontawesome-brands-twitter:
+ :fontawesome-brands-twitter: :fontawesome-brands-twitter:{ .twitter }
 
- :fontawesome-brands-twitter:{ .twitter }
+ :fontawesome-brands-youtube: :fontawesome-brands-youtube:{ .youtube }
 
- :octicons-heart-fill-24:{ .heart }
+ :octicons-heart-fill-24: :octicons-heart-fill-24:{ .heart }
 
 ## Custom fences & Mermaid
 
@@ -101,7 +172,7 @@ For more on diagram syntax: https://mermaid.js.org/intro/
 | Left         | Center        | Right :material-close:
 
 
-## math formula (MathJax) ##
+## math formula (MathJax)
 
 $$
 \cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
@@ -172,10 +243,22 @@ theme:
 
 ## images
 
-![](img/a/activation_function.png){style="width:100%"}
+Relative path
+
+![](glossary/img/a/activation_function.png){style="width:100%"}
 /// caption
 Image caption
 ///
+
+Absolute path (not recommended!)
+
+![](/glossary/img/a/activation_function.png)
+
+### Fails
+
+```
+![](a/activation_function.png)
+```
 
 
 
@@ -205,7 +288,7 @@ Without redirect
 ![Alt text](https://arxiv.org/pdf/2411.14251v1){ type=application/pdf style="min-height:100vh;width:100%" }
 
 
-## Smileys and highlights
+## Smileys and highlights/marks
 
 :smile: and :heart: those ==emojis are awesome,== isn't it?
 
@@ -218,7 +301,37 @@ text below rule
 ### links
 
  * open pdf - https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210101201653/PDF.pdf
- * open web - pagehttps://www.google.com
+ * open web - page https://www.google.com
+
+ [:octicons-arrow-right-24: Google](https://www.google.com "Go to Google")
+
+
+Work:
+
+ * https://www.ggogle.com
+ * [markdown link to b](b.md#per-capta-non)
+ * [in-page Reference-Style external Links][markdown syntax]
+ * [in-page Reference-Style internal Links][glossary link]
+ * [markdown syntax]
+ * [glossary link] and [GloSSAry Link]
+ * [include-markdown links toto]
+ * [include-markdown links_a titi] = include of include!
+ * [snippets admonition][admonition]
+ * direct snippets [admonition] and [_admonition_block]
+ * direct snippets [bleach] and [_b64]
+ * direct snippets to c [crab]
+
+[markdown syntax]: https://daringfireball.net/projects/markdown/syntax#link "title"
+[glossary link]: b.md#big "title"
+
+{% include '../includes/links.md' %}
+
+This is an FAQ or what?
+
+Fail:
+
+ * [#big] just to anchor (fails)
+ * [in-page Reference-Style no match][no match]
 
 ### tooltips
 

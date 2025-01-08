@@ -163,7 +163,7 @@ markdown_extensions:
   - attr_list                 # allow addition of HTML and CSS to markdown ![](image.png){align:left}
   # - def_list                # enable the use of definition list
   - footnotes                 # allow footnotes in a page using[^1] and then [^1]: footnote text
-  # - md_in_html
+  - md_in_html                # allow md in html for grid /!\ require attr_listd
   - pymdownx.arithmatex:      # preserve LaTeX math equations /!\ require extra_javascript file
       generic: true           # - escape necessary symbols and wrap output
   # - pymdownx.betterm        # improve emphasis (bold and italic) handling
@@ -179,7 +179,7 @@ markdown_extensions:
   - pymdownx.highlight:       # adds support for highlighting in code fences(triple backticks) /!\ require superfences
       anchor_linenums: true   # - line numbers have a permalink, useful for sharing
       line_spans: __span      # 
-      linenums: true          # - show line numbers by default
+      linenums: false         # - show line numbers by default
       pygments_lang_class: true
   - pymdownx.inlinehilite     # inline code highligther /!\ requires highlight ex: `#!python range()`
   # - pymdownx.key            # for better visual rendering of keyboard press, e.g. press ++ctrl+alt+delete++
@@ -339,6 +339,7 @@ nav:
   #   - glossary/index.md
   #   - A: glossary/a.md
   #   - B: glossary/b.md
+  - 0-9: glossary/0-9.md
   - A: glossary/a.md
   - B: glossary/b.md
   - C: glossary/c.md
