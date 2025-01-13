@@ -18,33 +18,38 @@
 [Activation Step]: a.md#activation-step
 [Active Learning]: a.md#active-learning
 [Actor]: a.md#actor
-[Actors]: a.md#actors
+[Actors]: a.md#actor
 [Actor Network]: a.md#actor-network
 [Actor-Critic Algorithm]: a.md#actor-critic-algorithm
 [Actor-Critic]: a.md#actor-critic-algorithm
 [Actor-Critic Architecture]: a.md#actor-critic-architecture
-[Actor-Critic With Experience Replay Algorithm]: a.md#actor-critic-with-experience-replay-algorithm
-[Actor-Critic With Experience Replay]: a.md#actor-critic-with-experience-replay-algorithm
-[ACER Algorithm]: a.md#actor-critic-with-experience-replay-algorithm
-[ACER]: a.md#actor-critic-with-experience-replay-algorithm
+[Actor-Critic With Experience Replay (ACER) Algorithm]: a.md#actor-critic-with-experience-replay-acer-algorithm
+[Actor-Critic With Experience Replay Algorithm]: a.md#actor-critic-with-experience-replay-acer-algorithm
+[Actor-Critic With Experience Replay (ACER)]: a.md#actor-critic-with-experience-replay-acer-algorithm
+[Actor-Critic With Experience Replay]: a.md#actor-critic-with-experience-replay-acer-algorithm
+[ACER Algorithm]: a.md#actor-critic-with-experience-replay-acer-algorithm
+[ACER]: a.md#actor-critic-with-experience-replay-acer-algorithm
 [Adapter Layer]: a.md#adapter-layer
 [Adapter Layers]: a.md#adapter-layer
 [Adapter]: a.md#adapter-layer
 [Adapters]: a.md#adapter-layer
-[Adaptive Boosting]: a.md#adaptive-boosting
-[AdaBoost]: a.md#adaptive-boosting
-[Adaptive Delta Algorithm]: a.md#adaptive-delta-algorithm
-[AdaDelta Algorithm]: a.md#adaptive-delta-algorithm
-[AdaDelta]: a.md#adaptive-delta-algorithm
-[Adaptive Gradient Algorithm]: a.md#adaptive-gradient-algorithm
-[AdaGrad Algorithm]: a.md#adaptive-gradient-algorithm
-[AdaGrad]: a.md#adaptive-gradient-algorithm
+[Adaptive Boosting (AdaBoost)]: a.md#adaptive-boosting-adaboost
+[Adaptive Boosting]: a.md#adaptive-boosting-adaboost
+[AdaBoost]: a.md#adaptive-boosting-adaboost
+[Adaptive Delta (AdaDelta)Algorithm]: a.md#adaptive-delta-adadelta-algorithm
+[Adaptive Delta Algorithm]: a.md#adaptive-delta-adadelta-algorithm
+[AdaDelta Algorithm]: a.md#adaptive-delta-adadelta-algorithm
+[AdaDelta]: a.md#adaptive-delta-adadelta-algorithm
+[Adaptive Gradient (AdaGrad) Algorithm]: a.md#adaptive-gradient-adagrad-algorithm
+[Adaptive Gradient Algorithm]: a.md#adaptive-gradient-adagrad-algorithm
+[AdaGrad Algorithm]: a.md#adaptive-gradient-adagrad-algorithm
+[AdaGrad]: a.md#adaptive-gradient-adagrad-algorithm
 [Adaptive Learning]: a.md#adaptive-learning
 [Adaptive Learning Algorithm]: a.md#adaptive-learning-algorithm
-[Adaptive Moment Estimation Algorithm]: a.md#adaptive-moment-estimation-algorithm
-[Adaptive Moment Estimation]: a.md#adaptive-moment-estimation-algorithm
-[Adam Algorithm]: a.md#adaptive-moment-estimation-algorithm
-[Adam]: a.md#adaptive-moment-estimation-algorithm
+[Adaptive Moment (Adam) Estimation Algorithm]: a.md#adaptive-moment-adam-estimation-algorithm
+[Adaptive Moment (Adam) Estimation]: a.md#adaptive-moment-adam-estimation-algorithm
+[Adam Algorithm]: a.md#adaptive-moment-adam-estimation-algorithm
+[Adam]: a.md#adaptive-moment-adam-estimation-algorithm
 [Addiction]: a.md#addiction
 [Adept AI Company]: a.md#adept-ai-company
 [Adept AI]: a.md#adept-ai-company
@@ -54,14 +59,16 @@
 [Adobe Firefly Product]: a.md#adobe-firefly-product
 [Adobe Firefly]: a.md#adobe-firefly-product
 [Firefly]: a.md#adobe-firefly-product
-[Advanced Micro Devices Company]: a.md#advanced-micro-devices-company
-[Advanced Micro Devices]: a.md#advanced-micro-devices-company
-[AMD Company]: a.md#advanced-micro-devices-company
-[AMD]: a.md#advanced-micro-devices-company
-[Advantage Actor-Critic Algorithm]: a.md#advantage-actor-critic-algorithm
-[Advantage Actor-Critic]: a.md#advantage-actor-critic-algorithm
-[A2C Algorithm]: a.md#advantage-actor-critic-algorithm
-[A2C]: a.md#advantage-actor-critic-algorithm
+[Advanced Micro Devices (AMD) Company]: a.md#advanced-micro-devices-amd-company
+[Advanced Micro Devices]: a.md#advanced-micro-devices-amd-company
+[AMD Company]: a.md#advanced-micro-devices-amd-company
+[AMD]: a.md#advanced-micro-devices-amd-company
+[Advantage Actor-Critic (A2C) Algorithm]: a.md#advantage-actor-critic-a2c-algorithm
+[Advantage Actor-Critic Algorithm]: a.md#advantage-actor-critic-a2c-algorithm
+[Advantage Actor-Critic (A2C)]: a.md#advantage-actor-critic-a2c-algorithm
+[Advantage Actor-Critic]: a.md#advantage-actor-critic-a2c-algorithm
+[A2C Algorithm]: a.md#advantage-actor-critic-a2c-algorithm
+[A2C]: a.md#advantage-actor-critic-a2c-algorithm
 [Advantage Estimation]: a.md#advantage-estimation
 [Adversarial Attack]: a.md#adversarial-attack
 [Adversarial Example]: a.md#adversarial-example
@@ -91,10 +98,12 @@
 [AI Documentary]: a.md#ai-documentary
 [AI Ethics]: a.md#ai-ethics
 [AI Explosion]: a.md#ai-explosion
-[AI Film Festival]: a.md#ai-film-festival
-[AIFF]: a.md#ai-film-festival
-[AI For Content Creation Conference]: a.md#ai-for-content-creation-conference
-[AI4CC Conference]: a.md#ai-for-content-creation-conference
+[AI Film Festival (AIFF)]: a.md#ai-film-festival-aiff
+[AI Film Festival]: a.md#ai-film-festival-aiff
+[AIFF]: a.md#ai-film-festival-aiff
+[AI For Content Creation (AI4CC) Conference]: a.md#ai-for-content-creation-ai4cc-conference
+[AI For Content Creation Conference]: a.md#ai-for-content-creation-ai4cc-conference
+[AI4CC Conference]: a.md#ai-for-content-creation-ai4cc-conference
 [AI Index]: a.md#ai-index
 [AI Job]: a.md#ai-job
 [AI Magazine]: a.md#ai-magazine
@@ -156,10 +165,10 @@
 [AlphaZero]: a.md#alphazero-model
 [Amazon Company]: a.md#amazon-company
 [Amazon]: a.md#amazon-company
-[Amazon Q Chatbot]: a.md#amazon-a-chatbot
-[Amazon Q]: a.md#amazon-a-chatbot
-[Amazon Web Services]: a.md#amazon-web-services
-[AWS]: a.md#amazon-web-services
+[Amazon Q Chatbot]: a.md#amazon-q-chatbot
+[Amazon Q]: a.md#amazon-q-chatbot
+[Amazon Web Services (AWS)]: a.md#amazon-web-services-aws
+[AWS]: a.md#amazon-web-services-aws
 [Ameca Robot]: a.md#ameca-robot
 [Andrew Ng Person]: a.md#andrew-ng-person
 [Andrew Ng]: a.md#andrew-ng-person
@@ -177,11 +186,11 @@
 [Apriori Algorithm]: a.md#apriori-algorithm
 [Apriori]: a.md#apriori-algorithm
 [Arc Institute]: a.md#arc-institute
-[Arcade Learning Environment]: a.md#arcade-learning-environment
-[ALE]: a.md#arcade-learning-environment
-[Area Under The Receiver Operating Characteristic Curve]: a.md#area-under-the-receiver-operating-characteristic-curve
-[AUROC Curve]: a.md#area-under-the-receiver-operating-characteristic-curve
-[AUC]: a.md#area-under-the-receiver-operating-characteristic-curve
+[Arcade Learning Environment (ALE)]: a.md#arcade-learning-environment-ale
+[ALE]: a.md#arcade-learning-environment-ale
+[Area Under The Receiver Operating Characteristic (AUROC) Curve]: a.md#area-under-the-receiver-operating-characteristic-auroc-curve
+[AUROC Curve]: a.md#area-under-the-receiver-operating-characteristic-auroc-curve
+[AUC]: a.md#area-under-the-receiver-operating-characteristic-auroc-curve
 [Argmax Function]: a.md#argmax-function
 [Argmax]: a.md#argmax-function
 [Argmin Function]: a.md#argmin-function
@@ -193,45 +202,52 @@
 [Arthur Mensch]: a.md#arthur-mensch-person
 [Artificial Emotion]: a.md#artificial-emotion
 [Artificial Empathy]: a.md#artificial-empathy
-[Artificial General Intelligence]: a.md#artificial-general-intelligence
-[AGI]: a.md#artificial-general-intelligence
-[Artificial Intelligence]: a.md#artificial-intelligence
-[AI]: a.md#artificial-intelligence
-[Artificial Intelligence Areas Of Study]: a.md#artificial-intelligence-areas-of-study
-[AI Areas Of Study]: a.md#artificial-intelligence-areas-of-study
-[Artificial Intelligence Challenge]: a.md#artificial-intelligence-challenge
-[AI Challenge]: a.md#artificial-intelligence-challenge
-[Artificial Intelligence Complete]: a.md#artificial-intelligence-complete
-[AI Complete]: a.md#artificial-intelligence-complete
-[Artificial Intelligence Hard]: a.md#artificial-intelligence-hard
-[AI Hard]: a.md#ai-hard
-[Artificial Intelligence Risk Management Framework]: a.md#artificial-intelligence-risk-management-framework
-[AI Risk Management Framework]: a.md#artificial-intelligence-risk-management-framework
-[AI RMF]: a.md#artificial-intelligence-risk-management-framework
+[Artificial General Intelligence (AGI)]: a.md#artificial-general-intelligence-agi
+[Artificial General Intelligence]: a.md#artificial-general-intelligence-agi
+[AGI]: a.md#artificial-general-intelligence-agi
+[Artificial Intelligence (AI)]: a.md#artificial-intelligence-ai
+[AI]: a.md#artificial-intelligence-ai
+[Artificial Intelligence (AI) Areas Of Study]: a.md#artificial-intelligence-ai-areas-of-study
+[Artificial Intelligence Areas Of Study]: a.md#artificial-intelligence-ai-areas-of-study
+[AI Areas Of Study]: a.md#artificial-intelligence-ai-areas-of-study
+[Artificial Intelligence (AI) Challenge]: a.md#artificial-intelligence-ai-challenge
+[Artificial Intelligence Challenge]: a.md#artificial-intelligence-ai-challenge
+[AI Challenge]: a.md#artificial-intelligence-ai-challenge
+[Artificial Intelligence (A) Complete]: a.md#artificial-intelligence-ai-complete
+[Artificial Intelligence Complete]: a.md#artificial-intelligence-ai-complete
+[AI Complete]: a.md#artificial-intelligence-ai-complete
+[Artificial Intelligence (AI) Hard]: a.md#artificial-intelligence-ai-hard
+[AI Hard]: a.md#artificial-intelligence-ai-hard
 [Artificial Intuition]: a.md#artificial-intuition
-[Artificial Narrow Intelligence]: a.md#artificial-narrow-intelligence
-[ANI]: a.md#artificial-narrow-intelligence
-[Artificial Neural Network]: a.md#artificial-neural-network
-[Artificial Neural Networks]: a.md#artificial-neural-network
-[ANN]: a.md#artificial-neural-network
-[ANNs]: a.md#artificial-neural-network
+[Artificial Narrow Intelligence (ANI)]: a.md#artificial-narrow-intelligence-ani
+[Artificial Narrow Intelligence]: a.md#artificial-narrow-intelligence-ani
+[ANI]: a.md#artificial-narrow-intelligence-ani
+[Artificial Neural Network (ANN)]: a.md#artificial-neural-network-ann
+[Artificial Neural Network]: a.md#artificial-neural-network-ann
+[Artificial Neural Networks (ANNs)]: a.md#artificial-neural-network-ann
+[Artificial Neural Networks]: a.md#artificial-neural-network-ann
+[ANN]: a.md#artificial-neural-network-ann
+[ANNs]: a.md#artificial-neural-network-ann
 [Artificial Neuron]: a.md#artificial-neuron
 [Artificial Neurons]: a.md#artificial-neuron
 [Artificial Neuron Bias]: a.md#artificial-neuron-bias
-[Artificial Super Intelligence]: a.md#artificial-super-intelligence
-[ASI]: a.md#artificial-super-intelligence
-[Association for the Advancement of Artificial Intelligence]: a.md#association-for-the-advancement-of-artificial-intelligence
-[AAAI]: a.md#association-for-the-advancement-of-artificial-intelligence
+[Artificial Super Intelligence (ASI)]: a.md#artificial-super-intelligence-asi
+[Artificial Super Intelligence]: a.md#artificial-super-intelligence-asi
+[ASI]: a.md#artificial-super-intelligence-asi
+[Association for the Advancement of Artificial Intelligence (AAAI)]: a.md#association-for-the-advancement-of-artificial-intelligence-aaai
+[AAAI]: a.md#association-for-the-advancement-of-artificial-intelligence-aaai
 [Association Rule Learning]: a.md#association-rule-learning
 [Astra Model]: a.md#astra-model
 [Astra]: a.md#astra-model
-[Asynchronous Advantage Actor-Critic Algorithm]: a.md#asynchronous-advantage-actor-critic-algorithm
-[Asynchronous Advantage Actor-Critic]: a.md#asynchronous-advantage-actor-critic-algorithm
-[A3C Algorithm]: a.md#asynchronous-advantage-actor-critic-algorithm
-[A3C]: a.md#asynchronous-advantage-actor-critic-algorithm
+[Asynchronous Advantage Actor-Critic (A3C) Algorithm]: a.md#asynchronous-advantage-actor-critic-a3c-algorithm
+[Asynchronous Advantage Actor-Critic Algorithm]: a.md#asynchronous-advantage-actor-critic-a3c-algorithm
+[Asynchronous Advantage Actor-Critic]: a.md#asynchronous-advantage-actor-critic-a3c-algorithm
+[A3C Algorithm]: a.md#asynchronous-advantage-actor-critic-a3c-algorithm
+[A3C]: a.md#asynchronous-advantage-actor-critic-a3c-algorithm
 [Asynchronous Neural Network]: a.md#asynchronous-neural-network
-[Atari Learning Environment]: a.md#atari-learning-environment
-[ALE]: a.md#atari-learning-environment
+[Atari Learning Environment (ALE)]: a.md#atari-learning-environment-ale
+[Atari Learning Environment]: a.md#atari-learning-environment-ale
+[ALE]: a.md#atari-learning-environment-ale
 [Atlas Robot]: a.md#atlas-robot
 [Attention Mechanism]: a.md#attention-mechanism
 [Attention]: a.md#attention-mechanism
@@ -242,10 +258,12 @@
 [Audio Generation]: a.md#audio-generation
 [Audio2Face Model]: a.md#audio2face-model
 [Audio2Face]: a.md#audio2face-model
-[Augmented Language Model]: a.md#augmented-language-model
-[ALM]: a.md#augmented-language-model
-[Augmented Reality]: a.md#augmented-reality
-[AR]: a.md#augmented-reality
+[Augmented Language Model (ALM)]: a.md#augmented-language-model-alm
+[Augmented Language Model]: a.md#augmented-language-model-alm
+[ALM]: a.md#augmented-language-model-alm
+[Augmented Reality (AR)]: a.md#augmented-reality-ar
+[Augmented Reality]: a.md#augmented-reality-ar
+[AR]: a.md#augmented-reality-ar
 [Autoencoder]: a.md#autoencoder
 [Autoencoder Bottleneck]: a.md#autoencoder-bottleneck
 [Autoencoder Type]: a.md#autoencoder-type
@@ -253,33 +271,41 @@
 [Autoencoding Model]: a.md#autoencoding-model
 [AutoGPT Model]: a.md#autogpt-model
 [AutoGPT]: a.md#autogpt-model
-[Automatic RAG Evaluation System]: a.md#automatic-rag-evaluation-system
-[ARES]: a.md#automatic-rag-evaluation-system
-[Automatic Speech Recognition]: a.md#automatic-speech-recognition
-[ASR]: a.md#automatic-speech-recognition
+[Automatic RAG Evaluation System (ARES)]: a.md#automatic-rag-evaluation-system-ares
+[Automatic RAG Evaluation System]: a.md#automatic-rag-evaluation-system-ares
+[ARES]: a.md#automatic-rag-evaluation-system-ares
+[Automatic Speech Recognition (ASR)]: a.md#automatic-speech-recognition-asr
+[Automatic Speech Recognition]: a.md#automatic-speech-recognition-asr
+[ASR]: a.md#automatic-speech-recognition-asr
 [Automation]: a.md#automation
 [AutoML]: a.md#automl
 [Autonomous Agent]: a.md#autonomous-agent
 [Autonomous Agents]: a.md#autonomous-agent
 [Autonomous Vehicle]: a.md#autonomous-vehicle
 [Autoregressive Model]: a.md#autoregressive-model
-[Autoregressive Convolutional Neural Network]: a.md#autoregressive-convolutional-neural-network
-[AR-CNN]: a.md#autoregressive-convolutional-neural-network
-[Autoregressive Model]: a.md#autoregressive-model
-[AR Model]: a.md#autoregressive-model
-[Autoregressive Moving Average Model]: a.md#autoregressive-moving-average-model
-[ARMA Model]: a.md#autoregressive-moving-average-model
+[Autoregressive Convolutional Neural Network (AR-CNN)]: a.md#autoregressive-convolutional-neural-network-ar-cnn
+[Autoregressive Convolutional Neural Network]: a.md#autoregressive-convolutional-neural-network-ar-cnn
+[AR-CNN]: a.md#autoregressive-convolutional-neural-network-ar-cnn
+[Autoregressive (AR) Model]: a.md#autoregressive-ar-model
+[Autoregressive Model]: a.md#autoregressive-ar-model
+[AR Model]: a.md#autoregressive-ar-model
+[Autoregressive Moving Average (ARMA) Model]: a.md#autoregressive-moving-average-arma-model
+[Autoregressive Moving Average Model]: a.md#autoregressive-moving-average-arma-model
+[ARMA Model]: a.md#autoregressive-moving-average-arma-model
 [Average Pooling Layer]: a.md#average-pooling-layer
 [Average Pooling Layers]: a.md#average-pooling-layer
 [Average Pooling]: a.md#average-pooling-layer
 [AWS Bedrock Service]: a.md#aws-bedrock-service
 [AWS Bedrock]: a.md#aws-bedrock-service
+[AWS DeepRacer Service]: a.md#aws-deepracer-service
+[AWS DeepRacer]: a.md#aws-deepracer-service
 [AWS Lex Service]: a.md#aws-lex-service
 [AWS Lex]: a.md#aws-lex-service
 [AWS Nova Model]: a.md#aws-nova-model
 [AWS Nova Models]: a.md#aws-nova-model
 [AWS Nova]: a.md#aws-nova-model
-[AWS Polly]: a.md#aws-polly
+[AWS Polly Service]: a.md#aws-polly-service
+[AWS Polly]: a.md#aws-polly-service
 [AWS Recognition Service]: a.md#aws-recognition-service
 [AWS Recognition]: a.md#aws-recognition-service
 [AWS Sagemaker Ground Truth]: a.md#aws-sagemaker-ground-truth

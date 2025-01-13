@@ -1,14 +1,13 @@
 # D
 
-## DALL-E Models
-## DALL-E2 Model
-## DALL-E3 Model
+## DALL-E Model Family
 
  A play on words between WALL-E and Dali!
 
  {% pdf "https://cdn.openai.com/papers/DALL_E_3_System_Card.pdf" %}
 
  More at :
+
   * DALL-E 2
     * open-ai announcement - [https://openai.com/dall-e-2/](https://openai.com/dall-e-2/)
     * site + paper - [https://openai.com/blog/dall-e/](https://openai.com/blog/dall-e/)
@@ -37,9 +36,6 @@
  * 2015: [DARPA Robotics Challenge]
  * 2021: [DARPA Subterranean Challenge]
 
- More at:
-  * ...
-
  See also [D], ...
 
 
@@ -59,6 +55,7 @@
  Time trial.
  $1 million grand prize in 2004.
  $2 million grand prize in 2005.
+
   * (1) best time: Stanford with Stanley
   * (2)
   * (3)
@@ -69,6 +66,7 @@
  {% youtube "https://www.youtube.com/watch?v=TDqzyd7fDRc" %}
 
  More at:
+
   * 2004 highlights - [https://www.youtube.com/watch?v=P__fbWm6wlg](https://www.youtube.com/watch?v=P__fbWm6wlg) 
 
  See also [D], [AI Challenge], [Autonomous Vehicle], [DARPA Urban Challenge], [LIDAR]
@@ -77,6 +75,7 @@
 ## DARPA Subterranean Challenge
  
  In 2021. Map, navigate, and search for object/people.
+
   * system competition
    * $2 million - CEREBUS team
    * $1 million - CSIRO 61 Team
@@ -91,6 +90,7 @@
   {% youtube "https://www.youtube.com/watch?v=6OB7r4gUh74" %}
 
   More at:
+
    * [https://subtchallenge.com/](https://subtchallenge.com/)
 
   See also [D], [AI Challenge]
@@ -99,14 +99,12 @@
 ## DARPA Urban Challenge
 
  2007 Driverless car competition. Moving traffic.
+
   * first place: BOSS
   * second place: Junior/Stanford/Silicon Valley
   * third place: ..
 
  {% youtube "https://www.youtube.com/watch?v=aHYRtOvSx-M" %}
-
- More at:
-  * 
 
  See also [D], [AI Challenge], [Autonomous Vehicle], [DARPA Grand Challenge], [LIDAR]
 
@@ -122,6 +120,7 @@
  {% pdf "http://jmc.stanford.edu/articles/dartmouth/dartmouth.pdf" %}
 
  More at:
+
   * proposal - [http://jmc.stanford.edu/articles/dartmouth.html](http://jmc.stanford.edu/articles/dartmouth.html)
   * participants- [https://en.wikipedia.org/wiki/Dartmouth_workshop#Participants](https://en.wikipedia.org/wiki/Dartmouth_workshop#Participants)
   * [https://en.wikipedia.org/wiki/Dartmouth_workshop](https://en.wikipedia.org/wiki/Dartmouth_workshop)
@@ -163,6 +162,7 @@
  To use when you don't have enough data.
 
  Recommendations
+
   * For images, you can increase the number of samples by
     * flipping the image
     * zooming on the image
@@ -173,8 +173,9 @@
     * change the volume
     * change the pitch.
 
- Beware:
-    * :warning: The transformation operation should be invariant and not change the output.
+/// warning | Beware:
+    The transformation operation should be invariant and not change the output.
+///
  
  See also [D], [Data], [Insufficient Data Algorithm], [Self-Supervised Learning], [Snorkel Program], [Zero-Shot Learning]
 
@@ -191,6 +192,7 @@
  {% pdf "https://arxiv.org/pdf/2411.09786v1.pdf" %}
 
  More at:
+
   * papers
     * power consumption (2024) - [https://arxiv.org/abs/2411.09786v1](https://arxiv.org/abs/2411.09786v1)
   * articles
@@ -203,9 +205,6 @@
 
  ~ an aspect of [data preparation]
 
- More at:
-  * ...
-
  See also [D], ...
 
 
@@ -217,6 +216,7 @@
 ## Data Collection
 
  More at:
+
   * [https://thereader.mitpress.mit.edu/the-myth-of-objective-data/](https://thereader.mitpress.mit.edu/the-myth-of-objective-data/)
 
  See also [D], ...
@@ -231,6 +231,7 @@
  For example, if you wanted to get population stats, poverty and unemployment rates of a specific county, you don’t need to go to three different datasets; instead, you can get the data from a single data source, using one schema, and one API. Data Commons is also used by Google Search whenever it can provide the most relevant statistical results to a query. 
 
  More at:
+
   * site - [https://datacommons.org/](https://datacommons.org/)
   * docs - [https://docs.datacommons.org/](https://docs.datacommons.org/)
   * tutorials - [https://docs.datacommons.org/api/python/tutorials.html](https://docs.datacommons.org/api/python/tutorials.html)
@@ -247,6 +248,7 @@
 ## Data Control
 
  The 3 dimensions of data control
+
   * [Data Access] - data portability rights
   * [Data Governance] - participatory schemes
   * [Data Usage Control] - consent mechanisms
@@ -261,8 +263,7 @@
  See also [D], [Data Access], [Data Control]
 
 
-## Data Development Life Cycle
-## DDLC
+## Data Development Life Cycle (DDLC)
 
  Develop the data first , but still protected
 
@@ -282,6 +283,7 @@
  One way to measure the stability of our models is by checking the population or data drift, by evaluating how the population or the features have changed in the context of the model.
 
  There are several probable sources of population drift. Some examples can include
+
   * A change in the socio-economic relations, such as inflation, diseases, or political changes;
   * Unaccounted events, such as holidays, world cups, or even natural disasters;
   * The entrance of a new competitor in the market, and/or the shift of customers;
@@ -297,9 +299,11 @@
  The opposite of a centralized data management, data warehouse.
 
  Pros:
+
   * Autonomy leads to full control
 
  Cons:
+
   * difficult to have a firmwide initiative
   * possibly not a single version of truth, duplication of data
 
@@ -331,6 +335,7 @@
  Solution: Look at the feature importance to find out if one of them is 100% predictive!
 
  More at:
+
    * explorable - [https://pair.withgoogle.com/explorables/data-leak/](https://pair.withgoogle.com/explorables/data-leak/)
    * [https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980](https://docs.google.com/presentation/d/1WrkeJ9-CjuotTXoa4ZZlB3UPBXpxe4B3FMs9R9tn34I/edit#slide=id.g164b1bac824_0_2980)
 
@@ -344,6 +349,7 @@
  {% youtube "https://www.youtube.com/watch?v=JDy58DtZC_g" %}
 
  More at:
+
   * pytorch code - [https://fabridamicelli.github.io/posts/2023-09-13-pytorch-dataloader-collate.html](https://fabridamicelli.github.io/posts/2023-09-13-pytorch-dataloader-collate.html)
 
  See also [D], ...
@@ -385,6 +391,7 @@
  ![](img/d/data_poisoning.webp ){: width="100%"}
 
  More at:
+
   * [https://bdtechtalks.com/2020/10/07/machine-learning-data-poisoning/](https://bdtechtalks.com/2020/10/07/machine-learning-data-poisoning/)
 
  See also [D], ...
@@ -397,6 +404,7 @@
  Data preparation transforms the data into a format that is more easily and effectively processed in data mining, machine learning and other data science tasks. the techniques are generally used at the earliest staeges of the machine learning and AI development pipeline to ensure accurate results.
 
  Steps:
+
   * [Data Cleaning]
   * [Data Transformation]
     * [Encoding]
@@ -408,12 +416,14 @@
  See also [D], ...
 
 
+## Data Provider
+
+ See also [D], ...
+
+
 ## Data Reduction
 
  A step in [data preparation]
-
- More at:
-  * ...
 
  See also [D], ...
 
@@ -432,6 +442,7 @@
 ## Data Scientist
 
  Choose the toolset, not the cloud provider and database type!
+
   * data acquisition
   * data manipulation
   * data movement
@@ -444,16 +455,13 @@
 
  ~ a step in [data preparation]
 
- More at:
-  * ...
-
  See also [D], ...
 
 
-## Data Usage Control
-## DUC
+## Data Usage Control (DUC)
 
  It refers to a set of policies, mechanisms, and technologies that govern how data can be used after it has been shared or accessed. DUC systems help organizations:
+
   * Monitor data usage
   * Enforce usage restrictions
   * Track data flow
@@ -467,6 +475,7 @@
  ![](img/d/data_usage_control_diagram.jpeg ){: width="100%"}
 
  More at:
+
   * articles
     * [https://guidehouse.com/insights/advanced-solutions/2022/mapping-exploding-data-terrain](https://guidehouse.com/insights/advanced-solutions/2022/mapping-exploding-data-terrain)
 
@@ -478,6 +487,7 @@
  {% youtube "https://www.youtube.com/watch?v=Ja2AnlIbZbw" %}
 
  More at:
+
   * [https://observablehq.com/@zanarmstrong](https://observablehq.com/@zanarmstrong)
 
  See also [D], ...
@@ -488,6 +498,7 @@
  The fact that all humans generated data will soon be used in AI.
 
  The 2 solutions to bypath/alleviate this problem:
+
   * [Reinforcement learning (RL)][RL]
   * [Synthetic Data] generation
 
@@ -509,8 +520,7 @@
  See also [D], ...
 
 
-## Data-Centric AI
-## DCAI
+## Data-Centric AI (DCAI)
 
  Data-centric AI is the discipline of systematically engineering the data used to build an AI system. The opposite of [model-centric AI]
 
@@ -518,10 +528,12 @@
 
  {% youtube "https://www.youtube.com/watch?v=ayzOzZGHZy4" %}
 
- Questions:
-  * How to find errors automatically?
+/// details | How to find errors automatically?
+    type:question
+///
 
  More at:
+
   * [https://datacentricai.org/](https://datacentricai.org/)
   * MIT CSAIL
     * syllabus - [https://dcai.csail.mit.edu/](https://dcai.csail.mit.edu/)
@@ -538,6 +550,7 @@
  {% pdf "img/d/data2vec_paper.pdf" %}
 
  More at:
+
    * paper - [https://arxiv.org/abs/2202.03555](https://arxiv.org/abs/2202.03555)
 
  See also [D], [Self-Supervised Learning]
@@ -547,9 +560,8 @@
 
  A group of several observations. Good data must contain a signal of what you are trying to measure. Beware that data-set may be incomplete. For example, if you are trying to forecast inventory, you can look at sale's number, but the data needs to includes the times when the sale did not happen because we run out of inventory! Dataset needs to be at least 10 times the number of features. The dataset is split in 3 subsets called the training subset, the development subset, and the test subset. If you have a lot of data 70% goes to the training, 15% to the dev, and 15% to the test. If not much data, 80% goes to training, 10% and 10%. 
 
-
-
  Training datasets
+
   * statistics
     * [Data Commons] - brings together the world's public data, harmonized for your exploration
   * images
@@ -568,6 +580,7 @@
     * [WordNet]
 
  Benchmark datasets
+
   * books
     * [TriviaQA] - QA to test reading comprehension 
   * video
@@ -578,10 +591,12 @@
     * [ScienceQA] - covers natural science, language science, social science
 
  Other
+
   * Instruction following
     * [Self-Instruct] -
 
  More at
+
   * Dataset sources (cleaned)
     * [https://huggingface.co/datasets](https://huggingface.co/datasets)
     * [https://www.kaggle.com/datasets](https://www.kaggle.com/datasets)
@@ -602,6 +617,7 @@
  Dataset bias, also known as data bias, refers to the presence of systematic and unfair inaccuracies or imbalances in a dataset used for machine learning, statistical analysis, or data-driven decision-making. Dataset bias can result in models or algorithms that make inaccurate predictions or exhibit unfair behavior because the training data does not accurately represent the real-world population or scenario they are meant to address.
 
  Dataset bias can manifest in various ways:
+
   * Underrepresentation: Underrepresentation occurs when certain categories or groups within the dataset are inadequately represented. For example, if you're training a facial recognition algorithm, and the dataset contains a disproportionate number of images of people with light skin compared to people with dark skin, the algorithm may perform poorly on the latter group.
   * Sampling Bias: Sampling bias arises when the data collection process is not random or the sample selection is flawed. For example, if a political poll is conducted by calling only landline numbers, it may not accurately represent the broader population, leading to sampling bias.
   * Labeling Bias: Labeling bias occurs when the labels or annotations in the dataset are influenced by human biases or errors. For instance, in a text classification dataset, if the annotators have political biases that affect their labeling, the resulting model may inherit those biases.
@@ -611,6 +627,7 @@
   * Cognitive bias = anchoring effect + confirmation bias + framing effect + ...
 
  Addressing dataset bias is essential to develop models and algorithms that are fair, accurate, and representative of the real-world scenarios they are meant to handle. To mitigate dataset bias, data scientists and machine learning practitioners should:
+
   * Carefully curate and preprocess datasets, paying attention to potential sources of bias.
   * Collect diverse and representative data, and use techniques like oversampling to address underrepresented groups.
   * Implement fairness-aware machine learning methods to ensure that models do not exhibit discriminatory behavior.
@@ -619,6 +636,7 @@
  {% youtube "https://www.youtube.com/watch?v=uDcb-RkbrK8" %}
 
  More at:
+
   * [https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c](https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c)
   * examples:
     * [https://pair.withgoogle.com/explorables/hidden-bias/](https://pair.withgoogle.com/explorables/hidden-bias/)
@@ -645,6 +663,7 @@
  When you crowdsource a labeling task, how can you be certain that the label is correct? Have several people label the same image/entry and apply this algorithm! An alternative is to use majority vote algorithm.
 
  More at:
+
   * sample coded example - [https://github.com/Ekeany/Dawid-Skene](https://github.com/Ekeany/Dawid-Skene)
   * fast dawid-skene paper - [https://deepai.org/publication/fast-dawid-skene](https://deepai.org/publication/fast-dawid-skene)
 
@@ -658,6 +677,7 @@
  To use for clustering when the [k-means clustering algorithm] fails. With k-Means, we look for round clusters. With DBSCAN, the radius (epsilon) is from every point in the cluster ==> the cluster shape does not need to be round! If epion is too large --> gigantic cluster. If too small, --> ...
 
  Hyperparameter:
+
   * radius
   * core point to proximal points
   * non-core point to proximal points
@@ -696,22 +716,26 @@
  ~ a type of algorithm a computer follows to make a decision or prediction based on specific rules.
 
  Decision trees are [White Box Models] that Can be used for regression and classification.
+
   * classification:  Go from the root node to the leaf of the tree where is the classification.
   * regression: use the mean square error (MSE)
 
- Hyperparameters:
+  Hyperparameters:
+
   * Metric measuring quality of split
   * ...
 
  {% youtube "https://www.youtube.com/watch?v=Ke0dok5CRiU" %}
 
  More at:
+
   * regression tree - [https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047](https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047)
 
  See also [D], [Classification], [Decision Stump], [Regression]
 
 
 ## Decoder
+
   * Use masked attention ( = only access to a single context, i.e. right or left context)
  Good for
   * natural language generation, generative AI
@@ -723,7 +747,7 @@
 
 ## Decoder Representation
  
- This is ...
+ This is ... as close to the original as possible (after the encoding-decoding process) <-- this is only true if the decoder space is the same as the input encoder space!!!
 
  See also [D], ...
 
@@ -763,8 +787,7 @@
  See also [D], [Neural Network]
 
 
-## Deep Belief Network
-## DBN
+## Deep Belief Network (DBN)
 
  See also [D], [Boltzmann Machine]
 
@@ -778,6 +801,7 @@
  {% youtube "https://www.youtube.com/watch?v=mX_fQyxKiPQ" %}
 
  More at:
+
   * [https://www.sciencedirect.com/science/article/pii/S0004370201001291](https://www.sciencedirect.com/science/article/pii/S0004370201001291)
 
  See also [D], [AI Challenge]
@@ -794,6 +818,7 @@
  {% pdf "https://www.biorxiv.org/content/10.1101/2022.11.18.517004v3.full.pdf" %}
 
  More at:
+
   * home - [https://sites.google.com/view/stablediffusion-with-brain/home](https://sites.google.com/view/stablediffusion-with-brain/home) 
   * paper - [https://www.biorxiv.org/content/10.1101/2022.11.18.517004v2](https://www.biorxiv.org/content/10.1101/2022.11.18.517004v2)
   * FAQ - [https://sites.google.com/view/stablediffusion-with-brain/faq_en](https://sites.google.com/view/stablediffusion-with-brain/faq_en)
@@ -802,8 +827,7 @@
  See also [D], [BCI Interface]
 
 
-## Deep Convolutional GAN
-## DCGAN
+## Deep Convolutional GAN (DC-GAN)
 
  A type of GAN for ... This is the first GAN where the generator used deep convolutional network , hence generating high resolution and quality images to be differentiated. Rectified Linear Unit (ReLU) activation is used in Generator all layers except last one where Tanh activation is used, meanwhile in Discriminator all layers use the Leaky-ReLu activation function. Adam optimizer is used with a learning rate of 0.0002.
 
@@ -814,8 +838,7 @@
  See also [D], [Generative Adversarial Network], [Rectified Linear Unit]
 
 
-## Deep Deterministic Policy Gradient Algorithm
-## DDPG Algorithm
+## Deep Deterministic Policy Gradient (DDPG) Algorithm
 
  DDPG, or Deep Deterministic Policy Gradient, is an actor-critic, model-free algorithm based on the deterministic policy gradient that can operate over continuous [action spaces]. It combines the actor-critic approach with insights from [Deep Q-Networks]: in particular, the insights that 1) the network is trained off-policy with samples from a replay buffer to minimize correlations between samples, and 2) the network is trained with a target Q network to give consistent targets during temporal difference backups. DDPG makes use of the same ideas along with [batch normalization].
 
@@ -826,6 +849,7 @@
  {% pdf "https://arxiv.org/pdf/1509.02971v6.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1509.02971v6](https://arxiv.org/abs/1509.02971v6)
   * code - [https://paperswithcode.com/method/ddpg](https://paperswithcode.com/method/ddpg)
 
@@ -856,16 +880,14 @@
  See also [D], ...
 
 
-## Deep Neural Network
-## DNN
+## Deep Neural Network (DNN)
 
  A deep neural network (DNN) is an [artificial neural network (ANN)][ANN] with multiple layers between the input and output layers. The DNN finds the correct mathematical manipulation to turn the input into the output, whether it be a linear relationship or a non-linear relationship. The network moves through the layers calculating the probability of each output.
 
  See also [D], ...
 
 
-## Deep Q-Learning Algorithm
-## DQL Algorithm
+## Deep Q-Learning (DQL) Algorithm
 
  [Deep Q-learning (DQN)][DQN] is an extension of the basic [Q-learning algorithm] that uses deep neural networks as function approximators to estimate the [Q-values], also known as the [Q-Value function]..
 
@@ -876,6 +898,7 @@
  {% youtube "https://www.youtube.com/watch?v=wrBUkpiRvCA" %}
 
  More at:
+
   * code - [https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning)
   * articles
     * [https://www.v7labs.com/blog/deep-reinforcement-learning-guide](https://www.v7labs.com/blog/deep-reinforcement-learning-guide)
@@ -883,12 +906,12 @@
  See also [D], ...
 
 
-## Deep Q-Network
-## DQN
+## Deep Q-Network (DQN)
 
  Used as an approximation for the [Q-Value function] when the number of state is large (action count is often limited or much smaller than the state count). The name of the neural network that approximate a [Q-Value function].
 
  Use this algorithm when
+
   * [Model-free RL] learning
   * Off-policy learning
   * Discrete [action space]
@@ -924,6 +947,7 @@
  {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
 
  More at:
+
   * [https://deeplizard.com/learn/video/0bt0SjbS3xc](https://deeplizard.com/learn/video/0bt0SjbS3xc)
   * [https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67](https://towardsdatascience.com/deep-q-networks-theory-and-implementation-37543f60dd67)
   * [https://towardsdatascience.com/welcome-to-deep-reinforcement-learning-part-1-dqn-c3cab4d41b6b](https://towardsdatascience.com/welcome-to-deep-reinforcement-learning-part-1-dqn-c3cab4d41b6b)
@@ -931,14 +955,14 @@
  See also [D], ...
 
 
-## Deep Reinforcement Learning
 ## Deep RL
 
- [Reinforcement learning] where the [policy] and [reward] are [deep neural networks].
+ [Reinforcement Learning (RL)] where the [policy] and [reward] are [deep neural networks].
 
  {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
 
  More at:
+
   * [https://huggingface.co/learn/deep-rl-course/unit0/introduction](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
  See also [D], ...
@@ -954,6 +978,7 @@
 ## Deepchecks Company
 
  Evaluate [LLM] and [RAG systems] based on
+
   * Relevancy
   * Toxicity
   * Hallucination
@@ -968,6 +993,7 @@
   * Retrieval relevance
 
  Can also do penetration testing
+
   * DAN
   * DAN Jailbreak
   * ...
@@ -978,6 +1004,7 @@
 
 
  More at:
+
   * site - [https://www.deepchecks.com/](https://www.deepchecks.com/)
 
  See also [D], ...
@@ -995,6 +1022,7 @@
  {% youtube "https://www.youtube.com/watch?v=Yb1GCjmw8_8" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Deepfake](https://en.wikipedia.org/wiki/Deepfake)
 
  See also [D], [AI Avatar]
@@ -1003,6 +1031,7 @@
 ## Deepfold Model
 
  More at:
+
   * code - [https://github.com/lulab/Deepfold](https://github.com/lulab/Deepfold)
 
  See also [D], [AlphaFold Model]
@@ -1011,11 +1040,13 @@
 ## DeepMind Company
 
  People:
+
   * [Demis Hassabis]
   * [Mustafa Suleyman]
   * [Shane Legg]
 
  Models:
+
   * [AlphaCode] - LLM for code generation
   * [AlphaFold] - Protein folding
   * [AlphaGeometry] - Agent to play Go
@@ -1033,6 +1064,7 @@
  {% youtube "https://www.youtube.com/watch?v=kFlLzFuslfQ" %}
 
  More at :
+
   * [https://www.deepmind.com/research](https://www.deepmind.com/research)
   * publications - [https://www.deepmind.com/research/publications](https://www.deepmind.com/research/publications)
 
@@ -1046,6 +1078,7 @@
  DeepNash learns to play Stratego from scratch by combining game theory and model-free deep RL
 
  More at:
+
   * Paper in science - [https://www.science.org/stoken/author-tokens/ST-887/full](https://www.science.org/stoken/author-tokens/ST-887/full)
   * announcment - [https://www.deepmind.com/blog/mastering-stratego-the-classic-game-of-imperfect-information](https://www.deepmind.com/blog/mastering-stratego-the-classic-game-of-imperfect-information)
 
@@ -1055,6 +1088,7 @@
 ## DeepSeek Model
 
  More at:
+
   * site - [https://www.deepseek.com/](https://www.deepseek.com/)
 
  See also [D], ...
@@ -1085,7 +1119,7 @@
 
 ## Delayed Reward
 
- `You must reward for the correct outcome!` Do not only reward for the completion of an assignment, but for passing the final exam. Ex: In chess, what matters is winning the game, not really how many piece you have kept at the end!
+ ==You must reward for the correct outcome!== Do not only reward for the completion of an assignment, but for passing the final exam. Ex: In chess, what matters is winning the game, not really how many piece you have kept at the end!
 
  See also [D], [Addiction], [Reinforcement Learning], [Reward Shaping]
 
@@ -1108,6 +1142,7 @@
  Computing based on [Dendrites][Dendrite]
 
  More at:
+
   * [https://spectrum.ieee.org/dendrocentric-learning](https://spectrum.ieee.org/dendrocentric-learning)
   * [https://www.nature.com/articles/s41586-021-04362-w](https://www.nature.com/articles/s41586-021-04362-w)
 
@@ -1131,8 +1166,7 @@ with loss function computed from (output - input)
  See also [D], [Autoencoder], [Loss Function]
 
 
-## Denoising Diffusion Policy Optimization
-## DDPO
+## Denoising Diffusion Policy Optimization (DDPO)
 
  ~ PPO for diffusion models?
 
@@ -1143,12 +1177,13 @@ with loss function computed from (output - input)
  ![](img/d/denoising_diffusion_policy_optimization.jpeg ){: width="100%"}
 
  More at:
+
   * site - [https://rl-diffusion.github.io/](https://rl-diffusion.github.io/)
 
  See also [D], ...
 
 
-## Denoising Diffusion Probabilistic Model
+## Denoising Diffusion Probabilistic Model (DDPM)
 
  See [Diffusion Model]
 
@@ -1174,6 +1209,7 @@ with loss function computed from (output - input)
 ## Depth Map
 
  Can be built with
+
   * [Neural Radiance Field] model
   * ...
 
@@ -1212,6 +1248,7 @@ Now with all the samples
 dC/dwL =  sum(0,nb_samples-1, dCk/dwL) / nb_samples
 
 We need to do this for
+
 * dC/daL-1                     <== backpropagate
 * dC/dbL                       <== compute the bias L as well with backpropagation !!!!
 ```
@@ -1221,8 +1258,7 @@ We need to do this for
  See also [D], ...
 
 
-## Describe Explain Plan Select Prompting
-## DEPS Prompting
+## Describe Explain Plan Select (DEPS) Prompting
 
  A [prompt engineering] technique
 
@@ -1231,6 +1267,7 @@ We need to do this for
  {% pdf "https://arxiv.org/pdf/2302.01560.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2302.01560](https://arxiv.org/abs/2302.01560)
   * code - [https://github.com/CraftJarvis/MC-Planner](https://github.com/CraftJarvis/MC-Planner)
   * team - [https://github.com/CraftJarvis](https://github.com/CraftJarvis)
@@ -1246,6 +1283,11 @@ We need to do this for
  See also [D], [Stochastic Node], [Variational Autoencoder Reparametrization Trick]
 
 
+## Detokenizer
+
+ See also [D], ...
+
+
 ## Development Life Cycle
 
  * [Product Development Life Cycle (PDLC)][PDLC]
@@ -1257,8 +1299,6 @@ We need to do this for
 
 
 ## Detokenier
-
- 
 
  See also [D], [SentencePiece Tokenizer]
 
@@ -1289,6 +1329,7 @@ We need to do this for
  The first system developed by [Nvidia] to do Deep Learning
 
  More at:
+
   * site - [https://www.nvidia.com/en-in/data-center/dgx-1/](https://www.nvidia.com/en-in/data-center/dgx-1/)
 
  See also [D], ...
@@ -1308,6 +1349,7 @@ We need to do this for
  Differential privacy is the technology that enables researchers and database analysts to avail a facility in obtaining the useful information from the databases, containing people's personal information, without divulging the personal identification about individuals. This can be achieved by introducing a minimum distraction in the information, given by the database.
 
  Examples:
+
   * Apple employs differential privacy to accumulate anonymous usage insights from devices like iPhones, iPads and Mac.
   * Amazon uses differential privacy to access user’s personalized shopping preferences while covering sensitive information regarding their past purchases.
   * Meta uses it to gather behavioral data for target advertising campaigns without defying  any nation’s privacy policies.
@@ -1321,12 +1363,14 @@ We need to do this for
  ![](img/d/differential_privacy.png ){: width="100%"}
 
  Methods:
+
   * output perturbation (works for all cases since treat the model as a black box?)
   * gradient perturbation (works for neural network only)
 
  {% pdf "https://arxiv.org/pdf/1607.00133.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1607.00133](https://arxiv.org/abs/1607.00133)
   * articles
     * [https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work](https://www.analyticssteps.com/blogs/what-differential-privacy-and-how-does-it-work)
@@ -1334,18 +1378,20 @@ We need to do this for
  See also [D], [Gradient Perturbation], [Membership Inference Attack], [Output Perturbation]
 
 
-## Diffractive Neural Network
-## DNN
+## Diffractive Neural Network (DNN)
 
  DIFFRACTIVE NEURAL NETWORKS, which are in the early Prototype Stage, is the field of research concerned with creating the world's first physical passive neural networks by 3D Printing them, rather than programming them, and using light waves, not electrons, to perform machine learning tasks, such as image analysis, feature detection and object classification, at the speed of light without the need to rely on any external compute or power source. Recently there have been a couple of interesting breakthroughs in the space, in the automated production of these types of neural networks, and their low cost, and ease of deployment, which makes them potentially a very interesting twist on a popular technology.
 
  DEFINITION 
+
  * Diffractive Neural Networks is a form of physical Artificial Intelligence that is printed and encoded into physical objects rather than being manifested in machine code.
 
  EXAMPLE USE CASES
+
  * Today the first prototype Diffractive Neural Networks are being used in image detection, image analysis, and object classification to test the theory and refine the technology. In the future the primary use case of the technology will be passive neural network applications where speed is useful or important.
 
  FUTURE TRAJECTORY AND REPLACABILITY
+
  * Over the next decade interest in the field will continue to
 accelerate, and interest and investment will continue to grow, albeit from a very low base, primarily led by university grants. In time the technology will continue to be refined and proven with researchers looking into new ways to produce and manufacture these kinds of networks automatically and at
 speed.
@@ -1355,8 +1401,7 @@ speed.
  See also [D], ...
 
 
-## Diffusion Model
-## DM
+## Diffusion Model (DM)
 
  There are a few downsides to Diffusion models: they work sequentially on the whole image, meaning that both the training and inference times are expansive. This is why you need hundreds of GPUs to train such a model and why you wait a few minutes to get your results. they are iterative models that take random noise as inputs, which can be conditioned with a text or an image, so it is not completely random noise. It iteratively learns to remove this noise by learning what parameters the model should apply to this noise to end up with a final image. So the basic diffusion models will take random noise with the size of the image and learn to apply even further noise until we get back to a real image.
 
@@ -1365,10 +1410,13 @@ speed.
  This is possible because the model will have access to the real images during training and will be able to learn the right parameters by applying such noise to the image iteratively until it reaches complete noise and is unrecognizable. Then, when we are satisfied with the noise we get from all images, meaning that they are similar and generate noise from a similar distribution, we are ready to use our model in reverse and feed it similar noise in the reverse order to expect an image similar to the ones used during training.
 
  At this time, the most popular diffusion models are:
-  * [Dall-E][Dall-E Model] by [OpenAI]
-  * [Midjourney][Midjourney Model] by ...
-  * [Stable Diffusion][Stable Diffusion Model] by [Stability AI]
+
+  * [Dall-E] by [OpenAI]
+  * [Midjourney] by ...
+  * [Stable Diffusion] by [Stability AI]
+
  and
+
   * [ZF Diffusion] for protein generation
 
  {% youtube "https://www.youtube.com/watch?v=W-O7AZNzbzQ" %}
@@ -1376,6 +1424,7 @@ speed.
  {% youtube "https://www.youtube.com/watch?v=zc5NTeJbk-k" %}
 
  More at:
+
   * what are diffusion models - [https://lilianweng.github.io/posts/2021-07-11-diffusion-models/](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
   * diffusion thermo model - [https://arxiv.org/pdf/1503.03585.pdf](https://arxiv.org/pdf/1503.03585.pdf)
   * Diffusion Models Beat GANs on Image Synthesis - [https://arxiv.org/pdf/2105.05233.pdf](https://arxiv.org/pdf/2105.05233.pdf)
@@ -1403,14 +1452,14 @@ speed.
  {% youtube "https://www.youtube.com/watch?v=rF2u7RTPsHI" %}
 
  More at:
+
   * [https://www.soulmachines.com/](https://www.soulmachines.com/)
   * [https://www.digitalhumans.com/](https://www.digitalhumans.com/)
 
  See also [D], ...
 
 
-## Digital Object Identifier
-## DOI
+## Digital Object Identifier (DOI)
 
  A DOI (Digital Object Identifier) is a unique and never-changing string assigned to online (journal) articles, books, and other works. DOIs make it easier to retrieve works, which is why citation styles, like APA and MLA Style, recommend including them in citations.
 
@@ -1426,6 +1475,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
 ```
 
  More at:
+
   * [https://www.scribbr.com/citing-sources/what-is-a-doi/](https://www.scribbr.com/citing-sources/what-is-a-doi/)
 
  See also [D], ...
@@ -1436,11 +1486,12 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  Digital watermarking is a method of embedding information into a digital signal in a way that is difficult to remove, but can be detected. This information can be used to identify the source of the digital signal, or to prevent unauthorized copying or tampering. Digital watermarks are often used to protect copyrights in digital media, such as images, audio, or video.
 
  More at:
+
   * [https://pub.towardsai.net/human-vs-gpt-methods-to-watermark-gpt-models-e23aefc63db8](https://pub.towardsai.net/human-vs-gpt-methods-to-watermark-gpt-models-e23aefc63db8)
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
   * paper - [https://aclanthology.org/D19-1115.pdf](https://aclanthology.org/D19-1115.pdf)
 
- See also [D], [ChatGPT Model], [DALL-E Model], [GPT Model], [InstructGPT Model]
+ See also [D], [ChatGPT Model], [DALL-E Model Family], [GPT Model Family], [InstructGPT Model]
 
 
 ## Dimensionality Reduction
@@ -1452,29 +1503,31 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  As the name suggests, we use dimensionality reduction to remove the least important information (sometime redundant columns) from a [dataset]. In practice, I often see [datasets] with hundreds or even thousands of columns (also called [features]), so reducing the total number is vital. For instance, images can include thousands of pixels, not all of which matter to your analysis. Or when testing microchips within the manufacturing process, you might have thousands of measurements and tests applied to every chip, many of which provide redundant information. In these cases, you need dimensionality reduction algorithms to make the [dataset] manageable.
 
  Dimensionality reduction algorithms:
+
   * Linear Reduction
-    * [Principal Component Analysis (PCA)][PCA] - The most popular (and simple to understand and implement)
-    * [Linear Discriminant Analysis (LDA)][LDA] -
-    * Metric [Multidimensional Scaling (MDS)][MDS]
+    * [Principal Component Analysis (PCA)] - The most popular (and simple to understand and implement)
+    * [Linear Discriminant Analysis (LDA)] -
+    * Metric [Multidimensional Scaling (MDS)]
     * LDA
     * ICA
     * ...
   * Nonlinear reduction / Manifold learning
     * Local (consider the neighborhood)
-      * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)][t-SNE] - for visualization (modern and a bit more complex to understand/implement)
+      * [T-Distributed Stochastic Neighborhood Embedding (t-SNE)] - for visualization (modern and a bit more complex to understand/implement)
       * LLE
       * LTSA
     * Somewhere been local and global approaches!
-      * [Uniform Manifold Approximation and Projection (UMAP)][UMAP] -
+      * [Uniform Manifold Approximation and Projection (UMAP)] -
     * Global (consider entire dataset)
-      * Non-Metric [Multidimensional Scaling (MDS)][MDS]
+      * Non-Metric [Multidimensional Scaling (MDS)]
       * Autoencoder - Neural network based technique
       * Isomap
       * Kernel PCA
   * Others
-    * [Self-Organizing Map (SOM)][SOM] -
+    * [Self-Organizing Map (SOM)] -
 
  Use-cases:
+
   * Image compression
   * Feature reduction/selection
   * ...
@@ -1484,10 +1537,9 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  See also [D], [Autoencoder], [Decoder], [Encoder]
 
 
-## Direct Preference Optimization
-## DPO
+## Direct Preference Optimization (DPO)
 
- DPO replaces [RLHF] in LLM training: In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by [Stanford University] that has the potential to replace [reinforcement learning (RL)][RL ]in the training of [GPT models]. 
+ DPO replaces [RLHF] in LLM training: In this technical and informative video, we explore a groundbreaking methodology called direct preference optimization (DPO) by [Stanford University] that has the potential to replace [Reinforcement Learning (RL)] in the training of [GPT models]. 
 
  DPO now completely owns top-of-leaderboard medium-sized neural language models!
 
@@ -1498,6 +1550,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  {% pdf "https://arxiv.org/pdf/2305.18290.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2305.18290](https://arxiv.org/abs/2305.18290)
   * LLM leaderboard - [https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
@@ -1513,6 +1566,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  Multiply future rewards by a discount factor
 
  How far in the future?
+
   * Myopic view
   * Long term view
 
@@ -1527,9 +1581,9 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
 
  ![](img/d/discovery_phase_questions.png ){: width="100%"}
 
+ See also [D], ...
 
-
-## Discremination
+## Discrimination
 
  A form of bias that can be prevented with regulation?
 
@@ -1583,7 +1637,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
 
 
 ## Disentangled Variational Autoencoder
-# Beta-VAE
+## Beta-VAE
 
  Variational autoencoder where weights in the latent space are meaningful, e.g. rotation of the head in a portrait representation.
 
@@ -1648,6 +1702,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
  * Universal Sentence Encoder (USE) – Created by Google, USE provides embeddings for sentences and paragraphs. It utilizes a transformer architecture or Deep Averaging Network (DAN) and is trained on a variety of tasks to capture semantic meanings. For example, it can generate embeddings for full research papers to help in tasks like academic paper recommendations.
 
  More at:
+
   * [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
 
  See also [D], ...
@@ -1682,6 +1737,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  ![](img/d/dot_product.png ){: width="100%"}
 
  More at:
+
   * [https://www.cuemath.com/algebra/dot-product/](https://www.cuemath.com/algebra/dot-product/)
 
  See also [D], [Vector]
@@ -1708,6 +1764,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  {% pdf "https://vcai.mpi-inf.mpg.de/projects/DragGAN/data/paper.pdf" %}
 
  More at:
+
   * site - [https://vcai.mpi-inf.mpg.de/projects/DragGAN/](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
   * code - [https://github.com/Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN)
   * articles
@@ -1733,6 +1790,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  {% pdf "https://arxiv.org/pdf/2208.12242.pdf" %}
 
  More at:
+
   * site - [https://dreambooth.github.io/](https://dreambooth.github.io/)
   * paper - [https://arxiv.org/abs/2208.12242](https://arxiv.org/abs/2208.12242)
   * wikipedia - [https://en.wikipedia.org/wiki/DreamBooth](https://en.wikipedia.org/wiki/DreamBooth)
@@ -1749,6 +1807,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  {% pdf "https://arxiv.org/pdf/2209.14988.pdf" %}
 
  More at:
+
   * home - [https://dreamfusion3d.github.io/](https://dreamfusion3d.github.io/)
   * paper - [https://arxiv.org/abs/2209.14988](https://arxiv.org/abs/2209.14988)
   * sample - [https://dreamfusion3d.github.io/gallery.html](https://dreamfusion3d.github.io/gallery.html)
@@ -1769,6 +1828,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  {% pdf "https://arxiv.org/pdf/2302.01329.pdf" %}
 
  More at:
+
   * site - [https://dreamix-video-editing.github.io/]](https://dreamix-video-editing.github.io/)
   * paper - [https://arxiv.org/abs/2302.01329](https://arxiv.org/abs/2302.01329)
 
@@ -1779,6 +1839,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  ~ Used for regulation to prevent [overfitting]
 
  ~ Like pruning? No, because temporary! More like intentionally filtering at training time for each batch!
+
   * filtering signal from input that we know won't be relevant (ex: finding the beat, when listening to the entire music!)
   * knowing something about the output and hence reducing processing leading to the possibility of non compliant outputs
   * etc
@@ -1845,6 +1906,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 ## Dual-Encoder Contrastive Model
 
  Models:
+
   * [CLIP][CLIP Model]
   * ALIGN 
   * CoCa
@@ -1899,6 +1961,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
  However, the dying ReLU problem does not happen all the time since the [optimizer] (e.g., [stochastic gradient descent]) considers multiple input values each time. As long as NOT all the inputs push ReLU to the negative segment (i.e., some inputs are in the positive range), the [artificial neurons] can stay active, the weights can get updated, and the network can continue learning.
 
  More at:
+
   * [https://towardsdatascience.com/the-dying-relu-problem-clearly-explained-42d0c54e0d24](https://towardsdatascience.com/the-dying-relu-problem-clearly-explained-42d0c54e0d24)
 
  See also [D], ...
@@ -1922,14 +1985,10 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  In summary, Dyna augments real experience with simulated experience from a learned model to accelerate learning. It achieves efficiency gains by leveraging planning in addition to model-free learning.
 
- More at:
-  * ...
-
  See also [D], ...
 
 
-## Dynamic Programming
-## DP
+## Dynamic Programming (DP)
 
  Dynamic Programming (DP) is defined as a technique that solves some particular type of problems in Polynomial Time. Dynamic Programming solutions are faster than the exponential brute method and can be easily proved their correctness.
 
@@ -1975,6 +2034,7 @@ print(fibonacci(10))  # output: 55
 In contrast, the dynamic programming approach avoids redundant computations by storing the solutions to subproblems in a table and reusing them as needed. This can lead to significant performance improvements for large values of n.
 
  More at:
+
   * [https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/](https://www.geeksforgeeks.org/introduction-to-dynamic-programming-data-structures-and-algorithm-tutorials/)
 
  See also [D], ...

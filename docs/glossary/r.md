@@ -22,6 +22,7 @@ R-square = R^2 = -------------------------------------
 ```
 
  Interpretations:
+
   * There is R^2 % less variation around the best-fit-line than the mean
   * The weight of this input parameter (size/weight relationship) accounts for R^2 % of the variation
 
@@ -37,6 +38,7 @@ R-square = R^2 = -------------------------------------
  {% youtube "https://www.youtube.com/watch?v=22wlLy7hKP4" %}
 
  More at:
+
   * site - [https://www.rabbit.tech/](https://www.rabbit.tech/)
   * devices 
     * R1 - [https://www.theverge.com/24138746/rabbit-r1-hands-on-ai-gadget-chatgpt](https://www.theverge.com/24138746/rabbit-r1-hands-on-ai-gadget-chatgpt)
@@ -46,8 +48,7 @@ R-square = R^2 = -------------------------------------
  See also [R], ...
 
 
-## Radial Basis Function
-## RBF
+## Radial Basis Function (RBF)
 
  See also [R], [Support Vector Classifier]
 
@@ -59,6 +60,7 @@ R-square = R^2 = -------------------------------------
  {% include vimeoPlayer.html id=801620131 %}
 
  More at:
+
   * [https://futurimedia.com/radiogpt/](https://futurimedia.com/radiogpt/)
   * [https://listen.streamon.fm/radiogpt](https://listen.streamon.fm/radiogpt)
   * [https://www.techtimes.com/articles/288252/20230227/radiogpt-first-ai-radio.htm](https://www.techtimes.com/articles/288252/20230227/radiogpt-first-ai-radio.htm)
@@ -66,10 +68,11 @@ R-square = R^2 = -------------------------------------
 
  See also [R], [GPT Model]
 
-## Random Cut Forest
-## RCF
+## Random Cut Forest (RCF)
 
  Random Cut Forest (RCF) is an unsupervised algorithm for detecting anomalous data points within a [dataset]. These are observations which diverge from otherwise well-structured or patterned data. Anomalies can manifest as unexpected spikes in time series data, breaks in periodicity, or unclassifiable data points. They are easy to describe in that, when viewed in a plot, they are often easily distinguishable from the "regular" data. Including these anomalies in a [dataset] can drastically increase the complexity of a machine learning task since the "regular" data can often be described with a simple model. With each data point, RCF associates an anomaly score. Low score values indicate that the data point is considered "normal." High values indicate the presence of an anomaly in the data. The definitions of "low" and "high" depend on the application but common practice suggests that scores beyond three standard deviations from the mean score are considered anomalous. While there are many applications of anomaly detection algorithms to one-dimensional time series data such as traffic volume analysis or sound volume spike detection, RCF is designed to work with arbitrary-dimensional input. Amazon SageMaker RCF scales well with respect to number of features, dataset size, and number of instances.
+
+ See also [R], ...
 
 
 ## Random Forest
@@ -81,13 +84,13 @@ R-square = R^2 = -------------------------------------
  See also [R], [Attribute], [Bagging], [Ensemble Method], [Decision Tree], [Gaussian Process], [Supervised Learning], [Tree Parzen Estimators], [XGBoost]
 
 
-## Random Sample Consensus Algorithm
-## RANSAC Algorithm
+## Random Sample Consensus (RANSAC) Algorithm
 
  Developed in the early 1990s, in computer vision, but can be used in several fields.
  The algorithm removes [outliers] and keep the [inliers] from a sample set
 
  Parameters:
+
   * tolerance
   * number of iterations
 
@@ -96,9 +99,11 @@ R-square = R^2 = -------------------------------------
  ![](img/r/random_sample_consensus_algorithm.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=9D5rrtCC_E0" %}
+
  {% youtube "https://www.youtube.com/watch?v=1YNjMxxXO-E" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Random_sample_consensus](https://en.wikipedia.org/wiki/Random_sample_consensus)
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ransac.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ransac.html)
 
@@ -125,6 +130,7 @@ R-square = R^2 = -------------------------------------
  ![](img/r/random_search.webp ){: width="100%"}
 
  More at:
+
   * [https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d](https://towardsdatascience.com/a-practical-introduction-to-grid-search-random-search-and-bayes-search-d5580b1d941d)
 
  See also [R], [Sobol Search]
@@ -137,6 +143,7 @@ R-square = R^2 = -------------------------------------
  {% youtube "https://www.youtube.com/watch?v=YroewVVp7SM" %}
 
  More at:
+
   * ranking algorithms - [https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a](https://towardsdatascience.com/how-to-convert-any-text-into-a-graph-of-concepts-110844f22a1a)
   * overview - [https://medium.com/airbnb-engineering/learning-to-rank-diversely-add6b1929621](https://medium.com/airbnb-engineering/learning-to-rank-diversely-add6b1929621)
   * ranking evaluation metrics - [https://towardsdatascience.com/comprehensive-guide-to-ranking-evaluation-metrics-7d10382c1025](https://towardsdatascience.com/comprehensive-guide-to-ranking-evaluation-metrics-7d10382c1025)
@@ -147,6 +154,7 @@ R-square = R^2 = -------------------------------------
 ## Raspberry Pi Computer
 
  A < $100 computer that is compatible with
+
   * [Coral Hardware]
 
  See also [R], ...
@@ -159,6 +167,7 @@ R-square = R^2 = -------------------------------------
  BEWARE not all [intelligent agents] are rational – an agent may learn and adapt but still not make the most optimal decisions due to imperfect information or computational constraints. Rational agents strive to make the best decisions within the limits of their knowledge and capabilities.
 
  More at:
+
   * articles
     * [https://www.turingpost.com/p/agentsvocabulary](https://www.turingpost.com/p/agentsvocabulary)
 
@@ -166,8 +175,6 @@ R-square = R^2 = -------------------------------------
 
 
 ## Ray Framework
-
- 
 
  See also [R], ...
 
@@ -177,7 +184,6 @@ R-square = R^2 = -------------------------------------
  See also [R], ...
 
 
-## Reactive Artificial Intelligence
 ## Reactive AI
 
  Tools that respond to specific inputs or situations without learning from past experiences (e.e. Alexa, Roomba, chess -playing computer)
@@ -185,8 +191,7 @@ R-square = R^2 = -------------------------------------
  See also [R], [Artificial Intelligence]
 
 
-## Reason-Act Prompting
-## ReAct Prompting
+## Reason-Act (ReAct) Prompting
 
  ~ A [prompt engineering] technique where [LLMs] are used to generate both reasoning traces and task-specific actions in an interleaved manner.
 
@@ -197,9 +202,11 @@ R-square = R^2 = -------------------------------------
  {% pdf "https://arxiv.org/pdf/2210.03629.pdf" %}
 
  Alternative:
+
   * [Semantic Router]
 
  More at:
+
   * site - [https://react-lm.github.io/](https://react-lm.github.io/)
   * paper - [https://arxiv.org/abs/2210.03629](https://arxiv.org/abs/2210.03629)
   * articles
@@ -214,6 +221,7 @@ R-square = R^2 = -------------------------------------
 ## Reasoning
 
  There are 5 types of reasoning:
+
   * [Inductive reasoning] - a conclusion is drawn based on observations or evidence. ( = figuring out patterns)
   * [Deductive reasoning] - a conclusion is drawn based on the truth of the premises. ( = applying rules)
   * [Abductive reasoning] - a conclusion is drawn based on the best explanation for a given set of observations.
@@ -221,11 +229,9 @@ R-square = R^2 = -------------------------------------
   * [Informal reasoning] - a less structured approach to reasoning that relies on intuition, experience, and common sense.
 
  Examples:
+
   * [Case-Based Reasoning]
   * [Logical Reasoning] ???
-
- More at:
-  * ...
 
  See [R], [Machine Reasoning]
 
@@ -234,7 +240,7 @@ R-square = R^2 = -------------------------------------
 
  ~ of all the actual positives, how many did we correctly identify?
 
- ~ same [True Positive Rate (TPR)][TPR] or [sensitivity]
+ ~ same [True Positive Rate (TPR)] or [Sensitivity]
 
  ~ a recall of 1 means that we correctly identified all the positive cases
 
@@ -242,7 +248,7 @@ R-square = R^2 = -------------------------------------
 
  ~ High recall = test is effective at detecting positive cases without missing many / describe the ability of a model to find all the relevant cases within a dataset
 
- Metric used for [model evaluation] when the cost of [false negatives] (missed positive) is high. For example, in disease prediction, it is critical not to miss any positive cases.
+ Metric used for [model evaluation] when the cost of [False Negatives (FN)] (missed positive) is high. For example, in disease prediction, it is critical not to miss any positive cases.
 
  Recall is the fraction of malignant tumors (of one class) that the system identified (correctly, in the class). Recall measures the fraction of truly malignant tumors that were detected. Recall is important in medical cases where it doesn’t matter whether we raise a false alarm but the actual positive cases should not go undetected!
  
@@ -267,13 +273,13 @@ Recall = % of positively identified
  Recall would be a better metric because we don’t want to accidentally discharge an infected person and let them mix with the healthy population thereby spreading contagious virus. Now you can understand why accuracy is NOT always the best metric for a model.
 
  More at:
+
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [R], [Confusion Matrix]
 
 
-## Recall-Oriented Understudy for Gisting Evaluation Score
-## ROUGE Score
+## Recall-Oriented Understudy for Gisting Evaluation (ROUGE) Score
 
  ROUGE score is a set of metrics commonly used for [text summarization] tasks, where the goal is to automatically generate a concise summary of a longer text. ROUGE was designed to evaluate the quality of machine-generated summaries by comparing them to reference summaries provided by humans.
 
@@ -282,6 +288,7 @@ Recall = % of positively identified
  ROUGE = ∑ (Recall of n-grams)
 
  Where:
+
   * Recall of n-grams is the number of n-grams that appear in both the machine-generated summary and the reference summaries divided by the total number of n-grams in the reference summaries.
 
  ROUGE score ranges from 0 to 1, with higher values indicating better summary quality. Like BLEU score, a perfect summary would have a ROUGE score of 1, while a completely incorrect summary would have a ROUGE score of 0.
@@ -289,6 +296,7 @@ Recall = % of positively identified
  ROUGE scores are branched into ROUGE-N,ROUGE-L, and ROUGE-S.
 
  In general:
+
   * [BLEU] focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
   * ROUGE focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
 
@@ -299,6 +307,7 @@ Recall = % of positively identified
  {% pdf "https://aclanthology.org/W04-1013.pdf" %}
 
  More at:
+
   * paper - [https://aclanthology.org/W04-1013/](https://aclanthology.org/W04-1013/)
   * [https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb](https://medium.com/@sthanikamsanthosh1994/understanding-bleu-and-rouge-score-for-nlp-evaluation-1ab334ecadcb)
   * [https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/](https://www.freecodecamp.org/news/what-is-rouge-and-how-it-works-for-evaluation-of-summaries-e059fb8ac840/)
@@ -306,8 +315,7 @@ Recall = % of positively identified
  See also [R], [MS COCO Caption Dataset], [NLP Metrics]
 
 
-## Receiver Operating Characteristic Curve
-## ROC Curve
+## Receiver Operating Characteristic (ROC) Curve
 
  ~ provides a more holistic view of the validator's performance across different threshold settings. It's particularly useful when you need to balance [sensitivity] and [specificity] in your evaluations.
 
@@ -328,20 +336,20 @@ Recall = % of positively identified
  {% youtube "https://www.youtube.com/watch?v=4jRBRDbJemM" %}
 
  More at :
+
   * articles
     * [https://blog.revolutionanalytics.com/2016/11/calculating-auc.html](https://blog.revolutionanalytics.com/2016/11/calculating-auc.html)
 
  See also [R], [Area Under The Curve]
 
 
-## Receptance Weighted Key Value Model
-## RWKV Model
+## Receptance Weighted Key Value (RWKV) Model
 
  ~ a [RNN] with GPT-level LLM performance, and can also be directly trained like a GPT transformer (parallelizable). <!> Pronounced RwaKuv <!>
 
  <!> Is attention all you need? <!> This model and the [mamba model] disagree! The RNN fight back!
 
- [Transformers] have revolutionized almost all [natural language processing (NLP)][NLP] tasks but suffer from memory and computational complexity that scales quadratically with sequence length. In contrast, [recurrent neural networks (RNNs)][RNN] exhibit linear scaling in memory and computational requirements but struggle to match the same performance as [Transformers] due to limitations in parallelization and scalability. We propose a novel model architecture, Receptance Weighted Key Value (RWKV), that combines the efficient parallelizable training of transformers with the efficient inference of RNNs.
+ [Transformers] have revolutionized almost all [Natural Language Processing (NLP)] tasks but suffer from memory and computational complexity that scales quadratically with sequence length. In contrast, [recurrent neural networks (RNNs)] exhibit linear scaling in memory and computational requirements but struggle to match the same performance as [Transformers] due to limitations in parallelization and scalability. We propose a novel model architecture, Receptance Weighted Key Value (RWKV), that combines the efficient parallelizable training of transformers with the efficient inference of RNNs.
 
  Our approach leverages a linear attention mechanism and allows us to formulate the model as either a Transformer or an RNN, thus parallelizing computations during training and maintains constant computational and memory complexity during inference. We scale our models as large as 14 billion parameters, by far the largest dense [RNN] ever trained, and find RWKV performs on par with similarly sized [Transformers], suggesting future work can leverage this architecture to create more efficient models. This work presents a significant step towards reconciling trade-offs between computational efficiency and model performance in sequence processing tasks.
 
@@ -350,6 +358,7 @@ Recall = % of positively identified
  {% pdf "https://arxiv.org/pdf/2305.13048.pdf" %}
 
  More at:
+
   * site - [https://www.rwkv.com/](https://www.rwkv.com/)
   * wiki - [https://wiki.rwkv.com/](https://wiki.rwkv.com/)
   * paper - [https://arxiv.org/abs/2305.13048](https://arxiv.org/abs/2305.13048)
@@ -362,15 +371,11 @@ Recall = % of positively identified
  See also [R], ...
 
 
-## Receptance Weighted Key Value World Tokenizer
-## RWKV World Tokenizer
+## Receptance Weighted Key Value (RWKV) World Tokenizer
 
  A tokenizer used by open-source [RWKV Models] that is taking ALL spoken languages in consideration. It solves limitations of the [BPE Tokenizer] by removing bias against non-english and non-spaced languages.
  
  {% youtube "https://www.youtube.com/watch?v=I-HMKky7Qsw" %}
-
- More at:
-  * ...
 
  See also [R], ...
 
@@ -384,10 +389,12 @@ Recall = % of positively identified
  See also [R], ...
 
 
-## Rectified Linear Unit Activation Function
-## ReLU Activation Function
+## Rectified Linear Unit (ReLU) Activation Function
 
- `Everything that has a negative value, change it to zero` We can avoid this problem by using activation functions which don't have this property of 'squashing' the input space into a small region. A popular choice is Rectified Linear Unit which maps x to max(0,x). Benefits:
+ ==Everything that has a negative value, change it to zero==
+
+ We can avoid this problem by using activation functions which don't have this property of 'squashing' the input space into a small region. A popular choice is Rectified Linear Unit which maps x to max(0,x). Benefits:
+
   * easy to compute the derivative
   * helps with the vanishing gradient problem in backpropagation
   * derivative is always 0 if input signal is below the threshold --> solution is LeakyRelu
@@ -395,8 +402,7 @@ Recall = % of positively identified
  See also [R], [Activation Function], [Exploding Gradient Problem], [LeakyReLU Activation Function], [ResNET Model], [Vanishing Gradient Problem]
 
 
-## Rectified Linear Unit Activation Layer
-## ReLU Activation Layer
+## Rectified Linear Unit (ReLU) Activation Layer
 
  ~ an [activation layer] that uses the [ReLU activation function]
 
@@ -407,10 +413,11 @@ Recall = % of positively identified
  See also [R], ...
 
 
-## Recurrent Neural Network
-## RNN
+## Recurrent Neural Network (RNN)
 
- `When successive input have a relationship between each of them` Ex characters in a word. Output of a layer can feed the input of self or an upstream layer. AFAIK the input is taken into consideration at the next round/processing. The opposite of a Feedforward Neural Network. Example: Prediction of the next letter/word given the previous letter/word (useful when there is correlation between the sequence of objects/classification). Also useful for timeseries data. Became widespread thanks to Long Short Term Memory (LSTM) network a more multi-layer version of RNN.
+ ==When successive input have a relationship between each of them==
+
+ Ex characters in a word. Output of a layer can feed the input of self or an upstream layer. AFAIK the input is taken into consideration at the next round/processing. The opposite of a Feedforward Neural Network. Example: Prediction of the next letter/word given the previous letter/word (useful when there is correlation between the sequence of objects/classification). Also useful for timeseries data. Became widespread thanks to [Long Short Term Memory (LSTM) Network] a more multi-layer version of RNN.
 
  ![](img/r/recurrent_neural_network.png ){: width="100%"}
 
@@ -422,11 +429,16 @@ Recall = % of positively identified
 
  [Neural networks] will "loops" that are optimized for speech recognition, language modeling, translation. Essential to these successes is the use of “LSTMs,” a very special kind of recurrent neural network which works, for many tasks, much much better than the standard version. Almost all exciting results based on recurrent neural networks are achieved with them.
 
- :warning: Can or cannot use [backpropagation]? Yes, can use [backpropagation through time] !
+/// details | Can or cannot use [backpropagation]?
+    type:question
+
+    Yes, can use [backpropagation through time] !
+///
 
  ![](img/r/recurrent_neural_network_cells.png ){: width="100%"}
 
  There are several types of RNNs, including:
+
   * one-to-many
   * many-to-one
   * many-to-many
@@ -434,10 +446,12 @@ Recall = % of positively identified
  ![](img/r/recurrent_neural_network_types.png ){: width="100%"}
 
  Beware:
+
   * The most modern RNN uses [Long-Short Term Memory (LSTM)][LSTM Cell] or [Gated Recurrent Unit (GRU)][GRU Cell] cells
   * Memory = hidden state (output of previous stage) ?
 
  Beware:
+
   * RNN are now deprecated by attention-based models such as those based on the [transformer architecture]
   * deprecated previous approach using [bag of words] and [word2vec]
   * deprecated by [attention-based models]
@@ -448,6 +462,7 @@ Recall = % of positively identified
  {% youtube "https://www.youtube.com/watch?v=AsNTP8Kwu80" %}
 
  More at:
+
   * keras and RNN - [https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177](https://medium.com/analytics-vidhya/music-generation-using-deep-learning-a2b2848ab177)
 
  See also [R], [Bidirectional RNN], [Folded RNN], [Feedforward Neural Network], [Hidden State], [Long Short-Term Memory Network], [Pixel RNN], [Unfolded RNN], [Vanishing Gradient Problem]
@@ -470,6 +485,7 @@ Recall = % of positively identified
  {% pdf "https://arxiv.org/pdf/2209.07858.pdf" %}
 
  More at:
+
   * [https://huggingface.co/blog/red-teaming](https://huggingface.co/blog/red-teaming)
   * papers
     * [https://arxiv.org/abs/1908.07125](https://arxiv.org/abs/1908.07125)
@@ -495,7 +511,7 @@ Recall = % of positively identified
  Y =  f̂(X) + ɛ 
 ```
 
- Our predictions will generally be imperfect: there will be some nonzero difference between the predicted and “true” values. This difference is called prediction error. In general we can’t see the true values directly, but we can see evidence of the gap by looking at the [residuals][Residual], which are the difference between the observed and predicted values.
+ Our predictions will generally be imperfect: there will be some nonzero difference between the predicted and “true” values. This difference is called prediction error. In general we can’t see the true values directly, but we can see evidence of the gap by looking at the [Residuals], which are the difference between the observed and predicted values.
 
  To minimize prediction error, we need to understand its source. Broadly speaking there are two: reducible error and irreducible error.
 
@@ -504,6 +520,7 @@ Recall = % of positively identified
  Irreducible error arises from the fact that X doesn’t completely determine Y. That is, there are variables outside of X — and independent of X— that still have some small effect on Y. The only way to improve prediction error related to irreducible error is to identify these outside influences and incorporate them as predictors.
 
  More at:
+
   * [https://medium.com/wwblog/reducible-vs-irreducible-error-e469036969fa](https://medium.com/wwblog/reducible-vs-irreducible-error-e469036969fa)
 
  See also [R], [Loss Function]
@@ -521,9 +538,7 @@ Recall = % of positively identified
  See also [R], [Model Type]
 
 
-## Region-Based Convolutional Neural Network
-## Region-Based CNN
-## R-CNN
+## Region-Based CNN (R-CNN)
 
  ~ algorithm used for [image segmentation]
 
@@ -534,13 +549,13 @@ Recall = % of positively identified
  {% youtube "https://www.youtube.com/watch?v=PlXE1_FVtMQ" %}
 
  More at:
+
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
  See also [R], ...
 
 
-## Region-Of-Interest Pooling
-## ROI Pooling
+## Region-Of-Interest (ROI) Pooling
 
  The first step in a [R-CNN]
 
@@ -556,7 +571,9 @@ Recall = % of positively identified
  Regression is a statistical method used to analyze the relationship between a dependent variable (also known as the response or outcome variable) and one or more independent variables (also known as predictor or explanatory variables). The goal of regression is to find the line of best fit that describes the relationship between the variables, which can be used for prediction or understanding the relationship. There are many different types of regression, including linear, logistic, and polynomial regression.
 
  In regression, instead of mapping inputs to a discrete number of classes like a classification, `the goal is to output a number` (ex stock price, temperature, probability, ...) . An example regression problem is predicting the price that a house will sell for. In this case, when XGBoost is given historical data about houses and selling prices, it can learn a function that predicts the selling price of a house given the corresponding metadata about the house. Another example: predictive maintenance, customer churn prediction. Practicality: outcome should be easy to measure, use historical observations. 
+
  The different algorithms are:
+
   * Regression trees : Finite number of number output!
   * [Linear regression]
   * [Logistic regression] : probability between 2 outcomes
@@ -564,9 +581,6 @@ Recall = % of positively identified
     * Polynomial regression : dependent variable y is modelled as an nth degree polynomial in x.
       * Cubic and quadratic regression 
   * (occasionally) [Support vector machine]
-
- More at:
-  * ...
 
  See also [R], [Classification], [Custom Churn Prediction], [Predictive Maintenance], [Regression Tree], [XGBoost]
 
@@ -576,6 +590,7 @@ Recall = % of positively identified
  A decision tree using the MSE loss function and used for regression (predict a range, or specific "real" value). 
 
  More at:
+
   * [https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047](https://medium.com/analytics-vidhya/regression-trees-decision-tree-for-regression-machine-learning-e4d7525d8047)
 
  See also [R], [Decision Tree]
@@ -588,15 +603,17 @@ Recall = % of positively identified
  There is an approach that prefers some [bias] over high [variance], this approach is called regularization. It works well for most of the [classification] / [regression] problems.
 
  The main ideas is 
+
   1. to constrain the model to simplify it (fewer degrees of freedom)
   2. to add information, aka [data augmentation]
 
  Methods:
-  * [Lasso Regression], aka L1 regularization
+
+  * [Lasso Regression], aka [L1 regularization]
     * Adds the absolute values of the coefficients as a penalty term to the [loss function].
     * Encourages [sparsity] in the model by driving some of the coefficients to exactly zero.
     * Useful for [feature selection] as it tends to eliminate less important [features].
-  * [Ridge Regression], aka L2 regularization
+  * [Ridge Regression], aka [L2 regularization]
     * Adds the squared values of the coefficients as a penalty term to the [loss function].
     * Encourages the model to have smaller weights overall.
     * Helps prevent multicollinearity (high correlation between features) and stabilizes the training process.
@@ -620,6 +637,7 @@ Recall = % of positively identified
  These regularization techniques play a crucial role in preventing [overfitting], improving model generalization, and creating models that perform well on unseen data. The choice of regularization method and [hyperparameter] values depends on the specific characteristics of the dataset and the [machine learning] model being used.
 
  ![](img/r/regularization_l1.png ){: width="100%"}
+
  ![](img/r/regularization_l2.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=VqKq78PVO9g" %}
@@ -627,6 +645,7 @@ Recall = % of positively identified
  {% youtube "https://www.youtube.com/watch?v=EehRcPo1M-Q" %}
 
  More at:
+
   * [https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/](https://machinelearningmastery.com/introduction-to-regularization-to-reduce-overfitting-and-improve-generalization-error/)
 
  See also [R], [Bias-Variance Trade-Off], [Balanced Fitting], [Overfitting], [Underfitting]
@@ -640,6 +659,7 @@ Recall = % of positively identified
 ## Regulatory Landscape
 
  Regulatory landscape refers to the complete framework of laws, rules, and regulations that govern an industry or business activity. This includes:
+
   * All applicable laws and regulations
   * Government agencies and regulatory bodies
   * Current and upcoming regulatory requirements
@@ -647,7 +667,9 @@ Recall = % of positively identified
 
  ![](img/r/regulatory_landscape.png ){: width="100%"}
 
- Q: How are regulation difference from AI principles?
+/// details | How are regulation difference from AI principles?
+    type:question
+///
 
  See also [R], [AI Bill Of Rights], [AI Principles], [European Union AI Act]
 
@@ -659,24 +681,20 @@ Recall = % of positively identified
  {% youtube "https://www.youtube.com/watch?v=5eSh5F8gjWU" %}
 
  More at:
+
   * pytorch implementation - [https://medium.com/@thechrisyoon/deriving-policy-gradients-and-implementing-reinforce-f887949bd63](https://medium.com/@thechrisyoon/deriving-policy-gradients-and-implementing-reinforce-f887949bd63)
 
  See also [R], ...
 
 
-## Reinforcement Fine-Tuning
-## RFT
+## Reinforcement Fine-Tuning (RFT)
 
  ~ allows users to create custom models using the same process [OpenAI] uses internally.
-
- More at:
-  * ...
 
  See also [R], [Supervised Fine-Tuning]
 
 
-## Reinforcement Learning
-## RL
+## Reinforcement Learning (RL)
 
  `Pavlov's dog experiment!` also `How we learn to bike!` Beware: `No training set is provided, training is coming from experience! = learn by try and error`. Continue doing the behavior that led you to the most [reward]. Imagine teaching a program to play chess. It level of playing is only as good as the training data provided. If it learns/analyses the games played by average players, the program will only be average. If it analyses the games of the best player in the work, it will be just as good as them, but not better. `Reinforcement learning is the way to make a computer be better  than human at chess or any other activity` using [rewards] and [punishments]. `Learning through trials and errors` input/sensor --> software agent --> [Action], leads to [supervised feedback] in the form of a [reward].
 
@@ -695,6 +713,7 @@ Recall = % of positively identified
  {% youtube "https://www.youtube.com/watch?v=mqma6GpM7vM" %}
 
  More at:
+
   * [https://neptune.ai/blog/category/reinforcement-learning](https://neptune.ai/blog/category/reinforcement-learning)
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
   * Tutorials
@@ -704,54 +723,56 @@ Recall = % of positively identified
  See also [R], [Action], [Action Space], [Continual Reinforcement Learning], [Delayed Reward], [Environment], [Exploitation], [Exploration], [Learning Method], [Machine Learning], [Machine Learning Algorithm], [Markov Decision Process], [Meta-Learning], [Observation], [Reward Shaping], [State]
 
 
-## Reinforcement Learning Agent
-## RL Agent
+## Reinforcement Learning (RL) Agent
 
  In [reinforcement learning], an [agent] whose goal is to maximize its [cumulative reward].
  To observe the right behavior, be sure to use appropriate [reward] and correct [reward shaping].
 
  Examples:
+
   * In [AWS DeepRacer], the goal of the program running on the car is to go around the track as fast as possible without getting out of the track.
 
- The agent simulates the AWS DeepRacer vehicle in the simulation for training. More specifically, it embodies the neural network that controls the vehicle, taking inputs and deciding [actions]. `The agent embodies a neural network that represents a function to approximate the agent's policy.`
+ The agent simulates the AWS DeepRacer vehicle in the simulation for training. More specifically, it embodies the neural network that controls the vehicle, taking inputs and deciding [actions]. ==The agent embodies a neural network that represents a function to approximate the agent's policy.==
+
   * The essence of Reinforced Learning is to enforce behavior based on the actions performed by the agent. The agent is rewarded if the action positively affects the overall goal.
   * The basic aim of reinforcement Learning is reward maximization. The agent is trained to take the best action to maximize the overall reward.
   * RL agents work by using the already known exploited information or exploring unknown information about an environment.
   * ...
+
  It’s also important to understand that the learner and decision-maker is called the agent. The thing it interacts with, comprising everything outside the agent, is called the [environment].
 
- More at:
-  * ...
+ During the training phase of an [RL agent], its policy is updated after each [iteration] based on the preset [learning rate], an [hyperparameter]
 
  See also [R], [Addiction]
 
 
-## Reinforcement Learning Algorithm
-## RL Algorithm
+## Reinforcement Learning (RL) Algorithm
 
- During the training phase of an [RL agent], its policy is updated after each [iteration] based on the preset [learning rate], an [hyperparameter]
 
  [Policy Gradient Algorithms]
-  * [Actor-Critic with Experience (ACER)][ACER]
-  * [Advanced Actor-Critic (A2C)][A2C]
-  * [Asynchronous Advanced Actor-Critic (A3C)][A3C]
-  * [Deep Deterministic Policy Gradient (DDPG)][DDPG]
-  * [Proximal Policy Optimization (PPO)][PPO]
-  * [Soft Actor Critic (SAC)][SAC]
+
+  * [Actor-Critic with Experience (ACER)]
+  * [Advanced Actor-Critic (A2C)]
+  * [Asynchronous Advanced Actor-Critic (A3C)]
+  * [Deep Deterministic Policy Gradient (DDPG)]
+  * [Proximal Policy Optimization (PPO)]
+  * [Soft Actor Critic (SAC)]
   * ...
 
  [Value-Based Algorithms]
-  * [Q-Learning] 
-  * [State-Action-Reward-State-Action (SARSA)][SARSA]
 
+  * [Q-Learning] 
+  * [State-Action-Reward-State-Action (SARSA)]
 
  RL with Targeted feedback
+
   * [Reinforcement Learning From Human Feedback] - human, slow and expensive
   * [Reinforcement Learning From AI Feedback] - AI, fast and low cost, but feedback on final results
   * [Reinforcement Learning With Executive Feedback] - AI, fast, low cost, on intermediate results
   * [Reinforcement Learning Coordinated Feedback] - 2 <> teachers, on is LLM, the other is tool/validation based. Used with coding.
 
  Others:
+
   * [Evolutionary Algorithms] = Generate policies through ab evolutionary process of selection, mutation, and fitness evaluation. Ex: [Genetic Programming], [Evolution Strategy]
   * [Model-Based RL] = Learn model of environment transistions and rewards, then optimizes policy through planning. Ex: [Dyna Model], [AlphaGo]
   * [Inverse RL] = learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
@@ -767,22 +788,21 @@ Recall = % of positively identified
  See also [R], ...
 
 
-## Reinforcement Learning Coordinated Feedback
-## RLCF
+## Reinforcement Learning Coordinated Feedback (RLCF)
 
  RLCF leverages compiler and LLM feedback to reinforce code quality, guiding models to generate syntactically correct, semantically sound code. It's ideal for tuning code models without human input. This training happens after traditional pre-training but before task-specific fine-tuning.
 
  ![](img/r/reinforcement_learning_coordinated_feedback.avif ){: width="100%"}
 
  More at:
+
   * articles
     * [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
 
  See also [R], ...
 
 
-## Reinforcement Learning from AI Feedback
-## RLAIF
+## Reinforcement Learning from AI Feedback (RLAIF)
 
  ~ popularized by [Anthropic] as a play on word on [RLHF]. Similar to [constitutional AI]
 
@@ -791,6 +811,7 @@ Recall = % of positively identified
  {% pdf "https://arxiv.org/pdf/2212.08073.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2212.08073](https://arxiv.org/abs/2212.08073)
   * constitutional AI - [https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback](https://www.anthropic.com/index/constitutional-ai-harmlessness-from-ai-feedback)
   * articles
@@ -799,8 +820,7 @@ Recall = % of positively identified
  See also [F], ...
 
 
-## Reinforcement Learning from Human Feedback
-## RLHF
+## Reinforcement Learning from Human Feedback (RLHF)
 
  Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
 
@@ -809,6 +829,7 @@ Recall = % of positively identified
  {% pdf "https://arxiv.org/pdf/1706.03741.pdf" %}
 
  More at:
+
   * paper 
     * [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)
     * [https://arxiv.org/abs/1706.03741](https://arxiv.org/abs/1706.03741)
@@ -823,8 +844,7 @@ Recall = % of positively identified
  See also [R], [ChatGPT Model], [Feedback-Based Learning], [InstructGPT Model], [Reinforcement Learning], 
 
 
-## Reinforcement Learning with Executive Feedback
-## RLEF
+## Reinforcement Learning with Executive Feedback (RLEF)
 
  RLEF provides feedback to the model while it generates intermediate results. Instead of relying solely on external evaluations (like rewards or penalties based on results), RLEF provides feedback throughout the steps of an action sequence, allowing the model to adjust in real-time.
 
@@ -837,6 +857,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
  ![](img/r/reinforcement_learning_with_executive_feedback.avif ){: width="100%"}
 
  More at:
+
   * articles
     * RLEF vs - [https://www.turingpost.com/p/rl-f](https://www.turingpost.com/p/rl-f)
 
@@ -853,6 +874,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
 ## Relation Extraction
 
  Extract relations between entities in a text or image to build a scene graph.  Possible methods:
+
    * text
      * rule-based technique: 'such as', 'including' , ...
      * supervised technique: stack binary classifier to determine if there is a specific relation between 2 entities :warning: Very expensive to label 
@@ -862,34 +884,33 @@ So you can fix mistakes right away, making sure the tower stands strong!
  See also [R], [Entity Extraction], [Relation], [Scene Graph]
 
 
-## Relational Deep Learning
-## RDL
+## Relational Deep Learning (RDL)
 
  Data mining using [GNN] to learn embedding without [feature engineering]
 
  {% pdf "https://arxiv.org/pdf/2312.04615.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2312.04615](https://arxiv.org/abs/2312.04615)
 
  See also [R], [RelBench]
 
 
-## Relational Deep Learning Benchmark
-## RelBench
+## Relational Deep Learning Benchmark (RelBench)
 
  The Relational Deep Learning Benchmark (RelBench) is a collection of realistic, large-scale, and diverse benchmark datasets for machine learning on relational databases. RelBench datasets are automatically downloaded, processed, and split using the Data Loader. The model performance can be evaluated using the Evaluator in a unified manner. RelBench is a community-driven initiative in active development. We expect the benchmark datasets to evolve.
 
  {% pdf "https://relbench.stanford.edu/paper.pdf" %}
 
  More at:
+
   * Site - [https://relbench.stanford.edu/](https://relbench.stanford.edu/)
   * paper - 
 
  See also [R], ...
 
-## Relative Approximation Error
-## RAE
+## Relative Approximation Error (RAE)
 
  See also [R], [Prediction Error]
 
@@ -902,7 +923,9 @@ So you can fix mistakes right away, making sure the tower stands strong!
 ## Relevancy
 
  Relevancy --> approximate of neightbor bias used in [similarity metrics]
+
  Low relevancy = this hot dog looks like this ice cream.
+
  High relevancy = this hot dog looks like this other hot dog.
 
  See also [R], ...
@@ -917,7 +940,6 @@ So you can fix mistakes right away, making sure the tower stands strong!
 
  See [Replay Memory]
 
- 
 
 ## Replay Memory
 
@@ -929,15 +951,13 @@ So you can fix mistakes right away, making sure the tower stands strong!
 
  {% youtube "https://www.youtube.com/watch?v=Bcuj2fTH4_4" %}
 
- More at:
-  * ...
-
  See also [R], ...
 
 
 ## Replicate Company
 
  More at:
+
   * site - [https://replicate.com/](https://replicate.com/)
 
  See also [R], ...
@@ -951,6 +971,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
 
 
  More at:
+
   * site - [https://replit.com/](https://replit.com/)
 
  See also [R], [Custom GPT]
@@ -959,6 +980,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
 ## Repls
 
  Repl with
+
   * Tutorial + video
   * GIT integration
 
@@ -992,8 +1014,6 @@ So you can fix mistakes right away, making sure the tower stands strong!
 
  Use the direction of theta (parameter?) to change phy (hyper parameter).
 
- ![](img/r/maml_reptile.png ){: width="100%"}
-
  See also [R], [MAML], [Meta-Learning]
 
 
@@ -1008,6 +1028,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
  In various scenarios, the initial [ranking] of items might not be perfect or optimized for the user's preferences, needs, or relevance. Reranking aims to address this by adjusting the order of items in the list to better match the user's intent or to improve the quality of the presented information. The reranking process can be guided by different factors, such as user feedback, relevance scores, contextual information, or machine learning models.
 
  Example of applications:
+
   * Implementing societal objective function in ranking of social posts
   * [RAG] implementing document semantic search with reranking
 
@@ -1018,6 +1039,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
  {% youtube "https://www.youtube.com/watch?v=GSixIsI1eZE" %}
 
  More at:
+
   * applications
     * social objective functions - [https://youtu.be/IzK55L26FgA?t=8579](https://youtu.be/IzK55L26FgA?t=8579)
   * notebooks
@@ -1036,6 +1058,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
 ## Resampling Method
 
  are techniques used to estimate the performance of a model or algorithm on unseen data by using the existing dataset. The most common resampling methods are:
+
    * bootstrap sampling
    * jackknife sampling
    * cross-validation sampling
@@ -1069,25 +1092,24 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  See also [R], [Residual Network Model], [Skip Connection]
 
 
-## Residual Network Model
-## ResNET Model
+## Residual Network (ResNET) Model
 
  ResNET, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks = `a CNN image model` This model was the winner of ImageNET challenge in 2015. The fundamental breakthrough with ResNET was it allowed us to train extremely deep neural networks with 150+layers successfully. Prior to ResNET training very deep neural networks was difficult due to the [problem of vanishing gradients][Vanishing Gradient Problem].
 
  {% pdf "img/r/residual_network_paper.pdf" %}
 
  More at:
+
   * [https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/](https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/)
 
  See also [R], [Convoluted Neural Network], [Computer Vision], [Rectified Linear Unit Activation Function], [Residual Block], [Vanishing Gradient Problem]
 
 
-## Resilient Backpropagation Algorithm
-## Rprop Algorithm
+## Resilient Backpropagation (Rprop) Algorithm
 
  Rprop, short for resilient [backpropagation], is a type of [optimization algorithm] commonly used in [machine learning] and [neural networks][ANN] to minimize the [cost function] or error function.
 
- Unlike other optimization algorithms that use a fixed [learning rate], Rprop [adapts][Adative Algorithm] the step size for each parameter based on the sign of the gradient. This allows the algorithm to take larger steps in flat regions and smaller steps in steep regions of the cost function, thus improving convergence speed.
+ Unlike other optimization algorithms that use a fixed [learning rate], Rprop adapts the step size for each parameter based on the sign of the gradient. This allows the algorithm to take larger steps in flat regions and smaller steps in steep regions of the cost function, thus improving convergence speed.
 
  The Rprop algorithm maintains a separate update value for each parameter and adjusts the update value based on the sign of the gradient at each iteration. If the gradient changes sign, the update value is reset to its initial value, otherwise, it is increased or decreased by a fixed factor. The step size for each parameter is then calculated based on the current update value and the sign of the gradient.
 
@@ -1096,6 +1118,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  One drawback of Rprop is that it may get stuck in local minima or plateaus, and it may not perform well in non-convex optimization problems. To address this issue, hybrid variants of Rprop have been proposed that combine it with other optimization algorithms such as Adam or momentum to improve its robustness and generalization capabilities.
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Rprop](https://en.wikipedia.org/wiki/Rprop)
   * [https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
 
@@ -1109,7 +1132,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  See also [R], [Explanatory Variable], [Predictor Variable], [Regression]
 
 
-## Responsible AI
+## Responsible AI (RAI)
 
  Responsible AI (RAI) refers to the individual and collective effort to promote beneficial users of AI and safeguard stakeholders -- clients, employees, members of the public, and beyond -- from harms or risks associated with AI, while acting ethically as institutions and individuals
 
@@ -1120,16 +1143,19 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  Related terms are [Ethical AI], [Trustworthy AI]
 
  To whom are we responsible?
+
   * Employees and shareholders
   * Clients and customers
   * Regulators and policymakers
   * People and planet
 
  What are we responsible for?
+
   * Promoting ethical development, implementation, and monitoring throughout the AI life cycle
   * Centering well-being, human and civil rights, professional ethics, and people in our technology.
 
  What processes, tools, and norms can achieve these goals?
+
   * Development and implementation of transparent and safe AI systems
   * Software toolkits, data science and data platform, controls and governance that enable RAI
   * Culture and education around responsible practices
@@ -1140,6 +1166,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  {% pdf "img/r/responsible_ai_by_us_dod.pdf" %}
 
  More at:
+
   * [https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/](https://venturebeat.com/security/pwc-highlights-11-chatgpt-and-generative-ai-security-trends-to-watch-in-2023/)
   * US DoD
     * [https://www.cnn.com/videos/business/2023/05/11/nightcap-ai-drones-clip-orig-jc.cnn](https://www.cnn.com/videos/business/2023/05/11/nightcap-ai-drones-clip-orig-jc.cnn)
@@ -1149,8 +1176,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
  See also [R], [AI Alignment], [AI Bias], [AI Ethics], [AI Fairness]
 
 
-## Restricted Boltzmann Machine
-## RBM
+## Restricted Boltzmann Machine (RBM)
 
  * Visible layer = what we observe
  * hidden layer = what we cannot see
@@ -1186,19 +1212,19 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [Boltzmann Machine]
 
 
-## Retrieval-Augmented Generation Assessment
-## RAG Assessment
-## RAGA
+## RAG Assessment (RAGA)
 
  ~ A framework with metrics and LLM-generated data to evaluate the performance of your Retrieval-Augmented Generation pipeline
 
  By now, we know that building a proof of concept for a Retrieval-Augmented Generation (RAG) application is easy, but making it production-ready is very difficult. Getting the RAG pipeline's performance to a satisfying state is especially difficult because of the different components in a RAG pipeline:
+
   * Retriever component: retrieves additional context from an external database for the LLM to answer the query.
   * Generator component: generates an answer based on a prompt augmented with the retrieved information.
 
  When evaluating a RAG pipeline, you must evaluate both components separately and together to understand if and where the RAG pipeline still needs improvement. Additionally, to understand whether your RAG application’s performance is improving, you must evaluate it quantitatively. For this, you will need two ingredients: An evaluation metric and an evaluation dataset.
 
  Test for:
+
  * Retrieval Quality
    * Relevance
    * Diversity
@@ -1223,6 +1249,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  * Test for brand damage
 
  More at:
+
   * articles
     * [https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
     * [https://www.rungalileo.io/blog/mastering-rag-8-scenarios-to-test-before-going-to-production](https://www.rungalileo.io/blog/mastering-rag-8-scenarios-to-test-before-going-to-production)
@@ -1230,7 +1257,6 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [LangSmith]
 
 
-## Retrieval-Augmented Generation Generator
 ## RAG Generator
 
  A component in a [RAG] that uses its augmented context for additional information, but will also generate new info. Beware of hallucinations.
@@ -1238,20 +1264,19 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], ...
 
 
-## Retrieval-Augmented Generation Retriever
-## RAG Retriever
+## RAG Information Retriever (RAG-IR)
 
  A component of a [RAG] that uses its augmented context to give an answer. Using it results in limited hallucinations.
 
  See also [R], ...
 
 
-## Retrieval-Augmented Generation System
-## RAG System
+## Retrieval-Augmented Generation (RAG) System
 
  ~ A [compound AI system] that consists of an LLM that works with a [retriever]
 
  Fields:
+
   * Document ID (DOI)   <== used for deletion, not for query
   * Chunk ID (chunk id)
   * metadata <== delete on metadata not available in pinecone serverless
@@ -1263,10 +1288,12 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  Now, retrieval-augmented generation combines these two approaches to overcome their individual limitations. In this framework, a retrieval model is used to retrieve relevant information from a knowledge base or a set of documents based on a given query or context. The retrieved information is then used as input or additional context for the generative model.
 
  There are 2 components in RAGs:
-  * [RAG Retriever] or reader componentbased on [vector retrieval]
+
+  * [RAG Information Retriever (RAG-IR)] or reader componentbased on [vector retrieval]
   * [RAG Generator] or writer component
 
  RAG paradigm
+
   * Naive RAG
   * Advanced RAG
     * [Corrective RAG] - advanced retriever
@@ -1278,10 +1305,10 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * [RAG Triad Of Metrics]
   * [ROUGE]
   * [BLEU]
-  * [RAGAs]
-  * [Automated RAG Evaluation System (ARES)][ARES]
+  * [RAG Assessment (RAGA)]
+  * [Automated RAG Evaluation System (ARES)]
 
- Large Language Models (LLMs) demonstrate significant capabilities but face challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the models, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval , the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces the metrics and benchmarks for assessing RAG models, along with the most up-to-date evaluation framework.
+ [Large Language Models (LLMs)] demonstrate significant capabilities but face challenges such as hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes. Retrieval-Augmented Generation (RAG) has emerged as a promising solution by incorporating knowledge from external databases. This enhances the accuracy and credibility of the models, particularly for knowledge-intensive tasks, and allows for continuous knowledge updates and integration of domain-specific information. RAG synergistically merges LLMs' intrinsic knowledge with the vast, dynamic repositories of external databases. This comprehensive review paper offers a detailed examination of the progression of RAG paradigms, encompassing the Naive RAG, the Advanced RAG, and the Modular RAG. It meticulously scrutinizes the tripartite foundation of RAG frameworks, which includes the retrieval , the generation and the augmentation techniques. The paper highlights the state-of-the-art technologies embedded in each of these critical components, providing a profound understanding of the advancements in RAG systems. Furthermore, this paper introduces the metrics and benchmarks for assessing RAG models, along with the most up-to-date evaluation framework.
 
  ![](img/r/retrieval_augmented_generation_emergence.png ){: width="100%"}
 
@@ -1296,6 +1323,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  {% pdf "https://arxiv.org/pdf/2312.10997.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2312.10997](https://arxiv.org/abs/2312.10997)
   * code - [https://github.com/Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)
   * articles
@@ -1306,10 +1334,10 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  See also [R], [Modular Reasoning Knowledge and Language System], [Vector Retrieval]
 
 
-## Retrieval-Augmented Generation Triad Of Metrics
 ## RAG Triad Of Metrics
 
  More at:
+
   * [https://learn.deeplearning.ai/building-evaluating-advanced-rag/lesson/3/rag-triad-of-metrics](https://learn.deeplearning.ai/building-evaluating-advanced-rag/lesson/3/rag-triad-of-metrics)
 
  See also [R], ...
@@ -1320,6 +1348,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  These models are designed to retrieve relevant information from a given set of documents or a knowledge base. They typically use techniques like [information retrieval] or [semantic search] techniques to identify the most relevant pieces of information based on a given query. Retrieval-based models excel at finding accurate and specific information but lack the ability to generate creative or novel content.
 
  Retrieval models:
+
   * Neural Network [Embeddings]
   * [Best Match 25]
   * [Term Frequency-Inverse Document Frequency (TF-IDF)][TF-IDF]
@@ -1327,25 +1356,29 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
   * Hybrid search = a combination of the above methodologies with different weightings.
 
  More at:
+
   * [https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79](https://colabdoge.medium.com/what-is-rag-retrieval-augmented-generation-b0afc5dd5e79)
 
  See also [R], ...
 
 
-## Retrieval-Interleaved Generation
-## RIG
+## Retrieval-Interleaved Generation (RIG) System
 
  Retrieval-Interleaved Generation (RIG) is a technique that combines retrieval and generation to enhance the quality and factuality of AI model outputs. Here's how it works:
+
   * During generation, the model periodically pauses to retrieve relevant information from a knowledge base
   * The retrieved information is then integrated into the ongoing generation process, helping guide and inform the output
 
  The key benefits are:
+
   * Improved factual accuracy since the model can reference external knowledge
   * Better grounding of responses in verified information
   * Reduced hallucination as the model isn't purely relying on its learned parameters
 
  A simple example:
+
  If asked about Barack Obama's presidency, a RIG system might:
+
   * Start generating about Obama
   * Pause to retrieve specific dates and events from a knowledge base
   * Continue generating while incorporating the retrieved facts
@@ -1358,6 +1391,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
  {% youtube "https://www.youtube.com/watch?v=XclqphX9VAM" %}
 
  More at:
+
   * articles
     * [https://medium.com/@sahin.samia/retrieval-interleaved-generation-rig-using-llm-what-is-it-and-how-it-works-aa8be0e27bbc](https://medium.com/@sahin.samia/retrieval-interleaved-generation-rig-using-llm-what-is-it-and-how-it-works-aa8be0e27bbc)
     * RIG vs RAG - [https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/](https://research.google/blog/grounding-ai-in-reality-with-a-little-help-from-data-commons/)
@@ -1367,17 +1401,14 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
 ## Retriever
 
- More at:
-  * ...
-
- See also [R], ...
+ See [Information Retriever]
 
 
 ## Reward
 
  :warning: The delta of the reward can reward negative behavior!
 
- In [Reinforcement Learning (RL)][RL], a reward is a form of feedback from a real or simulated [environment], a program, or a human.
+ In [Reinforcement Learning (RL)], a reward is a form of feedback from a real or simulated [environment], a program, or a human.
 
  The reward is the score given as feedback to the agent when it takes an action in a given state. A reward can be positive or negative. In training the AWS DeepRacer model, the reward is returned by a [reward function]. In general, you define or supply a reward function to specify what is desirable or undesirable action for the [RL agent] to take in a given [state]. There is an immediate reward associated with any [action]. In Contrast to Reward, which implies a short-term gain, [Q-Value] refers to the long-term return with discount.
 
@@ -1414,8 +1445,6 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  An agent receives something from this in order to learn the appropriate actions to take. With all these parameters at your disposal, you can define a reward function to incentivize whatever driving behavior you like. Let's see a few examples of reward functions and how they use the parameters to determine a reward.
 
-
-
  Example of reward function for a self-driving car in [AWS DeepRacer].
 
 ```python
@@ -1449,15 +1478,13 @@ def reward_function(params):
  {% youtube "https://www.youtube.com/watch?v=u647osOlrHQ" %}
 
  More at:
+
   * deepracer reward functions - [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-examples.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-reward-function-examples.html)
 
  See also [R], ...
 
 
 ## Reward Hacking
-
- More at:
-  * ...
 
  See also [R], ...
 
@@ -1488,6 +1515,7 @@ def reward_function(params):
  {% pdf "https://arxiv.org/pdf/1803.03453.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1803.03453(https://arxiv.org/abs/1803.03453)
 
  See also [R], ...
@@ -1516,6 +1544,7 @@ def reward_function(params):
  {% youtube "https://www.youtube.com/watch?v=Xm2C_gTAl8c" %}
 
  More at:
+
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
 
  See also [R], ...
@@ -1530,9 +1559,10 @@ def reward_function(params):
 
 ## Riffusion Model
 
- A stable diffusion model trained on [spectrograms][Spectrogram] and which can therefore generate music.
+ A stable diffusion model trained on [spectrograms] and which can therefore generate music.
 
  More at:
+
   * [https://www.riffusion.com/](https://www.riffusion.com/)
   * [https://www.riffusion.com/about](https://www.riffusion.com/about)
 
@@ -1544,6 +1574,7 @@ def reward_function(params):
  A [text-to-speech model] developer by [Nvidia].
 
  More at:
+
   * site - [https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation](https://resources.nvidia.com/en-us-riva-tts-briefcase/speech-synthesis-documentation)
 
  See also [R], ...
@@ -1551,31 +1582,32 @@ def reward_function(params):
 
 ## Robot
 
- Examples of [social robots][social robot]
-  * [Ameca][Ameca Robot] by [Engineered Arts].
-  * [Sophia][Sophia Robot] by [Hanson Robotics]
-  * [Pepper][Pepper Robot] by [Softbank Robotics]
+ Examples of [social robots]
+
+  * [Ameca] by [Engineered Arts].
+  * [Sophia] by [Hanson Robotics]
+  * [Pepper] by [Softbank Robotics]
 
  Other 
-  * [Atlas][Atlas Robot] by [Boston Dynamics]
+  * [Atlas] by [Boston Dynamics]
 
  {% youtube "https://www.youtube.com/watch?v=Oqq5tgday_w" %}
 
  {% youtube "https://www.youtube.com/watch?v=DeDNyIFZFr4" %}
 
  More at:
+
   * stuntronic robot [https://www.youtube.com/watch?v=oyXl3IhonRM](https://www.youtube.com/watch?v=oyXl3IhonRM)
 
  See also [R], ...
 
 
-## Robotic Foundation Model
-## RFM-1 Model
-## RFM Model
+## Robotic Foundation Model (RFM) Family
 
  In 2024/03/11, [Covariant AI] launched RFM-1, a foundation model designed to bring AI’s learning capabilities directly into the physical realm of robotics. This isn't just about programming a robot to do a job; it's about teaching a robot how to learn to do any job.
 
  RFM is basically an LLM for robot language. It’s trained on internet data as well as massive datasets of robot camera feeds, sensor data, and language.
+
   * RFM-1’s advanced AI algorithms enable robots to understand, interact with, and learn the physics of their environment by themselves. 
   * For example, users can tell a robot running RFM-1 to “pick up an apple”. After identifying the apple by relying on learned characteristics (like shape and color), RFM-1 simulates the best action through video predictions based on its training. 
   * This process is like the human method of planning actions mentally before executing them.
@@ -1585,6 +1617,7 @@ def reward_function(params):
  RFM-1 hints at a future where machines can learn, adapt, and evolve without needing a programmer. This opens up a new world of possibilities: from manufacturing lines that adjust in real-time to customer demands, to service robots in healthcare that improve their assistance strategies as they interact with people.
 
  More at:
+
   * announcement - [https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/](https://covariant.ai/insights/introducing-rfm-1-giving-robots-human-like-reasoning-capabilities/)
 
  See also [R], ...
@@ -1595,28 +1628,30 @@ def reward_function(params):
  DEPRECATED by PyBullet
 
  More at : 
+
   * [https://openai.com/blog/roboschool/](https://openai.com/blog/roboschool/)
   * code - [https://github.com/openai/roboschool/tree/master/agent_zoo](https://github.com/openai/roboschool/tree/master/agent_zoo)
 
  See also [R], [PyBullet], [Isaac Gym]
 
 
-## Robustly Optimized BERT Approach Model
-## RoBERTa Model
+## Robustly Optimized BERT Approach (RoBERTa) Model
 
  An update on the [BERT model] optimized by [Meta]. The RoBERTa model also uses the [transformer architecture]
 
- A robustly optimized method for pretraining [natural language processing (NLP)][NLP] systems that improves on [Bidirectional Encoder Representations from Transformers, or BERT], the self-supervised method released by [Google] in 2018. BERT is a revolutionary technique that achieved state-of-the-art results on a range of NLP tasks while relying on unannotated text drawn from the web, as opposed to a language [corpus] that’s been labeled specifically for a given task. The technique has since become popular both as an NLP research baseline and as a final task architecture. BERT also highlights the collaborative nature of AI research — thanks to Google’s open release, we were able to conduct a replication study of BERT, revealing opportunities to improve its performance. Our optimized method, RoBERTa, produces state-of-the-art results on the widely used NLP benchmark, [General Language Understanding Evaluation (GLUE)][GLUE Benchmark].
+ A robustly optimized method for pretraining [natural language processing (NLP)] systems that improves on [Bidirectional Encoder Representations from Transformers, or BERT], the self-supervised method released by [Google] in 2018. BERT is a revolutionary technique that achieved state-of-the-art results on a range of NLP tasks while relying on unannotated text drawn from the web, as opposed to a language [corpus] that’s been labeled specifically for a given task. The technique has since become popular both as an NLP research baseline and as a final task architecture. BERT also highlights the collaborative nature of AI research — thanks to Google’s open release, we were able to conduct a replication study of BERT, revealing opportunities to improve its performance. Our optimized method, RoBERTa, produces state-of-the-art results on the widely used NLP benchmark, [General Language Understanding Evaluation (GLUE)].
 
  Pretraining objectives:
-  * [Masked Language Model (MLM)][MLM]
-  * but not [Next Sentence Prediction (NSP)][NSP] as the original [BERT model] was
+
+  * [Masked Language Model (MLM)]
+  * but not [Next Sentence Prediction (NSP)] as the original [BERT model] was
 
  {% youtube "https://www.youtube.com/watch?v=-MCYbmU9kfg" %}
 
  {% pdf "https://arxiv.org/pdf/1907.11692.pdf" %}
 
  More at:
+
   * [https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/](https://ai.facebook.com/blog/roberta-an-optimized-method-for-pretraining-self-supervised-nlp-systems/)
   * paper - [https://arxiv.org/abs/1907.11692](https://arxiv.org/abs/1907.11692)
   * RoBERTa with hugginface - [https://anubhav20057.medium.com/step-by-step-guide-abstractive-text-summarization-using-roberta-e93978234a90](https://anubhav20057.medium.com/step-by-step-guide-abstractive-text-summarization-using-roberta-e93978234a90)
@@ -1634,13 +1669,13 @@ def reward_function(params):
  ![](img/r/robustness_adversarial.png ){: width="100%"}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/AI_safety#Robustness](https://en.wikipedia.org/wiki/AI_safety#Robustness)
 
  See also [R], ...
 
 
-## Rocket League Gym
-## RL Gym
+## Rocket League (RL) Gym
 
  More at:
   * [https://rlgym.org/](https://rlgym.org/)
@@ -1648,32 +1683,32 @@ def reward_function(params):
  See also [R], [OpenAI Gym], 
 
 
-## Root Mean Square Error
-## RMSE
+## Root Mean Square Error (RMSE)
 
-```
+```python
 def rmse(predictions, targets):
     return np.sqrt(((predictions - targets) ** 2).mean())
 ```
 
  More at:
+
   * code - [https://www.kaggle.com/code/dmitryuarov/ps-s3e1-coordinates-key-to-victory](https://www.kaggle.com/code/dmitryuarov/ps-s3e1-coordinates-key-to-victory)
 
  See also [R], [Prediction Error]
 
 
-## Root Mean Square Propagation Algorithm
-## RMSprop Algorithm
+## Root Mean Square Propagation (RMSprop) Algorithm
 
  An [optimization algorithm] used by [optimizer] to compute parameters to minimize the loss function.
 
  RMSprop (Root Mean Square Propagation) is an optimization algorithm used in machine learning to update the weights of a neural network during training. It is similar to the adaptive learning rate methods, such as [AdaGrad] and [Adam], in that it adjusts the learning rate for each weight based on the estimated variance of the gradients.
 
- It is an unpublished algorithm first proposed in the Coursera course. "Neural Network for Machine Learning" lecture six by Geoff Hinton. RMSProp lies in the realm of [adaptive learning] rate methods, which have been growing in popularity in recent years because it is the extension of [Stochastic Gradient Descent (SGD)][SGD] algorithm, momentum method, and the foundation of [Adam algorithm]. One of the applications of RMSProp is the stochastic technology for [mini-batch gradient descent].
+ It is an unpublished algorithm first proposed in the Coursera course. "Neural Network for Machine Learning" lecture six by Geoff Hinton. RMSProp lies in the realm of adaptive learning rate methods, which have been growing in popularity in recent years because it is the extension of [Stochastic Gradient Descent (SGD)] algorithm, momentum method, and the foundation of [Adam algorithm]. One of the applications of RMSProp is the stochastic technology for [mini-batch gradient descent].
 
  {% youtube "https://www.youtube.com/watch?v=_e-LFe_igno" %}
 
  More at:
+
   * [https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a](https://towardsdatascience.com/understanding-rmsprop-faster-neural-network-learning-62e116fcf29a)
   * [https://optimization.cbe.cornell.edu/index.php?title=RMSProp](https://optimization.cbe.cornell.edu/index.php?title=RMSProp)
   * from scratch - [https://machinelearningmastery.com/gradient-descent-with-rmsprop-from-scratch/](https://machinelearningmastery.com/gradient-descent-with-rmsprop-from-scratch/)
@@ -1681,14 +1716,13 @@ def rmse(predictions, targets):
  See also [R], [Resilient Backpropagation Algorithm]
 
 
-## RoseTTAFold Diffusion
-## RF Diffusion
+## RoseTTAFold (RF) Diffusion Model
 
  A diffusion model for protein design
 
  A team led by Baker Lab scientists Joseph Watson, David Juergens, Nate Bennett, Brian Trippe, and Jason Yim has created a powerful new way to design proteins by combining structure prediction networks and generative diffusion models. The team demonstrated extremely high computational success and tested hundreds of A.I.-generated proteins in the lab, finding that many may be useful as medications, vaccines, or even new nanomaterials.
 
- Similar to the [DALL-E model] and other [Denoising Diffusion Probabilistic Models][DDPM] that are used to generate images, we have developed a guided diffusion model for generating new proteins. With prior design methods, tens of thousands of molecules may have to be tested before finding a single one that performs as intended. Using the new design method, dubbed RF Diffusion, the team had to test as little as one per design challenge.
+ Similar to the [DALL-E model] and other [Denoising Diffusion Probabilistic Models (DDPM)] that are used to generate images, we have developed a guided diffusion model for generating new proteins. With prior design methods, tens of thousands of molecules may have to be tested before finding a single one that performs as intended. Using the new design method, dubbed RF Diffusion, the team had to test as little as one per design challenge.
 
  RF Diffusion outperforms existing protein design methods across a broad range of problems, including topology-constrained protein monomer design, protein binder design, symmetric oligomer design, enzyme active site scaffolding, and symmetric motif scaffolding for therapeutic and metal-binding protein design. Highlights include a picomolar binder generated through pure computation and a series of novel symmetric assemblies experimentally confirmed by electron microscopy.
 
@@ -1697,6 +1731,7 @@ def rmse(predictions, targets):
  {% pdf "https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1.full.pdf" %}
 
  More at:
+
   * blog - [https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/](https://www.bakerlab.org/2022/11/30/diffusion-model-for-protein-design/)
   * paper - [https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1](https://www.biorxiv.org/content/10.1101/2022.12.09.519842v1) 
 
@@ -1744,6 +1779,7 @@ IF patient is allergic to penicillin AND strep throat is suspected THEN use alte
 ```
 
  Now, let's say we have a patient with the following symptoms:
+
 ```
 Fever
 Cough
@@ -1752,6 +1788,7 @@ Allergic to penicillin
 ```
 
  Here's how rule interaction can create complexity:
+
   * Rules 1 and 2 both fire because the patient has fever with both cough and sore throat. The system now has to decide between flu and strep throat, or consider both.
   * Depending on which diagnosis is prioritized, either rule 3 or 4 will fire, leading to different treatment recommendations.
   * If strep throat is considered, rule 5 also becomes relevant due to the penicillin allergy.
@@ -1772,11 +1809,13 @@ Allergic to penicillin
  An AI company focusing on the generative AI for images and videos.
 
  Models:
+
   * 2021 - [Latent Diffusion Model]
   * 2022 - [Stable Diffusion Model]
   * 2023 - [Gen Model]
 
  More at:
+
   * [https://runwayml.com/](https://runwayml.com/)
 
  See also [R], ...

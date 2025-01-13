@@ -8,9 +8,11 @@
  {% youtube "https://www.youtube.com/watch?v=s0f3JeDVeEo" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/I,_Robot_(film)](https://en.wikipedia.org/wiki/I,_Robot_(film))
 
  See also [AI Movie]
+
 
 ## IBM Company
 
@@ -28,6 +30,7 @@
  {% youtube "https://www.youtube.com/watch?v=b2M-SeKey4o" %}
 
  More at:
+
   * site - [https://www.ibm.com/watson](https://www.ibm.com/watson)
   * wikipedia - [https://en.wikipedia.org/wiki/IBM_Watson](https://en.wikipedia.org/wiki/IBM_Watson)
 
@@ -72,6 +75,7 @@ model('https://ultralytics.com/images/bus.jpg')  # predict on an image
  {% youtube "https://www.youtube.com/watch?v=NAs-cfq9BDw" %}
 
  More at:
+
    * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
    * colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
 
@@ -108,7 +112,11 @@ model('https://ultralytics.com/images/bus.jpg')  # predict on an image
 
  ~ in a [Convolutional Neural Network (CNN)][CNN], this is a [feature] detector!
 
- Q: Is an image filter related to a [GPU kernel] ? Yes!
+/// details | Is an image filter related to a [GPU kernel] ?
+    type: question
+
+    Yes!
+///
 
  A small matrix which you can use to multiply to the pixel area of the same size. The filter is applied to or convoluted with the same image for every area possible. As represented below, we can use a 2x2x1 filter, but we recommend a 3x3x1 filter.
 
@@ -116,10 +124,14 @@ model('https://ultralytics.com/images/bus.jpg')  # predict on an image
 
  Where is the pattern of each filter coming from? Just like weights in a neural network, it comes from Backpropagation !
  
- Q:
-  * What are low, medium, and high frequency patterns? That seems to be referring to 'contrast' or difference in values of the pixel in the kernel
+/// details | What are low, medium, and high frequency patterns?
+    type:question
 
- Q:  
+    That seems to be referring to 'contrast' or difference in values of the pixel in the kernel
+///
+
+ Questions
+
   * number of filters?
     * that's a hyperparameter!
     * the output of a convolution of one filter with the input is called a [feature map]
@@ -130,7 +142,7 @@ model('https://ultralytics.com/images/bus.jpg')  # predict on an image
     * 1x1 because it is the most easy way to change the number of features in the [feature map] (!?!?)
     * filters have a height, width, and a number of channels. The number of channels must match the number of channels of the input to be processed. That is why the number of channels of the filter is never specified as an input!!!
 
-```
+```python
 import keras
 
 from keras.layers import Conv2D     # <== 2D is how the filter moves!
@@ -147,6 +159,7 @@ model.summary()
  {% youtube "https://www.youtube.com/watch?v=V9ZYDCnItr0" %}
 
  More at:
+
   * [https://setosa.io/ev/image-kernels/](https://setosa.io/ev/image-kernels/)
   * [https://medium.com/codex/kernels-filters-in-convolutional-neural-network-cnn-lets-talk-about-them-ee4e94f3319](https://medium.com/codex/kernels-filters-in-convolutional-neural-network-cnn-lets-talk-about-them-ee4e94f3319)
 
@@ -158,6 +171,7 @@ model.summary()
  AI image generators leverage advanced machine learning algorithms to transform text descriptions into images. These tools are trained on extensive datasets, allowing them to interpret prompts and create anything from simple illustrations to highly detailed, photorealistic scenes. The technology powering these generators often includes neural networks like [Generative Adversarial Networks (GANs)][GAN] or [Diffusion Models].
 
  More at:
+
   * DALL-E - [https://openai.com/index/dall-e-3/](https://openai.com/index/dall-e-3/) 
   * Flux - [https://aitubo.ai/flux-image-generator/](https://aitubo.ai/flux-image-generator/) 
   * Ideogram - [https://ideogram.ai/](https://ideogram.ai/)
@@ -171,14 +185,14 @@ model.summary()
  See also [I], ...
 
 
-## Image Join Embedding Predictive Architecture
-## I-JEPA
+## Image Joint-Embedding Predictive Architecture (I-JEPA)
 
- A method for [Joint Embedding Predictive Architecture (JEPA)][JEPA] based on image
+ A method for [Joint-Embedding Predictive Architecture (JEPA)] based on image
 
  {% pdf "https://arxiv.org/pdf/2301.08243.pdf" %}
 
  More at:
+
   * [https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/](https://ai.meta.com/blog/yann-lecun-ai-model-i-jepa/)
   * paper - [https://arxiv.org/abs/2301.08243](https://arxiv.org/abs/2301.08243)
 
@@ -238,24 +252,26 @@ model.summary()
  Overall, image segmentation is an essential step in many computer vision applications and is an active area of research in the field.
 
  Algorithms:
+
   * [AlexNet]
   * Faster [R-CNN]
   * Mask [R-CNN]
   * Panoptic FPN
 
  Models:
+
   * [Segment Anything Model]
 
  ![](img/i/image_segmentation_timeline.png ){: width="100%"}
 
  More at:
+
   * colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
 
  See also [I], [Object Detection]
 
 
-## Image-aware Decoder Enhanced a la Flamingo with Interleaved Cross-attentionS Model
-## IDEFICS Model
+## Image-aware Decoder Enhanced a la Flamingo with Interleaved Cross-attentionS (IDEFICS) Model
 
  IDEFICS is based on [Flamingo], a state-of-the-art visual language model initially developed by [DeepMind], which has not been released publicly. Similarly to GPT-4, the model accepts arbitrary sequences of image and text inputs and produces text outputs. IDEFICS is built solely on publicly available data and models ([LLaMA] v1 and OpenCLIP) and comes in two variants—the base version and the instructed version. Each variant is available at the 9 billion and 80 billion parameter sizes.
 
@@ -267,7 +283,7 @@ model.summary()
  See also [I], ...
 
 
-## Imagen Model
+## Imagen Model Family
 
  Imagen, a text-to-image diffusion model with an unprecedented degree of photorealism and a deep level of language understanding. Imagen builds on the power of large transformer language models in understanding text and hinges on the strength of diffusion models in high-fidelity image generation. Our key discovery is that generic large language models (e.g. T5), pretrained on text-only corpora, are surprisingly effective at encoding text for image synthesis: increasing the size of the language model in Imagen boosts both sample fidelity and image-text alignment much more than increasing the size of the image diffusion model.
 
@@ -276,6 +292,7 @@ model.summary()
  {% pdf "img/i/imagen_model_paper.pdf" %}
 
  More at:
+
    * [https://imagen.research.google/](https://imagen.research.google/)
    * [https://www.louisbouchard.ai/google-brain-imagen/](https://www.louisbouchard.ai/google-brain-imagen/)
 
@@ -289,6 +306,7 @@ model.summary()
  {% pdf "img/i/imagen_video_model_paper.pdf" %}
 
  More at:
+
   * [https://imagen.research.google/video/](https://imagen.research.google/video/)
 
  See also [I], ...
@@ -301,6 +319,7 @@ model.summary()
  {% youtube "https://www.youtube.com/watch?v=c_u4AHNjOpk" %}
 
  More at:
+
    * wikiepedia - [https://en.wikipedia.org/wiki/ImageNet](https://en.wikipedia.org/wiki/ImageNet)
    * [https://image-net.org/challenges/LSVRC/index.php](https://image-net.org/challenges/LSVRC/index.php)
    * know-your-data - [https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=imagenet2012](https://knowyourdata-tfds.withgoogle.com/#tab=STATS&dataset=imagenet2012)
@@ -308,26 +327,26 @@ model.summary()
  See also [I], [AlexNet Model], [Fei-Fei Li Person], [Supervised Learning], [Transfer Learning], [WordNet Dataset]
 
 
-## ImageNet Large Scale Visual Recognition Challenge
-## ILSVRC
+## ImageNet Large Scale Visual Recognition (ILSVRC) Challenge
 
  The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions.
 
  {% pdf "img/i/imagenet_large_scale_visual_recognition_challenge_paper.pdf" %}
 
  More at:
+
   * [https://arxiv.org/abs/1409.0575](https://arxiv.org/abs/1409.0575)
 
  See also [I], [AlexNet Model] 
 
-## Imitation Learning
-## IL
+## Imitation Learning (IL)
 
  In imitation learning (IL), an agent is given access to samples of expert behavior (e.g. videos of humans playing online games or cars driving on the road) and it tries to learn a policy that mimics this behavior. This objective is in contrast to reinforcement learning (RL), where the goal is to learn a policy that maximizes a specified reward function. A major advantage of imitation learning is that it does not require careful hand-design of a reward function because it relies solely on expert behavior data, making it easier to scale to real-world tasks where one is able to gather expert behavior (like video games or driving). This approach of enabling the development of AI systems by data-driven learning, rather than specification through code or heuristic rewards, is consistent with the key principles behind Software 2.0.
 
  {% youtube "https://www.youtube.com/watch?v=gzpe60OtC_E" %}
 
  More at:
+
   * [https://ai.stanford.edu/blog/learning-to-imitate/](https://ai.stanford.edu/blog/learning-to-imitate/)
   * [https://www.technologyreview.com/2022/11/25/1063707/ai-minecraft-video-unlock-next-big-thing-openai-imitation-learning/](https://www.technologyreview.com/2022/11/25/1063707/ai-minecraft-video-unlock-next-big-thing-openai-imitation-learning/) (blocked?)
 
@@ -341,6 +360,7 @@ model.summary()
  For example, consider a medical diagnosis scenario where you are trying to predict whether a patient has a rare disease. If only a small percentage of the population has the disease, the dataset may be imbalanced, with the majority of examples belonging to the class of "non-disease" cases. In such cases, a model might achieve high [accuracy] by simply predicting the majority class for every instance, but it would fail to identify the minority class effectively.
 
  Addressing imbalanced data is important because it can affect the performance of [machine learning] models. Various techniques can be employed to handle imbalanced datasets, including:
+
   * Resampling: This involves either oversampling the minority class, undersampling the majority class, or a combination of both to create a more balanced dataset.
   * Synthetic Data Generation: Techniques such as SMOTE (Synthetic Minority Over-sampling Technique) involve generating synthetic examples of the minority class to balance the dataset.
   * Cost-sensitive learning: Assigning different misclassification costs to different classes to make the model more sensitive to errors on the minority class.
@@ -361,6 +381,7 @@ model.summary()
 
  See also [I], ...
 
+
 ## Imputation
 
  A way to deal with missing/incomplete data. Instead of eliminating the data point, insert the average or another value to use the other attributes of the samples.
@@ -378,6 +399,7 @@ model.summary()
 ## IndexGPT Model
 
  More at:
+
   * trademark - [https://tsdr.uspto.gov/documentviewer?caseId=sn9793153](https://tsdr.uspto.gov/documentviewer?caseId=sn9793153)
   * articles
     * [https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)
@@ -392,6 +414,7 @@ model.summary()
  Inductive bias is fundamentally related to the [bias-variance tradeoff] because it influences the learning algorithm's tendency to [underfit] or [overfit] the data. A well-chosen inductive bias will help the model generalize well from the training data to unseen data by finding a good balance between [bias] and [variance].
 
  Examples:
+
   * [Linear regression] - The inductive bias is that the target variable can be expressed as a linear combination of the input features. This is a strong assumption about the nature of the relationship between inputs and outputs.
   * [Decision tree] - The inductive bias is that the data can be segmented into smaller and smaller subsets based on feature values, often assuming that the data has a hierarchical structure.
   * [Artificial neural networks] - These have a more complex inductive bias, often assuming that real-world phenomena can be captured through layers of abstraction and representation.
@@ -406,6 +429,7 @@ model.summary()
  Coming up with `rules to explain the current observation`. Sometimes the truth can be learned ;-)
 
  Type of inductive reasoning:
+
   * Generalized induction: From observation, you infer a general rule.
   * Statistical induction: Based on the frequency of an occurrence in sampled instances, you infer the probability of that occurrence in general. For example, if 9 out of 10 sampled apples are red, you might infer a high probability that the next apple you see will be red.
   * Causal inference: Observing a consistent association between two events and inferring a causal relationship. For example, noticing that the ground is wet every time it rains and inferring that rain causes the ground to become wet.
@@ -414,8 +438,7 @@ model.summary()
  See also [I], [Abductive Reasoning], [Deductive Reasoning], [Truth]
 
 
-## Inertial Measurement Unit
-## IMU
+## Inertial Measurement Unit (IMU)
 
  See also [I], [SLAM Algorithm]
 
@@ -449,6 +472,7 @@ model.summary()
  A start-up [company] that is launching Pi, a chatbot as a personal assistant. The Pi name comes from "Personal Intelligence".
 
  More at:
+
   * home - [https://inflection.ai/](https://inflection.ai/)
   * hey pi - [https://heypi.com/talk](https://heypi.com/talk)
   * articles
@@ -463,6 +487,7 @@ model.summary()
  Informal Reasoning is a less structured approach to [reasoning] that relies on intuition, experience, and common sense. It is used in everyday life situations where strict formal rules may not apply. Informal reasoning allows for more flexibility and open-ended thinking. It often involves making decisions or drawing conclusions based on personal experiences, heuristics, and contextual factors. Informal reasoning is more adaptable but may also be less reliable compared to formal reasoning.
 
  More at:
+
   * LLM reasoning ability - [https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability](https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability)
 
  See also [I], ...
@@ -477,12 +502,12 @@ Data < Information < Knowledge < Use knowledge < Mastery
  See also [I], [Data], [Knowledge]
 
 
-## Information Retrieval
-## IR
+## Information Retrieval (IR)
 
  Information Retrieval (IR) is the process of obtaining relevant information or documents from a large collection of data in response to a user's query or information need. The goal of information retrieval is to effectively locate and present information that is most relevant to the user's request, enabling users to find the information they are looking for efficiently and accurately.
 
  The main components of an information retrieval system include:
+
   * User Query: The user provides a query, which is a set of keywords, phrases, or questions that describe their information need. This query is used to search for relevant documents.
   * Document Collection: This is the set of documents or data that the information retrieval system searches through. Documents can be text, images, audio, video, or any other type of data.
   * Indexing: To speed up the retrieval process, an index is created from the document collection. The index contains information about the terms (words or phrases) present in the documents and their locations.
@@ -498,9 +523,6 @@ Data < Information < Knowledge < Use knowledge < Mastery
   * Question Answering Systems: IR is used to find relevant answers to user questions, either by searching for relevant documents or by generating answers directly.
 
  Information retrieval is an essential component of modern technology, enabling users to access and make sense of the vast amount of information available in digital form.
-
- More at:
-  * ...
 
  See also [I], ...
 
@@ -542,9 +564,10 @@ Data < Information < Knowledge < Use knowledge < Mastery
 
  Along with pixel level classification, we expect the computer to classify each instance of class separately. It is called instance segmentation.That is different instances of the same class are segmented individually in instance segmentation. Once an instance is given a name, it becomes an entity!
 
-  ![](img/i/semantic_and_instance_segmentation.png ){: width="100%"}
+  ![](img/i/instance_and_semantic_segmentation.png ){: width="100%"}
 
  More at:
+
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
  See also [I], [Convoluted Neural Network], [Entity Extraction], [Semantic Segmentation], [U-Net Architecture]
@@ -557,6 +580,7 @@ Data < Information < Knowledge < Use knowledge < Mastery
  {% pdf "https://arxiv.org/pdf/2203.02155.pdf" %}
 
  The InstructGPT is build in three steps.
+
   1. The first step fine-tunes pretrained GPT-3 using 13k dataset. This dataset is from two sources:
     1. The team hired human labelers, who were asked to write and answer prompts — think NLP tasks. For example the human labeler was tasked to create an instruction and then multiple query & response pairs for it.
     1. The prompts by the end users in the Open.ai API, Playground. These prompts included various NLP tasks — text generation, Q&A, summarization etc.
@@ -572,6 +596,7 @@ Data < Information < Knowledge < Use knowledge < Mastery
  There is a difference between the way the GPT-3 and the InstructGPT generate outputs. GPT-3 was designed to predict next token. This is important to keep in mind. Despite GPT-3 is able to predict the next word — the output could be unhelpful. Think for example toxic speech in end-user application. The misalignment refers in NLP — to the issue of outputs not matching user’s intent. `The InstructGPT is fine-tuned to human preference using reinforcement learning`. This means, that rather than just predicting next token, it tries instead to respond with an output — preferred by human labeler. The InstructGPT model is optimized differently from the GPT-3. It rewards human preference. Therefore it is better able to solve user tasks.
 
  More at:
+
   * paper - [https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)
   * announcement - [https://openai.com/research/instruction-following](https://openai.com/research/instruction-following)
   * model card - [https://github.com/openai/following-instructions-human-feedback](https://github.com/openai/following-instructions-human-feedback)
@@ -582,13 +607,9 @@ Data < Information < Knowledge < Use knowledge < Mastery
  See also [I], [ChatGPT Model], [Digital Watermark], [GPT Model], [Reinforcement Learning], [Reinforcement Learning Human Feedback], [Reward Model]
 
 
-## Instruction Tuned Model
-## IT Model
+## Instruction Tuned (IT) Model
 
  These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.
-
- More at:
-  * ...
 
  See also [I], [Pretrained Model]
 
@@ -614,6 +635,7 @@ Data < Information < Knowledge < Use knowledge < Mastery
  (Prompt) What is intelligence?
 
  [ChatGPT Answer] :
+
   * Intelligence refers to the ability to learn, understand, and make judgments or have opinions that are reasonable.
   * It can also refer to the ability to acquire and apply knowledge and skills.
   * It is a complex trait that is influenced by both genetic and environmental factors.
@@ -640,17 +662,18 @@ Data < Information < Knowledge < Use knowledge < Mastery
  While all intelligent agents are autonomous, not all autonomous agents are intelligent. Some operate based on pre-defined, rigid rules without learning or adapting. Similarly, not all intelligent agents are rational – an agent may learn and adapt but still not make the most optimal decisions due to imperfect information or computational constraints. Rational agents strive to make the best decisions within the limits of their knowledge and capabilities.
 
  More at:
+
   * [https://www.turingpost.com/p/agentsvocabulary](https://www.turingpost.com/p/agentsvocabulary)
 
  See also [I], ...
 
 
-## Intelligent Digital Assistant
-## IDA
+## Intelligent Digital Assistant (IDA)
 
  {% pdf "https://5691986.fs1.hubspotusercontent-na1.net/hubfs/5691986/Cornerstone%20Report/CORNERSTONE%20-%20KASISTO%20Chatbot%20Journey.pdf" %}
 
  More at:
+
   * source - [https://pages.kasisto.com/cornerstone-report?submissionGuid=8401e085-4f2d-46ed-8bf4-cb9c5afe4046](https://pages.kasisto.com/cornerstone-report?submissionGuid=8401e085-4f2d-46ed-8bf4-cb9c5afe4046)
 
  See also [I], ...
@@ -666,29 +689,30 @@ Data < Information < Knowledge < Use knowledge < Mastery
  Used for the completion of an agent's task in an environment , such as [Open-World]
 
  Decision
+
   * [DEPS]
 
  See also [I], ...
 
 
-## International Conference on Learning Representations Conference
-## ICLR Conference
+## International Conference on Learning Representations (ICLR) Conference
 
  The International Conference on Learning Representations (ICLR) is a machine learning conference typically held in late April or early May each year. The conference includes invited talks as well as oral and poster presentations of refereed papers. Since its inception in 2013, ICLR has employed an open peer review process to referee paper submissions (based on models proposed by [Yann LeCun][Yann LeCun Person]). In 2019, there were 1591 paper submissions, of which 500 accepted with poster presentations (31%) and 24 with oral presentations (1.5%). In 2021, there were 2997 paper submissions, of which 860 were accepted (29%).
 
  More at:
+
   * [https://iclr.cc/](https://iclr.cc/)
   * [https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations](https://en.wikipedia.org/wiki/International_Conference_on_Learning_Representations)
 
  See also [I], ...
 
 
-## International Conference on Machine Learning Conference
-## ICML Conference
+## International Conference on Machine Learning (ICML) Conference
 
  The International Conference on Machine Learning (ICML) is the leading international academic [conference][AI Conference] in [machine learning]. Along with [NeurIPS][NeurIPS Conference] and [ICLR][ICLR Conference], it is one of the three primary conferences of high impact in machine learning and artificial intelligence research.
 
  More at:
+
   * Home - [https://icml.cc/](https://icml.cc/)
   * [https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning](https://en.wikipedia.org/wiki/International_Conference_on_Machine_Learning)
 
@@ -700,13 +724,13 @@ Data < Information < Knowledge < Use knowledge < Mastery
  Developed by [Microsoft] as an open source project, InterpretML is “a toolkit to help understand models and enable responsible machine learning”. 
 
  More at:
+
   * [https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145](https://towardsdatascience.com/9-awesome-python-packages-for-machine-learning-that-should-deserve-more-credit-dbad17263145)
 
  See also [I], ...
 
 
-## Inverse Document Frequency
-## IDF
+## Inverse Document Frequency (IDF)
 
  IDF measures how important a term is. While computing TF, all terms are considered equally important. However it is known that certain terms, such as "is", "of", and "that", may appear a lot of times but have little importance. Thus we need to weigh down the frequent terms while scale up the rare ones, by computing the following:
 
@@ -717,8 +741,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  See also [I], [TF-IDF]
 
 
-## Inverse Dynamics Model
-## IDM
+## Inverse Dynamics Model (IDM)
 
  OpenAI gathered 2,000 hours of video labeled with mouse and keyboard actions and trained an inverse dynamics model (IDM) to predict actions given past and future frames – this is the PreTraining part.
  
@@ -730,24 +753,19 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  See also [I], [Imitation Learning], [IQ-Learn Model]
 
 
-## Inverse Reinforcement Learning
-## Inverse RL
-## IRL
+## Inverse RL (IRL)
 
  Learn reward function from expert demonstrations. Allows mimicking behavior without rewards.
-
- More at:
-  * ...
 
  See also [I], [Behavioural Cloning], [Imitation Learning], [IQ-Learn Model], [Reinforcement Learning], [Reward Function]
 
 
-## Inverted File Index
-## IVD
+## Inverted File Index (IVD)
 
  ~ Used in [similarity search]
 
  More at;
+
   * [https://medium.com/towards-data-science/similarity-search-knn-inverted-file-index-7cab80cc0e79](https://medium.com/towards-data-science/similarity-search-knn-inverted-file-index-7cab80cc0e79)
 
  See also [I], ...
@@ -758,6 +776,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  {% pdf "img/i/iqlearn_model_paper.pdf" %}
 
  More at:
+
   * blog - [https://ai.stanford.edu/blog/learning-to-imitate/](https://ai.stanford.edu/blog/learning-to-imitate/)
   * site - [https://div99.github.io/IQ-Learn/](https://div99.github.io/IQ-Learn/)
   * code - [https://github.com/Div99/IQ-Learn](https://github.com/Div99/IQ-Learn)
@@ -770,6 +789,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  In [reinforcement learning], a physics-based [environment] built by [Nvidia]
 
  More at :
+
   * [https://developer.nvidia.com/isaac-gym](https://developer.nvidia.com/isaac-gym)
 
  See also [I], ...
@@ -786,16 +806,17 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  It prepares companies for additional regulations that will be introduced in the next years, including the [EU AI Act] published in 2024.
 
  More at:
+
   * [https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html](https://kpmg.com/ch/en/insights/artificial-intelligence/iso-iec-42001.html)
 
  See also [I], [Model Governance]
 
  
-## Isolation Forest
+## Isolation Forest (IF)
 
- The Isolation Forest works a bit differently than a Random Forest. It also creates a bunch of decision trees, but then it calculates the path length necessary to isolate an observation in the tree. The idea being that isolated observations, or anomalies, are easier to isolate because there are fewer conditions necessary to distinguish them from the normal cases. Thus, the anomalies will have shorter paths than normal observations and reside closer to the root of the tree.
+ The Isolation Forest works a bit differently than a [Random Forest]. It also creates a bunch of decision trees, but then it calculates the path length necessary to isolate an observation in the tree. The idea being that isolated observations, or anomalies, are easier to isolate because there are fewer conditions necessary to distinguish them from the normal cases. Thus, the anomalies will have shorter paths than normal observations and reside closer to the root of the tree.
 
- See also [I], [Ensemble Method]
+ See also [I], [Ensemble Method], [Local Outlier Factor]
 
 
 ## Isomorphic Labs Company
@@ -803,6 +824,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  Spin off from [Deepmind] also founded by [Demis Hassabis] to continue working on [AlphaFold] extensions
 
  More at:
+
   * [https://www.isomorphiclabs.com/](https://www.isomorphiclabs.com/)
   * articles
     * [https://endpts.com/isomorphic-labs-ceo-demis-hassabis-bets-on-biotechs-ai-future/](https://endpts.com/isomorphic-labs-ceo-demis-hassabis-bets-on-biotechs-ai-future/)
@@ -822,6 +844,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  Each time a batch is processed is called an iteration. Note that the processing of the entire dataset, called an epoch, may require several iterations. This is particularly the case in the case of a large / very-large dataset.
 
  In DeepRacer, an iteration refers to one full pass through the training data to update the [reinforcement learning] (policy) model. Each iteration consists of multiple [episodes] (1 episode = car crash or complite an entire track) :
+
   * One iteration involves running a specified number of [episodes] on the track.
   * For example, 10 episodes per iteration.
   * During each episode, the agent races around the track, gathering experience about taking actions in different states.
@@ -837,14 +860,17 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
  The concepts of iteration and epoch are sometimes used interchangeably, but they have some subtle differences in the context of reinforcement learning:
 
  Iteration:
+
   * In reinforcement learning, one iteration typically refers to running through a batch of experience data and updating the model once.
   * For example, Running 10 episodes to generate new experience data, then using that to improve the policy once.
 
  Epoch:
+
   * Epoch usually refers to the number of complete passes through the full dataset to train the model.
   * For example, setting epoch=5 would mean passing through ALL available experience data 5 times, updating the model each time.
 
  So the key differences are:
+
   * Iteration - Single update based on a batch of new experience (episodes).
   * Epoch - Full pass through all past experience with multiple updates.
   * Iterations happen sequentially, gathering new data over time.
@@ -862,6 +888,7 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
   * Epochs: 5
 
  This means:
+
   * During each iteration, the agent will run 10 episode races to generate experience data.
   * There will be 100 iterations, so 100 batches of 10 episodes.
   * 1000 total episodes (10 * 100).
@@ -870,12 +897,14 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
   * For each epoch, the agent will replay through ALL past 1000 episodes to further train the model.
 
  So:
+
   * Iterations = New data gathered over time, single update per batch.
   * Epochs = Multiple passes over full past data for further training.
 
  This example highlights how iterations drive sequential learning, while epochs refine training on existing experience. The terms have distinct meanings in reinforcement learning.
 
  There are a few key reasons why having both the notion of iterations and epochs can be useful in reinforcement learning:
+
   * Iterations allow for sequential learning - New data is gathered over time through agent-environment interaction, and the policy is updated incrementally. This is crucial for online RL.
   * Epochs complement this by allowing offline refinement on past experience. The policy can be smoothed and regularized by replaying old episodes.
   * In the early stages of training, iterations quickly evolve the policy using fresh data. Epochs are less critical.

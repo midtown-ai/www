@@ -13,4 +13,4 @@
 
 ## XGBoost
 
- See [Extreme Gradient Boosting]
+ See [Extreme Gradient Boosting (XGBoost)]

@@ -35,6 +35,7 @@
  ~ a digital human developed by [Soul Machines]
 
  Baby-X is based on and informed by significant research in key fields that have been integrated into a cohesive research and development effort. These include:
+
   * Advanced CGI
   * Biologically Inspired Cognitive Architectures
   * Neuroscience
@@ -48,6 +49,7 @@
  ![](img/b/baby_x_digital_brain.webp ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=PHQhCiVLRpE" %}
+
  {% youtube "https://www.youtube.com/watch?v=yzFW4-dvFDA" %}
 
  More at:
@@ -61,7 +63,7 @@
 
  A task-driven autonomous agent
 
- In this research, we propose a novel task-driven autonomous agent that leverages OpenAI’s GPT-4 language model, [Pinecone vector search][Pinecone Database], and the [LangChain framework][LangChain Module] to perform a wide range of tasks across diverse domains. Our system is capable of completing tasks, generating new tasks based on completed results, and prioritizing tasks in real-time. We discuss potential future improvements, including the integration of a security/safety agent, expanding functionality, generating interim milestones, and incorporating real-time priority updates. The significance of this research lies in demonstrating the potential of AI-powered language models to autonomously perform tasks within various constraints and contexts.
+ In this research, we propose a novel task-driven autonomous agent that leverages OpenAI’s GPT-4 language model, [Pinecone vector search], and [LangChain] to perform a wide range of tasks across diverse domains. Our system is capable of completing tasks, generating new tasks based on completed results, and prioritizing tasks in real-time. We discuss potential future improvements, including the integration of a security/safety agent, expanding functionality, generating interim milestones, and incorporating real-time priority updates. The significance of this research lies in demonstrating the potential of AI-powered language models to autonomously perform tasks within various constraints and contexts.
 
  ![](img/b/babyagi_model.png ){: width="100%"}
 
@@ -89,6 +91,7 @@
  {% youtube "https://www.youtube.com/watch?v=tIeHLnjs5U8" %}
 
  Backpropagation can find the
+
   1. weights + biases (?)
   1. [image kernel] filters in a [CNN]
  Beware:
@@ -119,8 +122,7 @@
  See also [B], ...
 
 
-## Bag Of Words
-## BoW
+## Bag Of Words (BOW)
 
  The basic idea of BoW is to take a piece of text and count the frequency of the words in that text. It is important to note that the BoW concept treats each word individually and the order in which the words occur does not matter.
 
@@ -183,7 +185,9 @@
 
  A batch represents all the samples in a dataset. When the training dataset is large, it needs to be broken into chunks called [mini-batches].
 
+```
  ![](img/b/epoch_batch_iteration.png ){: width="100%"}
+```
 
  See also [B], [Batch Size], [Epoch], [Iteration]
 
@@ -378,11 +382,11 @@ P(A|B) = ----------------
 
 ## Bayesian Network
 
- Bayesian networks are graphical models that use Bayesian inference to represent variables and their conditional dependencies. The goal of Bayesian networks is to model likely causation (conditional dependence), by representing these conditional dependencies as connections between nodes in a directed acyclic graph (DAG). The graph’s nodes are just the model’s variables, whether observable quantities, latent variables, unknown parameters or subjective hypotheses. Once graphed, researchers can then fairly simply calculate the probability tables for each node and find the joint probability effect of even independent, random variables on the model’s final outcome.
+ Bayesian networks are graphical models that use [Bayesian inference] to represent variables and their conditional dependencies. The goal of Bayesian networks is to model likely causation (conditional dependence), by representing these conditional dependencies as connections between nodes in a directed acyclic graph (DAG). The graph’s nodes are just the model’s variables, whether observable quantities, latent variables, unknown parameters or subjective hypotheses. Once graphed, researchers can then fairly simply calculate the probability tables for each node and find the joint probability effect of even independent, random variables on the model’s final outcome.
 
  ![](img/b/bayesian_network.png ){: width="100%"}
 
- See also [B], [Bayesian Inference]
+ See also [B], ...
 
  
 ## Bayesian Optimization Sampling Method
@@ -390,6 +394,7 @@ P(A|B) = ----------------
  Use ML to optimize your model. Given N samples, what would be the best next step to for my sample (given that I am looking for a local maxima) . This optimization method is an INFORMED method where the search DOES use previous results to pick the next input values to try.  `The concept is to limit evals of the objective function * which is time consuming/expensive * by spending more time choosing the next values to try.` (Think dichotomy, + awareness of correlation between parameters, etc? ==> `from which next sample will I learn the most?`)
 
  Beware:
+
   * To use when
    * getting a sample is expensive ==> smart sampling required!
    * observations are noisy (?)
@@ -397,6 +402,7 @@ P(A|B) = ----------------
   * you are looking for a minima and do not care about the distribution (?)
 
  More
+
   * [https://scikit-optimize.github.io/notebooks/hyperparameter-optimization.html](https://scikit-optimize.github.io/notebooks/hyperparameter-optimization.html)
   * [https://towardsdatascience.com/an-introductory-example-of-bayesian-optimization-in-python-with-hyperopt-aae40fff4ff0](https://towardsdatascience.com/an-introductory-example-of-bayesian-optimization-in-python-with-hyperopt-aae40fff4ff0)
 
@@ -481,8 +487,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 ```
 
 
-## Belief-Desire-Intention Framework
-## BDI Framework
+## Belief-Desire-Intention (BDI) Framework
 
  The belief-desire-intention (BDI) framework for intelligent agents is the foundation for [Procedural Reasoning System] or PRS. A person's beliefs are what they hold to be true about how the world is right now, while their desires and intentions are what they are doing to work toward those goals. In addition, unlike purely reactive systems like the subsumption architecture, each of these three components is within the PRS agent.
 
@@ -506,10 +511,12 @@ Your belief has shifted towards more red marbles based on the observed data. The
  ![](img/b/bellman_equation_target_qvalue.png ){: width=100%}
 
  Notice that we first must compute the " max Q * (s',a') " with s' and a' are the state and action that occur in the following [timestep]. This value is found 
+
    * in the Q-table when using one
    * or by passing s' to the DQN and taking the maximum of its output, i.e q(s',a_?). <== <!> That's 2 forward passes(one for s or s_t and one for s' or s_t+1) before an type of gradient update
 
  The loss function used for DQN training is calculated 
+
   * by subtracting the Q-Value for a given state-action pair given by the policy network (DQN) FROM the optimal Q-value for the same state-action pair. 
   * or by subtracting the Q value given by the policy network for the state action pair from our original experience tuple FROM the target optimal key value for the same state action pair 
 
@@ -530,36 +537,42 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * [General AI Assitant (GAIA)][GAIA]
 
  NLP Benchmarks:
-  * [Beyond The Imitation Game (BIG Bench)][BIG Bench]
-  * Coref :  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
-  * [GLUE Benchmark] :
-  * [Named Entity Recognition (NER)][NER] - identify places, people, dates, etc
+
+  * [Beyond The Imitation Game (BIG Bench)]
+  * Coref -  Links pronouns to antecedents. Also capable to take the perspective of a speak, e.g. I, you, my sister, etc refers to different people function of who said it.
+  * [GLUE] -
+  * [Named Entity Recognition (NER)] - identify places, people, dates, etc
   * Language Parser : Identify which group of words go together (as phrase) and which words are the subject or object of a verb.
-  * [Multi-Turn Question Set (MT-Bench)][MT-Bench] - Rate conversational AI using human preference modeled by a [LLM-as-a-judge]
-  * SNLI : relation between 2 statements (contradict, neutral, or entailment)
-  * [SQuAD Benchmark] : Question and answering
-  * [SuperGLUE Benchmark] :
-  * SRL : Semantic understanding (machine translation, information extraction, text summarization, question answering)
-  * SST-5 : Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
+  * [Multi-Turn Question Set (MT-Bench)] - Rate conversational AI using human preference modeled by a [LLM-as-a-judge]
+  * SNLI - relation between 2 statements (contradict, neutral, or entailment)
+  * [SQuAD] - Question and answering
+  * [SuperGLUE] -
+  * SRL - Semantic understanding (machine translation, information extraction, text summarization, question answering)
+  * SST-5 - Sentiment analysis - https://paperswithcode.com/sota/sentiment-analysis-on-sst-5-fine-grained
   * [TruthfulQA] - avoid generating false answers learned from imitating human texts (conspiracies, rumors, etc)
 
  Bias
-  * [Bias Benchmark for Question Answering (BBQ)][BBQ] - Measure learn social biases of a NLP model
+
+  * [Bias Benchmark for Question Answering (BBQ)] - Measure learn social biases of a NLP model
 
  Knowledge:
-  * [Massive Multitask Language Understanding (MMLU)][MMLU] - Broad set of questions testing undergraduate-level knowledge
-  * [Google-Proof Questions And Answers (GPQA)][GPQA] - PhD level questions
+
+  * [Massive Multitask Language Understanding (MMLU)] - Broad set of questions testing undergraduate-level knowledge
+  * [Google-Proof Questions And Answers (GPQA)] - PhD level questions
 
  Graph Neural Network (GNN) Benchmarks:
-  * [Relational Deep Learning Benchmark (RelBench)][RelBench] - GNN on relational databases
+
+  * [Relational Deep Learning Benchmark (RelBench)] - GNN on relational databases
 
  Psychoanalysis
+
   * [FANToM] - stress-testing machine theory of mind in interactions
   * [EQ-Bench] - emotional intelligence benchmark
 
  All of those are included in the [HELM Benchmark]
 
  Scientific
+
   * [Matbench Discovery] - 
 
  See also [N], [Coreference], [Entity Extraction], [Language Parsing], [Model Benchmark], [Question Answering], [Semantic Understanding], [Sentiment Analysis], [SNLI]
@@ -568,10 +581,12 @@ Your belief has shifted towards more red marbles based on the observed data. The
 ## Berkeley University
 
  Models
+
   * [Koala](https://bair.berkeley.edu/blog/2023/04/03/koala/)
   * ...
 
  Research
+
   * BLAIR Blog - [https://bair.berkeley.edu/blog/](https://bair.berkeley.edu/blog/)
   * [Berkeley](https://ml.berkeley.edu/research) [@berkeley_ai](https://twitter.com/berkeley_ai)
 
@@ -608,6 +623,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  * std to be ...
 
  2 parameters
+
   * alpha - number of successes/wins/true
   * beta - number of failures/losses/false
 
@@ -618,8 +634,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  {% youtube "https://www.youtube.com/watch?v=1k8lF3BriXM" %}
 
 
-## Best Match 25 Retrieval Model
-## BM25 Retrieval Model
+## Best Match 25 (BM25) Retrieval Model
 
  A widely used text [retrieval model] based on probabilistic [information retrieval] theory. It ranks documents based on term frequencies and inverse document frequencies, considering both the relevance and rarity of terms within a corpus.
 
@@ -637,8 +652,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Company]
 
 
-## Beyond the Imitation Game Benchmark
-## BIG Bench
+## Beyond the Imitation Game Benchmark (BIG Bench)
 
  Focus on task that are not easy to solve
 
@@ -679,8 +693,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Activation Function], [Balanced Fitting], [Bias Benchmark For Question Answering], [Bias-Variance Trade-off], [Fair AI], [Overfitting], [Underfitting], [Variance]
 
 
-## Bias Benchmark For Question Answering
-## BBQ
+## Bias Benchmark For Question Answering (BBQ)
 
  It is well documented that NLP models learn social biases, but little work has been done on how these biases manifest in model outputs for applied tasks like question answering (QA). We introduce the Bias Benchmark for QA (BBQ), a dataset of question-sets constructed by the authors that highlight attested social biases against people belonging to protected classes along nine social dimensions relevant for U.S. English-speaking contexts. Our task evaluate model responses at two levels: (i) given an under-informative context, we test how strongly responses reflect social biases, and (ii) given an adequately informative context, we test whether the model’s biases override a correct answer choice. We find that models often rely on stereotypes when the context is under-informative, meaning the model’s outputs consistently reproduce harmful biases in this setting. Though models are more accurate when the context provides an informative answer, they still rely on stereotypes and average up to 3.4 percentage points higher accuracy when the correct answer aligns with a social bias than when it conflicts, with this difference widening to over 5 points on examples targeting gender for most models tested.
 
@@ -742,15 +755,16 @@ Your belief has shifted towards more red marbles based on the observed data. The
   * [https://en.wikipedia.org/wiki/Bicentennial_Man_(film)](https://en.wikipedia.org/wiki/Bicentennial_Man_(film))
 
 
-## Bidirectional Encoder Representation from Transformer Model
-## BERT Model
+## Bidirectional Encoder Representation from Transformer (BERT) Model Family
 
  A NLP model that was built by [Google] in 2017. It is an Open-Source project by Google AI researchers with a great power of understanding the context of sentence (language) showing high performance in various nlp tasks such as [classification][BERT classification] such as [sentiment analysis], [question answering], [named entity recognition], [machine Translation] and many more.
+
   * Use the [transformer architecture]
   * BIDIRECTIONAL = use words before and after the [MASK] to predict the Masked word. This is different from unidirectional (used by GPT) such as predicting what the next word is.
   * Can be extended, i.e. FinBERT for financial docs, SpanBERT for Spanish
 
  Trained using
+
   * [Masked Language Modeling (MLM)][MLM]     <== pre-train work embedding and contextual understanding using [MASK]
   * and [next sentence prediction (NSP)][NSP].  <== pre-train the [CLS] token (used to perform sequence/sentence-wide task)
     * Note that the representation of the [CLS] token include both the sentences, the one before and the one after the [SEP] token (separation token) (?)
@@ -770,6 +784,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
     * spanBERT - [https://skimai.com/roberta-language-model-for-spanish/](https://skimai.com/roberta-language-model-for-spanish/)
       * [https://arxiv.org/abs/1907.10529](https://arxiv.org/abs/1907.10529)
     * RoBERTa - [https://arxiv.org/abs/1907.11692](https://arxiv.org/abs/1907.11692)
+    * Sentence-BERT (SBERT) - create sentence embeddings
   * articles
     * embeddings (token + segment + position) - [https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a](https://medium.com/@_init_/why-bert-has-3-embedding-layers-and-their-implementation-details-9c261108e28a)
     * [https://medium.com/@mromerocalvo/6dcf5360b07f](https://medium.com/@mromerocalvo/6dcf5360b07f)
@@ -779,9 +794,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Attention Score], [Attention-Based Model], [Tokenizer]
 
 
-## Bidirectional Recurrent Neural Network
-## Bidirectional RNN
-## BRNN
+## Bidirectional RNN (BRNN)
 
  Bidirectional recurrent neural networks (BRNN) connect two hidden layers running in opposite directions to a single output, allowing them to receive information from both past and future states. This generative deep learning technique is more common in supervised learning approaches, rather than unsupervised or semi-supervised because how difficult it is to calculate a reliable probabilistic model.
 
@@ -815,8 +828,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [N-Gram]
 
 
-## Bilingual Evaluation Understudy Score
-## BLEU Score
+## Bilingual Evaluation Understudy (BLEU) Score
 
  This is an algorithm for evaluating the quality of text which has been [machine-translated][machine translation] from one natural language to another. Quality is considered to be the correspondence between a machine's output and that of a human: "the closer a machine translation is to a professional human translation, the better it is" – this is the central idea behind BLEU.
 
@@ -825,6 +837,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
  BLEU's output is always a number between 0 and 1. This value indicates how similar the candidate text is to the reference texts, with values closer to 1 representing more similar texts. Few human translations will attain a score of 1, since this would indicate that the candidate is identical to one of the reference translations. For this reason, it is not necessary to attain a score of 1. Because there are more opportunities to match, adding additional reference translations will increase the BLEU score.
 
  In general:
+
   * BLEU focuses on precision: how much the words (and/or n-grams) in the candidate model outputs appear in the human reference.
   * [ROUGE] focuses on recall: how much the words (and/or n-grams) in the human references appear in the candidate model outputs.
 
@@ -862,10 +875,10 @@ Your belief has shifted towards more red marbles based on the observed data. The
  See also [B], [Binary Cross-Entropy Loss Function], [Classification], [Multiclass Classification], [Support Vector Machine]
 
 
-## Binary Cross-Entropy Loss Function
-## BCE Loss Function
+## Binary Cross-Entropy (BCE) Loss Function
 
- If you are training a [binary classifier], a [multi-label classification, or a [regression], chances are you are using binary cross-entropy / log loss as your [loss function].
+ If you are training a [binary classifier], a [multi-label classification], or a [regression], chances are you are using binary cross-entropy / log loss as your [loss function].
+
 ```
 cross-entropy loss = c = sum(0, n, Pi * log (1/Qi)
 
@@ -878,6 +891,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  {% youtube "https://www.youtube.com/watch?v=i78buAHKXpI" %}
 
  More at :
+
   * [https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a](https://towardsdatascience.com/understanding-binary-cross-entropy-log-loss-a-visual-explanation-a3ac6025181a)
 
  See also [B], [Cross-Entropy Loss Function], [Entropy]
@@ -973,6 +987,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Boosting is primarily used to reduce the [bias] and [variance] in a [supervised learning] technique. It refers to the family of an algorithm that converts [weak learners] (base learner) to [strong learners]. The [weak learner] is the classifiers that are correct only up to a small extent with the actual classification, while the strong learners are the classifiers that are well correlated with the actual classification.
 
  Few famous techniques of Boosting are:
+
   * [AdaBoost]
   * [Gradient boosting]
   * [Extreme Gradient Boosting (XGBoost)][Xgboost].
@@ -988,6 +1003,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 ## Bootstrap Sampling Method
 
  A large number of samples are drawn randomly with replacement from the original dataset, and the model is trained and tested on these samples. This method is used to estimate the variability of a model's performance and the uncertainty of its predictions. The main concept behind bootstrap sampling is train the same model multiple times on multiple samples taken with replacement from the target population. Bootstrapping is the most popular resampling method today. It uses sampling with replacement to estimate the sampling distribution for a desired estimator. The main purpose for this particular method is to evaluate the variance of an estimator. It does have many other applications, including:
+
   * Estimating confidence intervals and standard errors for the estimator (e.g. the standard error for the mean),
   * Estimating precision for an estimator θ,
   * Dealing with non-normally distributed data,
@@ -1011,6 +1027,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Boston Dynamics develops of a series of dynamic highly-mobile robots, including BigDog, Spot, Atlas, and Handle. Since 2019, Spot has been made commercially available, making it the first commercially available robot from Boston Dynamics, while the company has stated its intent to commercialize other robots as well, including Handle.
 
  Robots:
+
   * [Atlas]
   * [Spot]
   * [Stretch]
@@ -1049,9 +1066,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  See also [B], [Biological Neuron]
 
 
-## Brain Computer Interface
-
-## BCI
+## Brain Computer Interface (BCI)
 
  Connect your [brain] to a computer using a cable and by drilling a hole in your skull!
 
@@ -1074,6 +1089,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  Converting a single [feature] into multiple binary features called [buckets] or bins, typically based on a value range. The chopped feature is typically a continuous feature.
 
  For example, instead of representing temperature as a single continuous floating-point feature, you could chop ranges of temperatures into discrete buckets, such as:
+
   * <= 10 degrees Celsius would be the "cold" bucket.
   * 11 - 24 degrees Celsius would be the "temperate" bucket.
   * \>= 25 degrees Celsius would be the "warm" bucket.
@@ -1102,8 +1118,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
  See also [B], ...
 
 
-## Byte-Pair Encoding Tokenization
-## BPE Tokenization
+## Byte-Pair Encoding (BPE) Tokenization
 
  ~ the [tokenization] algorithm used by [OpenAI]. You provide a training corpus and a vocabulary size. The algorithm will then find the optimum tokens.
 
@@ -1118,4 +1133,3 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
   * Hugging Face course - [https://huggingface.co/learn/nlp-course/chapter6/5](https://huggingface.co/learn/nlp-course/chapter6/5)
 
  See also [B], ...
-

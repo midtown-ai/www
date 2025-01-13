@@ -29,6 +29,7 @@
  {% youtube "https://www.youtube.com/watch?v=lXLBTBBil2U" %}
 
  More at:
+
   * Wikipedia - 
 
  See also [J], ...
@@ -83,6 +84,7 @@ if __name__ == '__main__':
 ```
 
  More at:
+
   * [https://joblib.readthedocs.io/en/latest/](https://joblib.readthedocs.io/en/latest/)
 
  See also [J], ...
@@ -105,16 +107,16 @@ f(x,y) = P(X = x, Y = y)
  ![](img/j/join_distribution.png ){: width="100%"}
 
 
-## Join Embedding Predictive Architecture
-## JEPA
+## Joint-Embedding Predictive Architecture (JEPA)
 
  Our goal is to build advanced machine intelligence that can learn more like humans do, forming internal models of the world around them to learn, adapt, and forge plans efficiently in the service of completing complex tasks.
 
- * [Image JEPA (I-JEPA)][I-JEPA]
- * [Video JEPA (V-JEPA)][V-JEPA]
+ * [Image JEPA (I-JEPA)]
+ * [Video JEPA (V-JEPA)]
 
 
  More at:
+
   * [https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
 
  See also [J], ...
@@ -127,6 +129,7 @@ f(x,y) = P(X = x, Y = y)
  {% pdf "https://arxiv.org/pdf/2005.00341.pdf" %}
 
  More at:
+
   * www - [https://openai.com/research/jukebox](https://openai.com/research/jukebox)
   * code - [https://github.com/openai/jukebox/](https://github.com/openai/jukebox/)
   * paper - [https://arxiv.org/abs/2005.00341](https://arxiv.org/abs/2005.00341)

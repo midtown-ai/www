@@ -28,15 +28,14 @@
 [Weighted Ensemble Model]: w.md#weighted-ensemble-model
 [Weighted Gini Impurity Index]: w.md#weighted-gini-impurity-index
 [Weighted Input]: w.md#weighted-input
-[Weights & Biases Company]: w.md#weights--biases-company
-[Weights & Biases]: w.md#weights--biases-company
+[Weights & Biases Company]: w.md#weights-biases-company
+[Weights & Biases]: w.md#weights-biases-company
 [Whisper Model]: w.md#whisper-model
 [Whisper]: w.md#whisper-model
 [White Box Model]: w.md#white-box-model
 [White Box Models]: w.md#white-box-model
-[Wikidata Knowledge Graph]: w.md#wikidata-knowledge-graph
-[Wikidata KG]: w.md#wikidata-knowledge-graph
-[Wikidata]: w.md#wikidata-knowledge-graph
+[Wikidata KG]: w.md#wikidata-kg
+[Wikidata]: w.md#wikidata-kg
 [Wikifunction]: w.md#wikifunction
 [Wikifunctions]: w.md#wikifunction
 [Wisdom Of The Crowd]: w.md#wisdom-of-the-crowd
@@ -47,17 +46,18 @@
 [Word Embedding]: w.md#word-embedding
 [Word Embeddings]: w.md#word-embedding
 [Word Embedding Space]: w.md#word-embedding-space
-[Word Error Rate Metric]: w.md#word-error-rate-metric
-[Word Error Rate]: w.md#word-error-rate-metric
-[WER Metric]: w.md#word-error-rate-metric
-[WER]: w.md#word-error-rate-metric
+[Word Error Rate (WER) Metric]: w.md#word-error-rate-wer-metric
+[Word Error Rate (WER)]: w.md#word-error-rate-wer-metric
+[WER Metric]: w.md#word-error-rate-wer-metric
+[WER]: w.md#word-error-rate-wer-metric
 [Word2Vec Model]: w.md#word2vec-model
 [Word2Vec]: w.md#word2vec-model
 [WordNet Dataset]: w.md#wordnet-dataset
 [WordNet]: w.md#wordnet-dataset
-[WordPiece Tokenization]: w.md#wordpiece-tokenization
-[World Artificial Intelligence Cannes Festival]: w.md#world-artificial-intelligence-cannes-festival
-[WAICF]: w.md#world-artificial-intelligence-cannes-festival
+[WordPiece Tokenizer]: w.md#wordpiece-tokenizer
+[WordPiece]: w.md#wordpiece-tokenization
+[World Artificial Intelligence Cannes Festival (WAICF)]: w.md#world-artificial-intelligence-cannes-festival-waicf
+[WAICF]: w.md#world-artificial-intelligence-cannes-festival-waicf
 [World Labs Company]: w.md#world-labs-company
 [World Labs]: w.md#world-labs-company
 [World Model]: w.md#world-model

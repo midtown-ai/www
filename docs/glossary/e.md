@@ -32,11 +32,12 @@
 
 ## Eigenvalue
 
- Each eigenvector has a eigenvalue
+ Each [eigenvector] has a eigenvalue
 
- The eigenvalue is the ratio by which the eigenvector is scaled during the linear transformation (matrix multiplication).
+ The eigenvalue is the ratio by which the [eigenvector] is scaled during the linear transformation (matrix multiplication).
 
  If eigenvalue (v) is 
+
   * 0 < v : After transformation, the eigenvector keeps the same direction
   * v < 0 : After transformation, the eigenvector changes direction
   * 1 < v : After transformation, the eigenvector is stretched (elongated)
@@ -47,6 +48,7 @@
  ![](img/e/eigenvalue_matrix.png ){: width="100%"}
 
  More at:
+
   * [https://setosa.io/ev/eigenvectors-and-eigenvalues/](https://setosa.io/ev/eigenvectors-and-eigenvalues/)
 
  See also [E], [Synthesized Variable]
@@ -56,13 +58,16 @@
 
  After a linear transformation (matrix multiplication), while every other vector deviates from their initial direction, the eigenvectors stay on the their original line despite the distortion from the matrix.
 
- :warning: but their length can be stretched or direction can be inverted (the opposite) (?), but the direction stays the same (?) before and after the transformation.
+/// warning | beware
 
- :warning: All vectors on the same direction as the eigenvector is also an eigenvector, because their direction stays the same. The eigenvector is the one of unit length.
+but their length can be stretched or direction can be inverted (the opposite) (?), but the direction stays the same (?) before and after the transformation.
 
- :warning: Eigenvector for matrix A is probably not the eigenvector for matrix B
+All vectors on the same direction as the eigenvector is also an eigenvector, because their direction stays the same. The eigenvector is the one of unit length.
 
- :warning: A 2x2 matrix can have 0, 1, or 2 eigenvectors!
+Eigenvector for matrix A is probably not the eigenvector for matrix B
+
+A 2x2 matrix can have 0, 1, or 2 eigenvectors!
+///
 
  During the transformation, each eigenvector is scaled during the linear transformation (matrix multiplication). That scaling factor is the [eigenvalue]!
 
@@ -71,6 +76,7 @@
  ![](img/e/eigenvector_matrix.png ){: width="100%"}
 
  More at:
+
   * [https://setosa.io/ev/eigenvectors-and-eigenvalues/](https://setosa.io/ev/eigenvectors-and-eigenvalues/)
 
  See also [E], [Eigenvalue], [Matrix], [Synthesized Variable]
@@ -89,6 +95,7 @@
  {% pdf "https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf" %}
 
  More at:
+
   * paper - [https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf](https://hastie.su.domains/Papers/B67.2%20(2005)%20301-320%20Zou%20&%20Hastie.pdf)
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
  
@@ -102,8 +109,7 @@
  See also [E], ...
 
 
-## Elastic Weight Consolidation
-## EWC
+## Elastic Weight Consolidation (EWC)
 
  A method that slows down learning on certain weights based on their importance to previous tasks.
 
@@ -121,6 +127,7 @@
  {% youtube "https://www.youtube.com/watch?v=JhjyTE0f6tY" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Electric_Dreams_(film)](https://en.wikipedia.org/wiki/Electric_Dreams_(film))
 
  See also [E], [AI Movie]
@@ -135,10 +142,12 @@
  {% youtube "https://www.youtube.com/watch?v=5htSGLCroc8" %}
 
  Alternatives
+
   * [play.ht](https://play.ht/)
   * [coqui.ai](https://coqui.ai/about)
 
  More at:
+
   * [https://beta.elevenlabs.io/about](https://beta.elevenlabs.io/about)
   * [https://beta.elevenlabs.io/speech-synthesis](https://beta.elevenlabs.io/speech-synthesis)
   * [https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs](https://www.theverge.com/2023/1/31/23579289/ai-voice-clone-deepfake-abuse-4chan-elevenlabs)
@@ -159,6 +168,7 @@
  ![](img/e/eliza_chatbot_conversation.png ){: width="100%"}
 
  More at:
+
   * wikipedia - [https://en.wikipedia.org/wiki/ELIZA](https://en.wikipedia.org/wiki/ELIZA)
   * ELiza vs ChatGPT - [https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/](https://arstechnica.com/information-technology/2023/12/real-humans-appeared-human-63-of-the-time-in-recent-turing-test-ai-study/)
 
@@ -178,6 +188,7 @@
  Elo ratings are comparative only, and are valid only within the rating pool in which they were calculated, rather than being an absolute measure of a player's strength.
 
  More at:
+
   * wikipedia - [https://en.wikipedia.org/wiki/Elo_rating_system](https://en.wikipedia.org/wiki/Elo_rating_system)
 
  See also [E], [LMSys Elo Rating]
@@ -197,13 +208,15 @@
  An embedding is a rich representation for any entity via d-dimensional latent variables; these entities include, but are not limited to: stores, eaters, items, drivers, locations, and so on.  It generally transforms human-friendly features, such as store menu, store price, store review, item title and description, item price, location’s full address, eater preference cuisine and past orders, rider preferred drop-offs and so on, to machine-learning-friendly dense vectors. These vectors can be directly used in any ML task (such as clustering, nearest neighbor search, classification, and so on) without too much feature engineering.
 
  Embedding types:
+
   * [Word Embeddings] such as [Word2Vec], [GloVE], [FastText]
-  * [Sentence Embeddings] such as [Universal Sentence Encoder (USE)][USE], [Sentence-BERT (SBERT)][SBERT]
-  * [Document Embeddings] such as [Doc2Vec], [InferSentt], [Universal Sentence Encoder (USE)][USE]
+  * [Sentence Embeddings] such as [Universal Sentence Encoder (USE)], [Sentence-BERT (SBERT)]
+  * [Document Embeddings] such as [Doc2Vec], [InferSentt], [Universal Sentence Encoder (USE)]
   * Many others!
     * [Painting Embeddings](https://dimensionality-reduction-293e465c2a3443e8941b016d.vercel.app/)
 
  More at:
+
   * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/) 
   * [https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases](https://frankzliu.com/blog/a-gentle-introduction-to-vector-databases)
   * articles
@@ -215,12 +228,14 @@
 ## Embedding Projector
 
  4D visualization of for ...
+
   * [T-SNE]
-  * [PCA]
+  * [Principal Component Analysis (PCA)]
   * [UMAP]
   * custom
 
  More at:
+
   * [https://projector.tensorflow.org/](https://projector.tensorflow.org/)
 
  See also [E], [Embedding]
@@ -246,11 +261,13 @@
 
 
  Initially (11 billion parameters)
+
   * Arithmetic
   * Language Understanding
   * Question answering
 
  Emerging abilities (62+ billion parameters) include
+
   * Code completion
   * Common sense reasoning
   * Summarization
@@ -262,6 +279,7 @@
   * Instruction following
 
  Emerging abilities (517+ billion parameters) include
+
   * Physics QA
   * Joke explanations
   * Semantic parsing
@@ -275,6 +293,7 @@
  Emergence is when quantitative changes in a system result in qualitative changes in behavior. An ability is emergent if it is not present in smaller models but is present in larger models. For example Theory of Mind would be an example of a spontaneous emergence of an ability in AI. As far as we know, OpenAI engineers did not deliberately implement ToM in GPT. Instead, ToM has emerged spontaneously as a byproduct of GPT being trained to achieve its task: Predict a next word in a sentence. This means that AI can develop surprising abilities without humans explicitly trying to design them. We should think about what abilities may come next! Finally, our study shows the usefulness of applying psychological methods to studying AI. AI models’ increasing complexity prevents us from understanding their functioning and deriving their capabilities directly from their design. This echoes the challenges faced by psychologists and neuroscientists in studying the original black box: the human brain. We hope that psychological science will help us to stay abreast of rapidly evolving AI.
 
  Are not read?
+
   * Multi-step reasoning can explain why the sudden emergence because last step of many can be executed
   * ...?
 
@@ -287,6 +306,7 @@
  {% youtube "https://www.youtube.com/watch?v=bQuVLKn10do" %}
 
  More at:
+
   * paper 
     * emergent paper - [https://arxiv.org/abs/2206.07682](https://arxiv.org/abs/2206.07682)
     * not emergent paper - [https://arxiv.org/abs/2304.15004](https://arxiv.org/abs/2304.15004)
@@ -302,6 +322,7 @@
  A [knowledge distillation] method that seeks to extract a specific ability that the teacher model has learned and transfer it to the student model. [Emergent abilities] are capabilities that are present in large models but not in smaller ones. For example, you can gather prompts and responses on mathematics or reasoning problems from GPT-4 and try to transfer them to a smaller model like Vicuna. The advantage of EA distillation is that it is much easier to measure because it focuses on a narrow set of tasks. However, it’s crucial to remember that there are limits to the abilities of LLMs that mimic the emergent behaviors of larger models.
 
  More at:
+
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [E], [Model Compression], [Standard Knowledge Distillation]
@@ -317,6 +338,7 @@
  {% youtube "https://www.youtube.com/watch?v=VlJ71kzcn9Y" %}
 
  More at:
+
   * site - [https://humanaigc.github.io/emote-portrait-alive/](https://humanaigc.github.io/emote-portrait-alive/)
   * paper - [https://arxiv.org/abs/2402.17485](https://arxiv.org/abs/2402.17485)
   * code - [https://github.com/HumanAIGC/EMO](https://github.com/HumanAIGC/EMO)
@@ -335,29 +357,30 @@ Research on emotion has increased over the past two decades with many fields con
  ![](img/e/emotion.png ){: width="100%"}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Emotion](https://en.wikipedia.org/wiki/Emotion)
 
- See also [E], [Emotional Intelligence], [Feeling]
+ See also [E], [Emotional Intelligence]
 
-## Emotional Intelligence
-## EI
+## Emotional Intelligence (EI)
 
  Emotional intelligence (EI) is most often defined as the ability to perceive, use, understand, manage, and handle [emotions][Emotion]. People with high emotional intelligence can recognize their own emotions and those of others, use emotional information to guide thinking and behavior, discern between different feelings and label them appropriately, and adjust emotions to adapt to environments. Although the term first appeared in 1964, it gained popularity in the 1995 best-selling book Emotional Intelligence, written by science journalist Daniel Goleman.
 
  More at:
+
   * Book - [https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X](https://www.amazon.com/Emotional-Intelligence-Matter-More-Than/dp/055338371X)
 
  See also [E], [Affective Computing], [Emotional Intelligence Benchmark]
 
 
-## Emotional Intelligence Benchmark
-## EQ-Bench
+## Emotional Intelligence Benchmark (EQ-Bench)
 
  A [benchmark] to measure LLM's [emotional intelligence]
 
  {% pdf "https://arxiv.org/pdf/2312.06281.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2312.06281](https://arxiv.org/abs/2312.06281)
   * code - [https://github.com/EQ-bench/EQ-Bench](https://github.com/EQ-bench/EQ-Bench)
   * leaderboard - [https://eqbench.com/](https://eqbench.com/)
@@ -395,7 +418,8 @@ Research on emotion has increased over the past two decades with many fields con
   * Word embedding space
   * Semantic space
 
- :warning: How do we chose the dimension in the representation space? WITH THE LOSS FUNCTION ! ===> |Y - Yest |, we set the ground truth of Y !!!!!
+/// warning | How do we chose the dimension in the representation space? WITH THE LOSS FUNCTION ! ===> |Y - Yest |, we set the ground truth of Y !!!!!
+///
 
  See also [E], [Decoder Representation Space], [Latent Space], [Loss Function], [Semantic Space], [Word Embeddings Space]
 
@@ -419,6 +443,7 @@ Research on emotion has increased over the past two decades with many fields con
  ![](img/e/encoder_decoder_model.jpeg ){: width="100%"}
 
  More at:
+
   * [https://towardsdatascience.com/what-is-an-encoder-decoder-model-86b3d57c5e1a](https://towardsdatascience.com/what-is-an-encoder-decoder-model-86b3d57c5e1a)
 
  See also [E], [Autoencoder], [Decoder], [Decoder Stack], [Encoder], [Encoder Stack], [Hidden State], [U-Net Architecture]
@@ -429,14 +454,19 @@ Research on emotion has increased over the past two decades with many fields con
  Often used in data preparation to turn categorical features into numbers.
 
  Methods:
+
   * [One-Cold Encoding]
   * [One-Hot Encoding]
   * [Ordinal Encoding]
 
  See also [E], ...
+
+
 ## Endpoint
 
  After the model has been built, we create an endpoint in docker to make it available for queries. An endpoint has a URL which can be queried directly. `You don't have SSH access to the endpoint`.
+
+ See also [E], ...
 
 
 ## Engineered Arts Company
@@ -445,7 +475,8 @@ Research on emotion has increased over the past two decades with many fields con
 
  Engineered Arts is an English engineering, designer and manufacturer of humanoid robots based in Cornwall, United Kingdom. It was founded in October 2004 by Will Jackson.
 
- More at:
+More at:
+
   * [https://en.wikipedia.org/wiki/Engineered_Arts](https://en.wikipedia.org/wiki/Engineered_Arts)
 
  See also [E], ...
@@ -471,6 +502,7 @@ Research on emotion has increased over the past two decades with many fields con
  ![](img/e/ensemble_method.png ){: width=20%}
 
  More at:
+
   * explorable - [https://pair.withgoogle.com/explorables/uncertainty-ood/](https://pair.withgoogle.com/explorables/uncertainty-ood/)
 
  See also [E], [Gradient Bagging], [Gradient Boosting], [Isolation Forest]
@@ -486,6 +518,7 @@ Research on emotion has increased over the past two decades with many fields con
 ## Entity Extraction
 
  Extract entities from text or image to build a scene graph. Methods:
+
   * text input
    * Rule-based approach
    * Sequence labeling
@@ -500,13 +533,17 @@ Research on emotion has increased over the past two decades with many fields con
 
 ## Entropy
 
- :warning: Entropy in RL (DeepRacer) is not a probability unlike [Epsilon]. An entropy of 1 => uniform distribution. An entropy of 0 => peak distribution (clear value, not randomness)
+/// warning | Beware ...
 
- :warning: When a loss function hit the Shannon entropy, the model has learned everything there is to know, the model is predict everything as well as possible. So perfect algorithm and the model knows everything there is to know.
+    Entropy in RL (DeepRacer) is not a probability unlike [Epsilon]. An entropy of 1 => uniform distribution. An entropy of 0 => peak distribution (clear value, not randomness)
+
+    When a loss function hit the Shannon entropy, the model has learned everything there is to know, the model is predict everything as well as possible. So perfect algorithm and the model knows everything there is to know.
+///
 
  Shannon entropy is a measure of the amount of uncertainty or randomness in a system. It was introduced by Claude Shannon in 1948 as a way to quantify the amount of information in a message or signal.
 
 The entropy of a system is defined as the negative sum of the probabilities of each possible outcome multiplied by the logarithm of those probabilities. Mathematically, it can be expressed as:
+
 ```
 H(X) = -∑(p(x) * log2 p(x))
 
@@ -526,6 +563,7 @@ H(X) = -∑(p(x) * log2 p(x))
  {% youtube "https://www.youtube.com/watch?v=YtebGVx-Fxw" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Entropy_(information_theory)](https://en.wikipedia.org/wiki/Entropy_(information_theory))
 
  See also [E], [Cross-Entropy], [Kullback-Leibler Divergence]
@@ -536,24 +574,24 @@ H(X) = -∑(p(x) * log2 p(x))
  In [reinforcement learning], the space in which the [RL agent] operates such as the physical worl (for robots and drones) or a digital space (for trading algorithms and game AI agents). The environment provides [states] or observations of current [state], and [rewards] ([supervised feedback]).
 
  In a RL environment,
+
   * you cannot use [backpropagation] through an environment (Reward <-- Action <-- State) because too complicated and we cannot compute the derivative!
   * you cannot change its [parameters] as it is fixed!
   * but you can use the [reward] to signal (intensity and direction) to identify which [action] is preferred over the others and update the [RL agent]'s [policy] weights
 
  Environments can be
+
   * deterministic = where the next state and reward are completely determined by the current state and action taken by the agent. In other words, there is no randomness.
   * stochastic = there is randomness involved in the state transition and reward functions. The next state and reward are not solely determined by the current state and action. (Ex: a car/agent on an icy road)
   * fully observable = agent can directly observe the complete state of the environment at each time step
   * partially observable = agent cannot directly observe the full state, only partial observation. (Ex: a self-driving car has sensors that can only give it information about its immediate surroundings, not the full map/city/world) ==> agent needs memory to remember past observations and actions. Agents also use techniques like [Bayesian inference] to maintain a [belief distribution] over possible current states.
 
-  Examples of Environments:
-   * [Isaac Gym]
-   * [OpenAI Gym]
+ Examples of Environments:
+
+  * [Isaac Gym]
+  * [OpenAI Gym]
 
  ![](img/e/environment.png ){: width="100%"}
-
- More at:
-  * ...
 
  See also [E], [PyBullet], [RobotSchool]
 
@@ -561,6 +599,7 @@ H(X) = -∑(p(x) * log2 p(x))
 ## Episode
 
  In DeepRacer, an episode terminal state is reached when the car:
+
   * exits the track (or crash) - trial and error
   * finishes the track - trial and success (but tries to optimize speed)
 
@@ -580,6 +619,7 @@ H(X) = -∑(p(x) * log2 p(x))
  So in summary, episodes are complete simulations used to train and evaluate reinforcement learning agents in a repeatable manner. Multiple episodes build up the agent's experience.
 
  Episode types:
+
   * Continuous task = no end
   * Episodic task = has at least one final state (time, goal, etc)
 
@@ -605,6 +645,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  After each episode, the epsilon used in the epsilon greedy strategy decays (is reduced) and hence the likelihood of exploitation vs exploration increases. 
 
  Episode Status:
+
   * prepare
   * in_progress
   * off_track
@@ -624,13 +665,15 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
  Number of Epochs = Number of passes on the training dataset
 
- :warning: The parameters of the model are usually updated many times during each epoch. The model is updated after each batch of data. This is known as [batch training] or mini-batch training.
+/// warning | The parameters of the model are usually updated many times during each epoch. The model is updated after each batch of data. This is known as [batch training] or mini-batch training.
+///
 
  An epoch is complete whenever every point in the training set (N) has already been used in all steps: forward pass, computing loss, computing gradients, and updating parameters.
 
  During one epoch, we perform at least one update, but no more than N updates.
 
  The number of updates (N/n) will depend on the type of gradient descent being used:
+
   * For batch (n = N) gradient descent, this is trivial, as it uses all points for computing the loss. One epoch is the same as one update.
   * For stochastic (n = 1) gradient descent, one epoch means N updates since every individual data point is used to perform an update.
   * For mini-batch (of size n), one epoch has N/n updates since a mini-batch of n data points is used to perform an update.
@@ -639,7 +682,8 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
  One epoch means that every training sample has been fed through the model at least once. If your epochs are set to 50, for example, it means that the model you are training will work through the entire training dataset 50 times.
 
- `A complete pass on the dataset ~ 1 iteration!`. A complete dataset can be large in which case it is broken in [batches][Batch] and processed in many [iteration] (one per batch). Why use more than one Epoch? It may not look correct that passing the entire dataset through an ML algorithm or neural network is not enough, and we need to pass it multiple times to the same algorithm. So it needs to be kept in mind that to optimize the learning, we use gradient descent, an iterative process. Hence, it is not enough to update the weights with a single pass or one epoch. Moreover, one epoch may lead to [overfitting] in the model. In other words, when the training loop has passed through the entire training dataset once, we call that one epoch. Training for a higher number of epochs will mean your model will take longer to complete its training task, but it may produce better output if it has not yet converged.
+ ==A complete pass on the dataset ~ 1 iteration!==. A complete dataset can be large in which case it is broken in [batches][Batch] and processed in many [iteration] (one per batch). Why use more than one Epoch? It may not look correct that passing the entire dataset through an ML algorithm or neural network is not enough, and we need to pass it multiple times to the same algorithm. So it needs to be kept in mind that to optimize the learning, we use gradient descent, an iterative process. Hence, it is not enough to update the weights with a single pass or one epoch. Moreover, one epoch may lead to [overfitting] in the model. In other words, when the training loop has passed through the entire training dataset once, we call that one epoch. Training for a higher number of epochs will mean your model will take longer to complete its training task, but it may produce better output if it has not yet converged.
+
   * Training over more epochs will take longer but can lead to a better output (e.g. sounding musical output)
   * Model training is a trade-off between the number of epochs (i.e. time) and the quality of sample output.
 
@@ -650,10 +694,12 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  The number of epochs used during neural network training impacts model performance. Both using too few or too many epochs can lead to problems:
 
  Too Few Epochs:
+
   * Underfitting: With too few epochs, the model does not have enough opportunities to learn from the training data. This can lead to underfitting, where the model fails to capture important patterns in the data.
   * Suboptimal metrics: Validation metrics like accuracy and loss will be worse than their optimum if training is stopped too early. The model has not had enough iterations to converge on better weights.
 
  Too Many Epochs:
+
   * [Overfitting] - With too many epochs, the model may end up overfitting to the training data. This causes it to memorize noise and details instead of learning generalizable patterns.
   * Long training time - Additional epochs extend training time significantly, especially for large datasets. The model may have already converged, so extra epochs are wasteful.
   * Performance plateau - After a point, more epochs do not improve validation metrics like accuracy and loss. The model stops generalizing better.
@@ -668,6 +714,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 ## Epsilon
 
  Overview:
+
   * [Exploration] refers to the agent trying new actions to gather more information about the environment. [Exploitation] refers to the agent leveraging knowledge gained so far to obtain the maximum reward.
   * But the [agent] also takes a random exploratory [action] with some probability epsilon. This ensures the [agent] continues to explore new [actions].
   * The epsilon value controls the chance of taking a random action instead of the greedy action. It is typically decays over time from a higher starting value like 1 or 0.5 to a small value like 0.01.
@@ -708,6 +755,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  So in summary, epsilon-greedy exploration defines how often an agent should choose random exploratory actions instead of exploitative actions to balance discovering new information with maximizing rewards through past knowledge.
 
  The [exploration rate] (epsilon) and epsilon-greedy strategy are closely related, but refer to slightly different aspects of the reinforcement learning process:
+
   * Exploration rate (epsilon): This is a hyperparameter that determines the probability of choosing a random action instead of the greedy action during training. It controls the degree of exploration.
   * Epsilon-greedy strategy: This is the overall exploration strategy that makes use of the epsilon parameter to balance exploration and exploitation. It chooses greedy actions with probability (1 - epsilon) and random actions with probability epsilon.
 
@@ -717,8 +765,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  See also [E], ...
 
 
-## Equivalence Class Clustering And Bottom-Up Lattice Traversal Algorithm
-## ECLAT Algorithm
+## Equivalence Class Clustering And Bottom-Up Lattice Traversal (ECLAT) Algorithm
 
  ~ an [unsupervised learning] method that is classified as a [association rule learning] ...
 
@@ -737,6 +784,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  In summary, equivalence class clustering creates discrete groupings of similar objects, while lattice traversal organizes these groupings into a hierarchical conceptual structure that reveals relationships in the data.
 
  More at:
+
   * [https://pianalytix.com/association-rules-ml-method/](https://pianalytix.com/association-rules-ml-method/)
 
  See also [E], ...
@@ -749,6 +797,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  {% youtube "https://www.youtube.com/watch?v=Sg3EchbCcA0" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Eric_Schmidt](https://en.wikipedia.org/wiki/Eric_Schmidt)
 
  See also [E], [People]
@@ -761,6 +810,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  {% youtube "https://www.youtube.com/watch?v=ukvEUI3x0vI" %}
 
  More at:
+
   * [https://www.pcmag.com/news/openai-has-nothing-to-fear-from-chinas-chatgpt-rival-ernie-bot](https://www.pcmag.com/news/openai-has-nothing-to-fear-from-chinas-chatgpt-rival-ernie-bot)
 
  See also [E], ...
@@ -773,14 +823,20 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
 ## ESM Metagenomic Atlas
 
- The ESM Metagenomic Atlas will enable scientists to search and analyze the structures of [metagenomic proteins][Metagenomic Protein] at the scale of hundreds of millions of proteins. This can help researchers to identify structures that have not been characterized before, search for distant evolutionary relationships, and discover new proteins that can be useful in medicine and other applications.
+ The ESM Metagenomic Atlas will enable scientists to search and analyze the structures of [metagenomic proteins] at the scale of hundreds of millions of proteins. This can help researchers to identify structures that have not been characterized before, search for distant evolutionary relationships, and discover new proteins that can be useful in medicine and other applications.
 
  ![](img/e/esm_metagenomic_atlas.png ){: width="100%"}
 
  More at:
+
   * [https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/](https://ai.facebook.com/blog/protein-folding-esmfold-metagenomics/)
 
  See also [E], [AlphaFold Model], [OpenFold Model]
+
+
+## ESMFold Model Family
+
+ See also [E], ...
 
 
 ## Estimator
@@ -793,6 +849,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 ## Ethical AI
 
  Examples of ethical problems with AI
+
   * About the model
     * Bias
   * About the industry
@@ -817,8 +874,8 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
  1. Understanding
   * To understand means to grasp the core meaning or to comprehend
-  * In the field of [Responsible AI], understanding is closely connected to [explainability][Explainable AI]
-  * [Explainability][Explainable AI] means being able to explain the internal mechanisms of a system in human terms. While [explainability][Explainable AI] is necessary for understanding, it is not sufficient
+  * In the field of [Responsible AI], understanding is closely connected to [explainability]
+  * [Explainability] means being able to explain the internal mechanisms of a system in human terms. While [explainability] is necessary for understanding, it is not sufficient
   * Understanding is audience-specific and contextual
   * Understanding matters because our stakeholders need to understand how and why AI is being used to make decisions that impact their lives
 
@@ -840,6 +897,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  {% pdf "img/e/ethical_ai_cards.pdf" %}
 
  More at:
+
   * kaggle course - [https://www.kaggle.com/code/var0101/introduction-to-ai-ethics](https://www.kaggle.com/code/var0101/introduction-to-ai-ethics)
   * [https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai](https://hbr.org/2020/10/a-practical-guide-to-building-ethical-ai)
   * ethics card - [https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help](https://www.ideo.com/blog/ai-needs-an-ethical-compass-this-tool-can-help)
@@ -855,6 +913,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  Euclid is said to be the father of geometry, not the first one that studied geometry!
 
  Axioms (or postulates)
+
   1. A straight line segment can be drawn joining any two points
   2. Any straight line segment can be extended indefinitely in a straight line
   3. A circle can be drawn with any center and any radius
@@ -870,6 +929,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
  {% youtube "https://www.youtube.com/watch?v=yqUv2JO2BCs" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Euclidean_geometry](https://en.wikipedia.org/wiki/Euclidean_geometry)
 
  See also [E], ...
@@ -892,6 +952,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 ```
 
  More at:
+
   * wikipedia - [https://en.wikipedia.org/wiki/Euclidean_distance](https://en.wikipedia.org/wiki/Euclidean_distance)
   * articles
     * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
@@ -899,8 +960,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  See also [E], ...
 
 
-## European Union AI Act
-## EU AI Act
+## European Union (EU) AI Act
 
  * doc 1 - [https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_1&format=PDF](https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_1&format=PDF)
  * doc 2 - [https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_2&format=PDF](https://eur-lex.europa.eu/resource.html?uri=cellar:e0649735-a372-11eb-9585-01aa75ed71a1.0001.02/DOC_2&format=PDF)
@@ -910,6 +970,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% youtube "https://www.youtube.com/watch?v=za5YYUIQIaM" %}
 
  More at:
+
   * [https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A52021PC0206)
   * decoding - [https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement](https://hai.stanford.edu/news/analyzing-european-union-ai-act-what-works-what-needs-improvement)
 
@@ -923,6 +984,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% pdf "img/e/evident_ai_index_20231101.pdf" %}
 
  More at:
+
   * [https://www.evidentinsights.com/ai-index/](https://www.evidentinsights.com/ai-index/)
 
  See also [E], ...
@@ -939,6 +1001,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% pdf "img/e/evident_ai_innovation_report_20231101.pdf" %}
 
  More at:
+
   * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
 
  See also [E], ...
@@ -955,6 +1018,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% pdf "img/e/evident_ai_leadership_report_20231101.pdf" %}
 
  More at:
+
   * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
 
  See also [E], ...
@@ -971,6 +1035,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% pdf "img/e/evident_ai_outcomes_report_20231101.pdf" %}
 
  More at:
+
   * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
 
  See also [E], ...
@@ -987,6 +1052,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% pdf "img/e/evident_ai_talent_report_20231101.pdf" %}
 
  More at:
+
   * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
 
  See also [E], ...
@@ -997,6 +1063,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  Evident provides the most in-depth and up-to-date analysis of AI adoption across the banking sector. We map best practice and help banks to benchmark their progress against their peers.
 
  Flagship publications:
+
   * [Evident AI Index] - 
   * [Evident AI Innovation Report] - research, patents, ventures, ecosystem
   * [Evident AI Leadership Report] - coms, executive positioning, operating model, strategy
@@ -1004,14 +1071,14 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
   * [Evident AI Talent Report] - Acquisition, staffing, development, retention
 
  More at:
+
   * [https://www.evidentinsights.com/insights/](https://www.evidentinsights.com/insights/)
   * twitter - [https://twitter.com/evident_hq](https://twitter.com/evident_hq)
 
  See also [E], ...
 
 
-## Evolution Strategy
-## ES
+## Evolution Strategy (ES)
 
  Evolution Strategies (ES) is a type of [reinforcement learning algorithm] based on principles of biological evolution. The key characteristics are:
 
@@ -1030,13 +1097,9 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  
  In summary, evolution strategies mimic biological evolution to train policies and optimize solutions through mutations, fitness evaluation, and selection over generations. It provides a gradient-free alternative to deep RL.
 
- More at:
-  * ...
-
  See also [E], ...
 
 
-## Evolutionary Artificial Intelligence
 ## Evolutionary AI
 
  See also [E], ...
@@ -1047,25 +1110,24 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  A spin-off from Facebook focusing on life-science
 
  Models:
+
   * [Evolutionary Scale Models]
 
  More at:
+
   * [https://github.com/facebookresearch/esm](https://github.com/facebookresearch/esm)
 
  See also [E], ...
 
 
-## Evolutionary Scale Model
-## ESM
-## ESM-1 Model
-## ESM-2 Model
-## ESM-3 Model
+## Evolutionary Scale Model (ESM) Family
 
  {% youtube "https://www.youtube.com/watch?v=BNmOI826-_4" %}
 
  {% pdf "https://evolutionaryscale-public.s3.us-east-2.amazonaws.com/research/esm3.pdf" %}
 
  More at:
+
   * ESM3 
     * site - [https://www.evolutionaryscale.ai/blog/esm3-release](https://www.evolutionaryscale.ai/blog/esm3-release)
     * paper - [https://www.openread.academy/en/paper/reading?corpusId=504814170](https://www.openread.academy/en/paper/reading?corpusId=504814170)
@@ -1081,6 +1143,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  {% youtube "https://www.youtube.com/watch?v=EoQuVnKhxaM" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Ex_Machina_(film)](https://en.wikipedia.org/wiki/Ex_Machina_(film)) 
 
  See also [E], [AI Movie]
@@ -1089,6 +1152,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 ## Example
 
  The values of one row of features and possibly a label. Examples in supervised learning fall into two general categories:
+
   * A labeled example consists of one or more features and a label. Labeled examples are used during training.
   * An unlabeled example consists of one or more features but no label. Unlabeled examples are used during inference.
 
@@ -1105,23 +1169,23 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
  See also [E], ...
 
 
-## Example-Based Machine Translation
-## EBMT
+## Example-Based Machine Translation (EBMT)
 
  Example-based machine translation (EBMT) is a method of [machine translation] often characterized by its use of a bilingual [corpus] with parallel texts as its main knowledge base at run-time. It is essentially a translation by analogy and can be viewed as an implementation of a [case-based reasoning] approach to [machine learning].
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Example-based_machine_translation](https://en.wikipedia.org/wiki/Example-based_machine_translation)
 
  See also [E], ...
 
 
-## Executive Order on AI
-## EO on AI
+## Executive Order (EO) on AI
 
  EO 14110 based on the [AI Bill Of Rights]
 
  The Executive Order directs actions:
+
   * New standards for AI safety
   * Protecting Americans' privacy
   * Advancing equity and civil rights
@@ -1144,6 +1208,7 @@ Shape AI’s potential to transform education by creating resources to support e
  {% youtube "https://www.youtube.com/watch?v=YWGdof5e1Og" %}
 
  More at:
+
   * Oct 30th 2023 - Federal Government
     * Fact sheet - [https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/)
     * EO - [https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/)
@@ -1193,9 +1258,6 @@ Shape AI’s potential to transform education by creating resources to support e
 
  A set of experiences, most likely sampled randomly from the [replay memory].
 
- More at:
-  * ...
-
  See also [B], ...
 
 
@@ -1206,6 +1268,7 @@ Shape AI’s potential to transform education by creating resources to support e
  Experience replay, a common RL technique, used in [Deep Q-Networks] amongst others, is another in-between approach ([Offline learning] vs [Online Learning]). Although you could store all the [experience] necessary to fully train an [agent] in theory, typically you store a rolling history and sample from it. It's possible to argue semantics about this, but I view the approach as being a kind of "[buffered online learning]", as it requires low-level components that can work online (e.g. neural networks for [DQN]).
 
  Experience is stored in the [replay memory]. To train the [DQN] network, the training algorithm sample from the experiences from that memory! So experience replay is
+
   * sampling from the replay memory that stores the last-N experiences
   * to gain experience (i.e. be trained)
   * Take random sample from the replay memory
@@ -1215,6 +1278,7 @@ Shape AI’s potential to transform education by creating resources to support e
  {% youtube "https://www.youtube.com/watch?v=Bcuj2fTH4_4" %}
 
  More at:
+
   * [https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off](https://ai.stackexchange.com/questions/10474/what-is-the-relation-between-online-or-offline-learning-and-on-policy-or-off)
 
  See also [E], [Actor-Critic with Experience Replay Algorithm]
@@ -1235,6 +1299,7 @@ Shape AI’s potential to transform education by creating resources to support e
 ## Experiment Tracking
 
  Experiment tracking is the practice of systematically recording and organizing the details of each experiment. This includes tracking parameters, code versions, datasets, metrics (e.g., accuracy, loss), and even environment details (like software and hardware specifications) used in the experiment. Effective experiment tracking allows for:
+
   * Reproducibility: So results can be verified or re-created.
   * Comparability: Allowing researchers to evaluate which configurations yield the best results.
   * Collaboration: Making it easier for team members to understand past experiments and build on each other's work.
@@ -1251,9 +1316,8 @@ Shape AI’s potential to transform education by creating resources to support e
 
  ![](img/e/expert_system_comparison.png ){: width="100%"}
 
-
-
  More at:
+
   * [https://en.wikipedia.org/wiki/Expert_system](https://en.wikipedia.org/wiki/Expert_system)
 
  See also [E], [Big Data], [Deep Learning], [Logical Reasoning], [Machine Learning], [Optimization], [Statistics]
@@ -1273,19 +1337,25 @@ Shape AI’s potential to transform education by creating resources to support e
  ![](img/e/explainability_spectrum.png ){: width="100%"}
 
  More at:
+
   * LLM can explain neurons - [https://openai.com/research/language-models-can-explain-neurons-in-language-models](https://openai.com/research/language-models-can-explain-neurons-in-language-models)
 
  See also [E], [Chain-Of-Thought Prompting]
 
 
-## Explainable AI
-# XAI
+## Explainability
+
+ See also [E], ...
+
+
+## Explainable AI (XAI)
 
  As more and more companies embed AI and advanced analytics within a business process and automate decisions, there needs to have transparency into how these models make decisions grows larger and larger. How do we achieve this transparency while harnessing the efficiencies AI brings. This is where the field of Explainable AI (XAI) can help. 
 
  {% pdf "img/e/explainable_ai_whitepaper.pdf" %}
 
  More at:
+
   * whitepaper - [https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf](https://storage.googleapis.com/cloud-ai-whitepapers/AI%20Explainability%20Whitepaper.pdf)
   * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
   * [https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence#)
@@ -1361,12 +1431,12 @@ Shape AI’s potential to transform education by creating resources to support e
  See also [E], ...
 
 
-## Exploratory Data Analysis
-## EDA
+## Exploratory Data Analysis (EDA)
 
  Exploratory Data Analysis (EDA) refers to the critical process of performing initial investigations on data to discover patterns, spot anomalies, test hypotheses and check assumptions.
 
  The key aspects of EDA include:
+
   * It is an open-ended data analysis approach aimed at finding the key characteristics and relationships in a [dataset] without any preconceived notions.
   * It relies heavily on [data visualization], i.e. visual methods like histograms, scatter plots, and other graphical techniques to provide overviews of data.
   * Summary statistics such as means, [variances], correlations are used to spotlight distribution characteristics.
@@ -1382,20 +1452,17 @@ Shape AI’s potential to transform education by creating resources to support e
 
  ![](img/e/exploratory_data_analysis.png ){: width="100%"}
 
- More at:
-  * ...
-
  See also [E], [AI Alignment]
 
 
-## Exponential Linear Unit Activation Function
-## ELU Activation Function
+## Exponential Linear Unit (ELU) Activation Function
 
  The ELU output for positive input is the input (identity). If the input is negative, the output curve is slightly smoothed towards the (minus) alpha constant (α). The higher the alpha constant, the more negative the output for negative inputs gets.
 
  ELU and ReLU are the most popular activation functions used. Here are the advantages and disadvantages of using it when compared to other popular activation functions.
 
  Advantages of ELU
+
   * Tend to converge faster than ReLU (because mean ELU activations are closer to zero)
   * Better generalization performance than ReLU
   * Fully continuous
@@ -1405,6 +1472,7 @@ Shape AI’s potential to transform education by creating resources to support e
   * Does not have a [dying relu problem]
 
  Disadvantages of ELU
+
   * Slower to compute (because of non-linearity for negative input values)
 
  ELU is slower to compute, but ELU compensates this by faster convergence during training. During test time ELU is slower to compute than ReLU though.
@@ -1468,6 +1536,7 @@ plt.show()
  ![](img/e/exponential_linear_unit_activation_function.png ){: width="100%"}
 
  More at:
+
   * [https://closeheat.com/blog/elu-activation-function](https://closeheat.com/blog/elu-activation-function)
   * pytorch docs - [https://pytorch.org/docs/master/generated/torch.nn.ELU.html](https://pytorch.org/docs/master/generated/torch.nn.ELU.html)
 
@@ -1477,6 +1546,7 @@ plt.show()
 ## Exponential Technology
 
  Includes
+
   * Intelligence
     * [Artificial General Intelligence]
     * [Artificial Narrow Intelligence]
@@ -1527,6 +1597,7 @@ plt.show()
  {% pdf "https://www.311institute.com/codexes/311%20Institute%20-%20The%20Future%20of%20Exponential%20Technology.pdf" %}
 
  More at:
+
   * [https://www.311institute.com/fanaticalfuturist-codex-of-the-future/](https://www.311institute.com/fanaticalfuturist-codex-of-the-future/)
 
  See also [E], ...
@@ -1537,14 +1608,14 @@ plt.show()
  See also [E], [Hyperparameter]
 
 
-## Extreme Gradient Boosting
-# XGBoost
+## Extreme Gradient Boosting (XGBoost)
 
  An ensemble method, XGBoost (extreme gradient boosting) is a popular and efficient open-source implementation of the gradient-boosted trees algorithm. Gradient boosting is a machine learning algorithm that attempts to accurately predict target variables by combining the estimates of a set of simpler, weaker models (several decision trees?). By applying gradient boosting to decision tree models in a highly scalable manner, XGBoost does remarkably well in machine learning competitions. It also robustly handles a variety of data types, relationships, and distributions. It provides a large number of hyperparameters—variables that can be tuned to improve model performance. This flexibility makes XGBoost a solid choice for various [supervised machine learning] tasks/problems such as [classifications] and [regressions].
 
  Example image recognition of a car: Before you recognize the car, does the thing have wheels, are they door, etc... if it has all of those features then it must be a car.
 
  Here's why XGBoost stands out:
+
   * Efficiency and Speed: XGBoost is highly optimized for speed and performance. It uses efficient memory usage and parallel processing, making it suitable for large datasets and often faster than many other algorithms.
   * Regularization: XGBoost has built-in regularization terms (L1 and L2) that help prevent overfitting, giving it an advantage over other gradient-boosting frameworks by enhancing generalization.
   * Handling Missing Data: XGBoost can automatically learn best values for missing data, which makes it more flexible for real-world data with incomplete entries.
@@ -1552,7 +1623,7 @@ plt.show()
   * Cross-Validation Support: XGBoost has built-in support for cross-validation, helping optimize model parameters during training.
   * Wide Application: Due to its effectiveness, XGBoost is widely used in machine learning competitions and is a go-to model for structured/tabular data, where its performance often outshines simpler algorithms.
 
-XGBoost has been applied in various fields, from finance to healthcare, and is especially popular in competitions like Kaggle due to its high accuracy and flexibility.
+ XGBoost has been applied in various fields, from finance to healthcare, and is especially popular in competitions like Kaggle due to its high accuracy and flexibility.
 
  ![](img/e/extreme_gradient_boosting.png ){: width="100%"}
 
@@ -1598,8 +1669,5 @@ print(f"Accuracy: {accuracy * 100:.2f}%")
  {% youtube "https://www.youtube.com/watch?v=oRrKeUCEbq8" %}
 
  {% youtube "https://www.youtube.com/watch?v=R5FB1ZUejXM" %}
-
- More at:
-  * ...
 
  See also [E], [Bagging], [Boosting], [Classification], [Ensemble Method], [Hyperparameters], [Machine Learning], [Random Forest], [Ranking], [Regression]

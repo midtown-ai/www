@@ -7,6 +7,7 @@
  {% youtube "https://www.youtube.com/watch?v=BY9KV8uCtj4" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Yann_LeCun](https://en.wikipedia.org/wiki/Yann_LeCun)
   * [https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai](https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai)
 
@@ -17,16 +18,14 @@
 
  A [LLM] developed at [01 AI]
 
- ![](img/y/yi_model.png ){: width="100%"}
-
  More at:
+
   * site - [https://01.ai/](https://01.ai/)
 
  See also [Y], ...
 
 
-## You Only Look Once Model
-## YOLO  Model
+## You Only Look Once (YOLO) Python Module
 
  For [Image Classification], [Image Segmentation], [Object Detection], [Object Tracking], [Pose Estimation], ...
 
@@ -35,6 +34,7 @@
  {% youtube "https://www.youtube.com/watch?v=QtsI0TnwDZs" %}
 
  More at:
+
   * home - [https://docs.ultralytics.com/](https://docs.ultralytics.com/)
   * pytorch code colab - [https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb](https://colab.research.google.com/github/ultralytics/ultralytics/blob/main/examples/tutorial.ipynb)
   * articles
@@ -50,6 +50,7 @@
  {% youtube "https://www.youtube.com/watch?v=uawLjkSI7Mo" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Yoshua_Bengio](https://en.wikipedia.org/wiki/Yoshua_Bengio)
 
  See also [Y], [People]

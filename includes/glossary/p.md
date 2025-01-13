@@ -6,23 +6,25 @@
 [Parameter]: p.md#parameter
 [Parameters]: p.md#parameter
 [Parameter Count Efficient Frontier]: p.md#parameter-count-efficient-frontier
-[Parameter-Efficient and Quantization-Aware Adaptation]: p.md#parameter-efficient-and-quantization-aware-adaptation
-[PEQA]: p.md#parameter-efficient-and-quantization-aware-adaptation
-[Parameter-Efficient Fine-Tuning]: p.md#parameter-efficient-fine-tuning
-[PEFT]: p.md#parameter-efficient-fine-tuning
+[Parameter-Efficient and Quantization-Aware Adaptation (PEQA)]: p.md#parameter-efficient-and-quantization-aware-adaptation-peqa
+[PEQA]: p.md#parameter-efficient-and-quantization-aware-adaptation-peqa
+[Parameter-Efficient Fine-Tuning]: p.md#parameter-efficient-fine-tuning-peft
+[PEFT]: p.md#parameter-efficient-fine-tuning-peft
 [Parametric Knowledge]: p.md#parametric-knowledge
 [Parent Document Retrieval]: p.md#parent-document-retrieval
-[Particule Swarm Optimization ALgorithm]: p.md#particule-swarm-optimization-algorithm
-[Particule Swarm Optimization]: p.md#particule-swarm-optimization-algorithm
-[PSO Algorithm]: p.md#particule-swarm-optimization-algorithm
-[PSO]: p.md#particule-swarm-optimization-algorithm
+[Particule Swarm Optimization (PSO) Algorithm]: p.md#particule-swarm-optimization-pso-algorithm
+[Particule Swarm Optimization (PSO)]: p.md#particule-swarm-optimization-pso-algorithm
+[PSO Algorithm]: p.md#particule-swarm-optimization-pso-algorithm
+[PSO]: p.md#particule-swarm-optimization-pso-algorithm
 [Passive Learning]: p.md#passive-learning
-[Pathways Autoregressive Text-to-Image Model]: p.md#pathways-autoregressive-text--to-image-model
-[Parti Model]: p.md#pathways-autoregressive-text--to-image-model
-[Pathways Language Model]: p.md#pathways-language-model
-[PaLM Model]: p.md#pathways-language-model
-[Pathways Language Model Embodied]: p.md#pathways-language-model-embodied-model
-[PaLM-E Model]: p.md#pathways-language-model-embodied-model
+[Pathways Autoregressive Text-to-Image (Parti) Model]: p.md#pathways-autoregressive-text-to-image-parti-model
+[Parti Model]: p.md#pathways-autoregressive-text-to-image-parti-model
+[Pathways Language Model (PaLM)]: p.md#pathways-language-model-palm
+[PaLM Model]: p.md#pathways-language-model-palm
+[PaLM]: p.md#pathways-language-model-palm
+[Pathways Language Model Embodied]: p.md#pathways-language-model-embodied-model-palm-e
+[PaLM-E Model]: p.md#pathways-language-model-embodied-model-palm-e
+[PaLM-E]: p.md#pathways-language-model-embodied-model-palm-e
 [Pathways Model Architecture]: p.md#pathways-model-architecture
 [Pattern Recognition]: p.md#pattern-recognition
 [Peer Review]: p.md#peer-review
@@ -34,8 +36,8 @@
 [Percy Lang Person]: p.md#percy-lang-person
 [Percy Lang]: p.md#percy-lang-person
 [Perfect Information]: p.md#perfect-information
-[Perplexity]: p.md#perplexity
-[PPL]: p.md#perplexity
+[Perplexity (PPL)]: p.md#perplexity-ppl
+[PPL]: p.md#perplexity-ppl
 [Perplexity AI Company]: p.md#perplexity-ai-company
 [Perplexity AI]: p.md#perplexity-ai-company
 [Personal Assistant]: p.md#personal-assistant
@@ -48,7 +50,7 @@
 [Pinecone Canopy]: p.md#pinecone-canopy
 [Pinecone Company]: p.md#pinecone-company
 [Pinecone]: p.md#pinecone-company
-[Pinecone Database]: p.md#pinecone-database
+[Pinecone Vector Database]: p.md#pinecone-vector-database
 [Pipe Mode]: p.md#pipe-mode
 [Pixel RNN]: p.md#pixel-rnn
 [Pixel Space]: p.md#pixel-space
@@ -69,14 +71,14 @@
 [Polynomial Regression]: p.md#polynomial-regression
 [Pooling Layer]: p.md#pooling-layer
 [Pooling Layers]: p.md#pooling-layer
-[Population Stability Index]: p.md#population-stability-index
-[PSI]: p.md#population-stability-index
+[Population Stability Index (PSI)]: p.md#population-stability-index-psi
+[PSI]: p.md#population-stability-index-psi
 [Pose Estimation]: p.md#pose-estimation
 [Positional Encoding]: p.md#positional-encoding
 [Positive And Negative Pairs]: p.md#positive-and-negative-pairs
 [Positive Attribute]: p.md#positive-attribute
-[Post-Training Quantization]: p.md#post-training-quantization
-[PTQ]: p.md#post-training-quantization
+[Post-Training Quantization (PTQ)]: p.md#post-training-quantization-ptq
+[PTQ]: p.md#post-training-quantization-ptq
 [Poster]: p.md#poster
 [Posterior Belief]: p.md#posterior-belief
 [Posterior Beliefs]: p.md#posterior-belief
@@ -84,21 +86,18 @@
 [Precision]: p.md#precision
 [Prediction]: p.md#prediction
 [Prediction Error]: p.md#prediction-error
-[Prediction-Powered Inference]: p.md#prediction-powered-inference
-[PPI]: p.md#prediction-powered-inference
-[Predictive Artificial Intelligence]: p.md#predictive-artificial-intelligence
-[Predictive AI]: p.md#predictive-artificial-intelligence
+[Prediction-Powered Inference (PPI)]: p.md#prediction-powered-inference-ppi
+[PPI]: p.md#prediction-powered-inference-ppi
+[Predictive AI]: p.md#predictive-ai
 [Predictive Maintenance]: p.md#predictive-maintenance
 [Predictor Variable]: p.md#predictor-variable
 [Pretrained Model]: p.md#pretrained-model
 [Pretrained Models]: p.md#pretrained-model
-[PT Model]: p.md#pretrained-model
-[PT Models]: p.md#pretrained-model
-[PT]: p.md#pretrained-model
 [Pretrained Objective]: p.md#pretrained-objective
 [Pretrained Objectives]: p.md#pretrained-objective
-[Principal Component Analysis]: p.md#principal-component-analysis
-[PCA]: p.md#principal-component-analysis
+[Principal Component Analysis (PSA)]: p.md#principal-component-analysis-pca
+[Principal Component Analysis]: p.md#principal-component-analysis-pca
+[PCA]: p.md#principal-component-analysis-pca
 [Prior]: p.md#prior
 [Prior Belief]: p.md#prior-belief
 [Prior Beliefs]: p.md#prior-belief
@@ -106,18 +105,19 @@
 [Prior Probability]: p.md#prior-probability
 [Prioritized Experience Replay]: p.md#prioritized-experience-replay
 [Probability]: p.md#probability
-[Probabilistic Inference For Learning Control Model]: p.md#probabilistic-inference-for-learning-control-model
-[PILCO Model]: p.md#probabilistic-inference-for-learning-control-model
-[PILCO]: p.md#probabilistic-inference-for-learning-control-model
-[Procedural Reasoning System]: p.md#procedural-reasoning-system
-[Product Development Life Cycle]: p.md#product-development-life-cycle
-[PDLC]: p.md#product-development-life-cycle
-[Product Quantization]: p.md#product-quantization
-[Product Quantization Code]: p.md#product-quantization-code
+[Probabilistic Inference For Learning Control (PILCO) Model]: p.md#probabilistic-inference-for-learning-control-pilco-model
+[PILCO Model]: p.md#probabilistic-inference-for-learning-control-pilco-model
+[PILCO]: p.md#probabilistic-inference-for-learning-control-pilco-model
+[Procedural Reasoning System (PRS)]: p.md#procedural-reasoning-system-prs
+[PRS]: p.md#procedural-reasoning-system-prs
+[Product Development Life Cycle (PDLC)]: p.md#product-development-life-cycle-pdlc
+[PDLC]: p.md#product-development-life-cycle-pdlc
+[Product Quantization (PQ)]: p.md#product-quantization-pq
+[Product Quantization (PQ) Code]: p.md#product-quantization-pq-code
 [PQ Code]: p.md#product-quantization-code
-[Program-Aided Language System]: p.md#program-aided-language-system
-[PAL System]: p.md#program-aided-language-system
-[PAL]: p.md#program-aided-language-system
+[Program-Aided Language (PAL) System]: p.md#program-aided-language-pal-system
+[PAL System]: p.md#program-aided-language-pal-system
+[PAL]: p.md#program-aided-language-pal-system
 [Progressive Neural Network]: p.md#progressive-neural-network
 [Progressive Neural Networks]: p.md#progressive-neural-network
 [Prompt Adaptation]: p.md#prompt-adaptation
@@ -127,15 +127,17 @@
 [Prompt Leakage]: p.md#prompt-leakage
 [PromptIDE Application]: p.md#promptide-application
 [PromptIDE]: p.md#promptide-application
-[Proximal Policy Optimization Algorithm]: p.md#proximal-policy-optimization-algorithm
-[PPO Algorithm]: p.md#proximal-policy-optimization-algorithm
-[PPO]: p.md#proximal-policy-optimization-algorithm
+[Proximal Policy Optimization (PPO) Algorithm]: p.md#proximal-policy-optimization-ppo-algorithm
+[Proximal Policy Optimization (PPO)]: p.md#proximal-policy-optimization-ppo-algorithm
+[PPO Algorithm]: p.md#proximal-policy-optimization-ppo-algorithm
+[PPO]: p.md#proximal-policy-optimization-ppo-algorithm
 [Pruning]: p.md#pruning
 [Punishment]: p.md#punishment
 [Punishments]: p.md#punishment
 [Purpose]: p.md#purpose
 [Purpose Learning]: p.md#purpose-learning
-[PyBullet]: p.md#pybullet
+[PyBullet Python Module]: p.md#pybullet-python-module
+[PyBullet]: p.md#pybullet-python-module
 [PyCaret Python Module]: p.md#pycaret-python-module
 [PyCaret]: p.md#pycaret-python-module
 [Pydantic Python Module]: p.md#pydantic-python-module

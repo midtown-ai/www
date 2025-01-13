@@ -7,6 +7,7 @@
  {% youtube "https://www.youtube.com/watch?v=3Mi62VKDhm0" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/WALL-E](https://en.wikipedia.org/wiki/WALL-E)
 
  See also [W], [AI Movie]
@@ -19,6 +20,7 @@
  {% youtube "https://www.youtube.com/watch?v=TQUsLAAZuhU" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/WarGames](https://en.wikipedia.org/wiki/WarGames)
 
  See also [W], [AI Movie]
@@ -27,9 +29,6 @@
 ## Wav2Letter Model
 
  Included in the [Fairseq Toolkit] built by [Meta]
-
- More at:
-  * ...
 
  See also [W], ...
 
@@ -40,13 +39,14 @@
 
  As presented in the picture below, the model is trained in two phases. The first phase is in a self-supervised mode, which is done using unlabeled data and it aims to achieve the best speech representation possible. You can think about that in a similar way as you think of word embeddings. Word embeddings also aim to achieve the best representation of natural language. The main difference is that Wav2Vec 2.0 processes audio instead of text. The second phase of training is [supervised fine-tuning (SFT)][SFT], during which labeled data is used to teach the model to predict particular words or phonemes. If you are not familiar with the word ‘phoneme’, you can think about it as the smallest possible unit of sound in a particular language, usually represented by one or two letters.
 
- ![](img/w/wave2vec_model.webp ){: width="100%"}
+ ![](img/w/wav2vec_model.webp ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=B5A1bMi4dJI" %}
 
  {% pdf "https://arxiv.org/pdf/1904.05862.pdf" %}
 
  More at:
+
   * Wav2vec 2.0 
     * site - [https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/](https://ai.facebook.com/blog/wav2vec-20-learning-the-structure-of-speech-from-raw-audio/)
     * articles
@@ -63,6 +63,7 @@
  A [text-to-speech model] built by [DeepMind]
 
  More at:
+
   * [https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio](https://www.deepmind.com/blog/wavenet-a-generative-model-for-raw-audio)
 
  See also [W], ...
@@ -75,6 +76,7 @@
  {% youtube "https://www.youtube.com/watch?v=hA_-MkU0Nfw" %}
 
  More at:
+
   * company site - [https://waymo.com/](https://waymo.com/)
   * wikipedia - [https://en.wikipedia.org/wiki/Waymo](https://en.wikipedia.org/wiki/Waymo)
 
@@ -84,10 +86,12 @@
 ## Weak AI
 
  Searle identified a philosophical position he calls "strong AI":
+
   * The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds.[b]
  The definition depends on the distinction between simulating a mind and actually having a mind. Searle writes that "according to Strong AI, the correct simulation really is a mind. According to Weak AI, the correct simulation is a model of the mind."
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Chinese_room#Strong_AI](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI)
 
  See also [W], [Strong AI]
@@ -100,6 +104,7 @@
  Better than random is basically the only requirement for a weak learner. So long as you can consistently beat random guessing, any true [boosting] algorithm will be able to increase the [accuracy] of the final ensemble.
 
  What weak learner you should choose is then a trade off between 3 factors:
+
   1. The [bias] of the model. A lower bias is almost always better, but you don't want to pick something that will overfit (yes, boosting can and does overfit)
   1. The training time for the weak learner. Generally we want to be able to learn a weak learner quickly, as we are going to be building a few hundred (or thousand) of them.
   1. The prediction time for our weak learner. If we use a model that has a slow prediction rate, our ensemble of them is going to be a few hundred times slower!
@@ -126,6 +131,7 @@
 ## Web Scaping
 
  More at:
+
   * example with beautiful soup - [https://github.com/emayssat/web_scraping](https://github.com/emayssat/web_scraping)
 
  See also [W], ...
@@ -135,6 +141,7 @@
  {% pdf "https://arxiv.org/pdf/2112.09332.pdf" %}
 
  More at:
+
   * [https://openai.com/research/webgpt](https://openai.com/research/webgpt)
   * paper - [https://arxiv.org/abs/2112.09332](https://arxiv.org/abs/2112.09332)
   * articles
@@ -155,6 +162,7 @@
  {% youtube "https://youtu.be/a4nXGnumD1U?si=xdyDe1Q0U7x8Nt60" %}
 
  More at:
+
   * site [https://websim.ai/](https://websim.ai/)
 
  See also [W], ...
@@ -180,9 +188,9 @@
 
  The effect of weight decay is to encourage the model to prefer smaller weights, thus preventing the model from fitting the training data too closely and improving its ability to generalize to unseen data.
 
- Weight decay is a regularization technique commonly used in machine learning, especially in the context of neural networks. It is also known as L2 [regularization] or weight regularization. The purpose of weight decay is to prevent [overfitting] by adding a penalty term to the [loss function] that the model minimizes during training.
+ Weight decay is a regularization technique commonly used in machine learning, especially in the context of neural networks. It is also known as [L2 regularization] or weight regularization. The purpose of weight decay is to prevent [overfitting] by adding a penalty term to the [loss function] that the model minimizes during training.
 
- In the context of neural networks, the loss function typically consists of two parts: the data-driven loss (such as [mean squared error] for regression or [cross-entropy] for classification) and a regularization term. The regularization term penalizes the complexity of the model by adding a term based on the weights.
+ In the context of neural networks, the loss function typically consists of two parts: the data-driven loss (such as [Root Mean Squared Error (RMSE)] for regression or [cross-entropy] for classification) and a regularization term. The regularization term penalizes the complexity of the model by adding a term based on the weights.
 
  See also [W], ...
 
@@ -192,6 +200,7 @@
  Used several models and weights their outputs based on their accuracy, or [BAU]
 
  More at:
+
   * code - [https://www.kaggle.com/code/beezus666/titanic-space-total-overkill](https://www.kaggle.com/code/beezus666/titanic-space-total-overkill)
 
  See also [W], ...
@@ -232,6 +241,7 @@ agent.run("What is 2 raised to .123243 power?")
 ```
 
  More at:
+
   * site - [https://www.wandb.courses/pages/w-b-courses](https://www.wandb.courses/pages/w-b-courses)
   * course - [https://www.wandb.courses/pages/w-b-courses](https://www.wandb.courses/pages/w-b-courses)
 
@@ -259,6 +269,7 @@ curl https://api.openai.com/v1/audio/transcriptions \
  {% pdf "https://cdn.openai.com/papers/whisper.pdf" %}
 
  More at:
+
   * site - [https://openai.com/blog/whisper/](https://openai.com/blog/whisper/)
   * code - [https://github.com/openai/whisper](https://github.com/openai/whisper)
   * paper - 
@@ -274,16 +285,13 @@ curl https://api.openai.com/v1/audio/transcriptions \
  See also [W], ...
 
 
-## Wikidata Knowledge Graph
+## Wikidata KG
 
  ~ an open-source [Knowledge Graph] maintained by [Wikimedia]
 
  {% youtube "https://www.youtube.com/watch?v=fx5K_FRQ2eg" %}
 
  {% youtube "https://www.youtube.com/watch?v=WqYBx2gB6vA" %}
-
- More at:
-  * ...
 
  See also [W], ...
 
@@ -300,6 +308,7 @@ curl https://api.openai.com/v1/audio/transcriptions \
  {% youtube "https://www.youtube.com/watch?v=bHy63VOp0RQ" %}
 
  More at: 
+
   * [https://www.wikifunctions.org](https://www.wikifunctions.org)
   * [https://wikifunctions.beta.wmflabs.org/wiki/Wikifunctions:Main_Page](https://wikifunctions.beta.wmflabs.org/wiki/Wikifunctions:Main_Page)
 
@@ -323,6 +332,7 @@ curl https://api.openai.com/v1/audio/transcriptions \
  {% youtube "https://www.youtube.com/watch?v=P0CDVRqS8iA" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2304.12244](https://arxiv.org/abs/2304.12244)
   * code - [https://github.com/nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM)
   * evol-instruct
@@ -338,6 +348,7 @@ curl https://api.openai.com/v1/audio/transcriptions \
  {% youtube "https://www.youtube.com/watch?v=nEHCBPGo-5M" %}
 
  More at:
+
   * site - [https://wonderdynamics.com/#product](https://wonderdynamics.com/#product)
 
  See also [W], ...
@@ -358,11 +369,13 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  Word representations allow finding similarities between words by computing the cosine similarity between the vector representation of two words. The cosine similarity measures the angle between two vectors. We compute word embeddings using machine learning methods, but that’s often a pre-step to applying a machine learning algorithm on top. For instance, suppose we have access to the tweets of several thousand Twitter users. Also suppose that we know which of these Twitter users bought a house. To predict the probability of a new Twitter user buying a house, we can combine [Word2Vec] with a [logistic regression]. You can train word embeddings yourself or get a pre-trained (transfer learning) set of word vectors. To download pre-trained word vectors in 157 different languages, take a look at FastText.
 
  Context-free examples:
+
   * Word2Vec – Predicts a word given its context (CBOW) or predicts the context given a word (Skip-gram). For example, in the phrase “The bird sat in the tree,” Word2Vec can learn that “bird” and “tree” often appear in similar contexts, capturing their relationship. This is useful for tasks like word similarity and analogy detection.
   * GloVe (Global Vectors for Word Representation) – Uses matrix factorization techniques on the word co-occurrence matrix to find word embeddings. For instance, GloVe can learn that “cheese” and “mayo” are related to “sandwich” by analyzing the co-occurrence patterns across a large corpus. This approach is great for applications like semantic search and clustering that need to understand broader relationships among words.
   * FastText – An extension of Word2Vec by Facebook, FastText considers subword information, making it effective for morphologically rich languages. It represents words as bags of character n-grams, which helps in understanding rare words and misspellings. For example, it can recognize that “running” and “runner” share a common subword structure.
 
  Context-full examples:
+
   * ELMo (Embeddings from Language Models) – Generates word representations that are functions of the entire input sentence, capturing context-sensitive meanings. For example, the word “bark” will have different embeddings in “The dog began to bark loudly” versus “The tree’s bark was rough,” depending on the surrounding words.
   * BERT ([Bidirectional Encoder Representations from Transformers]) – Pre-trains deep bidirectional representations by jointly conditioning on both left and right context in all layers. For example, in the sentence “She went to the bank to deposit money,” BERT uses the preceding words “She went to the” and the following words “to deposit money” to determine that “bank” refers to a financial institution, not a riverbank.
 
@@ -371,6 +384,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  {% youtube "https://www.youtube.com/watch?v=bof9EdygMSo" %}
 
  More at:
+
   * tutorial - [https://txt.cohere.com/sentence-word-embeddings/](https://txt.cohere.com/sentence-word-embeddings/)
   * articles
     * LLM embedding - [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
@@ -389,13 +403,13 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  As expected, semantically similar words like the word ‘toilet’ and the word ‘bathroom’ have close [word embeddings] in the latent space.
 
  More at:
+
   * [https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc](https://towardsdatascience.com/introduction-to-word-embeddings-4cf857b12edc)
 
  See also [W], [Input Space], [Latent Space]
 
 
-## Word Error Rate Metric
-## WER Metric
+## Word Error Rate (WER) Metric
 
  ~ a common metric of the performance of an [automatic speech recognition] or [machine translation] system.
 
@@ -406,6 +420,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  {% youtube "https://www.youtube.com/watch?v=UqhZG4DDtuk" %}
 
  More at:
+
   * wikipedia - [https://en.wikipedia.org/wiki/Word_error_rate](https://en.wikipedia.org/wiki/Word_error_rate)
 
  See also [W], [BLEU Score], [ROUGE Score]
@@ -415,6 +430,7 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  Context-free models such as word2vec or GloVe generate a single "word embedding" representation for each word in the vocabulary, so bank would have the same representation in bank deposit and river bank. Do not take into consideration the context on the right or on the left of the word. ~ Bag of Words. Deprecated by RNN?
 
  Strategy used:
+
   * Continuous [Bag Of Words] - use pre and post context to predict what is in the middle
   * [Skip Gram] - increases the context by using the word in the middle to predict the surrounding words
 
@@ -425,15 +441,18 @@ vector(‘king’) + vector(‘woman’) — vector(‘man’) ~ vector(‘queen
  
 ## WordNet Dataset
 
- WordNet® is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser. WordNet is also freely and publicly available for download. WordNet's structure makes it a useful tool for computational linguistics and natural language processing.
+ WordNet is a large lexical database of English. Nouns, verbs, adjectives and adverbs are grouped into sets of cognitive synonyms (synsets), each expressing a distinct concept. Synsets are interlinked by means of conceptual-semantic and lexical relations. The resulting network of meaningfully related words and concepts can be navigated with the browser. WordNet is also freely and publicly available for download. WordNet's structure makes it a useful tool for computational linguistics and natural language processing.
 
  More at:
+
   * [https://wordnet.princeton.edu/](https://wordnet.princeton.edu/)
 
  See also [W], [Dataset], [ImageNet Dataset], [Transfer Learning]
 
 
-## WordPiece Tokenization
+## WordPiece Tokenizer
+
+ ==The tokenizer used by the [BERT model]==
 
  WordPiece is the tokenization algorithm [Google] developed to pretrain [BERT]. It has since been reused in quite a few [Transformer] models based on [BERT], such as [DistilBERT], MobileBERT, Funnel Transformers, and MPNET. It’s very similar to [BPE] in terms of the training, but the actual tokenization is done differently (Pair scores are computed differently!).
 
@@ -476,16 +495,17 @@ vocab[2], vocab[13884], vocab[5], \
  {% youtube "https://www.youtube.com/watch?v=qpv6ms_t_1A" %}
 
  More at:
+
   * huggingface course - [https://huggingface.co/learn/nlp-course/chapter6/6](https://huggingface.co/learn/nlp-course/chapter6/6)
   * BPE vs WordPiece - [https://medium.com/@atharv6f_47401/wordpiece-tokenization-a-bpe-variant-73cc48865cbf](https://medium.com/@atharv6f_47401/wordpiece-tokenization-a-bpe-variant-73cc48865cbf)
 
  See also [W], ...
 
 
-## World Artificial Intelligence Cannes Festival
-## WAICF
+## World Artificial Intelligence Cannes Festival (WAICF)
 
  More at
+
   * site - [https://www.worldaicannes.com/festival](https://www.worldaicannes.com/festival)
   * articles
     * [https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai](https://aibusiness.com/meta/ai-luminary-yann-lecunn-sets-us-straight-on-generative-ai)
@@ -500,6 +520,7 @@ vocab[2], vocab[13884], vocab[5], \
  {% youtube "https://www.youtube.com/watch?v=k8v7WvuvUXo" %}
 
  More at:
+
   * site - [https://www.worldlabs.ai/](https://www.worldlabs.ai/)
   * articles
     * [https://www.geeky-gadgets.com/interactive-3d-worlds-from-2d-images/](https://www.geeky-gadgets.com/interactive-3d-worlds-from-2d-images/)
@@ -516,6 +537,7 @@ vocab[2], vocab[13884], vocab[5], \
  Useful to train [embodied agents]
 
  Examples:
+
   * chess world model = rules of chess (possible actions + scoring) + description of the board. 
     * inputs:
       * a board state (position of all the pieces)
@@ -526,11 +548,13 @@ vocab[2], vocab[13884], vocab[5], \
     * algorithm tells you how to make moves by picking the action with the best next board value!
 
  Known models:
+
   * [Genie] by [Google]
   * ??? by [World Labs]
   * [OASIS](https://www.decart.ai/) by [Decart](https://x.com/DecartAI)
 
  More at:
+
   * articles
     * LLM to LWM - [https://www.forbes.com/councils/forbestechcouncil/2024/01/23/the-next-leap-in-ai-from-large-language-models-to-large-world-models/](https://www.forbes.com/councils/forbestechcouncil/2024/01/23/the-next-leap-in-ai-from-large-language-models-to-large-world-models/)
 

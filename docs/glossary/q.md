@@ -20,6 +20,7 @@
  Q-learning has been successfully applied in various domains, including game playing, robotics, and [control systems], where an [RL agent] needs to learn from trial-and-error interactions to achieve a specific goal.
 
  More at:
+
   * code - [https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning](https://github.com/simoninithomas/Deep_reinforcement_learning_Course/tree/master/Q%20learning)
 
  See also [Q], [Deep Q-Learning]
@@ -56,9 +57,10 @@
 
  The cell value in the [Q-table] that correspond for the state-action pair. Note that the Q-value is [reward] + discounted Q-value (or future rewards) for expected destination state.
 
- Beware:
+/// warning |
   * At initialization, all Q-values in the Q-tables are initialized at 0, because nothing is known about the environment.
   * In Contrast to Reward, which implies a short-term gain, Value refers to the long-term return with discount.
+///
 
  See also [Q], [Optimal Q-Value]
 
@@ -102,11 +104,13 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  Quantization has gained popularity as it enables open-source LLMs to run on everyday devices like laptops and desktop computers. GPT4All and Llama.cpp are two notable examples of quantized LLMs that have leveraged this technique effectively.
 
  Quantization can be applied at various stages of the model’s training cycle:
-  * [Quantization-Aware Training (QAT)][QAT]
-  * [Quantization-Aware Fine-Tuning (QAFT)][QAFT]
-  * [Post-Training Quantization (PTQ)][PTQ]
+
+  * [Quantization-Aware Training (QAT)]
+  * [Quantization-Aware Fine-Tuning (QAFT)]
+  * [Post-Training Quantization (PTQ)]
 
  More at:
+
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [Q], ...
@@ -116,12 +120,12 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  Quantization error is the difference between the analog signal and the closest available digital value at each sampling instant from A/D converter. Quantization error also introduces noise,to the sample signal. Relations The higher the resolution of A/D converter, the lower the quantization error and the smaller the quantization noise.
 
 
-## Quantization-Aware Fine-Tuning
-## QAFT
+## Quantization-Aware Fine-Tuning (QAFT)
 
  A [quantization] method that is another approach where a pre-trained high-precision model is adapted to maintain its quality with lower-precision weights. Techniques like [QLoRA] and [parameter-efficient and quantization-aware adaptation (PEQA)][PEQA] are commonly used for QAFT.
 
  More at:
+
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [Q], [Model Compression]
@@ -132,12 +136,19 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  A [quantization] method where quantization is integrated into the training process. This approach allows the model to learn low-precision representations from the start, mitigating the precision loss caused by quantization. However, the downside of QAT is that it requires training the model from scratch, which can be resource-intensive and costly.
 
  More at:
+
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [Q], [Model Compression]
 
-## Quantized And Low-Rank Adapters Fine-Tuning
-## QLoRA Fine-Tuning
+
+## Quantization-Aware Training (QAT)
+
+ See also [Q], ...
+
+
+
+## Quantized And Low-Rank Adaptation (QLoRA) Fine-Tuning
 
  ~ An improved version of [LoRA fine-tuning] that can run on a single [GPU]
 
@@ -152,6 +163,7 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  {% pdf "https://arxiv.org/pdf/2305.14314.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2305.14314](https://arxiv.org/abs/2305.14314)
   * github - [https://github.com/artidoro/qlora](https://github.com/artidoro/qlora)
   * ARticle(s)
@@ -167,6 +179,7 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  ![](img/q/quantized_signal.png ){: width="100%"}
 
  See also [Q], [Quantizer]
+
 
 ## Quantizer
 
@@ -189,12 +202,12 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  ![](img/q/quantum_advantage.webp ){: width="100%"}
 
  More at:
+
   * [https://blog.google/technology/research/google-willow-quantum-chip/](https://blog.google/technology/research/google-willow-quantum-chip/)
 
  See also [Q], ...
 
 
-## Quantum Artificial Intelligence
 ## Quantum AI
 
  See also [Q], [Quantum Machine Learning]
@@ -206,15 +219,14 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
 
  {% youtube "https://www.youtube.com/watch?v=PGrQs7Mch-E" %}
 
-
-
  More at:
+
   * willow - [https://blog.google/technology/research/behind-the-scenes-google-quantum-ai-lab/](https://blog.google/technology/research/behind-the-scenes-google-quantum-ai-lab/)
 
- See also [Q], [Quantum Artificial Intelligence]
+ See also [Q], [Quantum AI]
 
 
-## Quantum Machine Learning
+## Quantum Machine Learning (QML)
 
  See also [Q], ...
 
@@ -228,13 +240,13 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
  ![](img/q/quantum_supremacy.webp ){: width="100%"}
 
  More at:
+
   * [https://blog.google/technology/research/google-willow-quantum-chip/](https://blog.google/technology/research/google-willow-quantum-chip/)
 
  See also [Q], ...
 
 
-## Question Answering
-## QA
+## Question Answering (QA)
 
  The Stanford Question Answering Dataset (SQuAD) v1.1 is a collection of 100k crowdsourced question/answer pairs. Given a question and a passage from Wikipedia containing the answer, the task is to predict that answer text span in the passage. SQuAD v2.0 extends SQuAD v1.1 prolem definition by allowing for the possibility that no short answer exists in the provided paragraph, making the problem more realistic.
  
@@ -274,9 +286,7 @@ answer = ask_question({
  See also [Q], [BERT Model], [GPT Model], [Logit], [Natural Language Processing]
 
 
-## Question Answering Graph Neural Network
-
-## QAGNN
+## Question Answering Graph Neural Network (QA-GNN)
 
  A QA LLM NLP used to generate a graph which is then merged with a Knowledge Graph.... to finally answer the question. 
  :warning: LLM is one of the best method to extract entities from text.
@@ -284,6 +294,7 @@ answer = ask_question({
  {% pdf "img/q/qagnn_paper.pdf" %}
 
  More at:
+
   * [https://ai.stanford.edu/blog/qagnn/](https://ai.stanford.edu/blog/qagnn/)
 
  See also [Q], [Entity Extraction], [Graph Neural Network], [Knowledge Graph], [Machine Reasoning], [Question Answering]
@@ -296,16 +307,18 @@ answer = ask_question({
  Quora is a question-and-answer platform where users can ask questions and get answers from a community of users. It was founded in 2009 by two former Facebook employees and has since grown to become one of the largest question-and-answer platforms on the internet. Users can ask any question they have on any topic, and other users can answer the question, provide comments, and upvote or downvote answers. Quora also allows users to follow topics and other users, which can help them discover new questions and answers that are relevant to their interests. Quora is known for its high-quality answers, which are often written by experts in their respective fields.
 
  More at:
+
   * announcement - [https://quorablog.quora.com/Poe-1](https://quorablog.quora.com/Poe-1)
   * POE web UI - [https://poe.com/](https://poe.com/)
 
  See also [Q], ...
 
-## Qwen Model
+## Qwen Model Family
 
  The Qwen team aims at chasing artificial general intelligence and now focuses on building generalist models, including large language models and large multimodal models. We embrace opensource and previously we have released the Qwen model series, including the language models, e.g., Qwen-7B , Qwen-14B, and Qwen-72B, as well as their chat models, and multimodal models, such as Qwen-VL and Qwen-Audio. Additionally, we have built web service and APP for users to benefit from the assistance of Qwen for your daily work and life. We are a group of people with diverse talents and interests. 
 
  More at:
+
   * site - [https://qwenlm.github.io/](https://qwenlm.github.io/)
   * blog
     * Qwen2-MAth - [https://qwenlm.github.io/blog/qwen2-math/](https://qwenlm.github.io/blog/qwen2-math/)

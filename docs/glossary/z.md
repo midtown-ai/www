@@ -11,7 +11,7 @@
  See also [Z], ...
 
 
-## Zero Redundancy Optimization
+## Zero Redundancy Optimization (ZeRO)
 
  [GPU] memory optimization
 

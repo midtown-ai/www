@@ -3,6 +3,8 @@
 ## Sagemaker
 
  See [AWS Sagemaker]
+
+
 ## SageMaker Ground Truth
 
  Used for labelling the data by machines, internal employees, mechanical turk, or 3rd party partner.
@@ -22,6 +24,7 @@
  {% youtube "https://www.youtube.com/watch?v=L_Guz73e6fw" %}
 
  More at:
+
   * [https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1](https://www.businessinsider.com/sam-altman-chatgpt-openai-ceo-career-net-worth-ycombinator-prepper-2023-1)
   * [http://startupclass.samaltman.com/](http://startupclass.samaltman.com/)
 
@@ -51,7 +54,6 @@
  See also [S], ...
 
 
-## Sample Efficient Reinforcement Learning Algorithm
 ## Sample Efficient RL Algorithm
 
  Here are some sample efficient reinforcement learning algorithms:
@@ -71,9 +73,6 @@
 
   In general, any method that enables effective generalization, transfers knowledge across tasks, or reduces the samples needed through simulation, pre-training, or guided exploration will improve sample efficiency.
 
- More at:
-  * ...
-
  See also [S], ...
 
 
@@ -84,13 +83,9 @@
   * Systematic sampling error: Systematic sampling error occurs due to bias in the sampling process. Bias can be introduced if the sample is not selected at random, or if the sample is not representative of the population.
  Both of these types of sampling errors can be reduced by using a larger sample size or by using a more representative sample. However, it is important to note that it is never possible to completely eliminate sampling error.
 
- More at:
-  * ...
-
  See also [S], [Resampling Method], [Sampling]
 
 
-## Sample Inefficient Reinforcement Learning Algorithm
 ## Sample Inefficient RL Algorithm
 
  Sample inefficiency refers to reinforcement learning algorithms that require a large number of interactions with the environment to learn an effective policy. Some key characteristics:
@@ -124,9 +119,6 @@
 
  {% youtube "https://www.youtube.com/watch?v=9NtsnzRFJ_o" %}
 
- More at:
-  * ...
-
  See also [S], ...
 
 
@@ -135,14 +127,14 @@
  Focus on augmenting the data with metadata/labels
 
  More at:
+
   * [https://scale.com/](https://scale.com/)
   * [https://pitchbook.com/profiles/company/163154-17](https://pitchbook.com/profiles/company/163154-17)
 
  See also [S], ...
 
 
-## Scale-Invariant Feature Transform
-## SIFT
+## Scale-Invariant Feature Transform (SIFT)
 
  Inspired by the [neocognitron]
 
@@ -153,14 +145,14 @@
  {% youtube "https://www.youtube.com/watch?v=6oLRdnQI_2w" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Scale-invariant_feature_transform](https://en.wikipedia.org/wiki/Scale-invariant_feature_transform)
   * <!> not this SIFT method! - [https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/](https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/)
 
  See also [S], ...
 
 
-## Scaled Dot-Product
-## SDP
+## Scaled Dot-Product (SDP)
 
  * Scaled => kind of a normalization
  * Dot-product = kind of similarity measure (cosine similarity)
@@ -168,8 +160,7 @@
  See also [S], ...
 
 
-## Scaled Dot-Product Attention
-## SDP Attention
+## Scaled Dot-Product (SDP) Attention
 
  * attention = kind of a weighted sum, with attention weights (tensor)
 
@@ -237,9 +228,11 @@ StandardScaler()
 ## Search Algorithm
 
  Problems
+
   * [Traveling Salesman]
 
  Algorithm
+
   * A*
 
  See also [S], [Objective Function]
@@ -264,6 +257,7 @@ StandardScaler()
  {% pdf "https://lupantech.github.io/papers/neurips22_scienceqa.pdf" %}
 
  More at:
+
   * [https://github.com/lupantech/ScienceQA](https://github.com/lupantech/ScienceQA)
   * explore - [https://scienceqa.github.io/explore.html](https://scienceqa.github.io/explore.html)
 
@@ -277,8 +271,7 @@ StandardScaler()
  See also [S], [Dataset]
 
 
-## Secure AI Framework
-## SAIF
+## Secure AI Framework (SAIF)
  
  ~ a security framework for AI models developed by [Google] 
 
@@ -294,9 +287,11 @@ StandardScaler()
  * Contextualize AI system risks in surrounding business processes
 
  {% pdf "https://services.google.com/fh/files/blogs/google_secure_ai_framework_summary.pdf" %}
+
  {% pdf "https://services.google.com/fh/files/blogs/google_secure_ai_framework_approach.pdf" %}
 
  More at:
+
   * site - [https://safety.google/cybersecurity-advancements/saif/](https://safety.google/cybersecurity-advancements/saif/)
   * announcement - [https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/](https://blog.google/technology/safety-security/introducing-googles-secure-ai-framework/)
 
@@ -314,20 +309,21 @@ StandardScaler()
  {% pdf "https://arxiv.org/pdf/2105.15203.pdf" %}
 
  More at:
+
   * site - [https://github.com/NVlabs/SegFormer](https://github.com/NVlabs/SegFormer)
   * paper - [https://arxiv.org/abs/2105.15203](https://arxiv.org/abs/2105.15203)
 
  See also [S], [OpenMMLab]
 
 
-## Segment Anything Model
-## SAM
+## Segment Anything Model (SAM)
 
  [Meta] has launched Segment Anything, a project that introduces the Segment Anything Model (SAM), a promptable model for [image segmentation][INstance Segmentation] in [computer vision]. SAM can generate masks for any object in any image or video and learn a generalized notion of objects, making it a powerful tool for various applications, such as AR/VR, content creation, and scientific domains. SAM's promptable design allows for flexible integration with other systems, eliminating the need for task-specific modeling expertise, training compute, and custom data annotation. SAM is a single model that can perform both interactive and automatic segmentation, making it a unique and innovative tool in the field of computer vision.
 
  META AI has also released the Segment Anything 1-Billion mask dataset (SA-1B), containing more than 1.1 billion segmentation masks collected from about 11 million licensed and privacy-preserving images. The [dataset] is the largest segmentation dataset to date and has been verified through human evaluation studies. By sharing their research and dataset, META AI hopes to accelerate research in segmentation and contribute to more general image and video understanding, unlocking even more powerful AI systems in the future.
 
  More at:
+
   * [https://segment-anything.com/](https://segment-anything.com/)
   * demo - [https://segment-anything.com/demo](https://segment-anything.com/demo)
 
@@ -337,6 +333,7 @@ StandardScaler()
 ## Self-Attention
 
  Use itself as input to
+
    * find to what pronouns are referring to, what noun is being modified by adjective, subject of verbs, etc
    * (implicit) grammar rules  --- when you learn to speak, you do not have to learn grammar rules first to speak!
 
@@ -345,15 +342,16 @@ StandardScaler()
  {% youtube "https://www.youtube.com/watch?v=PFczJ6NR5rY" %}
 
  More at:
+
   * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
   * [https://towardsdatascience.com/self-attention-5b95ea164f61](https://towardsdatascience.com/self-attention-5b95ea164f61)
 
  See also [S], [Attention], [Attention-Based Model], [Masked Self-Attention], [Multi-Head Attention], [Scaled Dot-Product Attention]
 
 
-## Self-Consistency Prompting
+## Self-Consistency (SC) Prompting
 
- ~ a [prompt engineering technique] that improves over [Chain-Of-Thought (COT) prompting][COT]
+ ~ a [prompt engineering technique] that improves over [Chain-Of-Thought (COT)] prompting.
 
  Self-consistency aims "to replace the naive greedy decoding used in chain-of-thought prompting". The idea is to sample multiple, diverse reasoning paths through few-shot [CoT], and use the generations to select the most consistent answer. This helps to boost the performance of [CoT prompting] on tasks involving arithmetic and commonsense reasoning.
 
@@ -404,6 +402,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  {% pdf "https://arxiv.org/pdf/2203.11171.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2203.11171](https://arxiv.org/abs/2203.11171)
   * [https://www.promptingguide.ai/techniques/consistency](https://www.promptingguide.ai/techniques/consistency) 
 
@@ -450,14 +449,14 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  {% pdf "https://arxiv.org/pdf/2212.10560.pdf" %}
 
  More at:
+
   * [https://github.com/clcarwin/self-instruct-for-alpaca-dataset](https://github.com/clcarwin/self-instruct-for-alpaca-dataset)
   * paper - [https://arxiv.org/abs/2212.10560](https://arxiv.org/abs/2212.10560)
 
  See also [S], ...
 
 
-## Self-Organizing Map Algorithm
-## SOM Algorithm
+## Self-Organizing Map (SOM) Algorithm
 
  SOM (Self-Organizing Map), also known as Kohonen map, is an [unsupervised learning] algorithm used for clustering, visualization, and dimensionality reduction tasks. It was developed by Finnish professor Teuvo Kohonen in the 1980s.
 
@@ -481,6 +480,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  {% pdf "https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1990-Kohonen-PIEEE.pdf" %}
 
  More at:
+
   * [https://www.superdatascience.com/blogs/the-ultimate-guide-to-self-organizing-maps-soms](https://www.superdatascience.com/blogs/the-ultimate-guide-to-self-organizing-maps-soms)
 
  See also [S], [Unsupervised Deep Learning Model], [Unsupervised Learning]
@@ -495,19 +495,20 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
  See also [S], ...
 
 
-## Self-Reflection Prompting
-## SR Prompting
+## Self-Reflection (SR) Prompting
 
  Self-reflection prompting is a technique used to improve the performance and reasoning capabilities of Large Language Models (LLMs) by encouraging the model to explicitly review, critique, and refine its own outputs.
 
  This approach is inspired by human metacognition - our ability to think about our own thinking processes, which helps us learn and improve problem-solving skills.
 
  Metacognitive Process
+
   * The LLM is asked to evaluate its initial response
   * It critically examines its own reasoning, potential errors, or limitations
   * Encourages a more thoughtful and nuanced approach to problem-solving
 
  Typical Implementation
+
   * After generating an initial response, the model is prompted to:
     * Check the logic of its reasoning
     * Identify potential weaknesses or biases
@@ -515,6 +516,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
     * Verify the accuracy of key claims
 
  Benefits
+
   * Reduces hallucinations
   * Improves answer accuracy
   * Enhances reasoning capabilities
@@ -542,8 +544,7 @@ If you find any errors in your previous solution, provide the corrected calculat
  See also [S], ...
 
 
-## Self-Reflective Retrieval Augmented Generation System
-## Self-Reflective RAG
+## Self-Reflective Retrieval Augmented Generation (SR-RAG) System
 
  ~ a more advanced version of a traditional [RAG system]
 
@@ -552,18 +553,19 @@ If you find any errors in your previous solution, provide the corrected calculat
  ![](img/s/self_reflective_retrieval_augmented_generation_workflow.png ){: width="100%}
 
  More at:
+
   * articles
     * [https://blog.langchain.dev/agentic-rag-with-langgraph/](https://blog.langchain.dev/agentic-rag-with-langgraph/)
 
  See also [S], ...
 
 
-## Self-Supervised Learning
-## SSL
+## Self-Supervised Learning (SSL)
 
  ~ a form of unsupervised learning, where manually labeled data is not needed. Raw data is instead modified in an automated way to create artificial labels to learn from. An example of SSL is learning to complete text by masking random words in a sentence and trying to predict the missing ones.
 
  ~ automatic generation of labels from the unlabelled input data.` A type of learning that does not need labels to be applied by humans. The training dataset is generated from the data. Examples:
+
    * [Next word prediction] - "she planned to visit the"
    * [Masked Language Modeling] - "Alice chased the ____ rabbit and fell down the ____ into a new world."
    * Replaced word detection : "The cat pounced on the carrot"
@@ -591,11 +593,15 @@ If you find any errors in your previous solution, provide the corrected calculat
 
  :warning: Can be used for RAG !
 
- Q: That probably works well for 1 tools, but what about several tools?
+/// details | That probably works well for 1 tools, but what about several tools?
+    type:question
+
+///
 
  {% youtube "https://www.youtube.com/watch?v=ro312jDqAh0" %}
 
  More at:
+
   * notebooks 
     * get started - [https://github.com/aurelio-labs/semantic-router/blob/main/docs/00-introduction.ipynb](https://github.com/aurelio-labs/semantic-router/blob/main/docs/00-introduction.ipynb)
     * langchain - [https://github.com/aurelio-labs/semantic-router/blob/main/docs/03-basic-langchain-agent.ipynb](https://github.com/aurelio-labs/semantic-router/blob/main/docs/03-basic-langchain-agent.ipynb)
@@ -611,12 +617,14 @@ If you find any errors in your previous solution, provide the corrected calculat
 
  Semantic search is often used in [retriever] in [RAG]
 
- Beware:
+/// warning | Beware:
   * If you only use embeddings and similarity, you may not be finding the answer to the question as the closest point may be out of date or false. To solve this, you need to use [reranking] --> give a score to all the nearest embeddings and pick the one with the highest score!
+///
 
  {% youtube "https://www.youtube.com/watch?v=fFt4kR4ntAA" %}
 
  More at:
+
   * [https://txt.cohere.com/what-is-semantic-search/](https://txt.cohere.com/what-is-semantic-search/)
 
  See also [S], [Lexical Search], [Natural Language Processing], [Similarity Metric]
@@ -633,6 +641,7 @@ If you find any errors in your previous solution, provide the corrected calculat
  ![](img/s/semantic_and_instance_segmentation.png ){: width="100%}
 
  More at:
+
   * [https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b](https://heartbeat.fritz.ai/the-5-computer-vision-techniques-that-will-change-how-you-see-the-world-1ee19334354b)
 
  See also [S], [Convolutional Neural Network], [Instance Segmentation], [U-Net Architecture]
@@ -670,6 +679,7 @@ If you find any errors in your previous solution, provide the corrected calculat
  ~ aka [recall] in the field of [ML] and information retrieval. It describes the ability of a model to find all the relevant cases within a dataset.
 
  ~ aka [True Positive Rate (TPR)][TPR] in the context of a classifier. = probability of a positive test given the patient has the disease.  Sensitivity refers to the probability of a positive test, conditioned on truly being positive. Examples:
+
   * how many sick people were CORRECTLY identified as having the condition.
 
 ```
@@ -682,8 +692,10 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 ```
 
  More at:
-  * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
-  * [https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08](https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08)
+
+  * articles
+    * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
+    * [https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08](https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08)
 
  See also [S], [Confusion Matrix], [Sensitivity-Specificity Trade-Off], [Specificity]
 
@@ -691,12 +703,14 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 ## Sensitivity-Specificity Trade-Off
 
  The sensitivity-specificity trade-off in a classifier refers to the balance between two key metrics:
+
   * [Sensitivity] (or [Recall]): The ability of the classifier to correctly identify positive instances. It is calculated as the proportion of true positives out of the total actual positives.
   * [Specificity]: The ability of the classifier to correctly identify negative instances. It is calculated as the proportion of true negatives out of the total actual negatives.
 
  The trade-off between sensitivity and specificity arises because improving one of these metrics often comes at the expense of the other. This is particularly evident in classifiers that output a probability or score, where a threshold is set to determine the class labels (positive or negative). Adjusting this threshold will typically increase one metric but decrease the other.
 
  Here's how:
+
   * Lowering the Threshold: If you lower the threshold for classifying an instance as positive, you will likely identify more true positives (increasing sensitivity), but you will also likely misclassify more negatives as positives (decreasing specificity).
   * Raising the Threshold: Conversely, if you raise the threshold, you'll classify fewer instances as positive. This can lead to fewer false positives (increasing specificity), but also more false negatives (decreasing sensitivity).
 
@@ -709,14 +723,22 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], ...
 
 
+## Sentence-BERT (SBERT) Model
+
+ A derivative model of [BERT] that ...
+
+ See also [S], ...
+
+
 ## Sentence Embedding
 
  A type of [embeddings]
 
-  * Universal Sentence Encoder (USE) – Encodes sentences into high-dimensional vectors using a transformer or deep averaging network. For example, the sentences “The quick brown fox jumps over the lazy dog” and “A swift auburn fox leaps over a sleepy canine” would have similar embeddings because they convey the same meaning.
+  * [Universal Sentence Encoder (USE)] – Encodes sentences into high-dimensional vectors using a transformer or deep averaging network. For example, the sentences “The quick brown fox jumps over the lazy dog” and “A swift auburn fox leaps over a sleepy canine” would have similar embeddings because they convey the same meaning.
   * Sentence-BERT (SBERT) – Fine-tunes BERT on sentence-pair regression tasks to produce meaningful sentence embeddings. For instance, determining that “How do I reset my password?” is similar in meaning to “What is the process to change my password?”. This capability is excellent for applications like FAQ matching and paraphrase detection
 
  More at:
+
   * tutorial - [https://txt.cohere.com/sentence-word-embeddings/](https://txt.cohere.com/sentence-word-embeddings/)
   * articles
     * LLM embeddings - [https://www.iguazio.com/glossary/llm-embeddings/](https://www.iguazio.com/glossary/llm-embeddings/)
@@ -729,6 +751,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  ~ a type of [tokenizers]
 
  More at:
+
   * paper - [https://arxiv.org/abs/1808.06226](https://arxiv.org/abs/1808.06226)
 
  See also [S], [Detokenizer]
@@ -747,6 +770,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  {% pdf "img/s/sentient_ai_post.pdf" %}
 
  More at:
+
   * [https://bdtechtalks.com/2023/02/20/llm-dissociating-language-and-thought/](https://bdtechtalks.com/2023/02/20/llm-dissociating-language-and-thought/)
   * [https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917](https://cajundiscordian.medium.com/is-lamda-sentient-an-interview-ea64d916d917)
   * [https://medium.com/movement-dao/fired-google-engineer-blake-lemoine-on-his-future-lamda-and-ai-advocacy-98c816dde89e](https://medium.com/movement-dao/fired-google-engineer-blake-lemoine-on-his-future-lamda-and-ai-advocacy-98c816dde89e)
@@ -759,13 +783,15 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
  Marketers collect social media posts about specific brands, conversation subjects, and keywords, then use NLP to analyze how users feel about each topic, individually and collectively. This helps the brands with customer research, image evaluation, and social dynamics detection.
 
- Architectures
-  * [Natural Language ToolKit (NLTK)][NLTK]
+ Architectures:
+
+  * [Natural Language ToolKit (NLTK)]
   * [BERT Model]
-  * [VADER Library]
+  * [VADER]
   * [GPT Model] - requires API call
 
  More at:
+
   * [https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/](https://www.geeksforgeeks.org/twitter-sentiment-analysis-using-python/)
   * word sentiment weight - [https://observablehq.com/d/caaff7524e19d7ba](https://observablehq.com/d/caaff7524e19d7ba)
 
@@ -778,22 +804,22 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
  ![](img/s/sequence_model.png ){: width="100%}
 
- See also [S], [Convolutional Neural Network], [Neural ODE], [Recurrent Neural Network], [Transformer Architecture]
+ See also [S], [Convolutional Neural Network (CNN)], [Neural ODE], [Recurrent Neural Network (RNN)], [Transformer Architecture]
 
 
-## Sequence To Sequence Model
-## Seq2Seq Model
+## Sequence To Sequence (Seq2Seq) Model
 
  = A [supervised learning] algorithm where the input is a sequence of tokens (for example, text, audio) and the output generated is another sequence of tokens. 
 
  Example applications include:
+
   * [machine translation] - input a sentence from one language and predict what that sentence would be in another language
   * [text summarization] - input a longer string of words and predict a shorter string of words that is a summary
   * [speech-to-text] - audio clips converted into output sentences in tokens.
 
  Recently, problems in this domain have been successfully modeled with deep neural networks that show a significant performance boost over previous methodologies. Amazon SageMaker seq2seq uses [Recurrent Neural Networks (RNNs)][RNN] and [Convolutional Neural Network (CNN)][CNN] models with [attention] as encoder-decoder architectures. Seq2Seq models are particularly good at translation, where a sequence of words from one language is transformed into a sequence of different words in another language.
 
- `Google Translate started using a Seq2Seq-based model in production in late 2016`
+ ==Google Translate started using a Seq2Seq-based model in production in late 2016==
 
  ![](img/s/sequence_to_sequence_model.png ){: width="100%}
 
@@ -804,10 +830,10 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], [Seq2Seq Transformer], [Natural Language Processing], [Text-To-Speech Model]
 
 
-## Sequence To Sequence Transformer
-## Seq2Seq Transformer
+## Sequence To Sequence (Seq2Seq) Transformer
 
  When you use the encoder and decoder of a transformer, you can do a sequence to sequence transformer!
+
  ![](img/s/sequence_to_sequence_transformer.png ){: width="100%}
 
  See also [S], [Decoder], [Encoder], [Encoder-Decoder Model]
@@ -844,16 +870,16 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See [Entropy]
 
 
-## Shapley Additive Explanations
-## SHAP Value
+## Shapley Additive Explanations (SHAP) Value
 
- The Shapley Additive Explanations (SHAP) is another novel approach to [explainability][Explainable AI] developed by Scott Lundberg at [Microsoft] and eventually opened sourced.
+ The Shapley Additive Explanations (SHAP) is another novel approach to [explainability] developed by Scott Lundberg at [Microsoft] and eventually opened sourced.
 
  SHAP has a strong mathematical foundation based on Shapley values in game theory where each player in the cooperation is rewarded based on how important they are to cooperation.
 
  {% pdf "https://arxiv.org/pdf/1705.07874.pdf" %}
  
  More at:
+
   * paper - [https://arxiv.org/abs/1705.07874](https://arxiv.org/abs/1705.07874)
   * [https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513](https://towardsdatascience.com/what-is-explainable-ai-xai-afc56938d513)
 
@@ -865,22 +891,24 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  In [Game Theory], ...
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Shapley_value](https://en.wikipedia.org/wiki/Shapley_value)
 
  See also [S], [Shapley Additive Explanations]
 
 
-## Shifted Window Attention
-## SWA
+## Shifted Window Attention (SWA)
 
  ~ allow LLM to handle long sequences with reduced inference cost
 
  SWA is an attention mechanism designed to enable efficient processing of longer input sequences in transformers and related neural network models.
 
  Used by [Longformer Models] such as:
+
   * [Mistral Models]
 
  Here are the key points about Shifted Window Attention (SWA):
+
   * Like grouped query attention, SWA divides the input sequence into chunks or windows to focus the attention.
   * However, unlike grouped attention, the windows in SWA overlap with each other. For example, a sequence could be divided into windows 1-100, 51-150, 101-200 etc, with 50 tokens of overlap.
   * This overlapping window approach allows each token to attend within its window as well as to tokens from adjacent windows. This provides wider contextual attention than isolated groups.
@@ -888,9 +916,6 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
   * Mathematically, this shifting of systematic, overlapping windows enables efficient attention computation in transformers. It limits the complexity that comes from full global attention across extremely long sequences.
 
  In summary, SWA reduces computational overhead while retaining modeling flexibility for longer sequences. The shifting windows provide efficiency while the overlap enables wider attention. This helps advanced transformers scale effectively to tasks with longer inputs while still utilizing the power and benefits of attention mechanisms.
-
- More at:
-  * ...
 
  See also [S], ...
 
@@ -902,6 +927,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  {% youtube "https://www.youtube.com/watch?v=savkuEQKz8Q" %}
 
  More at:
+
   * https://en.wikipedia.org/wiki/Short_Circuit_(1986_film)
 
  See also [S], [AI Movie]
@@ -921,6 +947,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  An [AI conference] reltated to graphics and interactive techniques
 
  More at:
+
   * [https://s2023.siggraph.org/](https://s2023.siggraph.org/)
 
  See also [S], ...
@@ -929,11 +956,13 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 ## Sigmoid Activation Function
 
  Pros:
+
   * output is between 0 and 1
   * sigmoid can be used as a switch (in LSTM and GRU cells)
   * solves exploding gradient problem
 
  Cons:
+
   * vanishing gradient problem
 
  See also [S], [Activation Function], [Exploding Gradient Problem], [Vanishing Gradient Problem]
@@ -951,11 +980,12 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 ## Similarity Metric
 
  Similarity is almost like distance in the semantic embedding space, except that:
+
   * When the distance is small, the similarity is big
   * When the distance is big, the similarity is small
 
+ Functions:
 
- Functions
   * [Euclidean Distance]
   * [Manhattan Distance]
   * [Cosine Similarity]
@@ -969,6 +999,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 ## Similarity Search
 
  Algorithms:
+
   * [K-Nearest Neighbors] - good, but slow as I have to calculate as many distances as we have points in the dataset! (Ex: 8 words --> 8^2 distances)
   * [Inverted File Index (IVD)][IVD] - cluster, then search
   * [Hierarchical Navigable Small World (HNSW)][HNSW] - Start with fewer points, search there. Then add more and iterate
@@ -977,16 +1008,14 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], ...
 
 
-## Simulated Policy Learning Algorithm
-## SimPLe Algorithm
+## Simulated Policy Learning (SimPLe) Algorithm
 
  In [Reinforcement Learning], ... 
 
  See also [S], ...
 
 
-## Simulated-To-Real Performance Gap
-## Sim2Real Performance Gap
+## Simulated-To-Real (Sim2Real) Performance Gap
 
  Because the simulation cannot capture all aspects of the real world accurately, the models trained in simulation may not work well in the real world. Such discrepancies are often referred to as simulated-to-real (sim2real) performance gaps.
 
@@ -995,46 +1024,42 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  Training a model to give a solid real-world performance often requires numerous iterations of exploring the reward function, action spaces, hyperparameters, and evaluation in simulation and testing in a real environment. The last step involves the so-called simulation-to-real world (sim2real) transfer and can feel unwieldy.
 
  More at:
+
   * [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-how-it-works-virtual-to-physical.html](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-how-it-works-virtual-to-physical.html)
   * [https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-evaluate-model-test-approaches](https://docs.aws.amazon.com/deepracer/latest/developerguide/deepracer-console-train-evaluate-models.html#deepracer-evaluate-model-test-approaches)
 
  See also [S], ...
 
-
-## Simultaneous Localisation And Mapping Algorithm
-## SLAM Algorithm
+## Simultaneous Localization And Mapping (SLAM) Algorithm
 
  {% youtube "https://www.youtube.com/watch?v=-XU54IsG8Vo" %}
-
- More at:
-  * ...
 
  See also [S], [Inertial Measurement Unit], [Lidar], [Visual SLAM Algorithm]
 
 
-## Single Life Reinforcement Learning
-## SLRL
+## Single Life Reinforcement Learning (SLRL)
 
  RL algorithms are designed to learn a performant policy that can repeatedly complete a task, but many real-world situations involve on-the-fly adaptation that requires solving a task successfully once without interventions. Example: A disaster relief robot tasked with retrieving an item has a single trial to complete its mission and may encounter novel obstacles in a previously-experienced building. We model these situations with the following problem setting: Utilizing some prior data, the agent is given a single “life”, i.e. trial, to autonomously adapt to a novel scenario to complete a task once. We call this problem setting single-life reinforcement learning (SLRL). SLRL provides a natural setting in which to study autonomous adaptation to novel situations in reinforcement learning.
 
  More at:
+
   * [https://sites.google.com/stanford.edu/single-life-rl](https://sites.google.com/stanford.edu/single-life-rl)
 
  See also [S], ...
 
 
-## Singular Value Decomposition
-## SVD
+## Singular Value Decomposition (SVD)
 
  {% youtube "https://www.youtube.com/watch?v=vSczTbgc8Rc" %}
 
  {% youtube "https://www.youtube.com/watch?v=DG7YTlGnCEo" %}
 
  More at:
+
   * [https://www.geeksforgeeks.org/singular-value-decomposition-svd/](https://www.geeksforgeeks.org/singular-value-decomposition-svd/)
   * [https://www.geeksforgeeks.org/singular-value-decomposition/?ref=lbp](https://www.geeksforgeeks.org/singular-value-decomposition)
 
- See also [S], [Netflix Challenge]
+ See also [S], [Netflix Prize]
 
 
 ## Siri Virtual Assistant
@@ -1048,6 +1073,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 Siri is a spin-off from a project developed by the SRI International Artificial Intelligence Center. Its speech recognition engine was provided by Nuance Communications, and it uses advanced machine learning technologies to function. Its original American, British and Australian voice actors recorded their respective voices around 2005, unaware of the recordings' eventual usage. Siri was released as an app for iOS in February 2010. Two months later, Apple acquired it and integrated into iPhone 4S at its release on 4 October, 2011, removing the separate app from the iOS App Store. Siri has since been an integral part of Apple's products, having been adapted into other hardware devices including newer iPhone models, iPad, iPod Touch, Mac, AirPods, Apple TV, and HomePod.
 
  More at: 
+
   * [https://en.wikipedia.org/wiki/Siri](https://en.wikipedia.org/wiki/Siri)
   * [https://www.cultofmac.com/447783/today-in-apple-history-siri-makes-its-public-debut-on-iphone-4s/](https://www.cultofmac.com/447783/today-in-apple-history-siri-makes-its-public-debut-on-iphone-4s/)
   * [https://en.wikipedia.org/wiki/Knowledge_Navigator](https://en.wikipedia.org/wiki/Knowledge_Navigator)
@@ -1077,6 +1103,7 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
  A corpus can be represented as a vector of size N, where each element in N corresponds to a word in the corpus. During the training process, we have a pair of target and context words, the input array will have 0 in all elements except for the target word. The target word will be equal to 1. The hidden layer will learn the embedding representation of each word, yielding a d-dimensional embedding space. The output layer is a dense layer with a softmax activation function. The output layer will essentially yield a vector of the same size as the input, each element in the vector will consist of a probability. This probability indicates the similarity between the target word and the associated word in the corpus.
 
  More at:
+
   * [https://towardsdatascience.com/node2vec-explained-db86a319e9ab](https://towardsdatascience.com/node2vec-explained-db86a319e9ab)
 
  See also [S], [Node2Vec Model], [Word2Vec Model]
@@ -1088,7 +1115,7 @@ Siri is a spin-off from a project developed by the SRI International Artificial 
 
  Pytorch objects can be passed as parameters to scikit!
 
- {% highlight python %}
+```python
 from skorch import NeuralNetRegressor
 from sklearn.model_selection import GridSearchCV
 ...
@@ -1109,9 +1136,10 @@ gs = GridSearchCV(net, params, refit=False, cv=3, scoring='r2', verbose=2)
 
 gs.fit(X, y_true)
 print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
- {% endhighlight %}
+```
 
  More at:
+
   * docs - [https://skorch.readthedocs.io/en/stable/](https://skorch.readthedocs.io/en/stable/)
   * code - [https://github.com/midtown-ai/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge/blob/main/030_ModelingIntroduction/50_LinReg_HyperparameterTuning_end.py](https://github.com/midtown-ai/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge/blob/main/030_ModelingIntroduction/50_LinReg_HyperparameterTuning_end.py)
 
@@ -1126,6 +1154,7 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
 ## Slide Deck Generator
 
  More at:
+
   * beautiful AI - [https://www.beautiful.ai/](https://www.beautiful.ai/)
   * gamma.app - [https://gamma.app/](https://gamma.app/)
   * tome.app - [https://tome.app/](https://tome.app/)
@@ -1138,14 +1167,14 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
  Free templates for Google Slides and PowerPoint
 
  More at:
+
   * site - [https://slidesgo.com/](https://slidesgo.com/)
   * [https://slidesgo.com/slidesgo-school/google-slides-tutorials/how-to-add-or-change-themes-in-google-slides](https://slidesgo.com/slidesgo-school/google-slides-tutorials/how-to-add-or-change-themes-in-google-slides)
 
  See also [S}, ...
 
 
-## Small Language Model
-## SLM
+## Small Language Model (SLM)
 
  A version of the language model that can be deployed on devices (such as cellphones or computer desktops).
  They often have less than a 10 billion parameters.
@@ -1155,13 +1184,14 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
 
 ## Snorkel Program
 
- ~ `Unlabelled data --> a weak supervision labeling function`
+ ~ ==Unlabelled data --> a weak supervision labeling function==
 
  Snorkel is a system for programmatically building and managing training [datasets] without manual labeling. In Snorkel, users can develop large training datasets in hours or days rather than hand-labeling them over weeks or months. Snorkel currently exposes three key programmatic operations: (1) Labeling data, e.g., using heuristic rules or distant supervision techniques (2) Transforming data, e.g., rotating or stretching images to perform data augmentation (3) Slicing data into different critical subsets for monitoring or targeted improvement.
  
  ![](img/s/snorkel_program.png ){: width="100%}
 
  More at:
+
   * site - [https://www.snorkel.org/](https://www.snorkel.org/)
   * blog - [https://www.snorkel.org/blog/](https://www.snorkel.org/blog/)
   * articles:
@@ -1183,19 +1213,18 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
 
  Social biases are represented by language models, but it is not clear how systematically these biases manifest in applied tasks like QA
 
- Examples of biases
+ Examples of biases:
+
   * girls are bad at math
   * older people are in cognitive decline
   * gay people are more likely to have HIV
 
  Risks:
+
   * stereotype reinforcement
   * stereotype attribution
 
  {% youtube "https://www.youtube.com/watch?v=JKPQ9cqBJWE" %}
-
- More at:
-  * ...
 
  See also [S], [Bias Benchmark For Question Answering]
 
@@ -1213,6 +1242,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
  {% youtube "https://www.youtube.com/watch?v=3lEQDf9Cv4s" %}
 
  More at:
+
   * [https://builtin.com/robotics/social-robot](https://builtin.com/robotics/social-robot)
 
  See also [S], ...
@@ -1227,6 +1257,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
  {% pdf "https://arxiv.org/pdf/2307.07924.pdf" %}
 
  More at:
+
   * MetaGPT
     * code - [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
     * paper - [https://arxiv.org/abs/2308.00352](https://arxiv.org/abs/2308.00352)
@@ -1253,28 +1284,34 @@ Social robots also work as concierges in hotels and other settings like malls, w
  The Socratic method is a teaching and dialogue technique rooted in the practices of the ancient Greek philosopher Socrates. It is based on asking and answering questions to stimulate critical thinking, uncover assumptions, and clarify ideas. Instead of simply presenting information or directly answering questions, the Socratic method encourages exploration through disciplined and thoughtful inquiry.
 
  Questioning:
+
   * The teacher or facilitator asks a series of open-ended questions.
   * These questions are designed to probe deeper into the topic, challenge assumptions, and explore underlying beliefs.
 
  Dialogue:
+
   * It involves a cooperative discussion rather than a one-sided lecture.
   * Both participants—questioner and responder—actively engage in the exchange.
 
  Critical Thinking:
+
   * Participants are encouraged to think logically, evaluate evidence, and refine their thoughts.
   * It helps to expose contradictions or gaps in reasoning.
 
  Learning Through Reflection:
+
   * The process fosters self-discovery and learning as participants reflect on their own beliefs and knowledge.
 
  Iterative Process:
+
   * The dialogue often circles back to earlier points, refining and building upon ideas as understanding deepens.
 
 
- Example: Imagine a conversation about justice. Instead of defining it outright, the facilitator might ask:
+/// example | Example: Imagine a conversation about justice. Instead of defining it outright, the facilitator might ask:
   * "What does it mean to be just?"
   * "Can you provide an example of a just action?"
   * "Is justice always fair? Why or why not?"
+///
 
  Through this dialogue, the participants would refine their understanding of justice, questioning initial assumptions and exploring the concept in depth.
 
@@ -1290,6 +1327,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
  {% pdf "https://arxiv.org/pdf/2303.08769.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2303.08769](https://arxiv.org/abs/2303.08769)
   * code - [https://github.com/RunzheYang/SocraticAI](https://github.com/RunzheYang/SocraticAI)
   * articles
@@ -1299,8 +1337,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
  See also [S], ...
 
 
-## Soft Actor-Critic Algorithm
-## SAC Algorithm
+## Soft Actor-Critic (SAC) Algorithm
 
  Soft Actor Critic, or SAC, is an off-policy actor-critic deep RL algorithm based on the maximum entropy reinforcement learning framework. In this framework, the [actor] aims to maximize expected reward while also maximizing [entropy]. That is, to succeed at the task while acting as randomly as possible. Prior deep RL methods based on this framework have been formulated as [Q-learning] methods. SAC combines off-policy updates with a stable stochastic actor-critic formulation.
 
@@ -1313,6 +1350,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
  {% pdf "https://arxiv.org/pdf/1812.05905.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1812.05905](https://arxiv.org/abs/1812.05905)
     * SAC and applications - [https://arxiv.org/abs/1812.05905](https://arxiv.org/abs/1812.05905)
   * code - [https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy#code](https://paperswithcode.com/paper/soft-actor-critic-off-policy-maximum-entropy#code)
@@ -1355,9 +1393,11 @@ Social robots also work as concierges in hotels and other settings like malls, w
 ## Softplus Activation Function
 
  Pros:
+
   * ...
 
  Cons:
+
   * ...
 
  See also [S], [Activation Function], [Exploding Gradient Problem], [Vanishing Gradient Problem]
@@ -1377,21 +1417,21 @@ Social robots also work as concierges in hotels and other settings like malls, w
  ![](img/s/software_2_0.png ){: width="100%}
 
  More at:
+
   * [https://karpathy.medium.com/software-2-0-a64152b37c35](https://karpathy.medium.com/software-2-0-a64152b37c35)
 
  See also [S], [Software 1.0]
 
 
-## Software Development Life Cycle
-## SDLC
+## Software Development Life Cycle (SDLC)
 
  See also [S], [Development Life Cycle]
 
 
-## Software Development Life Cycle Agent
-## SDLC Agent
+## Software Development Life Cycle (SDLC) Agent
 
- An [Agent] that automated the development lifecycle
+ An [Agent] that automated the development lifecycle:
+
   * Sprint agent - Breaks down a request into subtasks, add description of tasks, adds acceptance criteria, estimate effort
   * Dev agent - transition JIRA to "in progress" and create feature branch, generates relevant code given sub-tasks from sprint agent
   * Test agent - Write unit tests and scenarios for code given acceptance criteria, commits and pushes code and unit tests to code repository
@@ -1415,6 +1455,7 @@ As a trader, I want to create an application that lets me customize and viualize
  {% youtube "https://www.youtube.com/watch?v=BhU9hOo5Cuc" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Sophia_(robot)](https://en.wikipedia.org/wiki/Sophia_(robot)) 
 
  See also [S], [Robot]
@@ -1427,6 +1468,7 @@ As a trader, I want to create an application that lets me customize and viualize
  Release data: 02/2024
 
  More at:
+
   * site - [https://openai.com/sora](https://openai.com/sora)
   * annuncement - [https://openai.com/research/video-generation-models-as-world-simulators](https://openai.com/research/video-generation-models-as-world-simulators)
   * articles
@@ -1466,8 +1508,7 @@ As a trader, I want to create an application that lets me customize and viualize
  See also [S], [Latent Space], [Pixel Space]
 
 
-## Sparse Mixture-Of-Experts Architecture
-## SMoE Architecture
+## Sparse Mixture-Of-Experts (SMoE) Architecture
 
  ~ like an [ensemble method] except that typically only one or a few expert models will be run rather than combining the results.
 
@@ -1480,6 +1521,7 @@ As a trader, I want to create an application that lets me customize and viualize
  {% youtube "https://www.youtube.com/watch?v=RYZ0FMAKRFs" %}
 
  More at :
+
   * paper - [http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf](http://www.cs.toronto.edu/~fritz/absps/jjnh91.pdf)
   * wikipedia - [https://en.wikipedia.org/wiki/Mixture_of_experts](https://en.wikipedia.org/wiki/Mixture_of_experts)
   * iarticles
@@ -1493,10 +1535,12 @@ As a trader, I want to create an application that lets me customize and viualize
  Sparsity uses the idea of conditional computation. While in dense models all the parameters are used for all the inputs, sparsity allows us to only run some parts of the whole system.
 
  There are several ways to do this:
+
   * In the same model, you turn of some neurons
   * When using a [Model-Of-Experts architecture], you can select one model instead of all of them. This leaders to the [sparse model-of-experts architecture]
 
  More at:
+
   * [https://github.com/huggingface/blog/blob/main/moe.md#what-is-sparsity](https://github.com/huggingface/blog/blob/main/moe.md#what-is-sparsity)
 
  See also [S], ...
@@ -1509,6 +1553,7 @@ As a trader, I want to create an application that lets me customize and viualize
  {% pdf "https://storage.googleapis.com/deepmind-media/DeepMind.com/Authors-Notes/sparrow/sparrow-final.pdf" %}
 
  More at:
+
   * [https://medium.com/@tokamalpathak/chatgpt-and-google-sparrow-the-future-of-ai-powered-communication-5febb200f5ab](https://medium.com/@tokamalpathak/chatgpt-and-google-sparrow-the-future-of-ai-powered-communication-5febb200f5ab)
 
  See also [S], [ChatGPT Model]
@@ -1519,6 +1564,7 @@ As a trader, I want to create an application that lets me customize and viualize
  We have many different parts of our brain that are specialized for different tasks, yet we only call upon the relevant pieces for a given situation. There are close to a hundred billion neurons in your brain, but you rely on a small fraction of them to interpret this sentence. AI can work the same way. We can build a single model that is “sparsely” activated, which means only small pathways through the network are called into action as needed. In fact, the model dynamically learns which parts of the network are good at which tasks -- it learns how to route tasks through the most relevant parts of the model. A big benefit to this kind of architecture is that it not only has a larger capacity to learn a variety of tasks, but it’s also faster and much more energy efficient, because we don’t activate the entire network for every task.
 
  More at:
+
   * pathways - [https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/](https://blog.google/technology/ai/introducing-pathways-next-generation-ai-architecture/)
 
  See also [S], [Dense Model], [Pathways Model Architecture]
@@ -1548,8 +1594,10 @@ As a trader, I want to create an application that lets me customize and viualize
 
 ## Specificity
 
- ~ true negative rate. = probability of a negative test given the patient is doing well. Specificity refers to the probability of a negative test, conditioned on truly being negative. Examples:
-  * How many healthy people were CORRECTLY identified as not having the condition.
+ ~ true negative rate. = probability of a negative test given the patient is doing well. Specificity refers to the probability of a negative test, conditioned on truly being negative. 
+
+/// Examples | How many healthy people were CORRECTLY identified as not having the condition.
+///
 
 ```
 # P(Pos) = Probability of getting a positive test result
@@ -1561,12 +1609,13 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 ```
 
  More at:
+
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [S], [Confusion Matrix], [Sensitivity]
 
 
-## Spectrogram Image
+## Spectrogram
 
  Turn sound into frequencies represented in an image. That image can then be processed by CycleGAN or other!
 
@@ -1578,13 +1627,12 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See [Automated Speech Recognition]
 
 
-## Speech-To-Text
-
-## STT
+## Speech-To-Text (STT)
 
  Speech-to-text models transcribe speech into text! The oppositve of [Text-To-Speech][Text-To-Speech Model]
 
  Models:
+
   * [Whisper Model] by [OpenAI]
 
  See also [S], ...
@@ -1595,6 +1643,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  Model developed by [Microsoft]
 
  Use-cases:
+
   * Zero-shot text-to-speech
   * Spoken content editing
   * Background-preserving spoken content editing
@@ -1613,8 +1662,11 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  {% pdf "https://arxiv.org/pdf/2308.06873.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2308.06873](https://arxiv.org/abs/2308.06873)
-  * 
+
+ See also [S], ...
+
 
 ## Spot Robot
 
@@ -1625,8 +1677,10 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  {% youtube "https://www.youtube.com/watch?v=7Wm6vy7yBNA" %}
 
  More at:
-  * [https://www.bostondynamics.com/products/spot](https://www.bostondynamics.com/products/spot)
-  * [https://www.wired.com/story/spot-boston-dynamics/](https://www.wired.com/story/spot-boston-dynamics/)
+
+  * site - [https://www.bostondynamics.com/products/spot](https://www.bostondynamics.com/products/spot)
+  * articles
+    * [https://www.wired.com/story/spot-boston-dynamics/](https://www.wired.com/story/spot-boston-dynamics/)
 
  See also [S], ...
 
@@ -1640,12 +1694,14 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
 ## Stability AI Company
 
- The [company] that created 
+ The [company] that created :
+
    * [Stable Code]
    * [Stable Diffusion]
 
  More at:
-  * [https://stability.ai/](https://stability.ai/)
+
+  * site - [https://stability.ai/](https://stability.ai/)
 
  See also [S], ...
 
@@ -1659,7 +1715,8 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  {% youtube "https://www.youtube.com/watch?v=knt5svAL0SI" %}
 
  More at:
-  * [https://stablecode.dev/](https://stablecode.dev/)
+
+  * site - [https://stablecode.dev/](https://stablecode.dev/)
   * announcement - [https://stability.ai/blog/stablecode-llm-generative-ai-coding](https://stability.ai/blog/stablecode-llm-generative-ai-coding)
   * models 
     * base - [https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k](https://huggingface.co/stabilityai/stablecode-completion-alpha-3b-4k)
@@ -1674,10 +1731,12 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  [Denoising Diffusion Probabilistic Model] by [Stability AI]
 
  There are 2 versions:
+
   * v1.5 - support for NSFW, more custom models, better ControlNet support, more LoRA, TIs, have more artists and celebrities in the training data image set. Training set is 512x512, so optimal size for quick exploration is 512x512, which is kind of limited.
   * v2.x - Better support for photos, landscape. Training set is 768x768 so one get more interesting composition and detail, easier to explore and experiment starting at 768x768. Has one great model: Illuminati v1.1 that can produce interesting images with minimum prompting, kind of like Midjourney. Some "controversial" artist such as Greg Rutkowski has been removed. 
 
  More at:
+
   * [https://aituts.com/models](https://aituts.com/models)
 
  See also [S], ...
@@ -1690,6 +1749,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  The challenge with standard knowledge distillation lies in accurately capturing the underlying data distributions. MiniLLM, a technique developed by researchers at Tsinghua University and Microsoft Research, addresses this issue. It employs different objective and optimization functions specifically designed for LLMs, enhancing the effectiveness of the distillation process.
 
  More at:
+
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [S], [Emergent Ability Distillation], [Model Compression]
@@ -1709,8 +1769,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], [Apprentice Learning], [Stanford University]
 
 
-## Stanford Natural Language Inference
-## SNLI
+## Stanford Natural Language Inference (SNLI)
 
  Natural Language Inference (NLI), also known as Recognizing Textual Entailment (RTE), is the task of determining the inference relation between two (short, ordered) texts: entailment, contradiction, or neutral.
  
@@ -1782,8 +1841,9 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
  In reinforcement learning, links the agent and the environment. 
  For every state the agent takes a decision to reach its goal. 
 
- Beware:
+/// warning | Beware:
   * Sometimes you do not know the state, but can make an observation that is strongly correlated to the state.
+///
 
  A state represents a snapshot of the environment the agent is in at a point in time. State is a numerical representation of what an agent observes at a particular point in an environment. For AWS DeepRacer, a state is the representation of an image captured by the front-facing camera on the vehicle. The agent takes an action, guided by a strategy referred to as a policy, at a given environment state and reaches a new state.
 
@@ -1799,22 +1859,20 @@ A smiling costumed woman is holding an umbrella.                        N N E C 
 
 ## State Space
 
- A state space is either
+ A state space is either:
+
   * Discrete = A discrete state space refers to a system or problem that has a finite or countable number of distinct states. In this context, "discrete" means that the states are separate and distinct, with no intermediate values between them. Examples of discrete state spaces include a set of integers, a finite set of symbols, or a collection of states in a finite state machine. In contrast, a continuous state space would have an infinite number of possible states, such as real numbers within a specific range.
   * Continuous = A continuous state space refers to a system or problem that has an infinite number of possible states, typically described by real numbers within a certain range. In a continuous state space, the states can take on any value within a specified interval or domain, and there are infinitely many possible values between any two states. Examples of continuous state spaces include the position of an object along a continuous line, the temperature of a room, or the velocity of a moving vehicle. Continuous state spaces are often described using mathematical functions or equations.
-
- More at:
-  * ...
 
  See also [S], [Objective Function]
 
 
-## State Space Model
-## SSM
+## State Space Model (SSM)
 
  ![](img/s/state_space_model.png ){: width="100%}
 
  More at:
+
   * wikipedia - [https://en.wikipedia.org/wiki/State-space_representation](https://en.wikipedia.org/wiki/State-space_representation)
   * articles
     * SSM with S4 Model - [https://srush.github.io/annotated-s4/#part-1-state-space-models](https://srush.github.io/annotated-s4/#part-1-state-space-models)
@@ -1859,14 +1917,10 @@ In reinforcement learning, state transitions refer to how the environment change
 
  So in summary, state-action pairs represent the core link between states, actions, and values that reinforcement learning agents leverage to maximize [cumulative reward].
 
- More at:
-  * ...
-
  See also [S], ...
 
 
-## State-Action-Reward-State-Action Algorithm
-## SARSA Algorithm
+## State-Action-Reward-State-Action (SARSA) Algorithm
 
  SARSA is another [reinforcement learning algorithm] that is similar to [Q-learning]. SARSA stands for State-Action-Reward-State-Action, which reflects the sequence of information that the algorithm uses to learn.
 
@@ -1880,14 +1934,10 @@ In reinforcement learning, state transitions refer to how the environment change
 
  SARSA has been successfully applied in various domains, including game playing, [robotics], and [control systems]. It allows the agent to learn an [optimal policy] by iteratively updating the [Q-values] based on observed interactions with the [environment].
 
- More at:
-  * ...
-
  See also [S], ...
 
 
-## State-Of-The-Art
-## SOTA
+## State-Of-The-Art (SOTA)
 
  The model that scored the highest based on the available benchmarks.
 
@@ -1904,19 +1954,20 @@ In reinforcement learning, state transitions refer to how the environment change
 ## Statistical Bias
 
  Difference between an estimator's expected value (take average because randomness) and the true value
+
   * if systematically overshooting or undershooting = statistical bias
 
  See also [S], [Bias]
 
 
-## Statistical Machine Translation
-## SMT
+## Statistical Machine Translation (SMT)
 
  A [Machine Translation] paradigm where translations are generated on the basis of statistical models.
 
  Has been superseded by [Neural Machine Translation]
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Statistical_machine_translation](https://en.wikipedia.org/wiki/Statistical_machine_translation)
 
  See also [S], ...
@@ -1927,13 +1978,14 @@ In reinforcement learning, state transitions refer to how the environment change
 Completely different from [artificial neural networks][Artificial Neural Network]
 
  Usage:
+
   * [Statistical Model Translation]
   * ...
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Statistical_model](https://en.wikipedia.org/wiki/Statistical_model)
   
-
  See also [S], [Scaling Law]
 
 
@@ -1945,7 +1997,7 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  Statistics, on the other hand, is the science of collecting, analyzing, and interpreting data. It is concerned with making inferences and drawing conclusions from data. Statistics provides methods for summarizing and describing data, as well as making predictions and testing hypotheses. It is used in many fields such as business, medicine, social sciences, and economics.
 
-II n summary, probability is focused on the theoretical study of random events, while statistics is concerned with the practical application of data analysis to make inferences and draw conclusions.
+ In summary, probability is focused on the theoretical study of random events, while statistics is concerned with the practical application of data analysis to make inferences and draw conclusions.
 
  See also [S], [Big Data]
 
@@ -1972,6 +2024,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  A preferred activation function which is continuous in 0 is the [sigmoid][Sigmoid Activation Function]
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Heaviside_step_function](https://en.wikipedia.org/wiki/Heaviside_step_function)
 
  See also [S], ...
@@ -1993,6 +2046,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  {% pdf "https://arxiv.org/pdf/2310.06117.pdf" %}
 
  More at:
+
   * [https://www.prompthub.us/blog/a-step-forward-with-step-back-prompting](https://www.prompthub.us/blog/a-step-forward-with-step-back-prompting)
 
  See also [S], ...
@@ -2003,8 +2057,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Autonomous Vehicle]
 
 
-## Stochastic Gradient Descent Algorithm
-## SGD Algorithm
+## Stochastic Gradient Descent (SGD) Algorithm
 
  An algorithm used by an optimizer to minimize the loss function and find the correct values of the parameters.
 
@@ -2027,6 +2080,7 @@ II n summary, probability is focused on the theoretical study of random events, 
 ## Streamlit
 
  More at:
+
   * site - [https://streamlit.io/](https://streamlit.io/)
   * gallery - [https://streamlit.io/gallery](https://streamlit.io/gallery)
   * articles
@@ -2042,28 +2096,23 @@ II n summary, probability is focused on the theoretical study of random events, 
  {% youtube "https://www.youtube.com/watch?v=8WZoVJIV9V0" %}
 
  More at:
+
   * [https://www.bostondynamics.com/products/stretch/](https://www.bostondynamics.com/products/stretch/)
 
  See also [S], ...
 
 
-## SQuAD Benchmark
-
- A benchmark for NLP models for question answering.
-
- See also [S], [Benchmark], [Question Answering]
-
-
-## Strong Artificial Intelligence
 ## Strong AI
 
  ~ [Artificial General Intelligence] or [AGI]
 
  Searle identified a philosophical position he calls "strong AI":
+
   * The appropriately programmed computer with the right inputs and outputs would thereby have a mind in exactly the same sense human beings have minds.[b]
  The definition depends on the distinction between simulating a mind and actually having a mind. Searle writes that "according to Strong AI, the correct simulation really is a mind. According to Weak AI, the correct simulation is a model of the mind."
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Chinese_room#Strong_AI](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI)
 
  See also [S], [Weak AI]
@@ -2090,17 +2139,17 @@ II n summary, probability is focused on the theoretical study of random events, 
  One promising technique for structured pruning is LLM-Pruner. This task-agnostic method minimizes reliance on original training data and selectively removes non-critical coupled structures based on gradient information. This approach maximally preserves the majority of the LLM’s functionality, making it an effective tool for [model compression].
 
  More at:
+
   * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
 
  See also [S], [Unstructured Pruning]
 
 
-## Structure State Space Sequence Model
-## S4 Model
+## Structured State Space Sequence (S4) Model
 
  ~ a new [sequence model] based on the state space model that is continuous-time in nature, excels at modeling long dependencies, and is very computationally efficient. Explicitly trained to work on long sequences
 
- A central goal of sequence modeling is designing a single principled model that can address sequence data across a range of modalities and tasks, particularly on long-range dependencies. Although conventional models including [RNNs], [CNNs], and [Transformers] have specialized variants for capturing long dependencies, they still struggle to scale to very long sequences of 10000 or more steps. A promising recent approach proposed modeling sequences by simulating the fundamental [state space model (SSM)][SSM] \( x'(t) = Ax(t) + Bu(t), y(t) = Cx(t) + Du(t) \), and showed that for appropriate choices of the state matrix \( A \), this system could handle long-range dependencies mathematically and empirically. However, this method has prohibitive computation and memory requirements, rendering it infeasible as a general sequence modeling solution. We propose the Structured State Space sequence model (S4) based on a new parameterization for the [SSM], and show that it can be computed much more efficiently than prior approaches while preserving their theoretical strengths. Our technique involves conditioning \( A \) with a low-rank correction, allowing it to be diagonalized stably and reducing the [SSM] to the well-studied computation of a Cauchy kernel. S4 achieves strong empirical results across a diverse range of established benchmarks, including (i) 91\% accuracy on sequential [CIFAR-10] with no data augmentation or auxiliary losses, on par with a larger 2-D [ResNet], (ii) substantially closing the gap to Transformers on image and language modeling tasks, while performing generation 60× faster (iii) [SoTA] on every task from the Long Range Arena benchmark, including solving the challenging Path-X task of length 16k that all prior work fails on, while being as efficient as all competitors.
+ A central goal of sequence modeling is designing a single principled model that can address sequence data across a range of modalities and tasks, particularly on long-range dependencies. Although conventional models including [RNNs], [CNNs], and [Transformers] have specialized variants for capturing long dependencies, they still struggle to scale to very long sequences of 10000 or more steps. A promising recent approach proposed modeling sequences by simulating the fundamental [State Space Model (SSM)] \( x'(t) = Ax(t) + Bu(t), y(t) = Cx(t) + Du(t) \), and showed that for appropriate choices of the state matrix \( A \), this system could handle long-range dependencies mathematically and empirically. However, this method has prohibitive computation and memory requirements, rendering it infeasible as a general sequence modeling solution. We propose the Structured State Space sequence model (S4) based on a new parameterization for the [SSM], and show that it can be computed much more efficiently than prior approaches while preserving their theoretical strengths. Our technique involves conditioning \( A \) with a low-rank correction, allowing it to be diagonalized stably and reducing the [SSM] to the well-studied computation of a Cauchy kernel. S4 achieves strong empirical results across a diverse range of established benchmarks, including (i) 91\% accuracy on sequential [CIFAR-10] with no data augmentation or auxiliary losses, on par with a larger 2-D [ResNet], (ii) substantially closing the gap to Transformers on image and language modeling tasks, while performing generation 60× faster (iii) [SoTA] on every task from the Long Range Arena benchmark, including solving the challenging Path-X task of length 16k that all prior work fails on, while being as efficient as all competitors.
 
  ![](img/s/structured_state_space_sequence_model.png ){: width="100%}
 
@@ -2109,6 +2158,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  {% pdf "https://arxiv.org/pdf/2111.00396.pdf" %}
 
  More at:
+
   * explanation - [https://srush.github.io/annotated-s4/](https://srush.github.io/annotated-s4/)
   * paper - [https://arxiv.org/abs/2111.00396](https://arxiv.org/abs/2111.00396)
   * code - [https://github.com/state-spaces/s4](https://github.com/state-spaces/s4)
@@ -2142,6 +2192,7 @@ II n summary, probability is focused on the theoretical study of random events, 
 ## Sundar Pichai Person
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Sundar_Pichai](https://en.wikipedia.org/wiki/Sundar_Pichai)
 
  See also [S], ...
@@ -2152,6 +2203,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  Suno is building a future where anyone can make great music. Whether you're a shower singer or a charting artist, we break barriers between you and the song you dream of making. No instrument needed, just imagination. From your mind to music.
 
  More at:
+
   * site - [https://www.suno.ai/](https://www.suno.ai/)
 
  See also [S], ...
@@ -2166,8 +2218,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], ...
 
 
-## Super Resolution GAN
-## SRGAN
+## Super Resolution GAN (SRGAN)
 
  The main purpose of this type of GAN is to make a low resolution picture into a more detailed picture. This is one of the most researched problems in Computer vision. The architecture of the SRGAN is given below
 
@@ -2187,6 +2238,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  {% youtube "https://www.youtube.com/watch?v=Ft0gTO2K85A" %}
 
  More at:
+
   * [https://openai.com/blog/introducing-superalignment](https://openai.com/blog/introducing-superalignment)
   * research - [https://openai.com/research/weak-to-strong-generalization](https://openai.com/research/weak-to-strong-generalization)
 
@@ -2202,6 +2254,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  {% pdf "img/s/superglue_paper.pdf %}
 
  More at:
+
   * [https://super.gluebenchmark.com/](https://super.gluebenchmark.com/)
 
  See also [S], [Benchmark], [GLUE Benchmark]
@@ -2212,6 +2265,7 @@ II n summary, probability is focused on the theoretical study of random events, 
  An [company] that focuses on generating subtitle for a given video (check the meditation video!)
 
  More at:
+
   * mediation video - [https://twitter.com/ramsri_goutham/status/1619620737509396483](https://twitter.com/ramsri_goutham/status/1619620737509396483)
     * post - [https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5(https://ramsrigoutham.medium.com/create-ai-powered-personalized-meditation-videos-d2f76fee03a5)
     * video [https://www.youtube.com/watch?v=YfxlC9Kreig&t=44s](https://www.youtube.com/watch?v=YfxlC9Kreig&t=44s)
@@ -2227,18 +2281,15 @@ II n summary, probability is focused on the theoretical study of random events, 
  Ex:
   * points in a video game where rules are unknown
 
- More at:
-  * ...
-
  See also [S], ...
 
 
-## Supervised Fine-Tuning
-## SFT
+## Supervised Fine-Tuning (SFT)
 
- `A way to turn a generalist [pre-trained model] into a "fine-tuned" expert model, aka domain-specific model` Normally done with [supervised learning] to minimize the number of samples required and be less compute intensive and be more compute friendly?
+ ==A way to turn a generalist [pre-trained model] into a "fine-tuned" expert model, aka domain-specific model== Normally done with [supervised learning] to minimize the number of samples required and be less compute intensive and be more compute friendly?
 
  Alternatives:
+
   * [PEFT] with [Lora]
   * [Hypernetwork Architecture]
 
@@ -2247,7 +2298,8 @@ II n summary, probability is focused on the theoretical study of random events, 
 
 ## Supervised Learning
 
- `provide labelled training data` (picture of a dog, with label this is a dog!). Ex:
+ ==provide labelled training data== (picture of a dog, with label this is a dog!). Ex:
+
    * Regression (predicting the price that a house will sell for)
      * Simple [linear regression]
      * multi regression
@@ -2278,10 +2330,9 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [Support Vector Machine]
 
 
-## Support Vector Machine
-## SVM
+## Support Vector Machine (SVM)
 
- `Find a linear/planar/x-D/hyperplane to use as a decision boundary in real, transformed, or latent space!` To find the boundary, only use the distance from the points/samples/support-vectors to the boundary and make sure it is as large/wide as possible to maximize the chance of success of the classification (i.e. minimize false positive). Mostly used for classification, but occasionally for regression.
+ ==Find a linear/planar/x-D/hyperplane to use as a decision boundary in real, transformed, or latent space!== To find the boundary, only use the distance from the points/samples/support-vectors to the boundary and make sure it is as large/wide as possible to maximize the chance of success of the classification (i.e. minimize false positive). Mostly used for classification, but occasionally for regression.
 
  ![](img/s/support_vector_machine.png ){: width="100%}
 
@@ -2289,10 +2340,12 @@ II n summary, probability is focused on the theoretical study of random events, 
 
   {% youtube "https://www.youtube.com/watch?v=T9UcK-TxQGw" %}
 
- Beware:
+/// warning | Beware:
   * SVM can be used for binary classification (but also with a trick can be used for multi-class classification)
+///
 
  More at:
+
   * [https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/](https://www.analyticsvidhya.com/blog/2021/10/support-vector-machinessvm-a-complete-guide-for-beginners/)
 
  See [Classification], [Decision Boundary], [Kernel Trick], [Hyperplane], [Regression], [Support Vector]
@@ -2305,17 +2358,17 @@ II n summary, probability is focused on the theoretical study of random events, 
  See also [S], [HPO]
 
 
-## Swarm Artificial Intelligence
 ## Swarm AI
 
  See also [S], ...
 
 
-## Switch Transformer
+## Switch Transformer Model
 
  Model developed by [Google] and based on the [T5 model] uses sparse activation +
 
  More at:
+
   * [https://analyticsindiamag.com/a-deep-dive-into-switch-transformer-architecture/](https://analyticsindiamag.com/a-deep-dive-into-switch-transformer-architecture/)
   * paper - [https://arxiv.org/pdf/2101.03961.pdf](https://arxiv.org/pdf/2101.03961.pdf)
 
@@ -2398,6 +2451,7 @@ i'm {travelMode} to {toCity} to go {activity}
  {% youtube "https://www.youtube.com/watch?v=UVNUCBUrHL0" %}
 
  More at:
+
   * [https://www.synthesia.io/about](https://www.synthesia.io/about)
 
  See also [S], ...
@@ -2419,10 +2473,12 @@ i'm {travelMode} to {toCity} to go {activity}
  Information that is artificially generated rather than produced by real-world events.
 
  It can be created using 
+
   * transformation
   * simulation
 
  It can be used to
+
   * Liberate data, i.e. from top secret to confidential 
   * Augment to improve performance = train on real data and augmented data + test on real data ==> [Model uplift]
   * Fill gap in data
@@ -2437,6 +2493,7 @@ i'm {travelMode} to {toCity} to go {activity}
  {% pdf "img/s/synthetic_data_datagen.pdf" %}
 
  More at:
+
   * Fair synthetic data generation - [https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5](https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5)
 
  See also [S], [Synthetic Data Privacy]
@@ -2449,6 +2506,7 @@ i'm {travelMode} to {toCity} to go {activity}
  ![](img/s/synthetic_data_privacy.png ){: width="100%}
 
  Privacy levels:
+
   1. Obscure Personally Identifiable Information (PII)
   1. Obscure Personally Identifiable Information (PII) + noise
   1. Synthesized rows
@@ -2482,22 +2540,22 @@ i'm {travelMode} to {toCity} to go {activity}
 
  ![](img/s/synthetic_data_privacy_level_6.png ){: width="100%}
 
- More at:
-  * ...
-
  See also [S], ...
 
 
 ## Synthetic Feature
 
  A [feature] not present among the input features, but assembled from one or more of them. Methods for creating synthetic features include the following:
+
   * [Bucketing] a continuous feature into range bins.
   * Creating a [feature cross].
   * Multiplying (or dividing) one feature value by other feature value(s) or by itself. For example, if a and b are input features, then the following are examples of synthetic features:
+
 ```
 ab
 a2
 ```
+
   * Applying a transcendental function to a feature value. For example, if c is an input feature, then the following are examples of synthetic features:
 
 ```
@@ -2515,6 +2573,7 @@ ln(c)
  Test your idea or product with AI participants and take decisions with confidence.
 
  More at:
+
   * site - [https://www.syntheticusers.com/](https://www.syntheticusers.com/)
   * blog - [https://www.syntheticusers.com/journal](https://www.syntheticusers.com/journal)
   * articles
@@ -2528,6 +2587,7 @@ ln(c)
  ~ used to identify generated content by embedding watermarks directly into AI-generated images, audio, text, or video.
 
  More at:
+
   * site - [https://deepmind.google/technologies/synthid/](https://deepmind.google/technologies/synthid/)
 
  See also [S], ...
@@ -2537,7 +2597,8 @@ ln(c)
 
  A system prompt is always included in all new contexts/requests? Only if the model is steerable! [Steerability] is a feature that emerged circa 2020 when GPT-3 was realeased
 
- A system prompt includes
+ A system prompt includes:
+
   * identity and purpose (name, intended function, boundaries)
   * interaction guideline (behavior, style, tone, protocols for complex/sensitive topics)
   * knowledge and capabilities (experience, scope of knowledge, skills/tools/area of expertise, etc)
@@ -2556,4 +2617,3 @@ ln(c)
  {% youtube "https://www.youtube.com/watch?v=zNACfPuaqaI" %}
 
  See also [S], [LLM Pricing]
-

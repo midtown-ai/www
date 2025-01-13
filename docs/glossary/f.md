@@ -9,6 +9,7 @@
  When to use? F1-Score is used when the [False Negatives] and [False Positives] are important. F1-Score is a better metric for [imbalanced datasets].
 
  More at:
+
   * [https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5](https://medium.com/analytics-vidhya/what-is-a-confusion-matrix-d1c0f8feda5)
 
  See also [F], [Confusion Matrix], [Hyperparameter Optimization]
@@ -19,8 +20,7 @@
  See also [F], ...
 
 
-## Facebook AI Similarity Search
-## FAISS
+## Facebook AI Similarity Search (FAISS)
 
  Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, up to ones that possibly do not fit in RAM. It also contains supporting code for evaluation and parameter tuning. Faiss is written in C++ with complete wrappers for Python/numpy. Some of the most useful algorithms are implemented on the GPU. It is developed primarily at [Meta]'s Fundamental AI Research group.
 
@@ -57,6 +57,7 @@ print(I[-5:])                  # neighbors of the 5 last queries
 ```
 
  More at:
+
   * site - [https://ai.meta.com/tools/faiss/](https://ai.meta.com/tools/faiss/)
   * code - [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss)
   * docs - [https://github.com/facebookresearch/faiss/wiki](https://github.com/facebookresearch/faiss/wiki)
@@ -70,10 +71,12 @@ print(I[-5:])                  # neighbors of the 5 last queries
 ## Facial Recognition
 
  Models:
+
   * 1996 - FERET
   * 2014 - DeepFace
 
  Datasets:
+
   * 2007 - Labeled Faces in the Wild (LFW) data set
 
  ![](img/f/facial_recognition_evolution.png ){: width="100%"}
@@ -81,6 +84,7 @@ print(I[-5:])                  # neighbors of the 5 last queries
  ![](img/f/facial_recognition_data_sources.png ){: width="100%"}
 
  More at:
+
   * articles
     * [https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history](https://www.technologyreview.com/2021/02/05/1017388/ai-deep-learning-facial-recognition-data-history)
 
@@ -90,6 +94,7 @@ print(I[-5:])                  # neighbors of the 5 last queries
 ## Fair AI
 
  More at:
+
   * [https://mostly.ai/blog/we-want-fair-ai-algorithms-but-how-to-define-fairness](https://mostly.ai/blog/we-want-fair-ai-algorithms-but-how-to-define-fairness)
   * Fair synthetic data generation - [https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5](https://mostly.ai/blog/diving-deep-into-fair-synthetic-data-generation-fairness-series-part-5)
 
@@ -100,9 +105,10 @@ print(I[-5:])                  # neighbors of the 5 last queries
 
  Built by [Meta] on the top of [PyTorch]
 
- Includes
-  * [Wav2Letter Model]
-  * [Wav2Vec Model]
+ Includes the following models
+
+  * [Wav2Letter]
+  * [Wav2Vec]
   * ...
 
  {% youtube "https://www.youtube.com/watch?v=t6JjlNVuBUQ" %}
@@ -110,12 +116,14 @@ print(I[-5:])                  # neighbors of the 5 last queries
  {% youtube "https://www.youtube.com/watch?v=jIXIuYdnyyk" %}
 
  More at:
+
   * code - [https://github.com/facebookresearch/fairseq](https://github.com/facebookresearch/fairseq)
 
 
 ## Fake Art
 
  More at:
+
   * [https://nypost.com/2023/04/05/how-frightening-new-ai-midjourney-creates-realistic-fake-art/](https://nypost.com/2023/04/05/how-frightening-new-ai-midjourney-creates-realistic-fake-art/)
 
  See also [F], ...
@@ -124,12 +132,13 @@ print(I[-5:])                  # neighbors of the 5 last queries
 ## Fake News
 
   More at:
+
    * SIFT method - [https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/](https://oer.pressbooks.pub/collegeresearch/chapter/the-sift-method/)
 
   See also [F], ...
 
 
-## Falcon Model
+## Falcon Model Family
 
 ```python
 from langchain import HuggingFacePipeline
@@ -173,27 +182,32 @@ print(llm_chain.run(question))
 ```
 
  More at:
+
   * colab - [https://colab.research.google.com/drive/1rLShukC14BodnSI9OTyBLu9v0CVrrCsi?usp=sharing](https://colab.research.google.com/drive/1rLShukC14BodnSI9OTyBLu9v0CVrrCsi?usp=sharing)
 
  See also [F], ...
 
 
-## False Negative
+## False Negative (FN)
 
  When a [binary classifier] says it is negative, when instead it was positive. Also called type II error!
 
  See also [F], [Confusion Matrix], [F1 Score]
 
 
-## False Positive
+## False Negative Rate (FNR)
+
+ See also [F], ...
+
+
+## False Positive (FP)
 
  When a [binary classifier] says it is positive, when instead it was negative. Also called type I error !
 
  See also [F], [Confusion Matrix], [F1 Score]
 
 
-## False Positive Rate
-## FPR
+## False Positive Rate (FPR)
 
  ~ (1 - [Specificity] )
 
@@ -210,11 +224,10 @@ print(llm_chain.run(question))
 
 ## Fashion MNIST Dataset
 
- See also [F], [MNIST Dataset]
+ See [MNIST Dataset]
 
 
-## Fast Random Projection
-## FastRP
+## Fast Random Projection (FastRP)
 
  FastRP, a scalable and performant algorithm for learning distributed node representations in a graph. FastRP is over 4,000 times faster than state-of-the-art methods such as [DeepWalk] and [node2vec], while achieving comparable or even better performance as evaluated on several real-world networks on various downstream tasks. We observe that most network embedding methods consist of two components: construct a node similarity matrix and then apply dimension reduction techniques to this matrix. 
 
@@ -223,6 +236,7 @@ print(llm_chain.run(question))
  {% pdf "https://arxiv.org/pdf/1908.11512.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1908.11512](https://arxiv.org/abs/1908.11512)
   * articles
     * [https://towardsdatascience.com/behind-the-scenes-on-the-fast-random-projection-algorithm-for-generating-graph-embeddings-efb1db0895](https://towardsdatascience.com/behind-the-scenes-on-the-fast-random-projection-algorithm-for-generating-graph-embeddings-efb1db0895)
@@ -232,9 +246,10 @@ print(llm_chain.run(question))
 
 ## Feature
 
- :warning: features are expected to be independent variables between each other (and the output/prediction is dependent on the inputs/features)
+/// warning | features are expected to be independent variables between each other (and the output/prediction is dependent on the inputs/features)
+///
 
- `Input parameter to the model`. Which features are important to make the right prediction? Beware that the dataset needs to be at least 10 times the number of features.
+ ==Input parameter to the model==. Which features are important to make the right prediction? Beware that the dataset needs to be at least 10 times the number of features.
 
  A feature is a characteristic of a piece of data that the computer needs to know about in order to learn about that kind of data. These characteristics, or features, are used by AI systems to come up with patterns about the data and then make predictions using those patterns. Theses features are often stored in variables so that the computer can use them later!
 
@@ -248,6 +263,7 @@ print(llm_chain.run(question))
  Feature Attributions have been successfully used in the industry and also at Google to improve model transparency, debug models, and assess model robustness. Prominent algorithms for computing feature attributions include SHAP, Integrated Gradients and LIME. Each algorithm offers a slightly different set of properties.
 
  More at:
+
   * [https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble](https://cloud.google.com/blog/topics/developers-practitioners/monitoring-feature-attributions-how-google-saved-one-largest-ml-services-trouble)
 
 
@@ -256,6 +272,7 @@ print(llm_chain.run(question))
  A synthetic feature formed by "crossing" categorical or bucketed features.
 
  For example, consider a "mood forecasting" model that represents temperature in one of the following four [buckets]:
+
 ```
 freezing
 chilly
@@ -309,6 +326,7 @@ warm-windy
 ## Feature Distribution Transformation
 
  Transformations:
+
   * [Box Cox Transformation]
   * [Log Transformation]
 
@@ -322,16 +340,17 @@ warm-windy
  Feature engineering is an iterative process that often requires experimentation and creating many models to find the input features that give the best model performance. You want features that are weakly correlated with each other, but that strongly correlated with the output. 
 
  Examples:
+
   * Missing data imputation
   * Variable discretization
-  * Handling [outliers][Outlier]
+  * Handling [outliers]
   * Creating features from dates and time
   * Extracting features from relational data and time series
   * Extracting features from text
   * Numeric features may need to be [rescaled][Feature Scaling]
-  * The values of [categorical features][Categorical Feature] may need to be [encoded][Encoding] (Monday=1, ..., Sunday =7, or one hot encoding? <!> In first encoding, you pass an incorrect hierachical information!)
+  * The values of [categorical features] may need to be [encoded][Encoding] (Monday=1, ..., Sunday =7, or one hot encoding? <!> In first encoding, you pass an incorrect hierachical information!)
   * Features may need to be parsed into multiple fields
-  * Techniques like [Principal Component Analysis (PCA)][Principal Component Analysis] may need to be applied to extract new features
+  * Techniques like [Principal Component Analysis (PCA)] may need to be applied to extract new features
   * Features may need to [reshaped][Feature Distribution Transformation] to conform to statistical distribution, such as normal/Gaussian.
 
  Beware that the data-set needs to be at least 10 times the number of features. Example: for call routing in a call center
@@ -370,6 +389,7 @@ warm-windy
  Feature importance can be used for a variety of purposes, such as identifying which features to focus on when collecting new data, identifying potential problems with the model, and explaining how the model is making its predictions. It is also useful for [feature selection], which involves choosing a subset of the most important features to include in the model, in order to improve its [accuracy] and reduce [overfitting].
 
  Problems solved by feature importance:
+
   * [Data Leakage] check
   * ...
 
@@ -421,6 +441,7 @@ print("Accuracy:", accuracy)
  Feature learning can be either [supervised], [unsupervised] or [self-supervised].
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Feature_learning](https://en.wikipedia.org/wiki/Feature_learning)
 
  See also [F], ...
@@ -472,22 +493,26 @@ If we use two filters, the output feature map would have dimensions of 24 x 24 x
  Here are some potential pros and cons of feature maps in CNNs.
 
  Pros:
+
   * Feature maps can help to extract and highlight important features in the input data, which can improve the accuracy of the CNN in tasks such as image recognition, object detection, and speech recognition
   * Feature maps can help to reduce the dimensionality of the input data, making it easier and faster to process and analyze
   * By using multiple layers of feature maps, a CNN can capture complex and hierarchical relationships between different features in the input data, leading to more accurate and robust predictions
   * Feature maps learned from one task or dataset can often be transferred to another task or dataset, allowing the CNN to leverage knowledge gained from previous tasks or datasets. This can lead to faster training and improved performance on new tasks or datasets.
 
  Cons:
+
   * Feature maps can be computationally expensive to compute, especially when using large input images and multiple layers of feature maps
   * CNNs typically have a large number of parameters and require a significant amount of memory to store and process data. The size of the feature maps can also become very large, which can be challenging to handle in terms of memory requirements
   * Feature maps can sometimes be overfit to specific features in the training data, leading to poor generalization and performance on unseen data
   * The quality and interpretability of feature maps can be affected by the choice of architecture, hyperparameters, and training method used in the CNN
 
  More at:
+
   * articles
     * [https://www.baeldung.com/cs/cnn-feature-map](https://www.baeldung.com/cs/cnn-feature-map)
 
  See also [F], [Activation Map]
+
 
 ## Feature Normalization
 
@@ -507,6 +532,7 @@ Xnorm = --------------
 ## Feature Scaling
 
  Methods:
+
   * [Feature Normalization]
   * [Feature Standardization]
 
@@ -553,6 +579,7 @@ Xnorm = ---------------
  {% pdf "https://arxiv.org/pdf/1311.2901.pdf" %}
 
  More at:
+
   * [https://yosinski.com/deepvis](https://yosinski.com/deepvis)
   * [https://sander.ai/2014/08/05/spotify-cnns.html](https://sander.ai/2014/08/05/spotify-cnns.html)
   * [https://github.com/yosinski/deep-visualization-toolbox](https://github.com/yosinski/deep-visualization-toolbox)
@@ -566,6 +593,7 @@ Xnorm = ---------------
 ## Federated Averaging Algorithm
 
  More at:
+
   * [https://blog.research.google/2017/04/federated-learning-collaborative.html](https://blog.research.google/2017/04/federated-learning-collaborative.html)
 
  See also [F], ...
@@ -574,6 +602,7 @@ Xnorm = ---------------
 ## Federated Learning
 
  More at:
+
   * [https://pair.withgoogle.com/explorables/federated-learning/](https://pair.withgoogle.com/explorables/federated-learning/)
   * articles
     * [https://blog.research.google/2017/04/federated-learning-collaborative.html](https://blog.research.google/2017/04/federated-learning-collaborative.html)
@@ -584,6 +613,7 @@ Xnorm = ---------------
 ## Feedback
 
  Several ways to give feedback:
+
   * Two stars and a wish – two positive things about the presentation and one suggestion,
   * The 3, 2, 1, Formula – Three likes, Two suggestions, and One question.
   * Finally, feedback can be given based on things like the content of the presentation, use of visuals, eye contact, etc.
@@ -595,13 +625,16 @@ Xnorm = ---------------
 
  Refine your behavior based on the feedback from the crowd.
 
- Questions:
-  * How is this different from a reward in reinforcement learning? ==> selection bias ! I use the feedback I want! The goal is not to get the maximum reward, but to get to your destination which the reward model does not know about!.
+/// details | How is this different from a reward in reinforcement learning?
+    type:question
 
- Example:
-  * Before the invention of the car, if you asked people what they wanted, they would have asked for a faster horse! Not a faster carriage or a car!
+   selection bias ! I use the feedback I want! The goal is not to get the maximum reward, but to get to your destination which the reward model does not know about!.
+///
+
+ Example: Before the invention of the car, if you asked people what they wanted, they would have asked for a faster horse! Not a faster carriage or a car!
 
  More at:
+
   * RLHF is flawed? - [https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the](https://astralcodexten.substack.com/p/perhaps-it-is-a-bad-thing-that-the)
  
  See also [F], [Feedback], [Reinforcement Learning], [Reinforcement Learning AI Feedback], [Reinforcement Learning Human Feedback]
@@ -649,6 +682,7 @@ cheese =>
  {% pdf "https://arxiv.org/pdf/2005.14165.pdf" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing)](https://en.wikipedia.org/wiki/Few-shot_learning_(natural_language_processing))
   * paper - 
 
@@ -662,13 +696,9 @@ cheese =>
  See also [F], ...
 
 
-## Few-Shot Reinforcement Learning
 ## Few-Shot RL
 
  Learn new tasks from only a few examples. Leverages prior knowledge.
-
- More at:
-  * ...
 
  See also [F], ...
 
@@ -676,19 +706,20 @@ cheese =>
 ## Figure AI Company
 
  More at:
+
   * site - [https://www.figure.ai/](https://www.figure.ai/)
 
  See also [F], ...
 
 
-## Figure Humanoids
-## Figure-01
+## Figure Humanoid
 
  {% youtube "https://www.youtube.com/watch?v=Q5MKo7Idsok" %}
 
  {% youtube "https://www.youtube.com/watch?v=8pRKYkWbkkA" %}
 
  More at:
+
   * announcement - [https://www.figure.ai/master-plan](https://www.figure.ai/master-plan)
 
  See also [F], ...
@@ -704,6 +735,7 @@ cheese =>
 ## Fine-Tuning
 
  More at:
+
    * GPT fine-tuning - [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
 
  See [Supervised Fine-Tuning]
@@ -718,6 +750,7 @@ cheese =>
  {% youtube "https://www.youtube.com/watch?v=CH3BdIvWxrA" %}
 
  More at:
+
   * AI finance foundation - [https://github.com/AI4Finance-Foundation](https://github.com/AI4Finance-Foundation)
   * paper - [https://arxiv.org/abs/2306.06031](https://arxiv.org/abs/2306.06031)
   * code - [https://github.com/AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
@@ -732,6 +765,7 @@ cheese =>
  Fist strategically aligned LLM
 
  ![](img/f/flan_t5_model.png ){: width="100%}
+
 
 ## Flamingo Model
 
@@ -748,7 +782,7 @@ cheese =>
 
  ~ does the exact computation, not an [approximate self-attention]! Speed up GPU processing by using tiling and recomputation to reduce GPU memory IOs.
 
- [Transformers] are slow and memory-hungry on long sequences, since the time and memory complexity of [self-attention] are quadratic in sequence length. [Approximate self-attention] methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of [GPU memory]. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between [GPU high bandwidth memory (HBM)][GPU HBM] and [GPU on-chip SRAM][GPU SRAM]. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains [Transformers] faster than existing baselines: 15% end-to-end wall-clock speedup on [BERT]-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3× speedup on [GPT-2] (seq. length 1K), and 2.4× speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in [Transformers], yielding higher quality models (0.7 better perplexity on [GPT-2] and 6.4 points of lift on long-document classification) and entirely new capabilities: the first [Transformers] to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy).
+ [Transformers] are slow and memory-hungry on long sequences, since the time and memory complexity of [self-attention] are quadratic in sequence length. [Approximate self-attention] methods have attempted to address this problem by trading off model quality to reduce the compute complexity, but often do not achieve wall-clock speedup. We argue that a missing principle is making attention algorithms IO-aware -- accounting for reads and writes between levels of [GPU memory]. We propose FlashAttention, an IO-aware exact attention algorithm that uses tiling to reduce the number of memory reads/writes between [GPU High Bandwidth Memory (GPU-HBM)] and [GPU on-chip SRAM (GPU-SRAM]. We analyze the IO complexity of FlashAttention, showing that it requires fewer HBM accesses than standard attention, and is optimal for a range of SRAM sizes. We also extend FlashAttention to block-sparse attention, yielding an approximate attention algorithm that is faster than any existing approximate attention method. FlashAttention trains [Transformers] faster than existing baselines: 15% end-to-end wall-clock speedup on [BERT]-large (seq. length 512) compared to the MLPerf 1.1 training speed record, 3× speedup on [GPT-2] (seq. length 1K), and 2.4× speedup on long-range arena (seq. length 1K-4K). FlashAttention and block-sparse FlashAttention enable longer context in [Transformers], yielding higher quality models (0.7 better perplexity on [GPT-2] and 6.4 points of lift on long-document classification) and entirely new capabilities: the first [Transformers] to achieve better-than-chance performance on the Path-X challenge (seq. length 16K, 61.4% accuracy) and Path-256 (seq. length 64K, 63.1% accuracy).
 
  {% youtube "https://www.youtube.com/watch?v=1RaIS98jj1Q" %}
 
@@ -761,6 +795,7 @@ cheese =>
  {% pdf "https://arxiv.org/pdf/2307.08691.pdf" %}
 
  More at:
+
   * FlashAttention
     * paper - [https://arxiv.org/abs/2205.14135](https://arxiv.org/abs/2205.14135)
   * FlashAttention 2
@@ -773,7 +808,7 @@ cheese =>
 
 ## Flask Python Module
 
- {% highlight python %}
+```python
 #%% package
 from flask import Flask
 
@@ -786,9 +821,9 @@ def home():
 
 if __name__ == '__main__':
     app.run()
- {% endhighlight %}
+```
 
- {% highlight python %}
+```python
 # model_class.py
 import torch
 import torch.nn as nn
@@ -806,9 +841,9 @@ class MultiClassNet(nn.Module):
         x = self.lin2(x)
         x = self.log_softmax(x)
         return x
- {% endhighlight %}
+```
 
- {% highlight python %}
+```python
 # main.py
 
 #%% package
@@ -846,34 +881,32 @@ def predict():
 if __name__ == '__main__':
     app.run()
 # %%
- {% endhighlight %}
+```
 
  More at:
+
   * code - [https://github.com/PacktPublishing/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge](https://github.com/PacktPublishing/PyTorch-Ultimate-2023---From-Basics-to-Cutting-Edge)
+
 
 ## Flow-Based Model
 
  More at :
+
   * [https://blog.kthais.com/flow-based-generative-models-a4de5024efcc](https://blog.kthais.com/flow-based-generative-models-a4de5024efcc)
   * Ahttps://en.wikipedia.org/wiki/Flow-based_generative_model](https://en.wikipedia.org/wiki/Flow-based_generative_model)
  
  See also [F], [Generative Model]
 
 
-## Folded Recurrent Neural Network
 ## Folded RNN
 
  A realistic but difficult to understand representation of the [RNN] architecture.
  Another representation easier to understand is called the [unfolded RNN]
 
- More at:
-  * ...
-
  See also [F], ...
 
 
-## For Stress-Testing Machine Theory Of Mind Benchmark
-## FANToM Benchmark
+## For Stress-Testing Machine Theory Of Mind (FANToM) Benchmark
 
  ~ a [benchmark] to evaluate the [ToM] of a model
 
@@ -884,6 +917,7 @@ if __name__ == '__main__':
  {% pdf "https://arxiv.org/pdf/2310.15421.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2310.15421](https://arxiv.org/abs/2310.15421)
   * article
     * [https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9](https://towardsdatascience.com/is-chatgpt-intelligent-a-scientific-review-0362eadb25f9)
@@ -901,6 +935,7 @@ if __name__ == '__main__':
  {% youtube "https://www.youtube.com/watch?v=Gu-peHw2w6I" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Forbidden_Planet](https://en.wikipedia.org/wiki/Forbidden_Planet) 
 
  See also [F], [AI Movie]
@@ -916,6 +951,7 @@ if __name__ == '__main__':
  Formal [reasoning] is a systematic and logical process that follows a set of rules and principles. It is characterized by its structured and rigorous approach, often used in disciplines like mathematics, formal logic, and computer science. Formal reasoning relies on deductive logic and mathematical proofs to arrive at valid conclusions. It involves applying established rules and principles to solve problems and make deductions.
 
  More at:
+
   * LLM reasoning ability - [https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability](https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability)
 
  See also [F], ...
@@ -932,21 +968,20 @@ if __name__ == '__main__':
  Pre-trained models have become increasingly popular in recent years due to their ability to quickly achieve state-of-the-art performance on a wide range of tasks, without requiring extensive manual tuning and optimization.
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Foundation_models](https://en.wikipedia.org/wiki/Foundation_models)
 
  See also [F], ...
 
 
-## Fourier Recurrent Unit
-## FRU
+## Fourier Recurrent Unit (FRU)
 
  ~ a type of memory unit in [RNNs] ?
 
  See also [F], ...
 
 
-## Frequent Pattern Growth Algorithm
-## FP-Growth Algorithm
+## Frequent Pattern Growth (FP-Growth) Algorithm
 
  ~ a type of [unsupervised learning] that is used for [association rule]
 
@@ -963,9 +998,6 @@ if __name__ == '__main__':
 
  In summary, the FP-growth algorithm mines frequent itemsets by recursively building conditional FP-trees and joining frequent itemset fragments. This divide-and-conquer approach avoids costly database scans and expensive candidate generation.
 
- More at:
-  * ...
-
  See also [F], ...
 
 
@@ -978,14 +1010,14 @@ if __name__ == '__main__':
  {% youtube "https://www.youtube.com/watch?v=qj1Sp8He6e4" %}
 
  More at:
+
   * articles
     * [https://blogs.nvidia.com/blog/fugatto-gen-ai-sound-model/](https://blogs.nvidia.com/blog/fugatto-gen-ai-sound-model/)
 
  See also [F], ...
 
 
-## Fully Connected Layer
-## FC Layer
+## Fully Connected (FC) Layer
 
  ~ aka [Dense Layer] but with or without the activation layer
 
@@ -996,8 +1028,7 @@ if __name__ == '__main__':
  See also [F], [Convolutional Layer], [Convolutional Neural Network], [Polling Layer], [ReLU Layer]
 
 
-## Fully Connected Network
-## FC Network
+## Fully Connected (FC) Network
 
  Where are the [artificial neurons] are connected to one another.
 
@@ -1028,6 +1059,7 @@ if __name__ == '__main__':
  Fused kernels are commonly used in deep learning frameworks and libraries to optimize the execution of neural network models. They are implemented through specialized libraries or compiler optimizations that identify opportunities for fusion and generate efficient code that combines multiple operations into a single kernel. The specific techniques and mechanisms for kernel fusion may vary depending on the deep learning framework or library being used.
 
  More at:
+
   * [https://www.surfactants.net/creating-a-fused-kernel-in-pytorch/](https://www.surfactants.net/creating-a-fused-kernel-in-pytorch/)
   * [https://stackoverflow.com/questions/56601075/what-is-a-fused-kernel-or-fused-layer-in-deep-learning](https://stackoverflow.com/questions/56601075/what-is-a-fused-kernel-or-fused-layer-in-deep-learning)
   * [https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8](https://towardsdatascience.com/how-to-increase-training-performance-through-memory-optimization-1000d30351c8)
@@ -1040,11 +1072,13 @@ if __name__ == '__main__':
  Find out how we help you grow your content, audience, and revenue.
 
  Products:
+
   * [RadioGPT]
   * TopicPulse: Story analysis to see the real-time time evolution of a topic
   * FuturiStreaming: Get stats on streams, number of listener, etc
 
  More at:
+
   * [https://futurimedia.com/](https://futurimedia.com/)
 
  See also [F], ...

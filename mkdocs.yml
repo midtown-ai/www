@@ -51,7 +51,7 @@ theme:
     - header.autohide         # hide page header/banner when scrolling down to show more content
     # - navigation.expand     # sections are expanded, i.e. sub-menus appears and are indented
     - navigation.footer       # include previous and next links in footer
-    # - navigation.indexes    # click on folders/top-menus show their index.md pages
+    - navigation.indexes      # click on folders/top-menus show the first page in their array (often <folder>/index.md)
     # - navigation.instant    # site behaves like a single page application (XHR)
     # - navigation.instant.prefetch  # (Sponsor Only) prefetch a page when user hovers a link to reduce loading time
     # - navigation.instant.preview   # (Sponsor Only) preview page when hovering an external link
@@ -59,7 +59,7 @@ theme:
     # - navigation.path       # (?) show breadcrumbs above title of each page
     # - navigation.prune      # only visible navigation items are included in the rendered HTML
     # - navigation.sections   # sub-menus appears as if they were top-menus
-    # - navigation.tabs       # top-level sections in menu layer below page's header, sub-sections in navigation sidebar
+    - navigation.tabs         # top-level sections in menu layer below page's header, sub-sections in navigation sidebar
     # - navigation.tabs.sticky # top-level sections in menu layer always stay visible even when scrolling
     - navigation.top          # show back-to-top button when user scrolls down and then up
     - navigation.tracking     # automatically update the url in browser with the active anchor
@@ -333,37 +333,36 @@ extra_javascript:
 nav:
   - Home: index.md
   - Tests: tests.md
-  # - Blog:
-  #   - blog/index.md
-  # - Glossary:
-  #   - glossary/index.md
-  #   - A: glossary/a.md
-  #   - B: glossary/b.md
-  - 0-9: glossary/0-9.md
-  - A: glossary/a.md
-  - B: glossary/b.md
-  - C: glossary/c.md
-  - D: glossary/d.md
-  - E: glossary/e.md
-  - F: glossary/f.md
-  - G: glossary/g.md
-  - H: glossary/h.md
-  - I: glossary/i.md
-  - J: glossary/j.md
-  - K: glossary/k.md
-  - L: glossary/l.md
-  - M: glossary/m.md
-  - N: glossary/n.md
-  - O: glossary/o.md
-  - P: glossary/p.md
-  - Q: glossary/q.md
-  - R: glossary/r.md
-  - S: glossary/s.md
-  - T: glossary/t.md
-  - U: glossary/u.md
-  - V: glossary/v.md
-  - W: glossary/w.md
-  - X: glossary/x.md
-  - Y: glossary/y.md
-  - Z: glossary/z.md
+  - About: about.md
+  - Blog:
+    - blog/index.md
+  - Glossary:
+    - glossary/index.md
+    - 0-9: glossary/0-9.md
+    - A: glossary/a.md
+    - B: glossary/b.md
+    - C: glossary/c.md
+    - D: glossary/d.md
+    - E: glossary/e.md
+    - F: glossary/f.md
+    - G: glossary/g.md
+    - H: glossary/h.md
+    - I: glossary/i.md
+    - J: glossary/j.md
+    - K: glossary/k.md
+    - L: glossary/l.md
+    - M: glossary/m.md
+    - N: glossary/n.md
+    - O: glossary/o.md
+    - P: glossary/p.md
+    - Q: glossary/q.md
+    - R: glossary/r.md
+    - S: glossary/s.md
+    - T: glossary/t.md
+    - U: glossary/u.md
+    - V: glossary/v.md
+    - W: glossary/w.md
+    - X: glossary/x.md
+    - Y: glossary/y.md
+    - Z: glossary/z.md
 

@@ -13,7 +13,7 @@
  See also [N], [Bigram], [Natural Language Programming]
 
 
-## N-Gram
+## N-Gram Model
 
  A model that uses [N-grams] to predict the probability for the next word.
 
@@ -23,6 +23,7 @@
 ## N-Step Lookahead
 
  More at:
+
   * [https://www.kaggle.com/code/alexisbcook/n-step-lookahead](https://www.kaggle.com/code/alexisbcook/n-step-lookahead)
 
  See also [N], ...
@@ -52,6 +53,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 ```
 
  More at: 
+
   * [https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08](https://medium.com/becoming-human/naive-bayes-theorem-d8854a41ea08)
 
  See also [N], [Naive Bayes Classifier]
@@ -68,29 +70,26 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [C], ...
 
 
-## Naive Retrieval Augmented Generation
-## Naive RAG
+## Naive Retrieval Augmented Generation (Naive RAG)
 
  ![](img/n/naive_retrieval_augmented_generation.png ){: width="100%"}
 
  More at:
+
   * [https://github.com/Tongji-KGLLM/RAG-Survey](https://github.com/Tongji-KGLLM/RAG-Survey)
 
  See also [N], ...
 
 
-## Named Entity Recognition
-## NER
+## Named Entity Recognition (NER)
 
  A standard [NLP] problem which involves spotting named entities (people, places, organizations etc.) from a chunk of text, and classifying them into a predefined set of categories. Some of the practical applications of NER include:
+
   * Scanning news articles for the people, organizations and locations reported.
   * Providing concise features for search optimization: instead of searching the entire content, one may simply search for the major entities involved.
   * Quickly retrieving geographical locations talked about in Twitter posts.
 
  ![](img/n/named_entity_recognition.png ){: width="100%"}
-
- More at:
-  * ...
 
  See also [N], [Benchmark], [Entity Extraction]
 
@@ -100,6 +99,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  In [Game Theory], ...
 
  More at:
+
   * [https://www.deepmind.com/blog/game-theory-insights-into-asymmetric-multi-agent-games](https://www.deepmind.com/blog/game-theory-insights-into-asymmetric-multi-agent-games)
   * [https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis](https://www.deepmind.com/blog/game-theory-as-an-engine-for-large-scale-data-analysis)
   * [https://en.wikipedia.org/wiki/Nash_equilibrium](https://en.wikipedia.org/wiki/Nash_equilibrium)
@@ -107,8 +107,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
-## National Artificial Intelligence Advisory Committee
-## NAIAC
+## National Artificial Intelligence Advisory Committee (NAIAC)
 
  The National AI Advisory Committee (NAIAC) consists of experts with a broad and interdisciplinary range of AI-relevant experience from across the private sector, academia, non-profits, and civil society.
 
@@ -117,14 +116,14 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  {% pdf "https://ai.gov/wp-content/uploads/2023/12/Recommendations_Enhancing-Artificial-Intelligence-Literacy-for-the-United-States-of-America.pdf" %}
 
  More at:
+
   * site - [https://ai.gov/naiac/](https://ai.gov/naiac/)
   * reports - [https://ai.gov/naiac/](https://ai.gov/naiac/)
 
  See also [N], ...
 
 
-## National Artificial Intelligence Research Resource
-## NAIRR
+## National Artificial Intelligence Research Resource (NAIRR)
 
  ~ output of the CREATE AI Act of 2023 bill
 
@@ -133,29 +132,27 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  {% pdf "https://www.heinrich.senate.gov/imo/media/doc/create_ai_act_fact_sheet1.pdf" %}
 
  More at:
+
   * site - [https://nairrpilot.org/]
   * S.2714 bill - [https://www.congress.gov/bill/118th-congress/senate-bill/2714/text](https://www.congress.gov/bill/118th-congress/senate-bill/2714/text)
 
  See also [N], [NSF AI Education Act]
 
 
-## National Institute of Standards and Technology
-## NIST
+## National Institute of Standards and Technology (NIST)
 
- * Author of the [AI Risk Management Framework] in 01/15/2023
+ * Author of the [NIST AI Risk Management Framework (NIST AI RMF)] in 01/15/2023
  * In the [US department of commerce](https://www.commerce.gov/)
  * Entity that runs the [US AI Safety Institute] as specified in the landmark 11/1/2023 White House [executive order]
 
  More at:
+
   * site - [https://www.nist.gov/](https://www.nist.gov/)
 
  See also [N], ...
 
 
-## National Institute of Standards and Technology Artificial Intelligence Risk Management Framework
-## NIST Artificial Intelligence Risk Management Framework
-## NIST AI Risk Management Framework
-## NIST AI RMF
+## NIST AI Risk Management Framework (NIST AI RMF)
 
  ~ Written by [NIST], the AI RMF is voluntary guidance to improve the ability to incorporate trustworthiness considerations into the design, development, use and evaluation of AI products, services and systems. Version 1.0 was released in January 2023.
 
@@ -164,14 +161,14 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  {% pdf "{{site.assets}}/n/national_institute_of_standards_and_technology_artificial_intelligence_risk_management_framework.pdf" %}
 
  More at:
+
   * site - [https://airc.nist.gov/home](https://airc.nist.gov/home)
   * [https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments](https://aibusiness.com/responsible-ai/microsoft-offers-support-on-responsible-ai-deployments)
 
  See also [N], ...
 
 
-## National Science Foundation
-## NSF
+## National Science Foundation (NSF)
 
  * Founding source
    * D Research Learning - [https://www.nsf.gov/div/index.jsp?div=DRL](https://www.nsf.gov/div/index.jsp?div=DRL)
@@ -179,7 +176,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [AI4K12]
 
 
-## National Science Foundation AI Education Act
 ## NSF AI Education Act
 
  More at:
@@ -199,10 +195,10 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Casual Language Modeling], [Decoder], [GPT Model]
 
 
-## Natural Language Processing
-## NLP
+## Natural Language Processing (NLP)
 
  A huge percentage of the world’s data and knowledge is in some form of human language. Can you imagine being able to read and comprehend thousands of books, articles and blogs in seconds? Obviously, computers can’t yet fully understand human text but we can train them to do certain tasks. For example, we can train our phones to autocomplete our text messages or to correct misspelled words. We can even teach a machine to have a simple conversation with a human. Natural Language Processing (NLP) is not a machine learning method per se, but rather a widely used technique to prepare text for machine learning. Think of tons of text documents in a variety of formats (word, online blogs, ….). Most of these text documents will be full of typos, missing characters and other words that needed to be filtered out. NLP applications includes:
+
   * Machine Translation (!Seq2Seq Models)
   * Question Answering
   * Semantic Search
@@ -210,11 +206,15 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
   * Spam filtering
   * Text Summarization
   * Virtual Assistants (i.e chatbots)
+
  But also :
+
   * Classification ...
   * Language modeling (prediction analysis)
   * Topics ...
+
  Sample applications
+
   * A bot that converse with you in another language
   * A bot that correct your grammar
   * A/B testing for the content of call to action on website
@@ -223,7 +223,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [BERT Model], [Chain-Of-Thought Prompting], [GPT Model], [Machine Translation], [NLTK], [Question Answering], [Sentiment Analysis], [Seq2Seq Model], [Spam Detection], [Sentiment Analysis], [Spam Filtering], [Text Summarization], [Virtual Assistant]
 
 
-## Natural Language Processing Metric
 ## NLP Metric
 
  A metric is applied to one input-output pair. The metric returns a score often evaluated against human output.
@@ -234,31 +233,34 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], ...
 
 
-## Natural Language Reinforcement Learning
-## NLRL
+## Natural Language Reinforcement Learning (NLRL)
 
  NLRL is about adapting [Reinforcement Learning (RL)][RL] concepts to work in a space where the key element is natural language. In NLRL, the core parts of RL like goals, strategies, and evaluation methods are redefined using natural language. Combined with LLMs, NLRL becomes practical and can be implemented either through simple prompts or by tweaking the model’s parameters.
 
  NLRL involves training AI models to perform language-related tasks through a reward-based system, where the model learns by receiving feedback on its actions.
 
  Applications:
+
   * Text generation where the model learns to produce better quality text based on feedback
   * Dialogue systems that learn from human interactions
   * Language-based games and problem-solving tasks
   * Question answering systems that improve through interaction
 
  Key Components:
+
   * State: Usually represents the current context or language input
   * Action: The model's response or generated text
   * Reward: Feedback on how well the model performed
   * Policy: The strategy for generating responses
 
  Common Approaches:
+
   * Using human feedback to train language models
   * Self-play, where models learn by interacting with themselves
   * Learning from demonstrations (inverse reinforcement learning)
 
  Challenges:
+
   * Defining appropriate reward functions for language tasks
   * Handling the large, discrete action space of natural language
   * Dealing with delayed rewards in extended conversations
@@ -269,20 +271,22 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  {% pdf "https://arxiv.org/pdf/2411.14251v1.pdf" %}
 
  More:
+
   * paper - [https://arxiv.org/abs/2411.14251v1](https://arxiv.org/abs/2411.14251v1)
 
  See also [N], ...
 
-## Natural Language Toolkit
-## NLTK
+## Natural Language Toolkit (NLTK)
 
  Before [transformers][Transformer Architecture], the most popular package for [processing text][NLP] was NLTK (Natural Language ToolKit), created by researchers at [Stanford University]. The simplest way to map text into a numerical representation is to compute the frequency of each word within each text document. Think of a matrix of integers where each row represents a text document and each column represents a word. This matrix representation of the word frequencies is commonly called [Term Frequency Matrix (TFM)][TFM]. From there, we can create another popular matrix representation of a text document by dividing each entry on the matrix by a weight of how important each word is within the entire corpus of documents. We call this method [Term Frequency Inverse Document Frequency (TFIDF)][TF-IDF] and it typically works better for machine learning tasks.
 
  Examples of applications
+
   * [Sentiment analysis]
   * ....
 
  More at:
+
   * home - [https://www.nltk.org/](https://www.nltk.org/)
   * code - [https://github.com/nltk/nltk](https://github.com/nltk/nltk)
   * wiki - [https://github.com/nltk/nltk/wiki](https://github.com/nltk/nltk/wiki)
@@ -290,26 +294,22 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [NLP], ...
 
 
-## Natural Language Interpretation
-## NLI
+## Natural Language Interpretation (NLI)
 
  See [Natural Language Understanding]
 
 
-## Natural Language Inference
-## NLI
+## Natural Language Inference (NLI)
 
  See [Natural Language Understanding]
 
 
-## Natural Language Supervision
-## NLS
+## Natural Language Supervision (NLS)
 
  See also [N], [CLIP Model]
 
 
-## Natural Language Understanding
-## NLU
+## Natural Language Understanding (NLU)
 
  Natural-language understanding (NLU) is a subtopic of natural-language processing in artificial intelligence that deals with machine reading comprehension (Intent, slots ~ Alexa). Natural-language understanding is considered an AI-hard problem. There is considerable commercial interest in the field because of its application to automated reasoning, machine translation, question answering, news-gathering, text categorization, voice-activation, archiving, and large-scale content analysis. A popular json libary for this is snip-NLU.
  
@@ -343,8 +343,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  See also [N], [Autoencoding Model], [Entity Extraction]
 
 
-## Needle In A Haystack Benchmark
-## NIAH Benchmark
+## Needle In A Haystack (NIAH) Benchmark
 
  A way to evaluate the performance of a language model based on its [context window].
 
@@ -355,6 +354,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  {% pdf "https://arxiv.org/pdf/2307.03172.pdf" %}
 
  More at:
+
   * announcement - [https://twitter.com/GregKamradt/status/1722386725635580292](https://twitter.com/GregKamradt/status/1722386725635580292)
   * papers
     * lost in the middle - [https://arxiv.org/abs/2307.03172](https://arxiv.org/abs/2307.03172)
@@ -375,9 +375,6 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
  * Java application
 
  {% youtube "https://www.youtube.com/watch?v=kq_b0QmxFCI" %}
-
- More at:
-  * ...
 
  See also [N], ...
 
@@ -415,6 +412,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  An AI [company]
 
  More at:
+
   * [https://neptune.ai/blog](https://neptune.ai/blog) 
 
  See also [N], ...
@@ -434,6 +432,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  {% youtube "https://www.youtube.com/watch?v=ImpV70uLxyw" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Netflix_Prize](https://en.wikipedia.org/wiki/Netflix_Prize)
 
  See also [N], ...
@@ -442,6 +441,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 ## Netlify Company
 
  More at:
+
   * [https://www.netlify.com/](https://www.netlify.com/)
 
  See also [N], ...
@@ -454,14 +454,13 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], [Artificial Neural Network], [AutoML]
 
 
-## Neural Information Processing Systems Conference
-## NeurIPS Conference
-## NIPS Conference
+## Neural Information Processing Systems (NeurIPS) Conference
 
  The most important [AI Conference] related to [Deep Learning].
  This conference is help in December.
 
  Normal 2 tracks:
+
   * deadlines
     * for abstract submission is 5/5
     * for full  submission is 5/12
@@ -471,6 +470,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
   * submissions are anonymous
 
  High-school track:
+
   * deadline for submission is 6/27
   * ML for social impact
   * Work done entirely and only by high school students
@@ -484,6 +484,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  {% youtube "https://www.youtube.com/watch?v=s5-NMqUELMA" %}
 
  More at:
+
   * site - [https://neurips.cc/](https://neurips.cc/)
   * wikipedia - [https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems)
   * Reference
@@ -507,21 +508,16 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], ...
 
 
-## Neural Information Retrieval Model
-## Neural IR Model
+## Neural Information Retrieval (IR) Model
 
  Neural Information Retrieval (Neural IR) models are a class of information retrieval models that utilize neural network architectures to enhance various aspects of the information retrieval process. Information retrieval involves finding relevant documents or information from a large collection based on a user's query or information need. Neural IR models leverage the power of neural networks to improve the effectiveness and efficiency of this retrieval process.
 
  These models aim to capture complex relationships between queries and documents, as well as exploit contextual and semantic information that might be challenging to capture using traditional retrieval models. Neural IR models have been applied to various tasks within the information retrieval domain, including search engines, recommendation systems, question-answering systems, and more.
 
- More at:
-  * ...
-
  See also [N], [Information Retrieval]
 
 
-## Neural Machine Translation
-## NMT
+## Neural Machine Translation (NMT)
 
  Neural machine translation (NMT) is an approach to machine translation that uses an [artificial neural network] to predict the likelihood of a sequence of words, typically modeling entire sentences in a single integrated model.
 
@@ -530,6 +526,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  Its main departure is the use of [vector] representations ("[embeddings][Word Embedding]", "continuous space representations") for words and internal states. 
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Neural_machine_translation](https://en.wikipedia.org/wiki/Neural_machine_translation)
 
  See also [N], [Google Translate Model]
@@ -550,16 +547,18 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], ...
 
 
-## Neural Ordinary Differential Equations
-## Neural ODE
+## Neural Ordinary Differential Equation (ODE)
 
  {% youtube "https://www.youtube.com/watch?v=V6nGT0Gakyg" %}
+
  {% youtube "https://www.youtube.com/watch?v=YZ-_E7A3V2w" %}
+
  {% youtube "https://www.youtube.com/watch?v=MX1RJELWONc" %}
 
  {% pdf "https://arxiv.org/pdf/1806.07366.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1806.07366](https://arxiv.org/abs/1806.07366)
   * code - [https://github.com/rtqichen/torchdiffeq](https://github.com/rtqichen/torchdiffeq)
   * people
@@ -568,13 +567,14 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], [ResNet Model]
 
 
-## Neural Radiance Field
-## NeRF
+## Neural Radiance Field (NeRF)
 
  Execute a 3D-view synthesis based on several 2D pictures/images 
+
    * Can help to build [Depth Maps]
 
  Overfit a neural network to a complete scene.
+
   * The scene is in the weights
 
  {% youtube "https://www.youtube.com/watch?v=CRlN-cYFxTk" %}
@@ -582,6 +582,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  {% pdf "https://arxiv.org/pdf/2003.08934.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2003.08934](https://arxiv.org/abs/2003.08934)
 
  See also [N], [Voxel]
@@ -592,6 +593,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  {% pdf "https://arxiv.org/pdf/2205.16005.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2205.16005](https://arxiv.org/abs/2205.16005)
 
  See also [N], ...
@@ -600,9 +602,11 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 ## Neural Scaling Law
 
  Here is the empirical observation: "Bigger model with more data and more compute keeps getting better!"
+
   * Better = Validation loss has a lower error rate
 
  Lines
+
   * [Compute Efficient Frontier]
   * [Dataset Size Efficient Frontier]
   * [Parameter Count Efficient Frontier] or model size
@@ -615,6 +619,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
  Also opportunity cost for GPU compute (what is the best way to spend that compute to achieve lower loss?)
  With more compute, you can 3 Possibilities:
+
   1. Train with more data
   2. Train on the same data multiple times
   3. or Make model larger   <<====== SURPRISING WINNER! (won't ANN with too many layers overfit data?)
@@ -640,6 +645,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 
  More at:
+
   * 2022/03/29 
     * paper - [https://arxiv.org/abs/2203.15556](https://arxiv.org/abs/2203.15556)
   * 2020/10/28
@@ -653,14 +659,12 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], [Artificial Neural Network], [Statistical Model]
 
 
-## Neural Style Transfer
-## NST
+## Neural Style Transfer (NST)
 
  Use for generating images. * Only 2 images, the base and the style image, with pre-trained VGG. * Perform back-propagation base image pixels, updating transfer style. * 3 loss functions: content, style, total variance.
 
 
-## Neural Topic Modeling
-## NTM
+## Neural Topic Modeling (NTM)
 
  An unsupervised learning algorithm that is used to organize a corpus of documents into topics that contain word groupings based on their statistical distribution. Documents that contain frequent occurrences of words such as "bike", "car", "train", "mileage", and "speed" are likely to share a topic on "transportation" for example. Topic modeling can be used to classify or summarize documents based on the topics detected or to retrieve information or recommend content based on topic similarities. The topics from documents that NTM learns are characterized as a latent representation because the topics are inferred from the observed word distributions in the corpus. The semantics of topics are usually inferred by examining the top ranking words they contain. Because the method is unsupervised, only the number of topics, not the topics themselves, are prespecified. In addition, the topics are not guaranteed to align with how a human might naturally categorize documents. // Topic modeling provides a way to visualize the contents of a large document corpus in terms of the learned topics. Documents relevant to each topic might be indexed or searched for based on their soft topic labels. The latent representations of documents might also be used to find similar documents in the topic space. You can also use the latent representations of documents that the topic model learns for input to another supervised algorithm such as a document classifier. Because the latent representations of documents are expected to capture the semantics of the underlying documents, algorithms based in part on these representations are expected to perform better than those based on lexical features alone. // Although you can use both the Amazon SageMaker NTM and LDA algorithms for topic modeling, they are distinct algorithms and can be expected to produce different results on the same input data.
 
@@ -681,8 +685,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
  See also [N], [Brain Computer Interface], [MindPong Game]
 
 
-## Next Sentence Prediction
-## NSP
+## Next Sentence Prediction (NSP)
 
  Pretrain a [CLS] token in [BERT][BERT Model] by performing a classification task. Did sentence B come directly after sentence A? Yes or No ? A classification problem with softmax function on is_next and not_next (sum of probabilities = 1).
  
@@ -707,6 +710,7 @@ B: I was just there
 ## Node Classification
 
  Node classification refers to the task of assigning labels or categories to nodes in a graph. Some key points about node classification on graphs:
+
   * Graphs represent data as networks with nodes (vertices) and edges (connections between nodes). For example, a social network graph has people as nodes and their friend connections as edges.
   * In node classification, we want to infer a label or category for nodes based on the graph structure and node attributes. Common node labels may correspond to demographic information, interests, roles, etc.
 It is a form of semi-supervised machine learning, where some nodes have labels and others do not. The labels propagate across graph connections to infer labels for the unlabeled nodes.
@@ -725,6 +729,7 @@ It is a form of semi-supervised machine learning, where some nodes have labels a
  {% youtube "https://www.youtube.com/watch?v=LpwGZG5j_q0" %}
 
  More at:
+
   * notebook - [https://github.com/vatsal220/medium_articles/blob/main/n2v/n2v.ipynb](https://github.com/vatsal220/medium_articles/blob/main/n2v/n2v.ipynb)
   * article(s)
     * [https://towardsdatascience.com/node2vec-explained-db86a319e9ab](https://towardsdatascience.com/node2vec-explained-db86a319e9ab)
@@ -747,8 +752,7 @@ It is a form of semi-supervised machine learning, where some nodes have labels a
  See also [N], [Noise], [U-Net Generator]
 
 
-## Non-deterministic Polynomial-time hard
-## NP-hard
+## Non-deterministic Polynomial-time Hard (NP-Hard)
 
  NP-hard (Non-deterministic Polynomial-time hard) is a term used in computational complexity theory to describe a class of decision problems that are at least as difficult to solve as the hardest problems in the class NP (Non-deterministic Polynomial-time).
 
@@ -764,6 +768,7 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 ## Non-Linear Regression
 
  More at:
+
   * [https://medium.com/@toprak.mhmt/non-linear-regression-4de80afca347](https://medium.com/@toprak.mhmt/non-linear-regression-4de80afca347)
 
  See also [N], [Linear Regression], [Polynomial Regression], [Regression]
@@ -811,6 +816,7 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
  {% youtube "https://www.youtube.com/watch?v=4IIC2jI9CaU" %}
 
  More at:
+
   * Hugging Face course - [https://huggingface.co/learn/nlp-course/chapter6/4](https://huggingface.co/learn/nlp-course/chapter6/4)
 
  See also [N], ...
@@ -824,6 +830,7 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
 ## NotebookLM Utility
 
  More at:
+
   * site - [https://notebooklm.google/](https://notebooklm.google/)
   * articles
     * [https://www.wired.com/story/googles-notebooklm-ai-ultimate-writing-assistant/](https://www.wired.com/story/googles-notebooklm-ai-ultimate-writing-assistant/)
@@ -833,10 +840,10 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
  See also [N], ...
 
 
-## Numerical Python Module
 ## Numpy Python Module
 
  A [Python module] for ...
+
   * mathematical, logical and shape manipulations
   * sorting and selecting
   * basic linear algebra
@@ -844,6 +851,7 @@ Some well-known NP-hard problems include the traveling salesman problem, the kna
   * random simulation
 
  Optimization over list comes from
+
   * data type is known (and enforced!) <== major difference between a list and an array!
   * data is stored in blocks
   * new optimized methods for arrays
@@ -935,12 +943,15 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
 ## Nvidia Company
 
  People:
+
   * [Jensen Huang] - Founder and CEO
 
  Research:
+
   * [SegFormer] - Image segmentation using the [transformer architecture]
 
  Models
+
   * [Audio2Face] - change lips and face based on recording of a voice
   * [Chat with RTX](https://www.nvidia.com/en-us/ai-on-rtx/chat-with-rtx-generative-ai/) - Your Personalized AI Chatbot
   * [Fugatto] - transform text prompts into audio
@@ -952,12 +963,15 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
   * [VIMA] - multi-modal ? model for robots?
 
  SDK
+
   * [TensorRT SDK]
 
  Metaverse
+
   * [Omniverse] : The metaverse by Nvidia!
 
  Hardware:
+
   * [DGX-1] : First system built for machine learning processing
 
  {% youtube "https://www.youtube.com/watch?w=Gn_IMIPrX9s" %}
@@ -967,6 +981,7 @@ plt.imshow(photo[:,:,0].T)       # Multiple transformation at once!
  {% youtube "https://www.youtube.com/watch?w=GuV-HyslPxk" %}
 
  More at :
+
   * [https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/](https://blogs.nvidia.com/blog/2022/12/16/top-five-nvidia-ai-videos/)
   * repo - [https://github.com/NVlabs](https://github.com/NVlabs/SegFormer)
 

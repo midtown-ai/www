@@ -1,10 +1,11 @@
 [D]: d.md
 
-[DALL-E Models]: d.md#dall-e-models
-[DALL-E Model]: d.md#dall-e-models
-[DALL-E]: d.md#dall-e-models
-[DALL-E2 Model]: d.md#dall-e-models
-[DALL-E3 Model]: d.md#dall-e-models
+[DALL-E Model Family]: d.md#dall-e-model-family
+[DALL-E Model]: d.md#dall-e-model-family
+[DALL-E Models]: d.md#dall-e-model-family
+[DALL-E]: d.md#dall-e-model-family
+[DALL-E2 Model]: d.md#dall-e-model-family
+[DALL-E3 Model]: d.md#dall-e-model-family
 [Dario Amodei Person]: d.md#dario-amodei-person
 [Dario Amodei]: d.md#dario-amodei-person
 [DARPA]: d.md#darpa
@@ -21,13 +22,13 @@
 [Data Centers]: d.md#data-center
 [Data Cleaning]: d.md#data-cleaning
 [Data Collection]: d.md#data-collection
-[Data Commons Dataset]: d.md#data-common-dataset
-[Data Commons]: d.md#data-common-dataset
+[Data Commons Dataset]: d.md#data-commons-dataset
+[Data Commons]: d.md#data-commons-dataset
 [Data Consumer]: d.md#data-consumer
 [Data Control]: d.md#data-control
 [Data Controller]: d.md#data-controller
-[Data Development Life Cycle]: d.md#data-development-life-cycle
-[DDLC]: d.md#data-development-life-cycle
+[Data Development Life Cycle (DDLC)]: d.md#data-development-life-cycle-ddlc
+[DDLC]: d.md#data-development-life-cycle-ddlc
 [Data Drift]: d.md#data-drift
 [Data Federation]: d.md#data-federation
 [Data Governance]: d.md#data-governance
@@ -46,15 +47,14 @@
 [Data Science]: d.md#data-science
 [Data Scientist]: d.md#data-scientist
 [Data Transformation]: d.md#data-transformation
-[Data Usage Control]: d.md#data-usage-control
-[DUC]: d.md#data-usage-control
+[Data Usage Control]: d.md#data-usage-control-duc
+[DUC]: d.md#data-usage-control-duc
 [Data Visualization]: d.md#data-visualization
 [Data Wall]: d.md#data-wall
 [Data Warehouse]: d.md#data-warehouse
 [Data Wrangling]: d.md#data-wrangling
-[Data-Centric AI]: d.md#data-centric-ai
-[DCAI]: d.md#data-centric-ai
-[DCAI]: d.md#data-centric-ai
+[Data-Centric AI]: d.md#data-centric-ai-dcai
+[DCAI]: d.md#data-centric-ai-dcai
 [Data2Vec Algorithm]: d.md#data2vec-algorithm
 [Data2Vec]: d.md#data2vec-algorithm
 [Dataset]: d.md#dataset
@@ -77,38 +77,39 @@
 [Decoder Stack]: d.md#decoder-stack
 [Deconvolution Neural Network]: d.md#deconvolution-neural-network
 [Deductive Reasoning]: d.md#deductive-reasoning
-[Deep Belief Network]: d.md#deep-belief-network
+[Deep Belief Network (DBN)]: d.md#deep-belief-network-dbn
 [DBN]: d.md#dbn
 [Deep Belief]: d.md#deep-belief
-[Deep Blue Challenge]: d.md#deep-bleu-challenge
-[Deep Blue]: d.md#deep-bleu-challenge
+[Deep Blue Challenge]: d.md#deep-blue-challenge
+[Deep Blue]: d.md#deep-blue-challenge
 [Deep Brain]: d.md#deep-brain
-[Deep Convolutional GAN]: d.md#deep-convolutional-gan
-[DCGAN]: d.md#dcgan
-[Deep Deterministic Policy Gradient Algorithm]: d.md#deep-deterministic-policy-gradient-algorithm
-[Deep Deterministic Policy Gradient]: d.md#deep-deterministic-policy-gradient-algorithm
-[DDPG Algorithm]: d.md#deep-deterministic-policy-gradient-algorithm
-[DDPG]: d.md#deep-deterministic-policy-gradient-algorithm
+[Deep Convolutional GAN (DCGAN)]: d.md#deep-convolutional-gan-dcgan
+[DCGAN]: d.md#deep-convolutional-gan-dcgan
+[Deep Deterministic Policy Gradient (DDPG) Algorithm]: d.md#deep-deterministic-policy-gradient-ddpg-algorithm
+[Deep Deterministic Policy Gradient (DDPG)]: d.md#deep-deterministic-policy-gradient-ddpg-algorithm
+[DDPG Algorithm]: d.md#deep-deterministic-policy-gradient-ddpg-algorithm
+[DDPG]: d.md#deep-deterministic-policy-gradient-ddpg-algorithm
 [Deep Equilibrium Model]: d.md#deep-equilibrium-model
 [Deep Equilibrium Models]: d.md#deep-equilibrium-model
-[Deep Learning]: d.md#deep-learning
-[DL]: d.md#deep-learning
+[Deep Learning (DL)]: d.md#deep-learning-dl
+[DL]: d.md#deep-learning-dl
 [Deep Learning Framework]: d.md#deep-learning-framework
 [Deep Multi-Task Learning]: d.md#deep-multi-task-learning
-[Deep Neural Network]: d.md#deep-neural-network
-[Deep Neural Networks]: d.md#deep-neural-network
-[DNN]: d.md#dnn
-[DNNs]: d.md#dnn
-[Deep Q Learning Algorithm]: d.md#deep-q-learning-algorithm
-[Deep Q Learning]: d.md#deep-q-learning-algorithm
-[DQL Algorithm]: d.md#deep-q-learning-algorithm
-[DQL]: d.md#deep-q-learning-algorithm
-[Deep Q-Network]: d.md#deep-q-network
-[Deep Q-Networks]: d.md#deep-q-network
-[DQN]: d.md#deep-q-network
-[DQNs]: d.md#deep-q-network
-[Deep Reinforcement Learning]: d.md#deep-reinforcement-learning
-[Deep RL]: d.md#deep-reinforcement-learning
+[Deep Neural Network (DNN)]: d.md#deep-neural-network-dnn
+[Deep Neural Networks (DNNs)]: d.md#deep-neural-network-dnn
+[DNN]: d.md#deep-neural-network-dnn
+[DNNs]: d.md#deep-neural-network-dnn
+[Deep Q Learning (DQL) Algorithm]: d.md#deep-q-learning-dql-algorithm
+[Deep Q Learning (DQL)]: d.md#deep-q-learning-dql-algorithm
+[DQL Algorithm]: d.md#deep-q-learning-dql-algorithm
+[DQL]: d.md#deep-q-learning-dql-algorithm
+[Deep Q-Network (DQN)]: d.md#deep-q-network-dqn
+[Deep Q-Networks (DQNs)]: d.md#deep-q-network-dqn
+[Deep Q-Network]: d.md#deep-q-network-dqn
+[Deep Q-Networks]: d.md#deep-q-network-dqn
+[DQN]: d.md#deep-q-network-dqn
+[DQNs]: d.md#deep-q-network-dqn
+[Deep RL]: d.md#deep-rl
 [DeepAR Forecasting]: d.md#deepar-forecasting
 [Deepchecks Company]: d.md#deepchecks-company
 [Deepchecks]: d.md#deepchecks-company
@@ -118,8 +119,8 @@
 [DeepMind]: d.md#deepmind-company
 [DeepNash Model]: d.md#deepnash-model
 [DeepNash]: d.md#deepnash-model
-[DeepSeek Model]: d.md#deepseek-model
-[DeepSeek]: d.md#deepseek-model
+[DeepSeek Model Family]: d.md#deepseek-model-family
+[DeepSeek]: d.md#deepseek-model-family
 [DeepSpeed Project]: d.md#deepspeed-project
 [DeepWalk]: d.md#deepwalk
 [Delayed Reward]: d.md#delayed-reward
@@ -127,16 +128,18 @@
 [Demis Hassabis]: d.md#demis-hassabis-person
 [Dendrite]: d.md#dendrite
 [Denoising Autoencoder]: d.md#denoising-autoencoder
-[Denoising Diffusion Policy Optimization]: d.md#denoising-diffusion-policy-optimization
-[Denoising Diffusion Probabilistic Model]: d.md#denoising-diffusion-probabilistic-model
+[Denoising Diffusion Policy Optimization (DDPO)]: d.md#denoising-diffusion-policy-optimization-ddpo
+[DDPO]: d.md#denoising-diffusion-policy-optimization-ddpo
+[Denoising Diffusion Probabilistic Model (DDPM)]: d.md#denoising-diffusion-probabilistic-model-ddpm
+[DDPM]: d.md#denoising-diffusion-probabilistic-model-ddpm
 [Dense Layer]: d.md#dense-layer
 [Dense Model]: d.md#dense-model
 [Depth Map]: d.md#depth-map
 [Depth Maps]: d.md#depth-map
 [Derivative Chain Rule]: d.md#derivative-chain-rule
-[Describe Explain Plan Select Prompting]: d.md#describe-explain-plan-select-prompting
-[DEPS Prompting]: d.md#describe-explain-plan-select-prompting
-[DEPS]: d.md#describe-explain-plan-select-prompting
+[Describe Explain Plan Select (DEPS) Prompting]: d.md#describe-explain-plan-select-deps-prompting
+[DEPS Prompting]: d.md#describe-explain-plan-select-deps-prompting
+[DEPS]: d.md#describe-explain-plan-select-deps-prompting
 [Deterministic Node]: d.md#deterministic-node
 [Detokenizer]: d.md#detokenizer
 [Development Life Cycle]: d.md#development-life-cycle
@@ -145,18 +148,21 @@
 [DGX Cloud]: d.md#dgx-cloud
 [DGX-1 system]: d.md#dgx-1-system
 [Differential Privacy]: d.md#differential-privacy
-[Diffractive Neural Network]: d.md#diffractive-neural-network
-[Diffractive Neural Networks]: d.md#diffractive-neural-network
-[DNN]: d.md#diffractive-neural-network
-[Diffusion Model]: d.md#diffusion-model
-[Diffusion Models]: d.md#diffusion-model
-[DM]: d.md#diffusion-model
-[DMs]: d.md#diffusion-model
+[Diffractive Neural Network (DNN)]: d.md#diffractive-neural-network-dnn
+[Diffractive Neural Networks (DNNs)]: d.md#diffractive-neural-network-dnn
+[DNN]: d.md#diffractive-neural-network-dnn
+[DNNs]: d.md#diffractive-neural-network-dnn
+[Diffusion Model (DM)]: d.md#diffusion-model-dm
+[Diffusion Models (DMs)]: d.md#diffusion-model-dm
+[Diffusion Model]: d.md#diffusion-model-dm
+[Diffusion Models]: d.md#diffusion-model-dm
+[DM]: d.md#diffusion-model-dm
+[DMs]: d.md#diffusion-model-dm
 [Diffusion Process]: d.md#diffusion-process
 [Digital Immortality]: d.md#digital-immortality
 [Digital Human]: d.md#digital-human
-[Digital Object Identifier]: d.md#digital-object-identifier
-[DOI]: d.md#digital-object-identifier
+[Digital Object Identifier (DOI)]: d.md#digital-object-identifier-doi
+[DOI]: d.md#digital-object-identifier-doi
 [Digital Watermark]: d.md#digital-watermark
 [Dimensionality Reduction]: d.md#dimensionality-reduction
 [Direct Preference Optimization]: d.md#direct-preference-optimization
@@ -191,7 +197,6 @@
 [DreamFusion Model]: d.md#dreamfusion-model
 [DreamIX Model]: d.md#dreamix-model
 [Dropout]: d.md#dropout
-[Dropout]: d.md#dropout
 [Dropout Function]: d.md#dropout-function
 [Dropout Layer]: d.md#dropout-layer
 [Dropout Ratio]: d.md#dropout-ratio
@@ -202,5 +207,5 @@
 [Dying Relu Problem]: d.md#dying-relu-problem
 [Dyna Model]: d.md#dyna-model
 [Dyna]: d.md#dyna-model
-[Dynamic Programming]: d.md#dynamic-programming
-[DP]: d.md#dp
+[Dynamic Programming (DP)]: d.md#dynamic-programming-dp
+[DP]: d.md#dynamic-programming-dp

@@ -1,34 +1,37 @@
 [C]: c.md
 
-[Caffe]: c.md#caffe
+[Caffe Framework]: c.md#caffe-framework
+[Caffe]: c.md#caffe-framework
 [Capcha]: c.md#capcha
-[Carnegie Mellon University]: c.md#carnegie-mellon-university
-[CMU]: c.md#cmu
-[Case-Based Reasoning]: c.md#case-based-reasoning
-[CBR]: c.md#cbr
+[Carnegie Mellon University (CMU)]: c.md#carnegie-mellon-university-cmu
+[CMU]: c.md#carnegie-mellon-university-cmu
+[Case-Based Reasoning (CBR)]: c.md#case-based-reasoning-cbr
+[CBR]: c.md#case-based-reasoning-cbr
 [Cassandra Database]: c.md#cassandra-database
 [Casual Language Modeling]: c.md#casual-language-modeling
-[CatBoost Library]: c.md#catboost-libary
-[Catastrophic Forgetting]: c.md#catastrophic-forgetting
-[CF]: c.md#catastrophic-forgetting
-[Categorical Variable]: c.md#categorical-variable
+[CatBoost Python Module]: c.md#catboost-python-module
+[CatBoost]: c.md#catboost-python-module
+[Catastrophic Forgetting (CF)]: c.md#catastrophic-forgetting-cf
+[CF]: c.md#catastrophic-forgetting-cf
+[Categorical Feature]: c.md#categorical-feature
+[Categorical Features]: c.md#categorical-feature
 [Cell Block]: c.md#cell-block
 [Center Line]: c.md#center-line
 [Central Limit Theorem]: c.md#central-limit-theorem
-[Central Processing Unit]: c.md#central-processing-unit
-[CPU]: c.md#central-processing-unit
-[Central Processing Unit Memory]: c.md#central-processing-unit-memory
-[CPU Memory]: c.md#central-processing-unit-memory
+[Central Processing Unit (CPU)]: c.md#central-processing-unit-cpu
+[CPU]: c.md#central-processing-unit-cpu
+[Central Processing Unit Memory]: c.md#central-processing-unit-cpu-memory
+[CPU Memory]: c.md#central-processing-unit-cpu-memory
 [Chain-Of-Table]: c.md#chain-of-table
-[Chain-Of-Thought Prompting]: c.md#chain-of-thought-prompting
-[Chain-Of-Thought]: c.md#chain-of-thought-prompting
-[COT Prompting]: c.md#chain-of-thought-prompting
-[COT]: c.md#chain-of-thought-prompting
+[Chain-Of-Thought (COT) Prompting]: c.md#chain-of-thought-cot-prompting
+[Chain-Of-Thought (COT)]: c.md#chain-of-thought-cot-prompting
+[COT Prompting]: c.md#chain-of-thought-cot-prompting
+[COT]: c.md#chain-of-thought-cot-prompting
 [Chained Model]: c.md#chained-model
 [Character AI Company]: c.md#character-ai-company
 [Character AI]: c.md#character-ai-company
-[Characteristic Stability Index]: c.md#characteristic-stability-index
-[CSI]: c.md#characteristic-stability-index
+[Characteristic Stability Index (CSI)]: c.md#characteristic-stability-index-csi
+[CSI]: c.md#characteristic-stability-index-csi
 [Chatbot]: c.md#chatbot
 [Chatbots]: c.md#chatbot
 [Chatbot Arena]: c.md#chatbot-arena
@@ -58,8 +61,8 @@
 [CLIP Image Encoder]: c.md#clip-image-encoder
 [CLIP Text Encoder]: c.md#clip-text-encoder
 [Clustering]: c.md#clustering
-[CM3leon Model]: c.md#cm3leaon-model
-[CM3leon]: c.md#cm3leaon-model
+[CM3leon Model]: c.md#cm3leon-model
+[CM3leon]: c.md#cm3leon-model
 [CNTK]: c.md#cntk
 [Code Synthesis]: c.md#code-synthesis
 [Codex Model]: c.md#codex-model
@@ -72,8 +75,8 @@
 [Cohere AI Company]: c.md#cohere-ai-company
 [Cohere AI]: c.md#cohere-ai-company
 [Collaborative Filtering]: c.md#collaborative-filtering
-[Colossal Clean Crawled Corpus]: c.md#colossal-clean-crawled-corpus
-[C4]: c.md#colossal-clean-crawled-corpus
+[Colossal Clean Crawled Corpus (C4)]: c.md#colossal-clean-crawled-corpus-c4
+[C4]: c.md#colossal-clean-crawled-corpus-c4
 [Common Crawl Corpus]: c.md#common-crawl-corpus
 [Common Crawl]: c.md#common-crawl-corpus
 [Common Sense]: c.md#common-sense
@@ -84,32 +87,34 @@
 [Compound AI System]: c.md#compound-ai-system
 [Compound AI Systems]: c.md#compound-ai-system
 [Compute Efficient Frontier]: c.md#compute-efficient-frontier
-[Computer Vision]: c.md#computer-vision
-[Computer Vision and Pattern Recognition Conference]: c.md#computer-vision-and-pattern-recognition-conference
-[CVPR Conference]: c.md#cvpr-conference
+[Computer Vision (CV)]: c.md#computer-vision-cv
+[CV]: c.md#computer-vision-cv
+[Computer Vision and Pattern Recognition (CVPR) Conference]: c.md#computer-vision-and-pattern-recognition-cvpr-conference
+[CVPR Conference]: c.md#computer-vision-and-pattern-recognition-cvpr-conference
+[CVPR]: c.md#computer-vision-and-pattern-recognition-cvpr-conference
 [Concept Video]: c.md#concept-video
 [Conda CLI]: c.md#conda-cli
 [Conda]: c.md#conda-cli
 [Conditioning]: c.md#conditioning
-[Conditioning GAN]: c.md#conditioning-gan
-[CGAN]: c.md#conditioning-gan
+[Conditioning GAN (CGAN)]: c.md#conditioning-gan-cgan
+[CGAN]: c.md#conditioning-gan-cgan
 [Conditional Random Fields]: c.md#conditional-random-fields
 [Confidence Interval]: c.md#confidence-interval
 [Confusion Matrix]: c.md#confusion-matrix
 [Confusion Matrices]: c.md#confusion-matrix
 [Constitutional AI]: c.md#constitutional-ai
 [Constraint Satisfaction Problem]: c.md#constraint-satisfaction-problem
-[Consumer Electric Show]: c.md#consumer-electronic-show
-[CES]: c.md#consumer-electronic-show
+[Consumer Electric Show (CES)]: c.md#consumer-electronic-show-ces
+[CES]: c.md#consumer-electronic-show-ces
 [Context Window]: c.md#context-window
 [Context]: c.md#context-window
-[Continual Reinforcement Learning]: c.md#continual-reinforcement-learning
-[CRL]: c.md#continual-reinforcement-learning
+[Continual Reinforcement Learning (CRL)]: c.md#continual-reinforcement-learning-crl
+[CRL]: c.md#continual-reinforcement-learning-crl
 [Continuous Action Space]: c.md#continuous-action-space
 [Continuous Convolution]: c.md#continuous-convolution
 [Continuous Variable]: c.md#continuous-variable
-[Contrastive Language Image Pre-training Model]: c.md#contrastive-language-image-pre-training-model
-[CLIP Model]: c.md#contrastive-language-image-pre-training-model
+[Contrastive Language Image Pre-training (CLIP) Model]: c.md#contrastive-language-image-pre-training-clip-model
+[CLIP Model]: c.md#contrastive-language-image-pre-training-clip-model
 [Contrastive Learning]: c.md#contrastive-learning
 [Contrastive Loss Function]: c.md#contrastive-loss-function
 [ControlNet External Network]: c.md#controlnet-external-network
@@ -117,27 +122,25 @@
 [Control System]: c.md#control-system
 [Control Systems]: c.md#control-system
 [Convergence]: c.md#convergence
-[Convolution]: c.md#covonlution
+[Convolution]: c.md#convolution
 [Convolution Autoencoder]: c.md#convolution-autoencoder
 [Convolutional Layer]: c.md#convolutional-layer
 [Convolutional Layers]: c.md#convolutional-layer
-[Convolutional Neural Network]: c.md#convolutional-neural-network
-[Convolutional Neural Networks]: c.md#convolutional-neural-network
-[ConvNet]: c.md#convolutional-neural-network
-[ConvNets]: c.md#convolutional-neural-network
-[CNN]: c.md#convolutional-neural-network
-[CNNs]: c.md#convolutional-neural-network
-[Convolutional Neural Network Feature Extractor]: c.md#convolutional-neural-network-feature-extractor
-[CNN Feature Extractor]: c.md#convolutional-neural-network-feature-extractor
+[Convolutional Neural Network (CNN)]: c.md#convolutional-neural-network-cnn
+[Convolutional Neural Networks (CNNs)]: c.md#convolutional-neural-network-cnn
+[CNN]: c.md#convolutional-neural-network-cnn
+[CNNs]: c.md#convolutional-neural-network-cnn
+[Convolutional Neural Network (CNN) Feature Extractor]: c.md#convolutional-neural-network-cnn-feature-extractor
+[CNN Feature Extractor]: c.md#convolutional-neural-network-cnn-feature-extractor
 [Coral Hardware]: c.md#coral-hardware
 [Coreference]: c.md#coreference
 [CoreML Format]: c.md#coreml-format
 [CoreML Framework]: c.md#coreml-framework
 [CoreML Tool]: c.md#coreml-tool
 [Corpus]: c.md#corpus
-[Corrective Retrieval Augmented Generation System]: c.md#corrective-retrieval-augmented-generation-system
-[Corrective RAG]: c.md#corrective-retrieval-augmented-generation-system
-[CRAG]: c.md#corrective-retrieval-augmented-generation
+[Corrective Retrieval Augmented Generation (CRAG) System]: c.md#corrective-retrieval-augmented-generation-crag-system
+[Corrective RAG]: c.md#corrective-retrieval-augmented-generation-crag-system
+[CRAG]: c.md#corrective-retrieval-augmented-generation-crag-system
 [Cortical Labs Company]: c.md#cortical-labs-company
 [Cortical Labs]: c.md#cortical-labs-company
 [Cosine Similarity Function]: c.md#cosine-similarity-function
@@ -151,27 +154,25 @@
 [Critic]: c.md#critic
 [Critics]: c.md#critic
 [Critic Network]: c.md#critic-network
-[Critical Assessment of Structure Prediction Challenge]: c.md#critical-assessment-of-structure-prediction-challenge
-[CASP Challenge]: c.md#critical-assessment-of-structure-prediction-challenge
-[CASP]: c.md#critical-assessment-of-structure-prediction-challenge
+[Critical Assessment of Structure Prediction (CASP) Challenge]: c.md#critical-assessment-of-structure-prediction-casp-challenge
+[CASP Challenge]: c.md#critical-assessment-of-structure-prediction-casp-challenge
+[CASP]: c.md#critical-assessment-of-structure-prediction-casp-challenge
 [Cross-Attention]: c.md#cross-attention
 [Cross-Entropy]: c.md#cross-entropy
 [Cross-Entropy Loss Function]: c.md#cross-entropy-loss-function
 [Cross-Validation Sampling Method]: c.md#cross-validation-sampling-method
 [Cross-Validation]: c.md#cross-validation-sampling-method
 [Cubic Regression]: c.md#cubic-regression
-[Cumulative Distribution Function]: c.md#cumulative-distribution-function
-[CDF]: c.md#cumulative-distribution-function
+[Cumulative Distribution Function (CDF)]: c.md#cumulative-distribution-function-cdf
+[CDF]: c.md#cumulative-distribution-function-cdf
 [Cumulative Reward]: c.md#cumulative-reward
-[Curiosity-Driven Reinforcement Learning]: c.md#curiosity-driven-reinforcement-learning
-[Curiosity-Driven RL]: c.md#curiosity-driven-reinforcement-learning
+[Curiosity-Driven RL]: c.md#curiosity-driven-rl
 [Curriculum Learning]: c.md#curriculum-learning
 [Curse Of Dimensionality]: c.md#curse-of-dimensionality
 [Custom Churn Prediction]: c.md#custom-churn-prediction
 [Custom GPT]: c.md#custom-gpt
-[Cybernetic Organism]: c.md#cybernetic-organism
-[Cyborg]: c.md#cybernetic-organism
+[Cybernetic Organism (Cyborg)]: c.md#cybernetic-organism-cyborg
+[Cyborg]: c.md#cybernetic-organism-cyborg
 [Cyborg Beetle]: c.md#cyborg-bettle
 [Cyc Expert System]: c.md#cyc-expert-system
-[Cycle Generative Adversarial Network]: c.md#cycle-generative-adversarial-network
-[Cycle GAN]: c.md#cycle-generative-adversarial-network
+[Cycle GAN]: c.md#cycle-gan

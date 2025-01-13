@@ -9,8 +9,8 @@
 [Joblib Python Module]: j.md#joblib-python-module
 [Joblib]: j.md#joblib-python-module
 [Join Distribution]: j.md#join-distribution
-[Join Embedding Predictive Architecture]: j.md#join-embedding-predictive-architecture
-[JEPA]: j.md#join-embedding-predictive-architecture
+[Joint-Embedding Predictive Architecture (JEPA)]: j.md#joint-embedding-predictive-architecture-jepa
+[JEPA]: j.md#joint-embedding-predictive-architecture-jepa
 [Jukebox Model]: j.md#jukebox-model
 [Jupyter Notebook]: j.md#jupyter-notebook
 [jupyter Server]: j.md#jupyter-server

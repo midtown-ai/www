@@ -52,7 +52,9 @@ First div must not be indented
 
     ---
 
+```
     Material for MkDocs is licensed under MIT and available on [GitHub]
+```
 
     [:octicons-arrow-right-24: License](#)
 
@@ -252,7 +254,9 @@ Image caption
 
 Absolute path (not recommended!)
 
+```
 ![](/glossary/img/a/activation_function.png)
+```
 
 ### Fails
 
@@ -309,29 +313,34 @@ text below rule
 Work:
 
  * https://www.ggogle.com
- * [markdown link to b](b.md#per-capta-non)
+ * [markdown link to a](glossary/a.md#ablation)
  * [in-page Reference-Style external Links][markdown syntax]
  * [in-page Reference-Style internal Links][glossary link]
  * [markdown syntax]
  * [glossary link] and [GloSSAry Link]
- * [include-markdown links toto]
- * [include-markdown links_a titi] = include of include!
- * [snippets admonition][admonition]
- * direct snippets [admonition] and [_admonition_block]
- * direct snippets [bleach] and [_b64]
- * direct snippets to c [crab]
+
+```
+ * [snippets admonition][ablation]
+ * direct snippets [ablation] and [accuracy]
+```
 
 [markdown syntax]: https://daringfireball.net/projects/markdown/syntax#link "title"
-[glossary link]: b.md#big "title"
+[glossary link]: glossary/a.md#ablation "title"
 
+```
+Deprecated by snippets
+
+ * [include-markdown links toto]
+ * [include-markdown links_a titi] = include of include!
 {% include '../includes/links.md' %}
-
-This is an FAQ or what?
+```
 
 Fail:
 
+```
  * [#big] just to anchor (fails)
  * [in-page Reference-Style no match][no match]
+```
 
 ### tooltips
 
@@ -339,7 +348,9 @@ Fail:
 
 [Hover me using inline syntax](https://example.com "I'm a tooltip!")
 
+```
 [Hover me using external reference link][example]
+```
 
 [Hover me using internal reference link][example2]
 

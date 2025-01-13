@@ -1,7 +1,6 @@
 # T
 
-## T-Distributed Stochastic Neighbor Embedding Algorithm
-# t-SNE Algorithm
+## T-Distributed Stochastic Neighbor Embedding (t-SNE) Algorithm
 
  ~ an algorithm used for [dimensionality reduction]
 
@@ -13,10 +12,12 @@
  * t-SNE - Can choose to preserved local structure 
 
  Pros:
+
   * Produces highly clustered, visually striking embeddings.
   * Non-linear reduction, captures local structure well.
 
  Cons:
+
   * Global structure may be lost in favor of preserving local distances.
   * More computationally expensive.
   * Requires setting hyperparameters that influence quality of the embedding.
@@ -31,6 +32,7 @@
  {% pdf "https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf" %}
 
  More at:
+
   * paper - [https://www.jmlr.org/papers/v9/vandermaaten08a.html](https://www.jmlr.org/papers/v9/vandermaaten08a.html)
   * embedding projector - [https://projector.tensorflow.org/](https://projector.tensorflow.org/)
   * [https://distill.pub/2016/misread-tsne/](https://distill.pub/2016/misread-tsne/)
@@ -47,6 +49,7 @@
  ![](img/t/t_distribution.png ){: width="100%"}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Student%27s_t-distribution](https://en.wikipedia.org/wiki/Student%27s_t-distribution)
 
 
@@ -58,8 +61,7 @@
  See also [T], ...
 
 
-## Tabular Prior-Data Fitted Network
-## TabPFN
+## Tabular Prior-Data Fitted Network (TabPFN)
 
  TabPFN is radically different from previous ML methods. It is a meta-learned algorithm and it provably approximates Bayesian inference with a prior for principles of causality and simplicity. Qualitatively, its resulting predictions are very intuitive as well, with very smooth uncertainty estimates:
 
@@ -70,6 +72,7 @@
  {% pdf "https://arxiv.org/pdf/2207.01848.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2207.01848](https://arxiv.org/abs/2207.01848)
   * code - [https://github.com/automl/TabPFN](https://github.com/automl/TabPFN)
   * articles
@@ -84,10 +87,12 @@
 ## Tanh Activation Function
 
  Pros:
+
   * Regulate the values to be always between -1 and 1. Used in RNN.
   * solve exploding gradient problem
 
  Cons:
+
   * vanishing gradient problem.
 
  ![](img/t/tanh_activation_function.png ){: width="100%"}
@@ -105,6 +110,7 @@
 ## Task
 
  To discern a task:
+
   * Will the activity engage learners’ interest?
   * Is there a primary focus on meaning?
   * Is there a goal or an outcome?
@@ -115,18 +121,18 @@
  If your answer is yes to all the questions, you can be sure that the classroom activity you have in mind is task-like.
 
  More at:
+
   * [https://www.teacheracademy.eu/blog/task-based-learning/](https://www.teacheracademy.eu/blog/task-based-learning/)
 
  See also [T], [Task-Based Learning]
 
 
-## Task-Based Learning
-
-## TBL
+## Task-Based Learning (TBL)
 
  Focus on completing the task, but use all your skills (and develop new ones) on the way. Example: Start a company? Start an AI club? Identify problem, opportunities, and improve + find new tools along the way.
 
  More at:
+
    * [https://www.teacheracademy.eu/blog/task-based-learning/](https://www.teacheracademy.eu/blog/task-based-learning/)
 
  See also [T], [Learning Method], [Task]
@@ -137,16 +143,20 @@
  Instead of a prompt, you input a goal. The goal is broken down into smaller tasks and agents are spawn to complete this goals.
 
  Open-source
+
   * [AutoGPT Model]
   * [BabyAGI Model]
   * AgentGPT
   * GodMode
+
  Commercial
+
   * [Cognosys AI]
 
  {% youtube "https://www.youtube.com/watch?v=5DykmpzbV90" %}
 
  More at:
+
   * [https://medium.com/@maanna.stephenson/chatgpt-vs-autogpt-vs-agentgptvs-godmode-1077441a09a4](https://medium.com/@maanna.stephenson/chatgpt-vs-autogpt-vs-agentgptvs-godmode-1077441a09a4)
 
  See also [T], ...
@@ -190,21 +200,34 @@
  See also [T], [Convolutional Neural Network], [Vector]
 
 
-## Tensor Processing Unit
-## TPU
+## Tensor Processing Unit (TPU)
 
  GPU-like hardware built by [Google] specifically to run AI/ML training and accelerate deployed model inferences
 
  See also [T], [Tensor]
 
 
+## TensorFlow Framework
+
+ One of the leading AI/ML framework. Was developed by [Google] and released as open-source.
+
+ More at:
+
+  * tutorials
+    * [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
+
+ See also [T], [Deep Learning Framework], [Distributed Training], [Machine Learning Framework]
+
+
 ## TensorFlow Hub
 
  ~ A [model hub] for models buit with [TensorFlow]
 
- {% highlight python %}
-!pip install --upgrade tensorflow_hub
+```bash
+pip install --upgrade tensorflow_hub
+```
 
+```python
 import tensorflow_hub as hub
 
 model = hub.KerasLayer("https://tfhub.dev/google/nnlm-en-dim128/2")
@@ -212,29 +235,23 @@ embeddings = model(["The rain in Spain.", "falls",
                     "mainly", "In the plain!"])
 
 print(embeddings.shape)  #(4,128)
- {% endhighlight %}
+```
 
  More at:
+
   * site - [https://www.tensorflow.org/hub](https://www.tensorflow.org/hub)
 
  See also [T], ...
 
 
-## TensorFlow ML Framework
+## TensorFlow Python Module
 
- One of the leading AI/ML framework. Was developed by [Google] and released as open-source.
-
- More at:
-  * tutorials
-    * [https://developers.google.com/machine-learning/crash-course](https://developers.google.com/machine-learning/crash-course)
-
- See also [T], [Deep Learning Framework], [Distributed Training], [Machine Learning Framework]
+ See also [T], ...
 
 
-## TensorRT Software Development Kit
 ## TensorRT SDK
 
- A SDK developed by [Nvidia]
+ A Software Development Kit (SDK) developed by [Nvidia]
 
  More at:
   * home - [https://developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
@@ -251,13 +268,13 @@ print(embeddings.shape)  #(4,128)
  {% youtube "https://www.youtube.com/watch?v=piPIckK_R0o" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/The_Terminator](https://en.wikipedia.org/wiki/The_Terminator)
 
  See also [T], [AI Movie]
 
 
-## Term Frequency
-## TF
+## Term Frequency (TF)
 
  ~ measures how frequently a term occurs in a document.
 
@@ -270,22 +287,20 @@ TF(t) = (Number of times term t appears in a document) / (Total number of terms 
  See also [T], [TF-IDF]
 
 
-## Term Frequency-Inverse Document Frequency Retrieval Model
-## TF-IDF Retrieval Model
+## Term Frequency-Inverse Document Frequency (TF-IDF) Retrieval Model
 
- TF-IDF stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in [information retrieval] and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. One of the simplest ranking functions is computed by summing the tf-idf for each query term; many more sophisticated ranking functions are variants of this simple model. Tf-idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification. Typically, the tf-idf weight is composed by two terms: the first computes the normalized [Term Frequency (TF)][TF], aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the [Inverse Document Frequency (IDF)][IDF], computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
+ TF-IDF stands for term frequency-inverse document frequency, and the tf-idf weight is a weight often used in [information retrieval] and text mining. This weight is a statistical measure used to evaluate how important a word is to a document in a collection or corpus. The importance increases proportionally to the number of times a word appears in the document but is offset by the frequency of the word in the corpus. Variations of the tf-idf weighting scheme are often used by search engines as a central tool in scoring and ranking a document's relevance given a user query. One of the simplest ranking functions is computed by summing the tf-idf for each query term; many more sophisticated ranking functions are variants of this simple model. Tf-idf can be successfully used for stop-words filtering in various subject fields including text summarization and classification. Typically, the tf-idf weight is composed by two terms: the first computes the normalized [Term Frequency (TF)], aka. the number of times a word appears in a document, divided by the total number of words in that document; the second term is the [Inverse Document Frequency (IDF)], computed as the logarithm of the number of the documents in the corpus divided by the number of documents where the specific term appears.
 
  ![](img/t/term_frequency_inverse_document_frequency_retrieval_model.jpeg ){: width="100%"}
 
  More at:
+
   * [http://tfidf.com/](http://tfidf.com/)
 
  See also [T], [NLP], [Retrieval Model], [Term Frequency Matrix]
 
 
-## Term Frequency Matrix
-
-## TFM
+## Term Frequency Matrix (TFM)
 
  The simplest way to map text into a numerical representation is to compute the frequency of each word within each text document. Think of a matrix of integers where each row represents a text document and each column represents a word. This matrix representation of the word frequencies is commonly called Term Frequency Matrix (TFM).
 
@@ -305,7 +320,11 @@ TF(t) = (Number of times term t appears in a document) / (Total number of terms 
 
 ## Text Embedding
 
- See [Word Embedding]
+ * [Word Embedding]
+ * [Sentence Embedding]
+ * [Document Embedding]
+
+ See also [T], [Embedding]
 
 
 ## Text Extraction
@@ -345,6 +364,7 @@ info = response.choices[0].message.content
 ```
 
  More at:
+
   * notebooks
     * [https://github.com/togethercomputer/together-cookbook/blob/main/Structured_Text_Extraction_from_Images.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/Structured_Text_Extraction_from_Images.ipynb)
 
@@ -373,14 +393,14 @@ info = response.choices[0].message.content
  See also [T], [Natural Language Processing]
 
 
-## Text-To-Speech Model
-## TTS Model
+## Text-To-Speech (TTS) Model
 
- Turn text into speech. The opposite of [Speech-To-Text][Speech-To-Text Model]
+ Turn text into speech. The opposite of [Speech-To-Text]
 
  Models such as
-  * the [Riva Model] by [Nvidia]
-  * the [WaveNet Model] by [DeepMind]
+
+  * the [Riva] by [Nvidia]
+  * the [WaveNet] by [DeepMind]
 
  More at:
   * PDF 2 podcast - [https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb)
@@ -388,21 +408,23 @@ info = response.choices[0].message.content
  See also [T], [Sequence To Sequence Model]
 
 
-## Text-To-Text Transfer Transformer Model
-## T5 Model
+## Text-To-Text Transfer Transformer (T5) Model
 
  A sequence-to-sequence model built by [Google]
 
  The T5 model, pre-trained on C4, achieves state-of-the-art results on many NLP benchmarks while being flexible enough to be fine-tuned to a variety of important downstream tasks.
 
- Trained with [Colossal Clean Crawled Corpus] or [C4]. A [Transformer based architecture][Transformer Architecture] that uses a text-to-text approach. Every task – including translation, question answering, and classification – is cast as feeding the model text as input and training it to generate some target text. This allows for the use of the same model, loss function, hyperparameters, etc. across our diverse set of tasks. The changes compared to [BERT][BERT Model] include:
+ Trained with [Colossal Clean Crawled Corpus (C4)]. A [Transformer-based model] that uses a text-to-text approach. Every task – including translation, question answering, and classification – is cast as feeding the model text as input and training it to generate some target text. This allows for the use of the same model, loss function, hyperparameters, etc. across our diverse set of tasks. The changes compared to [BERT] include:
+
    * adding a causal decoder to the bidirectional architecture.
    * replacing the fill-in-the-blank cloze task with a mix of alternative pre-training tasks.
+
  T5 claims the state of the art on more than twenty established NLP tasks. It’s extremely rare for a single method to yield consistent progress across so many tasks. That list includes most of the tasks in the GLUE and SuperGLUE benchmarks, which have caught on as one of the main measures of progress for applied language understanding work of this kind (and which my group helped to create). On many of these task datasets, T5 is doing as well as human crowdworkers, which suggests that it may be reaching the upper bound on how well it is possible to do on our metrics.
 
  ![](img/t/t5_model.jpeg ){: width="100%"}
 
  More at:
+
    * [https://paperswithcode.com/method/t5](https://paperswithcode.com/method/t5)
    * code - [https://github.com/google-research/text-to-text-transfer-transformer](https://github.com/google-research/text-to-text-transfer-transformer)
    * blog article - [https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b](https://medium.com/syncedreview/google-t5-explores-the-limits-of-transfer-learning-a87afbf2615b)
@@ -422,6 +444,7 @@ info = response.choices[0].message.content
  {% pdf "https://arxiv.org/pdf/2208.01618v1.pdf" %}
 
  More at: 
+
   * site - [https://textual-inversion.github.io/](https://textual-inversion.github.io)
   * code - [https://github.com/rinongal/textual_inversion](https://github.com/rinongal/textual_inversion)
   * paper - [https://arxiv.org/abs/2208.01618v1](https://arxiv.org/abs/2208.01618v1)
@@ -436,6 +459,7 @@ info = response.choices[0].message.content
   {% youtube "https://www.youtube.com/watch?v=nuPZUUED5uk" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/The_Imitation_Game](https://en.wikipedia.org/wiki/The_Imitation_Game)
 
  See also [T], [AI Movie], [Alan Turing Person]
@@ -448,6 +472,7 @@ info = response.choices[0].message.content
  {% youtube "https://www.youtube.com/watch?v=nUEQNVV3Gfs" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/The_Matrix](https://en.wikipedia.org/wiki/The_Matrix)
 
  See also [M], [AI Movie], [Metaverse]
@@ -458,14 +483,14 @@ info = response.choices[0].message.content
  See also [T], ...
 
 
-## Theory Of Mind
-## ToM
+## Theory Of Mind (ToM)
 
  Theory of mind (ToM), or the ability to impute unobservable mental states to others, is central to human social interactions, communication, empathy, self-consciousness, and morality. We administer classic false-belief tasks, widely used to test ToM in humans, to several language models, without any examples or pre-training. Our results show that models published before 2022 show virtually no ability to solve ToM tasks. Yet, the January 2022 version of [GPT-3] (davinci-002) solved 70% of ToM tasks, a performance comparable with that of seven-year-old children. Moreover, its November 2022 version (ChatGPT/davinci-003), solved 93% of ToM tasks, a performance comparable with that of nine-year-old children. These findings suggest that ToM-like ability (thus far considered to be uniquely human) may have spontaneously emerged as a byproduct of language models’ improving language skills.
 
  For example, to correctly interpret the sentence “Virginie believes that Floriane thinks that Akasha is happy,” one needs to understand the concept of the mental states (e.g., “Virginie believes” or “Floriane thinks”); that protagonists may have different mental states; and that their mental states do not necessarily represent reality (e.g., Akasha may not be happy, or Floriane may not really think that).
 
  Beware:
+
   * :warning: abilities that rely on ToM ==> empathy, moral judgment, or self-consciousness.
 
  ![](img/t/theory_of_mind.webp ){: width="100%"}
@@ -475,6 +500,7 @@ info = response.choices[0].message.content
  {% pdf "https://arxiv.org/pdf/2402.06044.pdf" %}
 
  More at:
+
   * philosophy - [https://iep.utm.edu/theomind/](https://iep.utm.edu/theomind/)
   * paper 
     * Tom tasks - [https://arxiv.org/abs/2302.02083](https://arxiv.org/abs/2302.02083)
@@ -486,13 +512,6 @@ info = response.choices[0].message.content
  See also [T], [Emergent Ability], [FANToM Benchmark], [GPT Model], [Large Language Model]
 
 
-## Time-Series Predictive Analysis
-
- `~ look at a sequence of elements/images, find the next element/image = time series representation`. For example, music can be represented with a time series. In this approach, music is represented as time-series data, where each note is based on the previous notes. 
-
- See also [T], [Autoregressive Model]
-
-
 ## Thresholding
 
  ~ using a discriminatory threshold for separation
@@ -501,16 +520,32 @@ info = response.choices[0].message.content
 
  In [image segmentation], ...
 
- In [classification], ... each threshold correspond to a different [confusion matrix] which in turn is then plotted as a point on the [ROC Curve]. In aggregate, after all the thresholds and the ROC is plotted to calculate the [Area Under the Receiver Operating Characteristic (AUROC) Curve][AUROC Curve]
+ In [classification], ... each threshold correspond to a different [confusion matrix] which in turn is then plotted as a point on the [ROC Curve]. In aggregate, after all the thresholds and the ROC is plotted to calculate the [Area Under the Receiver Operating Characteristic (AUROC) Curve].
 
  ![](img/t/thresholding_low_threshold.png ){: width="100%"}
+
  ![](img/t/thresholding_table.png ){: width="100%"}
+
  ![](img/t/thresholding_high_threshold.png ){: width="100%"}
 
  More at:
+
   * [https://pair.withgoogle.com/explorables/uncertainty-calibration/](https://pair.withgoogle.com/explorables/uncertainty-calibration/)
 
  See also [T], ...
+
+
+## Time Step
+
+ See also [T], ...
+
+
+## Time-Series Predictive Analysis
+
+ `~ look at a sequence of elements/images, find the next element/image = time series representation`. For example, music can be represented with a time series. In this approach, music is represented as time-series data, where each note is based on the previous notes. 
+
+ See also [T], [Autoregressive Model]
+
 
 ## Token Embedding
 
@@ -528,10 +563,9 @@ info = response.choices[0].message.content
  See also [T], ...
 
 
-## Token Identifier
 ## Token ID
 
- Token IDs are simply numbers assigned to each token in the vocabulary. They're like an index or ID number - for example, the word "hello" might be assigned token ID 234. These IDs are arbitrary numbers that just serve as labels. They have no mathematical relationship to each other - token ID 234 isn't "closer" to token ID 235 in any meaningful way.
+ Token Identifiers (IDs) are simply numbers assigned to each token in the vocabulary. They're like an index or ID number - for example, the word "hello" might be assigned token ID 234. These IDs are arbitrary numbers that just serve as labels. They have no mathematical relationship to each other - token ID 234 isn't "closer" to token ID 235 in any meaningful way.
 
  See also [T], ...
 
@@ -541,7 +575,8 @@ info = response.choices[0].message.content
  Tokenization is the first step in any [NLP] pipeline. It has an important effect on the rest of your pipeline. A [tokenizer] breaks unstructured data and natural language text into chunks of information that can be considered as discrete elements. The token occurrences in a document can be used directly as a vector representing that document. Tokenization can separate sentences, words, characters, or subwords. When we split the text into sentences, we call it sentence tokenization. For words, we call it word tokenization.
 
  Tokenization algorithms run after [Pre-Tokenization]:
-  * [Byte-Pair Encoding (BPE) tokenization][BPE Tokenization]
+
+  * [Byte-Pair Encoding (BPE) tokenization]
   * [WordPiece tokenization]
   * [Unigram tokenization]
   * ...
@@ -551,6 +586,7 @@ info = response.choices[0].message.content
  ![](img/t/tokenization_pipeline.png ){: width="100%"}
 
  More at:
+
   * tiktokenizer app - [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/)
 
  See also [T], [Pre-Tokenization], [Tokenizer]
@@ -562,6 +598,7 @@ info = response.choices[0].message.content
 
  :warning: Pass the tokens and their positions (index in the list!) :warning: The tokens are then coded in number / ~ line number of token in file :warning: Prefix and suffix may be added to token for multi-input processing (e.g. "[CLS]" or "[SEP]" )
  Two terms we see a lot when working with tokenization is uncased and cased (Note this has little to do with the BERT architecture, just tokenization!).
+
   * uncased --> removes accents, lower-case the input :warning: Usually better for most situation as case does NOT contribute to context
   * cased --> does nothing to input :warning:  recommended where case does matter, such as Name Entity Recognition
  and more
@@ -576,7 +613,7 @@ info = response.choices[0].message.content
 # Word-Punct tokenizer     ['Hope', ',', 'is', 'the',  'only', 'thing', ',string', 'than', 'fear', '!',  '#', 'Hope', '#', 'Amal', '.', 'M']
 
                            What you don't want to be done to yourself, don't do to others...
-## Treebank word tokenizer  ['What', 'you', 'do', "n't", 'want', 'to', 'be', 'done', 'to', 'yourself', ',', 'do', "n't", 'do', 'to', 'others', '...']
+# Treebank word tokenizer  ['What', 'you', 'do', "n't", 'want', 'to', 'be', 'done', 'to', 'yourself', ',', 'do', "n't", 'do', 'to', 'others', '...']
 
  
 # Wordpiece tokenizer :
@@ -593,18 +630,25 @@ snow	        ['snow']
 snowing	        ['snow', '##ing']
 ```
 
- Questions & Answers
-  * Why so many tokenizers?
+/// details | Why so many tokenizers?
+    type:question
+
     * Language coverage: Languages have vastly different structures and writing systems. A tokenizer optimized for English might perform poorly on Chinese or Arabic.
     * Vocabulary size: Tokenizers make different choices about vocabulary size. Larger vocabularies can represent more words directly but require more memory and computation.
     * Training data: Tokenizers are often trained on specific corpora that reflect their intended use. A tokenizer trained on scientific papers will develop different tokens than one trained on social media posts.
     * Model architecture requirements: Some models work better with certain tokenization schemes. For example, byte-pair encoding (BPE) works well for transformer models, while character-level tokenization might be better for certain RNN architectures.
     * Historical development: As NLP has evolved, different researchers and organizations developed their own approaches to tokenization. While some standardization might be beneficial, the field has grown organically with multiple competing approaches.
-  * Do tokenizer consider semantic meaning or context when tokenizing words?
+///
+
+/// details | Do tokenizer consider semantic meaning or context when tokenizing words?
+    type:question
+
     * No, they operate based on statistical patterns and predefined rules, not meaning. So the word "bank" would be tokenized the same way whether it means: (1) A financial institution, (2) The edge of a river, (3) To tilt or turn (as in "the plane banks left")
     * No, the understanding of different meanings happens later in the model's processing through context and attention mechanisms. The tokenizer's job is just to convert text into numbers (tokens) that the model can process.
+///
 
  More at:
+
   * tiktokenizer app - [https://tiktokenizer.vercel.app/](https://tiktokenizer.vercel.app/)
 
  See also [T], [BERT Model], [Tokenization]
@@ -617,9 +661,6 @@ snowing	        ['snow', '##ing']
  Therefore token pricing is only half of the story when comparing costs across LLM providers. Different models use different tokenizers, and tokenizers can create different number of tokens for the same number of words.
 
  For example, Claude-Sonnet tokenizers uses ~ 20% more tokens than OpenAI GPT-4o tokenizer for English news and 45% more tokens for Python code. Therefore when looking at [LLM pricing] for the SAME PROMPT to both OpenAI GPT model and Anthropic Claude Sonnet in addition to  paying a higher base price ($ / million token), you will also pay 20% more on typical English text, and 45% more on Python code with Anthropic Claude Sonnet 3.5.
-
- More at:
-  * ...
 
  See also [T], ...
 
@@ -646,11 +687,12 @@ snowing	        ['snow', '##ing']
  {% youtube "https://www.youtube.com/watch?v=8YtfmOqj28c" %}
 
  More at:
+
   * [https://community.fullstackretrieval.com/retrieval-methods/top-k-similarity-search](https://community.fullstackretrieval.com/retrieval-methods/top-k-similarity-search)
 
  See also [T], ...
 
-particle_swarm_optimization
+
 ## Top-P Random Sampling
 
  ~ an [inference configuration parameter] used to limit the number of tokens to select from. A variation on [top-K random sampling].
@@ -676,6 +718,7 @@ particle_swarm_optimization
  TorchScript is a way to create serializable and optimizable models from PyTorch code. Any TorchScript program can be saved from a Python process and loaded in a process where there is no Python dependency.
 
  More at:
+
   * [https://pytorch.org/docs/stable/jit.html](https://pytorch.org/docs/stable/jit.html)
 
  See also [T], ...
@@ -697,6 +740,11 @@ Desired Output --> |     Training     | --> Model
 ```
 
  See also [T], [Machine Learning]
+
+
+## Train Testing Split
+
+ See also [T], ...
 
 
 ## Training Loss
@@ -721,7 +769,7 @@ Desired Output --> |     Training     | --> Model
 
 ## Trajectory
 
- In [Reinforcement Learning], a trajectory is the sequence of [states] that an [agent] goes through given a fixed [policy].
+ In [Reinforcement Learning (RL)], a trajectory is the sequence of [states] that an [agent] goes through given a fixed [policy].
 
  A trajectory refers to a sequence of [states], [actions], [rewards], and potentially other information that an agent encounters during its interaction with an environment. It represents the history of the agent's experience while navigating the environment and is often used to learn and improve the agent's [policy] or value function.
 
@@ -743,6 +791,7 @@ Desired Output --> |     Training     | --> Model
  {% youtube "https://www.youtube.com/watch?v=VCTen3-B8GU" %}
 
  More at:
+
   * wikipedia - [https://en.wikipedia.org/wiki/Transcendence_(2014_film)](https://en.wikipedia.org/wiki/Transcendence_(2014_film))
 
  See also [T], ...
@@ -751,15 +800,18 @@ Desired Output --> |     Training     | --> Model
 ## Transfer Learning
 
  ~ Learning on one use-case can be reused for another case. Benefits:
+
   * training cost is reduced
   * the way human work!
   * Training when not enough data? --> reuse previous learning to build new model and change only a delta
 
  Approach:
+
   * select a source model from a model repository (ex: huggingface)
   * reuse and train model
 
  Example:
+
    * BERT + financial data --> FinBERT
    * BERT + classification layer --> BERT for classification !!!!!
 
@@ -776,8 +828,7 @@ Desired Output --> |     Training     | --> Model
  See also [T], [BERT Model], [GPT Model], [ImageNet Dataset], [Insufficient Data Algorithm], [Pre-Trained Model]
 
 
-## Transform Function
-## TF
+## Transform Function (TF)
 
  A function to transform the input dataset. For ex: rotate image in the right position.
 
@@ -786,7 +837,8 @@ Desired Output --> |     Training     | --> Model
 
 ## Transformer Architecture
 
- The Transformer is a recent deep learning model for use with sequential data such as text, time series, music, and genomes. Whereas older sequence models such as [recurrent neural networks (RNNs)][RNN] or [long short-term memory networks (LSTMs)][LSTM] process data sequentially, the Transformer processes data in parallel (can therefore be parallelised on machines in the cloud!). This allows them to process massive amounts of available training data by using powerful GPU-based compute resources. Furthermore, traditional [RNNs] and [LSTMs] can have difficulty modeling the long-term dependencies of a sequence because they can forget earlier parts of the sequence. Transformers use an attention mechanism to overcome this memory shortcoming by directing each step of the output sequence to pay “attention” to relevant parts of the input sequence. For example, when a Transformer-based conversational AI model is asked “How is the weather now?” and the model replies “It is warm and sunny today,” the attention mechanism guides the model to focus on the word “weather” when answering with “warm” and “sunny,” and to focus on “now” when answering with “today.” This is different from traditional [RNNs] and [LSTMs], which process sentences from left to right and forget the context of each word as the distance between the words increases.
+ The Transformer is a recent deep learning model for use with sequential data such as text, time series, music, and genomes. Whereas older sequence models such as [recurrent neural networks (RNNs)] or [Long Short-Term Memory (LSTM) Networks] process data sequentially, the Transformer processes data in parallel (can therefore be parallelised on machines in the cloud!). This allows them to process massive amounts of available training data by using powerful GPU-based compute resources. Furthermore, traditional [RNNs] and [LSTMs] can have difficulty modeling the long-term dependencies of a sequence because they can forget earlier parts of the sequence. Transformers use an attention mechanism to overcome this memory shortcoming by directing each step of the output sequence to pay “attention” to relevant parts of the input sequence. For example, when a Transformer-based conversational AI model is asked “How is the weather now?” and the model replies “It is warm and sunny today,” the attention mechanism guides the model to focus on the word “weather” when answering with “warm” and “sunny,” and to focus on “now” when answering with “today.” This is different from traditional [RNNs] and [LSTMs], which process sentences from left to right and forget the context of each word as the distance between the words increases.
+
   * word positioning (feed the work and its position in the sentence)
   * Attention
    * self-attention (link pronouns, subject to verbs, adjectives to nouns, adverbs)
@@ -804,11 +856,6 @@ Desired Output --> |     Training     | --> Model
 “Adept’s technology sounds plausible in theory, [but] talking about Transformers needing to be ‘able to act’ feels a bit like misdirection to me,” Mike Cook, an AI researcher at the Knives & Paintbrushes research collective, which is unaffiliated with Adept, told TechCrunch via email. “Transformers are designed to predict the next items in a sequence of things, that’s all. To a Transformer, it doesn’t make any difference whether that prediction is a letter in some text, a pixel in an image, or an API call in a bit of code. So this innovation doesn’t feel any more likely to lead to artificial general intelligence than anything else, but it might produce an AI that is better suited to assisting in simple tasks.”
 # https://techcrunch.com/2022/04/26/2304039/
 ```
-
- Models that are based on transformers are:
-   * [BERT models] - use the encoder side of the transformer
-   * [GPT models] - use the decoder side of the transformer
-   * [T5 models] - use the encode-decoder, the whole transformer !
 
  {% youtube "https://www.youtube.com/watch?v=wjZofJX0v4M" %}
 
@@ -835,6 +882,17 @@ Desired Output --> |     Training     | --> Model
  See also [T], [Action Transformer], [Attention Score], [Attention-Based Model], [Autoregressive Model], [Generative Model], [Masked Self-Attention], [Multi-Head Attention], [Self-Attention]
 
 
+## Transformer-Based Model
+
+ Models that are based on the [transformer architecture] are:
+
+   * [BERT models] - use the encoder side of the transformer
+   * [GPT models] - use the decoder side of the transformer
+   * [T5 models] - use the encode-decoder, the whole transformer !
+
+ See also [T], ...
+
+
 ## Transfusion Architecture
 
  Architecture based on transformer and diffusion
@@ -842,6 +900,7 @@ Desired Output --> |     Training     | --> Model
  {% pdf "https://www.arxiv.org/pdf/2408.11039.pdf" %}
 
  More at:
+
   * paper - [https://www.arxiv.org/abs/2408.11039](https://www.arxiv.org/abs/2408.11039)
   * announcement - [https://x.com/BensenHsu/status/1828837369778450447](https://x.com/BensenHsu/status/1828837369778450447)
 
@@ -862,8 +921,7 @@ Desired Output --> |     Training     | --> Model
  See also [T], ...
 
 
-## Traveling Salesman Problem
-## TSP
+## Traveling Salesman Problem (TSP)
 
  Requires a [search algorithm], ...
 
@@ -872,12 +930,13 @@ Desired Output --> |     Training     | --> Model
  {% youtube "https://www.youtube.com/watch?v=q8nQTNvCrjE" %}
 
  More at:
+
   * colab - [https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/traveling_salesman/tsp_gcl.ipynb](https://colab.research.google.com/github/Gurobi/modeling-examples/blob/master/traveling_salesman/tsp_gcl.ipynb)
 
  See also [T], [Objective Function]
 
 
-## Tree of Thoughts Prompting
+## Tree of Thoughts (TOT) Prompting
 
  This video explains the 'Tree of Thought' prompting technique, designed to emulate human brainstorming and prove beneficial in problem-solving, particularly in mathematical reasoning.
 
@@ -905,6 +964,7 @@ Each expert will assign a likelihood of their current assertion being correct
 Continue until the experts agree on the single most likely location
 The question is...
 ```
+
 ```
 Here is my attempt at step-by-step reasoning for this question:
 
@@ -939,6 +999,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  {% pdf "https://arxiv.org/pdf/2305.10601.pdf" %}
 
  More at:
+
   * paper [https://arxiv.org/abs/2305.10601](https://arxiv.org/abs/2305.10601)
   * code - [https://github.com/princeton-nlp/tree-of-thought-llm](https://github.com/princeton-nlp/tree-of-thought-llm)
   * twitter - [https://twitter.com/ShunyuYao12/status/1659357547474681857](https://twitter.com/ShunyuYao12/status/1659357547474681857)
@@ -946,8 +1007,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  See also [T], [Prompt Engineering]
 
 
-## Tree Parzen Estimators
-## TPE
+## Tree Parzen Estimators (TPE)
 
  See also [T], [Gaussian Process], [Random Forest]
 
@@ -959,11 +1019,12 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  See also [T], [Contrastive Learning]
 
 
-## Triton
+## Triton Framework
 
  A low level framework to compile code on any GPU developed by [OpenAI]. A major step toward bypassing CUDA and the [NVIDIA] lock in!
 
  More at :
+
   * home - [https://openai.com/research/triton](https://openai.com/research/triton)
   * code - [https://github.com/openai/triton](https://github.com/openai/triton)
   * documentation - [https://triton-lang.org/master/index.html](https://triton-lang.org/master/index.html)
@@ -979,6 +1040,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  TriviaQA is a reading comprehension [dataset] containing over 650K question-answer-evidence triples. TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions.
 
  More at:
+
   * [https://nlp.cs.washington.edu/triviaqa/](https://nlp.cs.washington.edu/triviaqa/)
 
  See also [T], ...
@@ -989,6 +1051,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  {% youtube "https://www.youtube.com/watch?v=g-oNjPtah8g" %}
 
  More at:
+
   * site - [https://www.trossenrobotics.com/](https://www.trossenrobotics.com/)
 
  See also [T], ...
@@ -1001,32 +1064,29 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
  ![](img/t/trocr_model.jpeg ){: width="100%"}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2109.10282](https://arxiv.org/abs/2109.10282)
   * code - [https://github.com/rsommerfeld/trocr](https://github.com/rsommerfeld/trocr)
 
  See also [T], [Optical Character Recognition]
 
 
-## True Negative
-## TN
+## True Negative (TN)
 
  See also [T], [Confusion Matrix]
 
 
-## True Negative Rate
-## TNR
+## True Negative Rate (TNR)
 
  See also [T], [Confusion Matrix]
 
 
-## True Positive
-## TP
+## True Positive (TP)
 
  See also [T], [Confusion Matrix]
 
 
-## True Positive Rate
-## TPR
+## True Positive Rate (TPR)
 
 ```
         TP             Positive detected Positives
@@ -1039,10 +1099,9 @@ TPR = -------  =  ---------------------------------
  See also [T], [Confusion Matrix]
 
 
-## Trust Region Policy Optimization Algorithm
-## TRPO Algorithm
+## Trust Region Policy Optimization (TRPO) Algorithm
 
- TRPO, which stands for Trust Region Policy Optimization, is an algorithm for policy optimization in [reinforcement learning (RL)][RL]. It is designed to iteratively improve a policy to maximize the expected cumulative reward in an RL task.
+ TRPO, which stands for Trust Region Policy Optimization, is an algorithm for policy optimization in [Reinforcement Learning (RL)]. It is designed to iteratively improve a policy to maximize the expected cumulative reward in an RL task.
 
  TRPO belongs to the class of [on-policy learning algorithms] for optimization and is known for its stability and strong performance in complex RL domains. It aims to address the challenge of policy updates in RL without causing significant deviations from the current policy distribution, which could lead to unstable learning.
 
@@ -1050,15 +1109,16 @@ TPR = -------  =  ---------------------------------
 
  TRPO utilizes a surrogate objective function that approximates the expected improvement in the policy. It then computes a search direction that maximizes this objective function while staying within the trust region. The policy update is performed by solving a constrained optimization problem to find the optimal policy parameters.
 
- One of the advantages of TRPO is that it offers theoretical guarantees on the monotonic improvement of the policy. However, TRPO can be computationally expensive and may require careful [hyperparameter tuning] to achieve good performance.
+ One of the advantages of TRPO is that it offers theoretical guarantees on the monotonic improvement of the policy. However, TRPO can be computationally expensive and may require careful [HyperParameter Tuning (HPT)] to achieve good performance.
 
- TRPO has been widely used in various RL applications and has served as a foundation for subsequent algorithms like [Proximal Policy Optimization (PPO)][PPO], which further improves upon TRPO's computational efficiency.
+ TRPO has been widely used in various RL applications and has served as a foundation for subsequent algorithms like [Proximal Policy Optimization (PPO)], which further improves upon TRPO's computational efficiency.
 
  {% youtube "https://www.youtube.com/watch?v=KjWF8VIMGiY" %}
 
  {% pdf "https://arxiv.org/pdf/1502.05477v5.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1502.05477v5](https://arxiv.org/abs/1502.05477v5)
   * code - [https://paperswithcode.com/paper/trust-region-policy-optimization#code](https://paperswithcode.com/paper/trust-region-policy-optimization#code)
   * [https://paperswithcode.com/method/trpo](https://paperswithcode.com/method/trpo)
@@ -1093,6 +1153,7 @@ TPR = -------  =  ---------------------------------
  {% pdf "https://arxiv.org/pdf/2109.07958.pdf" %} 
 
  More at:
+
   * paper - [https://arxiv.org/abs/2109.07958](https://arxiv.org/abs/2109.07958)
   * code - [https://github.com/sylinrl/TruthfulQA](https://github.com/sylinrl/TruthfulQA)
   * colab - [https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA-demo.ipynb](https://github.com/sylinrl/TruthfulQA/blob/main/TruthfulQA-demo.ipynb)
@@ -1115,6 +1176,7 @@ TPR = -------  =  ---------------------------------
  {% youtube "https://www.youtube.com/watch?v=DILF8usqp7M" %}
 
  More at:
+
   * [https://www.computerhope.com/jargon/t/turnmach.htm](https://www.computerhope.com/jargon/t/turnmach.htm)
   * [https://www.computerhope.com/issues/ch000984.htm](https://www.computerhope.com/issues/ch000984.htm)
 
@@ -1132,6 +1194,7 @@ TPR = -------  =  ---------------------------------
  ![](img/t/turing_test.png ){: width="100%"}
 
  More at:
+
   * [https://www.computerhope.com/jargon/t/turntest.htm](https://www.computerhope.com/jargon/t/turntest.htm)
   * [https://en.wikipedia.org/wiki/Turing_test](https://en.wikipedia.org/wiki/Turing_test)
   * articles
@@ -1142,9 +1205,7 @@ TPR = -------  =  ---------------------------------
  See also [T], ...
 
 
-## Twin Delayed Deep Deterministic Algorithm
-
-## TD3 Algorithm
+## Twin Delayed Deep Deterministic (TD3) Algorithm
 
  * [Model-free learning algorithm]
  * [Off-policy learning algorithm]
@@ -1152,9 +1213,9 @@ TPR = -------  =  ---------------------------------
  * continuous state space
  * [Value-based algorithm]
 
- The TD3 (Twin Delayed Deep Deterministic [Policy Gradient]) algorithm is a [state-of-the-art] [reinforcement learning algorithm] that combines elements of both value-based and policy gradient methods. It is primarily used for continuous [action spaces].
+ The TD3 (Twin Delayed Deep Deterministic [Policy Gradient]) algorithm is a [State-Of-The-Art (SOTA)] [Reinforcement Learning (RL) Algorithm] that combines elements of both value-based and policy gradient methods. It is primarily used for continuous [action spaces].
 
- TD3 is an extension of the [Deep Deterministic Policy Gradient (DDPG)][DDPG] algorithm, which is itself a [policy gradient algorithm] for continuous control problems. The key enhancements in TD3 address issues such as overestimation of [Q-values] and instability in training.
+ TD3 is an extension of the [Deep Deterministic Policy Gradient (DDPG)] algorithm, which is itself a [policy gradient algorithm] for continuous control problems. The key enhancements in TD3 address issues such as overestimation of [Q-values] and instability in training.
 
  Here are the main features and components of the TD3 algorithm:
   1. Twin Networks: TD3 employs two sets of [deep Q-networks], known as twin networks. Having two separate networks reduces the overestimation bias commonly encountered in [value-based methods].
@@ -1169,14 +1230,14 @@ TPR = -------  =  ---------------------------------
 
  See also [T], ...
 
-## Two-Tower Embeddings
-## TTE
+## Two-Tower Embeddings (TTE)
 
  Two-tower embeddings are the [embeddings] generated by a special deep learning architecture named two towers. TTE model architecture usually consists of a query tower and an item tower: query tower encodes search query and user profile to query embeddings, and item tower encodes store, grocery item, geo location to item embeddings.
 
  {% pdf "https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/45530.pdf" %}
 
  More at:
+
   * [https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/](https://www.uber.com/blog/innovative-recommendation-applications-using-two-tower-embeddings/)
  
 ## Two-Tower Model
@@ -1192,9 +1253,9 @@ TPR = -------  =  ---------------------------------
  ![](img/t/two_tower_model.png ){: width="100%"}
 
  More at:
+
   * articles
     * [https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems](https://hackernoon.com/understanding-the-two-tower-model-in-personalized-recommendation-systems)
     * [https://medium.com/tech-p7s1/video-recommendations-at-joyn-two-tower-or-not-to-tower-that-was-never-a-question-6c6f182ade7c](https://medium.com/tech-p7s1/video-recommendations-at-joyn-two-tower-or-not-to-tower-that-was-never-a-question-6c6f182ade7c)
 
  See also [T], [Dot Product Similarity]
-

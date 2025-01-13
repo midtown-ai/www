@@ -4,9 +4,12 @@
 
  Abductive reasoning is a type of [reasoning] where a conclusion is drawn based on the best explanation for a given set of observations. It involves considering different hypotheses and selecting the most likely or best explanation based on the available evidence. Abductive reasoning is used to make educated guesses or hypotheses when faced with incomplete or uncertain information. For example, observing a car that cannot start and a puddle of liquid under the engine, and concluding that the most likely explanation is a leak in the radiator.
 
+
+/// Note
  More at:
 
   * LLM reasoning ability - [https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability](https://www.kaggle.com/code/flaussy/large-language-models-reasoning-ability)
+///
 
 
 ## Ablation
@@ -18,7 +21,7 @@
 
  A metric used for [model evaluation] that measures the number of correct predictions made by the model over all kinds of predictions. Useful for classification tasks like sentiment analysis.
 
- ~ the percentage of samples correctly classified given a labelled (but possibly biased) dataset. Consider a classification task in which a machine learning system observes tumors and must predict whether they are malignant or benign. Accuracy, or the `fraction of instances that were classified correctly, is an intuitive measure of the program's performance`. While accuracy does measure the program's performance, it does not differentiate between malignant tumors that were classified as being benign, and benign tumors that were classified as being malignant. In some applications, the costs associated with all types of errors may be the same. In this problem, however, failing to identify malignant tumors is likely a more severe error than mistakenly classifying benign tumors as being malignant.
+ ~ the percentage of samples correctly classified given a labelled (but possibly biased) dataset. Consider a classification task in which a machine learning system observes tumors and must predict whether they are malignant or benign. Accuracy, or the ==fraction of instances that were classified correctly, is an intuitive measure of the program's performance==. While accuracy does measure the program's performance, it does not differentiate between malignant tumors that were classified as being benign, and benign tumors that were classified as being malignant. In some applications, the costs associated with all types of errors may be the same. In this problem, however, failing to identify malignant tumors is likely a more severe error than mistakenly classifying benign tumors as being malignant.
 
 ```
                  TP + TN
@@ -81,7 +84,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 # https://techcrunch.com/2022/04/26/2304039/
 ```
 
- See also [A], [Reinforcement Learning], [Transformer Model]
+ See also [A], [Reinforcement Learning], [Transformer Architecture]
 
 
 ## Action-Value Function
@@ -94,7 +97,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 # At action at a given timestep
 ```
 
- See also [A], [Bellman Equation], [Timestep]
+ See also [A], [Bellman Equation], [Time Step]
 
 
 ## Activation Atlas
@@ -132,13 +135,14 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], [Zero Redundancy Optimization]
 
 
- Activation Function
+## Activation Function
 
  Activation functions are required to include non-linearity in the [artificial neural network] .
 
  Without activation functions, in a multi-layered neural network the [Decision Boundary] stays a line regardless of the [weight] and [bias] settings of each [artificial neuron]!
 
  There are several activation functions used in the fields. They are:
+
   * [Rectified Linear Unit (ReLU)][ReLU] function
   * [LeakyReLU] function
   * [Tanh function][Tanh Activation Function],
@@ -159,7 +163,10 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
  ![type:video](https://www.youtube.com/embed/hfMk-kjRv4c)
 
- :warning: Note that for multi-layer neural networks that use of an activation function at each layer, the [backpropagation] computation leads to loss of information (forward for input and backward for weight computation) which is known as the [vanishing gradient problem].
+/// warning | Warning ...
+
+for multi-layer neural networks that use of an activation function at each layer, the [backpropagation] computation leads to loss of information (forward for input and backward for weight computation) which is known as the [vanishing gradient problem].
+///
 
  See also [A], [Batch Normalization], [Exploding Gradient Problem], [Gradient Descent Algorithm], [Loss Function]
 
@@ -175,6 +182,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  Activation layers apply a nonlinear function to the output from the previous layer. This allows the CNN to learn and model complex nonlinear relationships between the inputs and outputs.
 
  Some common [activation functions] used are:
+
   * ReLU (Rectified Linear Unit): ReLU applies the function f(x) = max(0, x). It thresholds all negative values to 0.
   * Leaky ReLU: A variant of ReLU that gives a small negative slope (e.g. 0.01) to negative values rather than thresholding at 0.
   * Tanh: Applies the hyperbolic tangent function to squash values between -1 and 1.
@@ -233,6 +241,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  A two-part algorithmic structure employed in [reinforcement learning (RL)][RL]. Within this model, the “[Actor]” determines optimal actions based on the state of its environment. At the same time, the “[Critic]” evaluates the quality of state-action pairs, improving them over time.
 
  Variations:
+
   * [Advantage Actor Critic (A2C)][A2C]
 
  ![type:video](https://www.youtube.com/embed/w_3mmm0P0j8)
@@ -257,8 +266,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], ...
 
 
-## Actor-Critic With Experience Replay Algorithm
-## ACER Algorithm
+## Actor-Critic With Experience Replay (ACER) Algorithm
 
  A sample-efficient policy gradient algorithm. ACER makes use of a replay buffer, enabling it to perform more than one gradient update using each piece of sampled experience, as well as a [Q-Function] approximate trained with the Retrace algorithm.
 
@@ -282,8 +290,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], ...
 
 
-## Adaptive Boosting
-## AdaBoost
+## Adaptive Boosting (AdaBoost)
 
  * AdaBoost combines a lot of "weak learners" to make classifications. The weak learners are almost always decision stumps.
  * Some stumps get more say (weight) in the classification than others
@@ -300,8 +307,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], [Boosting], [Decision Stump], [Forest Of Stumps]
 
 
-## Adaptive Delta Algorithm
-## AdaDelta
+## Adaptive Delta (AdaDelta) Algorithm
 
  AdaDelta is an [optimization algorithm][Optimizer] for [gradient descent], which is commonly used in [machine learning] and [deep learning]. It was introduced by Matthew Zeiler in 2012 as an extension of the [AdaGrad algorithm].
 
@@ -328,7 +334,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
 ## Adaptive Learning Algorithm
 
- In [Gradient Descent][GD Algorithm] and [Gradient Descent with Momentum][GD with momentum Algorithm], we saw how [learning rate] affects the convergence. Setting the learning rate too high can cause oscillations around minima and setting it too low, slows the convergence. Learning Rate in Gradient Descent and its variations like Momentum is a hyper-parameter which needs to be tuned manually for all the features.
+ In [Gradient Descent] and [Gradient Descent with Momentum], we saw how [learning rate] affects the convergence. Setting the learning rate too high can cause oscillations around minima and setting it too low, slows the convergence. Learning Rate in Gradient Descent and its variations like Momentum is a hyper-parameter which needs to be tuned manually for all the features.
 
  With those algorithms, when we try updating weights in a neural net
   * Learning rate is the same for all the features
@@ -337,6 +343,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  With adaptive learning algorithm, the learning rate is not constant and changes based on the feature and the location
 
  Algorithm with adaptive learning rates are:
+
   * [Adam]
   * [AdaGrad]
   * [Root Mean Square Propagation (RMSprop)][RMSprop]
@@ -346,15 +353,15 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
  See also [A], ...
 
 
-## Adaptive Gradient Algorithm
-## AdaGrad Algorithm
+## Adaptive Gradient (AdaGrad) Algorithm
 
  ~ optimization algorithm that use different learning rate for each parameter/weight/feature
+
    * great when input variables are dense features and sparse features (lots of 0)
 
  Unfortunately, this hyper-parameter could be very difficult to set because if we set it too small, then the parameter update will be very slow and it will take very long time to achieve an acceptable loss. Otherwise, if we set it too large, then the parameter will move all over the function and may never achieve acceptable loss at all. To make things worse, the high-dimensional non-convex nature of neural networks optimization could lead to different sensitivity on each dimension. The learning rate could be too small in some dimension and could be too large in another dimension.
 
-One obvious way to mitigate that problem is to choose different learning rate for each dimension, but imagine if we have thousands or millions of dimensions, which is normal for deep neural networks, that would not be practical. So, in practice, one of the earlier algorithms that have been used to mitigate this problem for deep neural networks is the AdaGrad algorithm (Duchi et al., 2011). This algorithm adaptively scaled the learning rate for each dimension. 
+ One obvious way to mitigate that problem is to choose different learning rate for each dimension, but imagine if we have thousands or millions of dimensions, which is normal for deep neural networks, that would not be practical. So, in practice, one of the earlier algorithms that have been used to mitigate this problem for deep neural networks is the AdaGrad algorithm (Duchi et al., 2011). This algorithm adaptively scaled the learning rate for each dimension. 
 
  Adagrads most significant benefit is that it eliminates the need to tune the [learning rate] manually, but it still isn't perfect. Its main weakness is that it accumulates the squared gradients in the denominator. Since all the squared terms are positive, the accumulated sum keeps on growing during training. Therefore the learning rate keeps shrinking as the training continues, and it eventually becomes infinitely small. Other algorithms like [Adadelta], [RMSprop], and [Adam] try to resolve this flaw.
 
@@ -373,8 +380,7 @@ One obvious way to mitigate that problem is to choose different learning rate fo
  See also [A], ...
 
 
-## Adaptive Moment Estimation Algorithm
-## Adam Algorithm
+## Adaptive Moment (Adam) Estimation Algorithm
 
  Adam (Adaptive Moment Estimation) is an [optimization algorithm][Optimizer] used in machine learning to update the weights of a neural network during training. It is an extension of [stochastic gradient descent (SGD)][SGD] that incorporates ideas from both momentum-based methods and adaptive learning rate methods.
 
@@ -470,8 +476,7 @@ k is the number of predictors (not counting the intercept)
  See also [A], ...
 
 
-## Advantage Actor-Critic Algorithm
-## A2C Algorithm
+## Advantage Actor-Critic (A2C) Algorithm
 
  A2C, or Advantage [Actor-Critic], is a synchronous version of the A3C policy gradient method. As an alternative to the asynchronous implementation of A3C, A2C is a synchronous, deterministic implementation that waits for each [actor] to finish its segment of experience before updating, averaging over all of the [actors]. This more effectively uses [GPUs] due to larger [batch sizes].
 
@@ -491,8 +496,7 @@ k is the number of predictors (not counting the intercept)
  See also [A], ...
 
 
-## Advanced Micro Devices Company
-## AMD Company
+## Advanced Micro Devices (AMD) Company
 
  A company that build, design, and sells [GPUs]
 
@@ -582,6 +586,7 @@ k is the number of predictors (not counting the intercept)
  A person, an animal, or a program that is free to make a decision or take an action. An agent has a purpose and a goal.
 
  Type of agents:
+
   * Humans
   * Animals
   * [AI Agents]
@@ -611,8 +616,7 @@ k is the number of predictors (not counting the intercept)
  See also [A], [AI Agent], [Agent SDK]
 
 
-## Agent Software Development Kit
-## Agent SDK
+## Agent Software Development Kit (Agent SDK)
 
  See also [A], [Agent Registry]
 
@@ -637,6 +641,7 @@ k is the number of predictors (not counting the intercept)
  Agents are used in many areas of AI. Software agents are used in areas like customer service, where chatbots can handle customer queries, or in e-commerce, where recommendation systems can suggest products to customers. Physical agents are used in areas like robotics, where robots can perform tasks in the physical world, or in transportation, where self-driving cars can navigate the roads.
 
  There are different types of AI agents, function of how their goal is coded. That includes:
+
   * LLM agents such as [SDLC Agents] who simply interact with one another during a predefined workflow
   * [Reinforcement Learning (RL) agents][RL Agent] whose goal is to maximize a total reward
   * [Modular Reasoning Knowledge and Language (MRKL) Agents][MRKL Agent] whom can reason through a LLM and use external tools
@@ -659,17 +664,26 @@ k is the number of predictors (not counting the intercept)
  In the field of artificial intelligence (AI), AI alignment research aims to steer AI systems towards their designers’ intended goals and interests. An aligned AI system advances the intended objective; a misaligned AI system is competent at advancing some objective, but not the intended one.
 
  Alignment types:
+
   * Instructional alignment - answering questions learned from data during the pre-training phase
   * Behavior alignment - helpfulness vs harmlessness
   * Style alignment - more neutral / grammatically correct
   * Value alignment - aligned to a set of values
 
- Questions:
-  * Is pretraining the first step to alignment?
-  * Is [fine-tuning] a method for alignment?
-  * What about guardrails?
+/// details | Is pretraining the first step to alignment?
+    type:question
+///
+
+/// details | Is [fine-tuning] a method for alignment?
+    type:question
+///
+
+/// details | What about guardrails?
+    type:question
+///
 
  Examples:
+
   * [https://openai.casa/alignment/](https://openai.casa/alignment/)
     * [https://openai.casa/blog/our-approach-to-alignment-research/index.html](https://openai.casa/blog/our-approach-to-alignment-research/index.html)
 
@@ -693,6 +707,7 @@ k is the number of predictors (not counting the intercept)
 ```
 
  More at :
+
   * [https://scottaaronson.blog/?p=6823](https://scottaaronson.blog/?p=6823)
   * wikipedia - [https://en.wikipedia.org/wiki/AI_alignment](https://en.wikipedia.org/wiki/AI_alignment)
   * Misaligned goals - [https://en.wikipedia.org/wiki/Misaligned_goals_in_artificial_intelligence](https://en.wikipedia.org/wiki/Misaligned_goals_in_artificial_intelligence)
@@ -799,7 +814,7 @@ k is the number of predictors (not counting the intercept)
 
 ## AI Chip
 
- ![](/img/a/ai_chip_2022.pdf){type=application/pdf}
+ ![](img/a/ai_chip_2022.pdf){type=application/pdf}
 
  More at:
 
@@ -816,7 +831,7 @@ k is the number of predictors (not counting the intercept)
  1. [ICML Conference] - International conference on Machine learning since 1980 (strong focus on engineering)
  1. [AAAI Conference](https://aaai-23.aaai.org/)
    * [AAAI] and [ACM Conference](https://www.aies-conference.com/) on AI ethics and society
- 1.  [Computer Vision and Pattern Recognition][Computer Vision and Pattern Recognition Conference]
+ 1.  [Computer Vision and Pattern Recognition (CVPR) Conference]
    * includes symposium - [AI For Content Creation][AI for Content Creation Conference]
  1. [SIGGRAPH] - computer graphics and interactive techniques
  1. All other conferences
@@ -856,8 +871,7 @@ A risk of [AGI]
  See also [A], ...
 
 
-## AI Film Festival
-## AIFF
+## AI Film Festival (AIFF)
 
  Started by [RunwayML]
 
@@ -870,8 +884,7 @@ A risk of [AGI]
  See also [A], ...
 
   
-## AI For Content Creation Conference
-## AI4CC Conference
+## AI For Content Creation (AI4CC) Conference
 
  [AI Conference] that takes place at the same time as the [CVPR Conference]
 
@@ -996,6 +1009,7 @@ A risk of [AGI]
 ## AI Paper
 
  Types of AI research papers:
+
   * Surveys = look for trends and patters
   * Benchmarks & datasets
   * Breakthroughs
@@ -1031,6 +1045,7 @@ A risk of [AGI]
  Discussed for the first time by the AI community at the Asilomar AI conference themed Beneficial AI 2017.
 
  Research Issues
+
   1. Research Goal: The goal of AI research should be to create not undirected intelligence, but beneficial intelligence.
   1. Research Funding: Investments in AI should be accompanied by funding for research on ensuring its beneficial use, including thorny questions in computer science, economics, law, ethics, and social studies, such as:
    * How can we make future AI systems highly robust, so that they do what we want without malfunctioning or getting hacked?
@@ -1056,6 +1071,7 @@ A risk of [AGI]
   1. AI Arms Race: An arms race in lethal autonomous weapons should be avoided.
 
  Longer-term issues
+
   1. Capability Caution: There being no consensus, we should avoid strong assumptions regarding upper limits on future AI capabilities.
   1. Importance: Advanced AI could represent a profound change in the history of life on Earth, and should be planned for and managed with commensurate care and resources.
   1. Risks: Risks posed by AI systems, especially catastrophic or existential risks, must be subject to planning and mitigation efforts commensurate with their expected impact.
@@ -1102,10 +1118,12 @@ Better data beat the model always
 
 ## AI Research
 
- Publications
+ Publications:
+
   * AI Journal - [https://www.sciencedirect.com/journal/artificial-intelligence/issues](https://www.sciencedirect.com/journal/artificial-intelligence/issues)
 
  Research labs:
+
   * Individuals
    * Sander Dieleman at [DeepMind] - [https://sander.ai/research/](https://sander.ai/research/)
   * Universities
@@ -1128,6 +1146,7 @@ Better data beat the model always
     * [AI Topics] managed by the [AAAI]
 
  When to start research?
+
   * Look at the business impact
   * Make sure that stakeholders are engaged, because problems are not always well formulated or data is missing
 
@@ -1141,6 +1160,7 @@ Better data beat the model always
  Current approaches to building general-purpose AI systems tend to produce systems with both beneficial and harmful capabilities. Further progress in AI development could lead to capabilities that pose extreme risks, such as offensive cyber capabilities or strong manipulation skills. We explain why model evaluation is critical for addressing extreme risks. Developers must be able to identify dangerous capabilities (through "dangerous capability evaluations") and the propensity of models to apply their capabilities for harm (through "alignment evaluations"). These evaluations will become critical for keeping policymakers and other stakeholders informed, and for making responsible decisions about model training, deployment, and security.
 
  Risks:
+
   * Cyber-offense - The model can discover vulnerabilities in systems (hardwares, software, data). It can write code for exploiting those vulnerabilities. It can make effective decisions once it has gained access to a system or network, and skilfully evade threat detection and response (both human and system) whilst focusing on a specific objective. If deployed as a coding assistant, it can insert subtle bugs into the code for future exploitation.
   * Deception - The model has the skills necessary to deceive humans, e.g. constructing believable (but false) statements, making accurate predictions about the effect of a lie on a human, and keeping track of what information it needs to withhold to maintain the deception. The model can impersonate a human effectively
   * Persuasion & manipulation - The model is effective at shaping people’s beliefs, in dialogue and other settings (e.g. social media posts), even towards untrue beliefs. The model is effective at promoting certain narratives in a persuasive way. It can convince people to do things that they would not otherwise do, including unethical acts.
@@ -1155,10 +1175,11 @@ Better data beat the model always
 
  More at:
 
-  * paperis
+  * papers
     * [https://arxiv.org/abs/2305.15324](https://arxiv.org/abs/2305.15324)
     * [https://arxiv.org/abs/2202.07785](https://arxiv.org/abs/2202.07785)
-  * [https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/](https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/)
+  * articles
+    * [https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/](https://www.linkedin.com/pulse/unpacking-ai-risks-closer-look-deepminds-evaluation-des-w-woodruff/)
 
  See also [A], [Generative AI Risk]
 
@@ -1166,6 +1187,7 @@ Better data beat the model always
 ## AI Safety
 
  Umbrella term for:
+
   * [AI Ethics] - The use of AI does not impact under represented people?
   * [AI Alignment] - Goal of the AI is aligned with human desired goal?
   * [Robustness] - Ensure AI systems behave as intended in a wide range of different situations, including rare situations
@@ -1283,7 +1305,7 @@ Better data beat the model always
  See also [A], ...
 
 
- Alan Turing Person
+## Alan Turing Person
 
  The inventory of the imitation game, aka the [Turing Test]
 
@@ -1321,11 +1343,11 @@ Better data beat the model always
 
 ## AlexNet Model
 
- A Model that led to the rebirth of [artificial neural networks][Artificial Neural Network] using [Graphical Processing Units (GPU)][GPU].
+ A Model that led to the rebirth of [artificial neural networks] using [Graphical Processing Units (GPU)].
 
- AlexNet is the name of a [convolutional neural network (CNN)][Convolutional Neural Network] architecture, designed by Alex Krizhevsky in collaboration with Ilya Sutskever and Geoffrey Hinton, who was Krizhevsky's Ph.D. advisor.
+ AlexNet is the name of a [convolutional neural network (CNN)] architecture, designed by Alex Krizhevsky in collaboration with Ilya Sutskever and Geoffrey Hinton, who was Krizhevsky's Ph.D. advisor.
 
- AlexNet competed in the [ImageNet Large Scale Visual Recognition Challenge] on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower (better) than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)][GPU] during training.
+ AlexNet competed in the [ImageNet Large Scale Visual Recognition Challenge] on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower (better) than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)] during training.
 
  ![type:video](https://www.youtube.com/embed/c_u4AHNjOpk)
 
@@ -1333,7 +1355,7 @@ Better data beat the model always
 
  ![type:video](https://www.youtube.com/embed/UZDiGooFs54)
 
- ![](/img/a/alexnet_model_paper.pdf){type=application/pdf}
+ ![](img/a/alexnet_model_paper.pdf){type=application/pdf}
 
  More at:
 
@@ -1341,11 +1363,10 @@ Better data beat the model always
 
  See also [A], ...
 
+
 ## Algorithmic
 
  A kind of [hyperparameter]. If test (!?) to select the best algorithm/approach to switch how the code function.
-
-
 
  See also [A], ...
 
@@ -1362,6 +1383,7 @@ Better data beat the model always
  Amplification occurs as the result of the interaction between many models, people, and policies in a complex system.
 
  Algorithm on twitter:
+
   * search function
   * alerts/notifications
   * account recommendations
@@ -1375,10 +1397,12 @@ Better data beat the model always
     * popular backfill (recommend popular connection if not enough friends)
 
  Measuring algorithmic amplification
+
   * compared to the default (reverse) chronological feed/ordering with only accounts you follow
   * compared to the default randomization
 
  Reduce amplification
+
   * :warning: in the case of armful content what we care about is how quickly we can remove it
   * bottom up approach to reduce amplification ... use the variance over different groups (var = 0 if all the groups are exposed the same way)
 
@@ -1491,7 +1515,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  This model is at the foundation of the [Isomorphic Labs Company]
 
- ![](/img/a/alphafold_model_paper.pdf){type=application/pdf}
+ ![](img/a/alphafold_model_paper.pdf){type=application/pdf}
 
  ![type:video](https://www.youtube.com/embed/B9PL__gVxLI)
 
@@ -1520,8 +1544,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
 
 ## AlphaGeometry Model
-## AlphaGeometry 2
-## AlphaGeometry 1
 
  Model by [DeepMind]
 
@@ -1632,7 +1654,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  Better algorithm for tensor multiplication (on GPU ?). Based on AlphaZero. Built by [DeepMind]
 
- ![](/img/a/alphatensor_nature_paper.pdf){type=application/pdf}
+ ![](img/a/alphatensor_nature_paper.pdf){type=application/pdf}
 
  More at:
 
@@ -1669,8 +1691,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
  See also [A], ...
 
 
-## Amazon Web Services
-## AWS
+## Amazon Web Services (AWS)
 
  A subsidiary of [Amazon]
 
@@ -1803,8 +1824,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
   * [https://arcinstitute.org/](https://arcinstitute.org/)
 
 
-## Arcade Learning Environment
-## ALE
+## Arcade Learning Environment (ALE)
 
  The Arcade Learning Environment (ALE) is an extension of the [Atari Learning Environment] (ALE) that encompasses a broader range of arcade games beyond just the Atari 2600. While ALE focuses exclusively on Atari 2600 games, ALE expands the scope to include various arcade games from different platforms.
 
@@ -1822,9 +1842,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
  See also [A], ...
 
 
-## Area Under The Receiver Operating Characteristic Curve
-## AUROC Curve
-## AUC
+## Area Under The Receiver Operating Characteristic (AUROC) Curve
 
  ~ helpful measurement to compare one [ROC curve] to another of a different model/approach, i.e the classification performance of various models ([SVM], [Random Forest], [LogReg]).
 
@@ -1965,12 +1983,14 @@ print(predict(dataset, model, text='Knock knock. Whos there?'))
 
  See also [A], ...
 
-## Artificial General Intelligence
-## AGI
+## Artificial General Intelligence (AGI)
 
  ~ [Strong AI]
 
- AGI is the idealised solution many conceive when thinking about AI. While researchers work on the narrow and superficial, they talk about AGI, which represents the single story of AI, dating back to the 1950s, with a revival in the past decade. AGI implies two things about a solution that should not apply to business-centric problem-solving. First, a program has the general aptitude for human intelligence (perhaps all human intelligence). Second, an AGI is a general problem solver or a blank slate meaning any knowledge of a problem is rhetorical and independent of a strategy to solve that problem. Instead, the knowledge depends on some vague, ill-defined aptitude relating to the multidimensional structure of natural intelligence. If that sounds ostentatious, it’s because it is. Examples:
+ AGI is the idealised solution many conceive when thinking about AI. While researchers work on the narrow and superficial, they talk about AGI, which represents the single story of AI, dating back to the 1950s, with a revival in the past decade. AGI implies two things about a solution that should not apply to business-centric problem-solving. First, a program has the general aptitude for human intelligence (perhaps all human intelligence). Second, an AGI is a general problem solver or a blank slate meaning any knowledge of a problem is rhetorical and independent of a strategy to solve that problem. Instead, the knowledge depends on some vague, ill-defined aptitude relating to the multidimensional structure of natural intelligence. If that sounds ostentatious, it’s because it is.
+
+ Examples:
+
   * RL can solve arbitrary problems within these environments
 
 ```
@@ -1979,6 +1999,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 ```
  
  Risks:
+
   * Intelligence [control][AI Control] and [alignment][AI Alignment]
   * [Intelligence explosion][AI Explosion]
 
@@ -1998,10 +2019,10 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Artificial Narrow Intelligence], [Artificial Super Intelligence]
 
 
-## Artificial Intelligence
-## AI
+## Artificial Intelligence (AI)
 
  Difficult to define?
+
   1. First approach for a definition: `AI = varied definitions driven by varied questions. AI tries to answer questions such as ...`
    * What is the nature of human intelligence
    * how does the brain work?
@@ -2012,11 +2033,11 @@ First, we believe the clearest framing of general intelligence is a system that 
    * How can AI have correct values?
    * How can AI contribute for social good?
    * ... and a few more questions!
-  2. `A very generic term which refers to teaching machine to imitate human behaviour`
+  1. `A very generic term which refers to teaching machine to imitate human behaviour`
    * A broad area of computer science that means 'computer' makes decisions and solves problems.
    * This encompasses decision tree, Machine learning (trained with data) and deep learning (neural net, unsupervised?).
    * Knowledge acquisition + inference.
-  3. :warning: Best definition found =  `AI is the science and engineering ...`
+  1. :warning: Best definition found =  `AI is the science and engineering ...`
    * `... to use artificial devices`
     * current computer hardware and software, sensors, actuators, etc
    * `... to exhibit human capabilities`
@@ -2025,7 +2046,8 @@ First, we believe the clearest framing of general intelligence is a system that 
      * action - execution and interaction
    * `... to solve problems addressed by humans`
 
- Type of AI paradigms
+ Type of AI paradigms:
+
   * [Reactive AI] - respond to specific input
   * [Predictive AI] - Analyze historical data and experiences to predict the future
   * [Generative AI] - Generate new content
@@ -2044,8 +2066,7 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [AI Areas Of Study], [Artificial Narrow Intelligence], [Artificial General Intelligence], [Artificial Super Intelligence], [Human-Centered AI], [Inference], [Intelligence], [Machine Learning], [Natural Intelligence]
 
 
-## Artificial Intelligence Areas Of Study
-## AI Areas Of Study
+## Artificial Intelligence (AI) Areas Of Study
 
   * Data and knowledge : massive data understanding, graph learning, synthetic data, knowledge representation
   * Machine vision and language : perception, image understanding, speech, language technologies
@@ -2058,8 +2079,7 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Artificial Intelligence]
 
 
-## Artificial Intelligence Challenge
-## AI Challenge
+## Artificial Intelligence (AI) Challenge
 
  * 1994 - 2022+ : First [CASP Challenge], CASP13 in 2018 was won by [AlphaFold 1][AlphaFold Model]
  * 1997 - 1998 : [Deep Blue Challenge]
@@ -2073,26 +2093,24 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
-## Artificial Intelligence Complete
-## AI Complete
+## Artificial Intelligence (AI) Complete
 
  Relates to NP complete from complexity.
 
  See also [A], [AI Hard]
 
 
-## Artificial Intelligence Hard
-## AI Hard
+## Artificial Intelligence (AI) Hard
 
  Relates to NP hard from complexity.
 
  See also [A], [AI Complete]
 
 
-## Artificial Intelligence Hello World
-## AI Hello World
+## Artificial Intelligence (AI) Hello World
 
- Evolution over time 
+ Evolution over time:
+
   * 2013: [Random Forest] Classifier on Iris
   * 2014: gensim word2vec on NLP problems || LDA (latent dirichlet allocation) for text
   * 2015: [XGBoost] on Titanic
@@ -2121,26 +2139,25 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
-## Artificial Narrow Intelligence
-## ANI
+## Artificial Narrow Intelligence (ANI)
 
  ~ [weak AI]
 
  ANI is often conflated with weak artificial intelligence. John Searle, philosopher and professor at the University of California, explained in his seminal 1980 paper, “Minds, Brains, and Programs,” that weak artificial intelligence would be any solution that is both narrow and a superficial look-alike to intelligence. Searle explains that such research would be helpful in testing hypotheses about segments of minds but would not be minds.[3] ANI reduces this by half and allows researchers to focus on the narrow and superficial and ignore hypotheses about minds. In other words, ANI purges intelligence and minds and makes artificial intelligence “possible” without doing anything. After all, everything is narrow, and if you squint hard enough, anything is a superficial look-alike to intelligence.
 
- ![](/img/a/artificial_narrow_intelligence_paper.pdf){type=application/pdf}
+ ![](img/a/artificial_narrow_intelligence_paper.pdf){type=application/pdf}
 
  See also [A], [Artificial General Intelligence], [Artificial Super Intelligence]
 
 
-## Artificial Neural Network
-## ANN
+## Artificial Neural Network (ANN)
 
- ~ `Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator` Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
+ ~ ==Can discover and approximate a(ny?) function given fixed(-count?) inputs and fixed(-count?) outputs! = universal function approximator== Also known as Artificial Neural Network (ANN). Can be used in supervised or unsupervised learning.
 
  There are different architectures:
-  * [Multilayer perceptron (MLP)][MLP] - static weights and fixed [activation functions]
-  * [Kolmogorov-Arnold Networks (KANs)][KAN] - learnable activation function
+
+  * [Multilayer perceptron (MLP)] - static weights and fixed [activation functions]
+  * [Kolmogorov-Arnold Networks (KANs)] - learnable activation function
   * ...
 
  ![](img/a/artificial_neural_network_example.png ){: width="100%"}
@@ -2151,18 +2168,20 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 
  The way for researchers to build an artificial brain or [neural network] using [artificial neurons][Artificial Neuron]. There are several types of ANN, including:
-  * [Convolutional Neural Network] - used for [computer vision], such as [image recognition], [object detection], [image segmentation]. Use [filters][Image Kernel] to extract features from input image.
+
+  * [Convolutional Neural Network] - used for [computer vision], such as [image recognition], [object detection], [image segmentation]. Use [filters] coded as [GPU Kernels] to extract features from input image.
   * [Feedforward Neural Network] - [input][Input Layer], [hidden][Hidden Layer], and [output][Output Layer] layers. Information flows only in one direction.
-  * [Recurrent Neural Network][RNN] - for sequential data, such as [natural language processing][NLP] and [speech recognition]. Have a feedback loop that allows information to flow in both directions.
-  * [Generative Adversarial Network] - 2 neural networks, one that generate data, another tries to distinguish between real and fake data.
-  * [Long Short-Term Memory Network] - a type of [RNN] that can remember long-term dependencies in sequential data. Used for [speech recognition] and [language translation]
+  * [Recurrent Neural Network (RNN)] - for sequential data, such as [natural language processing][NLP] and [speech recognition]. Have a feedback loop that allows information to flow in both directions.
+  * [Generative Adversarial Network (GAN)] - 2 neural networks, one that generate data, another tries to distinguish between real and fake data.
+  * [Long Short-Term Memory (LSTM) Network] - a type of [RNN] that can remember long-term dependencies in sequential data. Used for [speech recognition] and [language translation]
   * [Autoencoder] - used for [unsupervised learning], where goal is to learn a compressed representation of the input data. The [encoder] compresses, the [decoder] reconstructs the original data.
-  * [Deep belief network] - composed of multiple layers of [Restricted Boltzmann Machines]. Used for unsupervised learning and fine-tuned for [supervised learning] tasks.
+  * [Deep Belief Network (DBN)] - composed of multiple layers of [Restricted Boltzmann Machines]. Used for unsupervised learning and fine-tuned for [supervised learning] tasks.
   * ...
 
- The "knowledge/skills" of the ANN are encoded in their [parameters][Parameter]
+ The "knowledge/skills" of the ANN are encoded in their [parameters].
 
  Hyperparameters:
+
   * Number of neurons per layer
   * Number of layers
   * [Activation function]
@@ -2179,7 +2198,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
 ## Artificial Neuron
 
- aka Node, currently artificial neurons are implemented as a [Perceptrons][Perceptron].
+ aka Node, currently artificial neurons are implemented as a [Perceptrons].
 
  Several (binary) input channels, to produce one output (binary value) that can be faned out. Input weights, Bias (add an offset vector for adjustment to prior predictions), non-linear activation function (sum+bias must meet or exceed activation threshold).
 
@@ -2195,20 +2214,19 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Bias]
 
 
-## Artificial Super Intelligence
-## ASI
+## Artificial Super Intelligence (ASI)
 
  ASI is a by-product of accomplishing the goal of [AGI]. A commonly held belief is that general intelligence will trigger an “intelligence explosion” that will rapidly trigger super-intelligence. It is thought that ASI is “possible” due to recursive self-improvement, the limits of which are bounded only by a program’s mindless imagination. ASI accelerates to meet and quickly surpass the collective intelligence of all humankind. The only problem for ASI is that there are no more problems. When ASI solves one problem, it also demands another with the momentum of Newton’s Cradle. An acceleration of this sort will ask itself what is next ad infinitum until the laws of physics or theoretical computation set in. The University of Oxford scholar Nick Bostrom claims we have achieved ASI when machines have more intelligent than the best humans in every field, including scientific creativity, general wisdom, and social skills. Bostrom’s depiction of ASI has religious significance. Like their religious counterparts, believers of ASI even predict specific dates when the Second Coming will reveal our savior. Oddly, Bostrom can’t explain how to create artificial intelligence. His argument is regressive and depends upon itself for its explanation. What will create ASI? Well, AGI. Who will create AGI? Someone else, of course. AI categories suggest a false continuum at the end of which is ASI, and no one seems particularly thwarted by their ignorance. However, fanaticism is a doubtful innovation process.
 
  See also [A], [Artificial General Intelligence], [Artificial Narrow Intelligence]
 
 
-## Association for the Advancement of Artificial Intelligence
-## AAAI
+## Association for the Advancement of Artificial Intelligence (AAAI)
 
  Founded in 1979, the Association for the Advancement of Artificial Intelligence (AAAI) (formerly the American Association for Artificial Intelligence) is a nonprofit scientific society devoted to advancing the scientific understanding of the mechanisms underlying thought and intelligent behavior and their embodiment in machines. AAAI aims to promote research in, and responsible use of, artificial intelligence. AAAI also aims to increase public understanding of artificial intelligence, improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.
 
  AAAI’s goals are:
+
   * Promoting research in, and responsible use of, artificial intelligence (AI)
   * Increasing public understanding of artificial intelligence
   * Improving the teaching and training of AI practitioners
@@ -2249,6 +2267,7 @@ First, we believe the clearest framing of general intelligence is a system that 
  In summary, association rule learning is an unsupervised learning technique to uncover relationships and associations between variables in transactional and relational datasets. It relies on support and confidence statistical measures to identify the strongest associations.
 
  Metrics:
+
   * Support: Support: This Gives The Fraction Of Transactions Which Contains Item A And B. This Tells Us About The Frequently Bought Items Or The Combination Of Items Bought Frequently.  Support = Freq(A,B)N 
   * Confidence: It Tells Us How Often Items A And B Occur Together, Given The Number Of Times A Occurs. Confidence = Freq(A,B)Freq(A)
   * Lift: It Indicates The Strength Of A Rule Over The Random Occurrence Of A And B. This Tells Us The Strength Of Any Rule. Lift = Supportsupport(A) * Support(B)
@@ -2259,6 +2278,7 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [FP-Growth Algorithm]
 
  Use-cases:
+
   * Market basket analysis
   * ...
 
@@ -2281,8 +2301,7 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], ...
 
 
-## Asynchronous Advantage Actor-Critic Algorithm
-## A3C Algorithm
+## Asynchronous Advantage Actor-Critic (A3C) Algorithm
 
  A [policy gradient algorithm] used in [reinforcement learning]
 
@@ -2307,7 +2326,7 @@ First, we believe the clearest framing of general intelligence is a system that 
  See also [A], [Synchronous Neural Network]
 
 
-## Atari Learning Environment
+## Atari Learning Environment (ALE)
 
  The Atari Learning Environment (ALE) is an open-source software platform developed for research in reinforcement learning (RL). It is built upon the popular Atari 2600 video game console, which provides a diverse set of game environments for RL agents to interact with. ALE allows researchers to develop and evaluate RL algorithms by providing a standardized interface and a collection of Atari 2600 games as benchmark tasks.
 
@@ -2355,21 +2374,24 @@ First, we believe the clearest framing of general intelligence is a system that 
  The attention mechanism helps the transformer filter out noise and focus on what’s relevant: connecting two words in a semantic relationship to each other, when the words in themselves do not carry any obvious markers pointing to one another. AN improvement over [Recurrent Neural Network], such as [Long Short Term memory (LSTM) Networks][LSTM].
 
  There are different types of attention used in [attention-based models]:
+
   * [Self-Attention]
   * [Cross-Attention]
   * [Masked Self-Attention]
   * [Multi-head Attention]
 
- ![](/img/a/attention_mechanism.pdf){type=application/pdf}
+ ![](img/a/attention_mechanism.pdf){type=application/pdf}
 
  See also [A], [Attention Score], [Encoder-Decoder Attention]
 
 
 ## Attention Score
 
- `~ how much to pay attention to a particular word`
+ ~ ==how much to pay attention to a particular word==
+
   * Q, K, V matrix for the encoder <-- needs to be computed for the encoder (?) like weights/bias of an ANN
   * For each words, Q, K, V are computed by multiplying the word embedding with the corresponding Q, K, V matrix of the encoder !??!?!
+
  The Query word (Q) can be interpreted as the word for which we are calculating Attention. The Key and Value word (K and V) is the word to which we are paying attention ie. how relevant is that word to the Query word.
 
 ```
@@ -2393,15 +2415,18 @@ Then you are presented with the best matched videos (values).                   
  ![type:video](https://www.youtube.com/embed/4Bdc55j80l8)
 
  More at :
-  * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
-  * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
 
- See also [A], [Attention], [Attention-Based Model], [Multi-Head Attention], [Positional Encoding], [Transformer Model]
+  * articles
+    * [https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0](https://towardsdatascience.com/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
+    * [https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853)
+
+ See also [A], [Attention], [Attention-Based Model], [Multi-Head Attention], [Positional Encoding], [Transformer Architecture]
 
 
 ## Attention-Based Model
 
  In a language modeling task, a model is trained to predict a missing workd in a sequence of words. In general, there are 2 types of language modesl:
+
   1. Auto-regressive ( ~ auto-complete and generative)
   1. Auto-encoding ( ~ best possible match given context )
 
@@ -2425,13 +2450,13 @@ Then you are presented with the best matched videos (values).                   
 ## Audio2Face Model
 
  Move the lips/face of a virtual avatar based on audio
+
   * Developed by [Nvidia]
 
  See also [A], ...
 
 
-## Augmented Language Model
-## ALM
+## Augmented Language Model (ALM)
 
  A language model that can use external tools.
 
@@ -2439,13 +2464,13 @@ Then you are presented with the best matched videos (values).                   
 
  More at:
 
-  * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
+  * articles
+    * [https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/](https://tsmatz.wordpress.com/2023/03/07/react-with-openai-gpt-and-langchain/)
 
  See also [A], [ReACT Prompting]
 
 
-## Augmented Reality
-## AR
+## Augmented Reality (AR)
 
  Augmented reality (AR) is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. AR can be defined as a system that incorporates three basic features: a combination of real and virtual worlds, real-time interaction, and accurate 3D registration of virtual and real objects. The overlaid sensory information can be constructive (i.e. additive to the natural environment), or destructive (i.e. masking of the natural environment). This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, whereas virtual reality completely replaces the user's real-world environment with a simulated one.
 
@@ -2483,6 +2508,7 @@ Then you are presented with the best matched videos (values).                   
 ## Autoencoder Type
 
  There are 2 types of autoencoders:
+
   * input X --> Latent representation
   * input X --> Latent distribution
 
@@ -2494,6 +2520,7 @@ Then you are presented with the best matched videos (values).                   
 ## Autoencoding
 
  ~ auto-complete of a sentence on a phone. Goal is to learn representations of the entire sequence by predicting tokens given both the past and future tokens. If only past or future ==> autoregressive.
+
 ```
 If you don't ___ at the sign, you will get a ticket
 ```
@@ -2521,6 +2548,7 @@ If you don't ___ at the sign, you will get a ticket
  ![type:video](https://www.youtube.com/embed/WMFKfZEM1Sw)
 
  Alternatives:
+
   * langraph
   * chatdev
   * ...
@@ -2545,6 +2573,7 @@ If you don't ___ at the sign, you will get a ticket
  ![type:video](https://www.youtube.com/embed/0m0AbdoFLq4)
 
  Derivative versions:
+
   * AgentGPT
     * site - [https://agentgpt.reworkd.ai/](https://agentgpt.reworkd.ai/)
     * code - [https://github.com/reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)
@@ -2566,8 +2595,7 @@ If you don't ___ at the sign, you will get a ticket
  See also [A], ...
 
 
-## Automated RAG Evaluation System
-## ARES
+## Automated RAG Evaluation System (ARES)
 
  Evaluating [retrieval-augmented generation (RAG)][RAG] systems traditionally relies on hand annotations for input queries, passages to retrieve, and responses to generate. We introduce ARES, an Automated RAG Evaluation System, for evaluating RAG systems along the dimensions of context relevance, answer faithfulness, and answer relevance. Using synthetic training data, ARES finetunes lightweight LM judges to assess the quality of individual RAG components. To mitigate potential prediction errors, ARES utilizes a small set of human-annotated datapoints for [prediction-powered inference (PPI)][PPI]. Across six different knowledge-intensive tasks in [KILT] and [SuperGLUE], ARES accurately evaluates RAG systems while using a few hundred human annotations during evaluation. Furthermore, ARES judges remain effective across domain shifts, proving accurate even after changing the type of queries and/or documents used in the evaluated RAG systems.
 
@@ -2580,8 +2608,7 @@ If you don't ___ at the sign, you will get a ticket
  See also [A], ...
 
 
-## Automatic Speech Recognition
-## ASR
+## Automatic Speech Recognition (ASR)
 
  Possible thanks to [Recurrent Neural Network] such as [LSTM Network]
 
@@ -2629,39 +2656,48 @@ If you don't ___ at the sign, you will get a ticket
  See also [DARPA Grand Challenge], [DARPA Urban Challenge]
 
 
-## Autoregressive Convolutional Neural Network
-## AR-CNN
+## Autoregressive Convolutional Neural Network (AR-CNN)
 
- `~ representing the problem/solution as a time series of images`. Q: How do you generated the images? Q: How many images? Ex: music --> given the previous images (piano roll with notes until now), find the next image (piano roll with new note!) ? NO, WRONG!! More like imagine your first COMPLETE draft, you review the draft, you review it once more, and again, getting better and better each time until it cannot get better anymore! `Each action (i.e. addition or removal of exactly one note) is a transformation from one piano roll image to another piano roll image`.
+ `~ representing the problem/solution as a time series of images`. 
+
+/// details |How do you generated the images?
+    type:question
+/// 
+
+/// details | How many images? 
+    type:question
+
+    Ex: music --> given the previous images (piano roll with notes until now), find the next image (piano roll with new note!) ? NO, WRONG!! More like imagine your first COMPLETE draft, you review the draft, you review it once more, and again, getting better and better each time until it cannot get better anymore! `Each action (i.e. addition or removal of exactly one note) is a transformation from one piano roll image to another piano roll image`.
+///
 
  See also [A], [Autoregressive Model], [Convolutional Neural Network]
 
 
-## Autoregressive Model
-## AR Model
+## Autoregressive (AR) Model
 
  ~ a stream of token (and prediction based on the stream)
 
  ~ language = stream of token but DNA and (protein and non-protein / organic and non-organic) molecules are also stream of token
 
  Goal is to predict a future token (word) given either the past tokens or the future tokens but not both. (If both --> auto-encoding). Autoregressive models such as [decoders] are iterative and reused their temporary, incomplete output to generate the next, more complete output. Iterations stop when encoder input is exhausted (?). Well-known autoregressive models/use-cases are:
+
   * Predicting next work in a sentence (auto-complete)
   * Natural language generation
   * [GPT Models]
+
 ```
 If you don't ____ (forward prediction)
 ____ at the sign, you will get a ticket (backward prediction)
 ```
 
- `~ analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY`. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
+ ~ ==analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY==. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
 
  ![type:video](https://www.youtube.com/embed/UZDiGooFs54)
 
  See also [A], [Autoencoding], [Autoregressive Convolutional Neural Network], [Casual Language Modeling], [Generative Adversarial Network], [Time-Series Predictive Analysis]
 
 
-## Autoregressive Moving Average Model
-## ARMA Model
+## Autoregressive Moving Average (ARMA) Model
 
  Note as good as a [LSTM model] because no memory
 
@@ -2693,7 +2729,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], ...
 
 
-## AWS DeepRacer
+## AWS DeepRacer Service
 
  AWS DeepRacer is a cloud-based 3D racing simulator designed by Amazon Web Services (AWS) to help developers learn reinforcement learning. Some key things to know about AWS DeepRacer:
 
@@ -2818,7 +2854,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  See also [A], ...
 
 
-### AWS SageMaker Studio
+## AWS SageMaker Studio
 
  ~ jupyterlab + AWS plugins developed by AWS
 
@@ -2843,6 +2879,7 @@ ____ at the sign, you will get a ticket (backward prediction)
  ![type:video](https://www.youtube.com/embed/SdbfLgqc7is)
 
  Use cases:
+
   * Text generation
   * Summarization
   * Semantic search

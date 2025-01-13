@@ -12,30 +12,34 @@
 [Q-Value Function]: q.md#q-value-function
 [Quadratic Regression]: q.md#quadratic-regression
 [Quantization]: q.md#quantization
-[Quantization-Aware Fine-Tuning]: q.md#quantization-aware-fine-tuning
-[QAFT]: q.md#quantization-aware-fine-tuning
-[Quantization-Aware Training]: q.md#quantization-aware-training
-[QAT]: q.md#quantization-aware-training
+[Quantization-Aware Training (QAT)]: q.md#quantization-aware-training-qat
+[QAT]: q.md#quantization-aware-training-qat
+[Quantization-Aware Fine-Tuning (QAFT)]: q.md#quantization-aware-fine-tuning-qaft
+[QAFT]: q.md#quantization-aware-fine-tuning-qaft
+[Quantization-Aware Training]: q.md#quantization-aware-training-qat
+[QAT]: q.md#quantization-aware-training-qat
 [Quantization Error]: q.md#quantization-error
-[Quantized and Low-Rank Adapter]: q.md#quantized-and-low-rank-adapter
-[QLoRA]: q.md#quantized-and-low-rank-adapter
+[Quantized and Low-Rank Adaptation (QLoRA) Fine-Tuning]: q.md#quantized-and-low-rank-adaptation-qlora-fine-tuning
+[Quantized and Low-Rank Adaptation (QLoRA)]: q.md#quantized-and-low-rank-adaptation-qlora-fine-tuning
+[QLoRA]: q.md#quantized-and-low-rank-adaptation-qlora-fine-tuning
 [Quantized Signal]: q.md#quantized-signal
 [Quantizer]: q.md#quantizer
 [Quantum Advantage]: q.md#quantum-advantage
-[Quantum Artificial Intelligence]: q.md#quantum-artificial-intelligence
-[Quantum AI]: q.md#quantum-artificial-intelligence
+[Quantum AI]: q.md#quantum-ai
 [Quantum Computer]: q.md#quantum-computer
 [Quantum Computers]: q.md#quantum-computer
-[Quantum Language Processing]: q.md#quantum-language-processing
-[QLP]: q.md#quantum-language-processing
-[Quantum Machine Learning]: q.md#quantum-machine-learning
-[QML]: q.md#quantum-machine-learning
+[Quantum Language Processing (QLP)]: q.md#quantum-language-processing-qlp
+[QLP]: q.md#quantum-language-processing-qlp
+[Quantum Machine Learning (QML)]: q.md#quantum-machine-learning-qml
+[QML]: q.md#quantum-machine-learning-qml
 [Quantum Supremacy]: q.md#quantum-supremacy
-[Question Answering]: q.md#question-answering
-[QA]: q.md#qa
-[Question Answering Graph Neural Network]: q.md#question-answering-graph-neural-network
-[QAGNN]: q.md#qagnn
+[Question Answering]: q.md#question-answering-qa
+[QA]: q.md#question-answering-qa
+[Question Answering Graph Neural Network (QA-GNN)]: q.md#question-answering-graph-neural-network-qa-gnn
+[QA-GNN]: q.md#question-answering-graph-neural-network-qa-gnn
 [Quora Company]: q.md#quora-company
 [Quora]: q.md#quora-company
-[Qwen Model]: q.md#qwen-model
+[Qwen Model Family]: q.md#qwen-model-family
+[Qwen Model]: q.md#qwen-model-family
+[Qwen Models]: q.md#qwen-model-family
 [Qwen]: q.md#qwen-model

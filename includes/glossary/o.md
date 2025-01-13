@@ -34,8 +34,8 @@
 [Open-World Environments]: o.md#open-world-environment
 [Open-World]: o.md#open-world-environment
 [Open-Worlds]: o.md#open-world-environment
-[Open Neural Network Exchange Format]: o.md#open-neural-network-exchange-format
-[ONNX Format]: o.md#open-neural-network-exchange-format
+[Open Neural Network Exchange (ONNX) Format]: o.md#open-neural-network-exchange-onnx-format
+[ONNX Format]: o.md#open-neural-network-exchange-onnx-format
 [OpenAI Assitants API]: o.md#openai-assistants-api
 [OpenAI Company]: o.md#openai-company
 [OpenAI]: o.md#openai-company
@@ -46,7 +46,8 @@
 [OpenAI Gym]: o.md#openai-gym-environment
 [OpenCLIP Model]: o.md#openclip-model
 [OpenCLIP]: o.md#openclip-model
-[OpenCV Module]: o.md#opencv-module
+[OpenCV Python Module]: o.md#opencv-python-module
+[OpenCV]: o.md#opencv-python-module
 [OpenFold Model]: o.md#openfold-model
 [OpenFold]: o.md#openfold-model
 [Open Interpreter Company]: o.md#open-interpreter-company
@@ -58,13 +59,13 @@
 [OpenVINO]: o.md#openvino-toolkit
 [OpenVoice Model]: o.md#openvoice-model
 [OpenVoice]: o.md#openvoice-model
-[Optical Character Recognition]: o.md#optical-character-recognition
-[OCR]: o.md#optical-character-recognition
+[Optical Character Recognition (OCR)]: o.md#optical-character-recognition-ocr
+[OCR]: o.md#optical-character-recognition-ocr
 [Optimal Policy]: o.md#optimal-policy
 [Optimal Q-Value]: o.md#optimal-q-value
 [Optimization]: o.md#optimization
-[Optimization By Prompting]: o.md#optimization-by-prompting
-[OPRO]: o.md#optimization-by-prompting
+[Optimization By Prompting (OPRO)]: o.md#optimization-by-prompting-opro
+[OPRO]: o.md#optimization-by-prompting-opro
 [Optimizer]: o.md#optimizer
 [Optimus Robot]: o.md#optimus-robot
 [Optimus]: o.md#optimus-robot
@@ -77,8 +78,8 @@
 [Orca-2]: o.md#orca-model-family
 [Orchestrator]: o.md#orchestrator
 [Ordinal Encoding]: o.md#ordinal-encoding
-[Out-Of-Vocabulary Word]: o.md#out-of-vocabulary-word
-[OOV Word]: o.md#out-of-vocabulary-word
+[Out-Of-Vocabulary (OOV) Word]: o.md#out-of-vocabulary-oov-word
+[OOV Word]: o.md#out-of-vocabulary-oov-word
 [Outlier]: o.md#outlier
 [Outliers]: o.md#outlier
 [Output Layer]: o.md#output-layer

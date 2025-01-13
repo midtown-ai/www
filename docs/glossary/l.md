@@ -67,6 +67,7 @@
  {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
 
  More at:
+
   * 2024/03/04 - GenAI and NYC - [https://www.mckinsey.com/industries/public-sector/our-insights/generative-ai-and-the-future-of-new-york](https://www.mckinsey.com/industries/public-sector/our-insights/generative-ai-and-the-future-of-new-york)
   * 2023/09/05 - [https://www.cnn.com/2023/09/05/opinions/artificial-intelligence-jobs-labor-market](https://www.cnn.com/2023/09/05/opinions/artificial-intelligence-jobs-labor-market)
   * 2023/07/26 - GenAI and future of work - [https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america](https://www.mckinsey.com/mgi/our-research/generative-ai-and-the-future-of-work-in-america)
@@ -76,8 +77,7 @@
  See also [L], ...
 
 
-## LangChain Expression Model
-## LCEM
+## LangChain Expression Language (LCEL)
 
  How chains are built in [LangChain]. DEsigned to build sequence of calls (to LLMs or any other component)
 
@@ -96,6 +96,7 @@ output_schema = description of the output produced by a Runnable
 ```
 
  More at:
+
   * [https://python.langchain.com/docs/expression_language/](https://python.langchain.com/docs/expression_language/)
 
  See also [L], ...
@@ -111,6 +112,7 @@ obj = hub.pull("homanp/superagent")
 ```
 
  More at;
+
   * site - [https://smith.langchain.com/hub](https://smith.langchain.com/hub)
   * alternatives
     * [https://docs.pezzo.ai/features/langchain](https://docs.pezzo.ai/features/langchain)
@@ -123,6 +125,7 @@ obj = hub.pull("homanp/superagent")
  ~ an alternative to [Llamaindex]
 
  LangChain is a framework for developing applications powered by language models. We believe that the most powerful and differentiated applications will not only call out to a language model via an API, but will also:
+
   * Be data-aware: connect a language model to other sources of data
   * Be agentic: allow a language model to interact with its environment
 
@@ -145,11 +148,13 @@ completion = llm(prompt)
 ```
 
  ![](img/l/langchain_python_module_value_proposition.png ){: width="100%"}
+
  ![](img/l/langchain_python_module_components.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=nE2skSRWTTs" %}
 
  More at:
+
   * announcement - [https://www.pinecone.io/learn/langchain-intro/](https://www.pinecone.io/learn/langchain-intro/)
   * docs - [https://python.langchain.com/en/latest/index.html](https://python.langchain.com/en/latest/index.html)
   * JS docs - [https://js.langchain.com/docs/](https://js.langchain.com/docs/)
@@ -176,9 +181,11 @@ completion = llm(prompt)
  {% youtube "https://www.youtube.com/watch?v=-D1EIbKVlz8" %}
 
  Alternatives
+
   * Flowise - JS based
 
  More at:
+
   * docs - [https://docs.langflow.org/](https://docs.langflow.org/)
   * huggin face space - [https://huggingface.co/spaces/Logspace/Langflow](https://huggingface.co/spaces/Logspace/Langflow)
 
@@ -190,6 +197,7 @@ completion = llm(prompt)
  A state machine way to run agent with [LangChain]
 
  To build custom agents and more than just simple chains
+
   * state graph
   * nodes = chains or runnables/tools
   * edges = wire everything together
@@ -262,6 +270,7 @@ completion = llm(prompt)
  {% youtube "https://www.youtube.com/watch?v=PqS1kib7RTw" %}
 
  More at:
+
   * docs - [https://python.langchain.com/docs/langgraph](https://python.langchain.com/docs/langgraph)
   * tutorials - [https://academy.langchain.com/courses/take/intro-to-langgraph/lessons/58238107-course-overview](https://academy.langchain.com/courses/take/intro-to-langgraph/lessons/58238107-course-overview)
   * articles
@@ -289,14 +298,12 @@ completion = llm(prompt)
  Observability stack from LangChain 
 
  3 areas:
+
   * Tracing (input, state, retrieved documents, latency, final output) + tokens per LLM call + request costs
   * Prompt Engineering
   * ...
 
  ![](img/l/langsmith.png ){: width="100%"}
-
- More at:
-  * 
 
  See also [L], ...
 
@@ -311,8 +318,7 @@ completion = llm(prompt)
  See [Language Modeling]
 
 
-## Language Model for Discussion Applications Model 
-## LaMDA Model
+## Language Model for Discussion Applications (LaMDA) Model 
 
  Built by [Google]
 
@@ -323,6 +329,7 @@ completion = llm(prompt)
  {% youtube "https://www.youtube.com/watch?v=7BvbgUNT2gI" %}
 
  More at:
+
   * blog - [https://blog.google/technology/ai/lamda/](https://blog.google/technology/ai/lamda/)
 
  See also [L], ...
@@ -342,8 +349,7 @@ completion = llm(prompt)
  See also [L], [Benchmark]
 
 
-## Language Processing Unit
-## LPU
+## Language Processing Unit (LPU)
 
  Developed by the founder of [Groq] to accelerate the token output of [LLM]
 
@@ -362,14 +368,14 @@ completion = llm(prompt)
  To better understand architecture, Groq offers two papers: from 2020 (Think Fast: A Tensor Streaming Processor (TSP) for Accelerating Deep Learning Workloads) and 2022 (A So ware-defined Tensor Streaming Multiprocessor for Large-scale Machine Learning). The term “LPU” must be a recent addition to Groq’s narrative, since it’s never mentioned in the papers.
 
  More at:
+
   * [https://wow.groq.com/groq-isca-paper-2020/](https://wow.groq.com/groq-isca-paper-2020/)
   * [https://wow.groq.com/isca-2022-paper/](https://wow.groq.com/isca-2022-paper/)
 
  See also [L], ...
 
 
-## Large Language and Vision Assistant Model
-## LLaVa Model
+## Large Language and Vision Assistant (LLaVa) Model
 
  An extension to the [LLaMA Model] to allow it to be multimodal or see.
 
@@ -378,6 +384,7 @@ completion = llm(prompt)
  {% youtube "https://www.youtube.com/watch?v=RxBSmbdJ1I8" %}
 
  More at:
+
   * demo - [https://llava.hliu.cc/](https://llava.hliu.cc/)
   * code - [https://github.com/haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA)
   * project site - [https://llava-vl.github.io/](https://llava-vl.github.io/)
@@ -385,21 +392,20 @@ completion = llm(prompt)
  See also [L], ...
 
  
-## Large Language Model
-## LLM
+## Large Language Model (LLM)
 
  Large Language Models are [Language Model] with not millions, but billions of parameters/weights. The term "large" in LLM refers to the fact that these models are designed to handle large amounts of data, both in terms of the size of the text corpus used to train them and in terms of the amount of text they can generate or process at once.
 
- In 2023, aftr the release of [ChatGPT][ChatGPT Model], LLMs started having a huge [impact on the labor force][Labor Market Impact]
+ In 2023, aftr the release of [ChatGPT], LLMs started having a huge [impact on the labor force][Labor Market Impact]
 
  These models typically utilize deep learning techniques and are trained on massive amounts of text data, such as books, articles, and web pages, in order to learn the patterns and structure of language.
 
  Examples of Large Language Models include
-  * [GPT-3, GPT-2][GPT Model],
-  * [BERT][BERT Model],
-  * and [T5][T5 Model], among others.
+  * [GPT-3], [GPT-2]
+  * [BERT]
+  * and [T5], among others.
 
- These models have been used for a variety of tasks, such as [language translation][Machine Translation], text generation, [question answering], and [sentiment analysis], and have demonstrated impressive performance on many [benchmarks][Benchmark] in [natural language understanding] and generation.
+ These models have been used for a variety of tasks, such as [language translation][Machine Translation], text generation, [question answering], and [sentiment analysis], and have demonstrated impressive performance on many [benchmarks] in [natural language understanding] and generation.
 
  ![](img/l/large_language_model_history.png ){: width="100%"}
 
@@ -408,12 +414,12 @@ completion = llm(prompt)
  {% pdf "https://arxiv.org/pdf/2303.18223.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2303.18223](https://arxiv.org/abs/2303.18223)
 
  See also [L], [Language Modeling], [Model Compression], [Model Context Protocol], [Neural Scaling Law], [Steerability]
 
 
-## Large Language Model As A Judge
 ## LLM As A Judge
 
  Use a language model to compare 2 other [LLMs]. This approach is used in the [MT-Bench] to model human preference.
@@ -421,6 +427,7 @@ completion = llm(prompt)
  ![](img/l/large_language_model_as_a_judge.png ){: width="100%"}
 
  More at:
+
   * code - [https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge](https://github.com/lm-sys/FastChat/tree/main/fastchat/llm_judge)
   * articles
     * [https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge](https://www.galileo.ai/blog/best-practices-for-creating-your-llm-as-a-judge)
@@ -429,8 +436,7 @@ completion = llm(prompt)
  See also [L], ...
 
 
-## Large Language Model Meta AI
-## LLaMA Model
+## Large Language Model Meta AI (LLaMA) Model Family
 
  Using the scaling method described in [Chinchilla][Chinchilla Model]
  65 Billion parameters.
@@ -440,6 +446,7 @@ completion = llm(prompt)
  {% pdf "img/l/llama_model_paper.pdf" %}
 
  More at:
+
   * LLaMa 2 
     * UI - [https://labs.perplexity.ai/](https://labs.perplexity.ai/)
     * download - [https://ollama.ai/](https://ollama.ai/)
@@ -453,10 +460,10 @@ completion = llm(prompt)
  See also [L], ...
 
 
-## Large Language Model Operating System
-## LLM OS
+## LLM Operating System (LLM OS)
 
  More at:
+
   * articles
     * [https://medium.com/@ronaldmannak/goodbye-windows-hello-llms-the-future-of-operating-systems-7ba61ea03e8d](https://medium.com/@ronaldmannak/goodbye-windows-hello-llms-the-future-of-operating-systems-7ba61ea03e8d)
 
@@ -468,6 +475,7 @@ completion = llm(prompt)
  ~ Utility used to turn documents into a graph by using an [LLM] for [Name-Entity Recognition] and relationship extraction
 
  More at:
+
   * docs - [https://python.langchain.com/v0.2/api_reference/experimental/graph_transformers/langchain_experimental.graph_transformers.llm.LLMGraphTransformer.html](https://python.langchain.com/v0.2/api_reference/experimental/graph_transformers/langchain_experimental.graph_transformers.llm.LLMGraphTransformer.html)
   * articles
     * [https://towardsdatascience.com/building-knowledge-graphs-with-llm-graph-transformer-a91045c49b59](https://towardsdatascience.com/building-knowledge-graphs-with-llm-graph-transformer-a91045c49b59)
@@ -476,16 +484,14 @@ completion = llm(prompt)
  See also [T], [GraphRAG System]
 
 
-## Large Language Model Operations
-## LLMOps
+## LLM Operations (LLMOps)
 
   * where you validate improvements over baseline
 
  See also [L], ...
 
 
-## Large Language Model Performance
-## LLMPerf
+## LLM Performance (LLMPerf) Benchmark
 
  Utilizing the LLMPerf, we have benchmarked a selection of LLM inference providers. Our analysis focuses on evaluating their performance, reliability, and efficiency under the following key metrics:
 
@@ -509,16 +515,17 @@ completion = llm(prompt)
  ![](img/l/large_language_model_performance.png ){: width="100%"}
 
  More at:
+
   * leaderboard - [https://github.com/ray-project/llmperf-leaderboard](https://github.com/ray-project/llmperf-leaderboard)
   * tool - [https://github.com/ray-project/llmperf](https://github.com/ray-project/llmperf)
 
  See also [L], ...
 
 
-## Large Languege Model Pricing
 ## LLM Pricing
 
  For each provider
+
   * For each model
     * Input cost for 1 million token
     * Output cost for 1 million token
@@ -528,7 +535,6 @@ completion = llm(prompt)
  See also [L], ...
 
 
-## Large Language Model Self-Correction Reasoning
 ## LLM Self-Correction Reasoning
 
  ![](img/l/large_language_model_self_correction_reasoning.png ){: width="100%"}
@@ -536,6 +542,7 @@ completion = llm(prompt)
  {% pdf "https://arxiv.org/pdf/2308.03188.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2308.03188](https://arxiv.org/abs/2308.03188)
   * github - [https://github.com/teacherpeterpan/self-correction-llm-papers](https://github.com/teacherpeterpan/self-correction-llm-papers)
   * [https://bdtechtalks.com/2023/10/09/llm-self-correction-reasoning-failures/](https://bdtechtalks.com/2023/10/09/llm-self-correction-reasoning-failures/)
@@ -543,17 +550,22 @@ completion = llm(prompt)
  See also [L], ....
 
 
-## Large-Scale Artificial Intelligence Open Network Dataset
-## LAION Dataset
+## Large-Scale Artificial Intelligence Open Network (LAION) Dataset
 
- ~ datasets used to build CLIP models
+ ~ datasets used to build CLIP models and [openclip]
 
- Open datasets released by the [LAION Nonprofit]:
+ Open datasets released by the LAION Nonprofit organization
+
  * LAION-400M - 400M English (image, text) pairs (2021)
  * LAION-5B - 5,85 billion CLIP-filtered image-text pairs (2022)
  * LAION-Aesthetics - several collections of subsets from LAION 5B with high visual quality
 
  More at:
+
+  * site - [https://laion.ai/](https://laion.ai/)
+  * wikipedia - [https://en.wikipedia.org/wiki/LAION](https://en.wikipedia.org/wiki/LAION) 
+  * articles
+    * [https://venturebeat.com/ai/a-free-ai-image-dataset-removed-for-child-sex-abuse-images-has-come-under-fire-before/](https://venturebeat.com/ai/a-free-ai-image-dataset-removed-for-child-sex-abuse-images-has-come-under-fire-before/)
   * sites
     * 400M - [https://laion.ai/blog/laion-400-open-dataset/](https://laion.ai/blog/laion-400-open-dataset/)
     * 5B - [https://laion.ai/blog/laion-5b/](https://laion.ai/blog/laion-5b/)
@@ -567,23 +579,10 @@ completion = llm(prompt)
 
  See also [L], ...
 
-## Large-Scale Artificial Intelligence Open Network Nonprofit
-## LAION Nonprofit
-
- Open dataset and open models, such as [openclip]
-
- More at:
-  * site - [https://laion.ai/](https://laion.ai/)
-  * wikipedia - [https://en.wikipedia.org/wiki/LAION](https://en.wikipedia.org/wiki/LAION) 
-  * articles
-    * [https://venturebeat.com/ai/a-free-ai-image-dataset-removed-for-child-sex-abuse-images-has-come-under-fire-before/](https://venturebeat.com/ai/a-free-ai-image-dataset-removed-for-child-sex-abuse-images-has-come-under-fire-before/)
-
- See also [L], ...
-
 
 ## Lasso Regression
 
-  ~ aka L1 [Regularization]. Instead of a [linear regression] use this regression?
+  ~ aka [L1 Regularization]. Instead of a [linear regression] use this regression?
 
  In lasso regression, weights can go to zero (not just close to 0 as in the [ridge regression]) and result in [feature selection] !
 
@@ -596,6 +595,7 @@ completion = llm(prompt)
  {% youtube "https://www.youtube.com/watch?v=Xm2C_gTAl8c" %}
 
  More at:
+
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
 
  See also [L], ...
@@ -610,12 +610,12 @@ completion = llm(prompt)
  See also [L], ...
 
 
-## Latent Diffusion Model
-## LDM
+## Latent Diffusion Model (LDM)
 
  ![](img/l/latent_diffusion_model.png ){: width="100%"}
 
  The overall model will look like this:
+
   * you will have your initial image here X, and encode it into an information-dense space called the latent space, Z. This is very similar to a GAN where you will use an encoder model to take the image and extract the most relevant information about it in a sub-space, which you can see as a downsampling task. Reducing its size while keeping as much information as possible.
   * You are now in the latent space with your condensed input. You then do the same thing with your conditioning inputs, either text, images, or anything else,
   * and merge them with your current image representation. WE condition LDMs either via concatenation or by a more general cross-attention mechanism. This attention mechanism will learn the best way to combine the input and conditioning inputs in this latent space. Adding attention, a transformer feature, to diffusion models. These merged inputs are now your initial noise for the diffusion process. Then, you have the same diffusion model I covered in my Imagen video but still in this sub-space.
@@ -626,7 +626,8 @@ completion = llm(prompt)
 
  {% youtube "https://www.youtube.com/watch?v=RGBNdD3Wn-g" %}
 
- More at :
+ More at:
+
   * [https://pub.towardsai.net/latent-diffusion-models-the-architecture-behind-stable-diffusion-434ba7d91108](https://pub.towardsai.net/latent-diffusion-models-the-architecture-behind-stable-diffusion-434ba7d91108)
   * [https://www.louisbouchard.ai/latent-diffusion-models/](https://www.louisbouchard.ai/latent-diffusion-models/)
   * [code - https://github.com/CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
@@ -634,13 +635,9 @@ completion = llm(prompt)
  See also [L], [Conditioning], [Cross-Attention], [Diffusion Model], [Diffusion Process], [Image Decoder], [Image Encoder], [Latent Space], [Pixel Space], [U-Net Architecture]
 
 
-## Latent Dirichlet Allocation
-## LDA
+## Latent Dirichlet Allocation (LDA)
 
  Used as a topic modeling technique that is it can classify text in a document to a particular topic. It uses Dirichlet distribution to find topics for each document model and words for each topic model. Johann Peter Gustav Lejeune Dirichlet was a German mathematician in the 1800s who contributed widely to the field of modern mathematics. There is a probability distribution named after him ‘Dirichlet Distribution’ which is the basis of Latent Dirichlet Allocation (--LDA--).
-
- More at:
-  * ...
 
  See also [L], ...
 
@@ -654,7 +651,9 @@ completion = llm(prompt)
 
 ## Latent Space
 
- `~ A compressed/downsampled space that contains as much information as possible space`. Formally, a latent space is defined as an abstract multi-dimensional space that encodes a meaningful internal representation of externally observed events. Samples that are similar in the external world are positioned close to each other in the latent space. To better understand the concept, let’s think about how humans perceive the world. We are able to understand a broad range of topics by encoding each observed event in a compressed representation in our brain. For example, we don’t keep in mind every detail of the appearance of a dog to be able to recognize a dog in the street. As we can see in the illustration below, we keep an internal representation of the general appearance of a dog:
+ ==A compressed/downsampled space that contains as much information as possible space==. 
+
+ Formally, a latent space is defined as an abstract multi-dimensional space that encodes a meaningful internal representation of externally observed events. Samples that are similar in the external world are positioned close to each other in the latent space. To better understand the concept, let’s think about how humans perceive the world. We are able to understand a broad range of topics by encoding each observed event in a compressed representation in our brain. For example, we don’t keep in mind every detail of the appearance of a dog to be able to recognize a dog in the street. As we can see in the illustration below, we keep an internal representation of the general appearance of a dog:
 
  ![](img/l/latent_space_in_mind.png ){: width="100%"}
 
@@ -667,6 +666,7 @@ completion = llm(prompt)
  The answer is data compression. Specifically, in cases where our input data are high-dimensional, it is impossible to learn important information directly from the raw data. 
 
  More at:
+
   * [https://ai.stackexchange.com/questions/11285/what-is-the-difference-between-latent-and-embedding-spaces](https://ai.stackexchange.com/questions/11285/what-is-the-difference-between-latent-and-embedding-spaces)
 
  See also [L], [Convolutional Neural Network], [Encoder]][Latent Variable], [Latent Variable Model], [Latent Vector], [Pixel Space], [Representation Space], [Semantic Space], [Word Embedding Space]
@@ -679,10 +679,11 @@ completion = llm(prompt)
  See also [L], [Encoder], [Latent Space]
 
 
-## Latent Space Visualisation
+## Latent Space Visualization
 
  Project a [latent space] or multi-dimensional space on 2D space
-  * [Principal Component Analysis (PCA)][PCA]
+
+  * [Principal Component Analysis (PCA)]
   * [t-SNE]
   * [UMAP]
 
@@ -719,8 +720,7 @@ completion = llm(prompt)
  See also [L], [Hidden Layer], [Input Layer], [Output Layer]
 
 
-## LeakyReLU Activation Function
-## LReLU Activation Function
+## LeakyReLU (LReLU) Activation Function
 
  See also [L], [Activation Function], [Exploding Gradient Problem], [ReLU Activation Function], [Vanishing Gradient Problem]
 
@@ -733,6 +733,7 @@ completion = llm(prompt)
 ## Learning Method
 
  All of those are or should be machine learning algorithm type! Here is a non-exhaustive list:
+
   * experience - learn from the past/data
   * [unsupervised learning] - try, fail, learn from failures ? Takes a long time / many iteration!
     * [association rule learning] -
@@ -751,6 +752,7 @@ completion = llm(prompt)
   * [federated learning] - 
 
  Drive to learn
+
   * [Purpose Learning] ~ human [Loss function] ?
 
  See also [L], [Machine Learning Type]
@@ -767,11 +769,13 @@ completion = llm(prompt)
 
  ~ controls how rapidly the model learns/changes
 
- :warning: Often symbolized by 'alpha'
+/// note | Often symbolized by 'alpha'
+///
 
  The learning rate `controls how rapidly the weights and biases of each network are updated during training`. A higher learning rate might allow the network to explore a wider set of model weights, but might pass over more optimal weights. Iterative learning: (1) observe difference between predicted answer, and correct answer. (2) Adjust the model a 'small amount' (at each pass /epoch) to make the prediction closer to the correct answer. Size of update at each iteration. Relative weight of new iteration vs old iterations?
 
  The learning rate is impacted differently function of the ML algorithm in use
+
 ```
 new_value = expected_value + alpha * ( observed_error )
           = expected_value + alpha * ( observed_value - expected_value)
@@ -779,6 +783,7 @@ new_value = expected_value + alpha * ( observed_error )
 
 with alpha = learning_rate
 ```
+
  In [reinforcement learning], more specifically in Q-learning, the learning rate is used as follow:
 
 ```
@@ -793,11 +798,12 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
             = R_t+1 + gamma * max( Q_current(next_state, action_i) )
 ```
 
- Beware:
+/// note |
   * the learning rate, alpha, is between 0 and 1
   * if alpha = 1  ==> immediately forget the past!
   * if alpha = 0  ==> oblivious to observation = no change!
   * A starting value can be between 0.01 and 0.1 which implies that updates with be between 1% and 10% of the observed error.
+///
 
  See also [L], [Gradient Descent Algorithm], [Hyperparameter], [Loss Function], [Prior], [Transfer Learning]
 
@@ -807,15 +813,11 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [L], [Learning Method], [Learning Rate], [Learning Velocity]
 
 
-## Learning Vector Quantization Algorithm
-## LVQ Algorithm
+## Learning Vector Quantization (LVQ) Algorithm
 
  Clustering algorithm used in [unsupervised learning].
 
  {% youtube "https://www.youtube.com/watch?v=iq8aFkZo67o" %}
-
- More at:
-  * ...
 
  See also [L], ...
 
@@ -827,19 +829,18 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [L], [Learning Rate], [Sample Strategy], [Sample Efficiency]
 
 
-## Leave-One-Out Cross-Validation
-## LOOCV
+## Leave-One-Out Cross-Validation (LOOCV)
 
  A special case of [k-fold cross-validation] is the Leave-one-out cross-validation (LOOCV) method in which we set k=n (number of observations in the dataset). Only one training sample is used for testing during each iteration. This method is very useful when working with very small datasets.
 
  More at:
+
   * [https://machinelearningmastery.com/k-fold-cross-validation/](https://machinelearningmastery.com/k-fold-cross-validation/)
 
  See also [L], ...
 
 
-## Legendre Memory Unit
-## LMU
+## Legendre Memory Unit (LMU)
 
  ~ a memory unit in [RNNs] ?
 
@@ -857,6 +858,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  {% pdf "https://situational-awareness.ai/wp-content/uploads/2024/06/situationalawareness.pdf" %}
 
  More at:
+
   * paper - [https://situational-awareness.ai/](https://situational-awareness.ai/)
 
  See also [L], ...
@@ -867,6 +869,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  Word matching. Keyword search or exact phrase.
 
  Algorithms:
+
   * Rabin-Karp
   * Bayer-Moore
   * Knuth-Morris-Pratt
@@ -874,9 +877,6 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  ![](img/l/lexical_search_problem.png ){: width="100%"}
 
  {% youtube "https://www.youtube.com/watch?v=au59-CEPegg" %}
-
- More at:
-  * ...
 
  See also [L], [Semantic Search]
 
@@ -886,8 +886,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  See also [L], [Autonomous Vehicle]
 
 
-## Light Gradient Boosting Machine
-## LightGBM
+## Light Gradient Boosting Machine (LightGBM)
 
  An [ensemble method].
 
@@ -898,6 +897,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
  {% youtube "https://www.youtube.com/watch?v=R5FB1ZUejXM" %}
 
  More at:
+
   * docs - [https://lightgbm.readthedocs.io/en/latest/index.html](https://lightgbm.readthedocs.io/en/latest/index.html)
   * code - [https://github.com/microsoft/LightGBM](https://github.com/microsoft/LightGBM)
   * wikipedia - [https://en.wikipedia.org/wiki/LightGBM](https://en.wikipedia.org/wiki/LightGBM)
@@ -924,9 +924,6 @@ f(x) = kx
 
  ![](img/l/linear_activation_function.png ){: width="100%"}
 
- More at:
-  * ...
-
  See also [L], ...
 
 
@@ -935,6 +932,7 @@ f(x) = kx
  Math where you do NOT have square, cubes, etc.
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Linear_algebra](https://en.wikipedia.org/wiki/Linear_algebra)
 
  See also [L], ...
@@ -947,12 +945,12 @@ f(x) = kx
  See also [L], [Autoencoder], [Principal Component Analysis]
 
 
-## Linear Discriminant Analysis
-## LDA
+## Linear Discriminant Analysis (LDA)
 
  Linear Discriminant Analysis(or LDA for short) was proposed by Ronald Fisher which is a Supervised Learning algorithm. It means that you must use both features and labels of data to reduce dimension while [Principal Component Analysis (PCA)[PCA] only uses features. Another key point : the purpose of LDA is to find a new space in which reduced-dimension dataset is good for classification task. To meet this goal, LDA uses 2 metrics: Within-class variance and Between-class variance. The core idea is quite straightforward: finding vectors w which maximize the distance between mean vectors of 2 classes and minimize the variance within each class. A little bit explanation: within-class variance stands for scatter. The smaller this quantity, the lower data points scatter and vice versa. We want to classify classes, of course we have to maximize the distance between each class, that's why maximizing distance between mean vectors. However, we also need to take into account the scatter of data.The greater the within-class variance, the more data points of 2 classes overlap and it culminates in bad result for classification. Now you know why we need to minimize the scatter.
 
  More at:
+
   * PCA vs LDA - [https://iq.opengenus.org/pca-vs-lda/](https://iq.opengenus.org/pca-vs-lda/)
 
  See also [L], [Dimensionality Reduction], [Retrieval Model]
@@ -961,9 +959,6 @@ f(x) = kx
 ## Linear Programming
 
  {% youtube "https://www.youtube.com/watch?v=Bzzqx1F23a8" %}
-
- More at:
-  * ...
 
  See also [L], [Objective Function]
 
@@ -978,7 +973,7 @@ f(x) = kx
 
  Sample code:
 
-```
+```python
 from sklearn import linear_model
 
 regr = linear_model.LinearRegression()
@@ -989,6 +984,7 @@ print regr.score(X_test, y_test)
 ```
 
  More at :
+
   * simulation [https://setosa.io/ev/ordinary-least-squares-regression/](https://setosa.io/ev/ordinary-least-squares-regression/)
   * introduction - [https://towardsdatascience.com/linear-regression-the-actually-complete-introduction-67152323fcf2](https://towardsdatascience.com/linear-regression-the-actually-complete-introduction-67152323fcf2)
   * code - [https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html](https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html)
@@ -1001,6 +997,7 @@ print regr.score(X_test, y_test)
  Temporal logic is a subfield of mathematical logic that deals with reasoning about time and the temporal relationships between events. In artificial intelligence, temporal logic is used as a formal language to describe and reason about the temporal behavior of systems and processes.
 
  More at:
+
   * [https://www.geeksforgeeks.org/aritificial-intelligence-temporal-logic/](https://www.geeksforgeeks.org/aritificial-intelligence-temporal-logic/)
   * wikipedia - [https://en.wikipedia.org/wiki/Linear_temporal_logic](https://en.wikipedia.org/wiki/Linear_temporal_logic)
 
@@ -1018,17 +1015,18 @@ print regr.score(X_test, y_test)
  {% youtube "https://www.youtube.com/watch?v=kq_b0QmxFCI" %}
 
  More at:
+
   * [https://towardsdatascience.com/link-prediction-recommendation-engines-with-node2vec-c97c429351a8](https://towardsdatascience.com/link-prediction-recommendation-engines-with-node2vec-c97c429351a8)
 
  See also [L], ...
 
 
-## Linux Foundation AI And Data
-## LFAI&Data
+## Linux Foundation AI And Data (LFAI&Data)
 
  The mission of LF AI & Data is to build and support an open artificial intelligence (AI) and data community, and drive open source innovation in the AI and data domains by enabling collaboration and the creation of new opportunities for all the members of the community.
 
  Projects
+
   * Graduated
    * [Milvus Database]
    * [ONNX Format]
@@ -1036,8 +1034,8 @@ print regr.score(X_test, y_test)
   * Incubation
   * Sandbox
 
-
  More at:
+
   * site - [https://lfaidata.foundation/](https://lfaidata.foundation/) 
   * projects - [https://lfaidata.foundation/projects/](https://lfaidata.foundation/projects/)
 
@@ -1049,13 +1047,13 @@ print regr.score(X_test, y_test)
  an MIT spinoff led by robotics expert Daniela Rus, is developing a new type of AI dubbed [liquid neural networks]. These networks, smaller and less resource-intensive than traditional AI models, draw inspiration from the simple neural structures of roundworms. They excel in processing sequential data and adapting to new circumstances, making them suitable for tasks such as autonomous navigation and analyzing variable phenomena. Having raised $37.5 million in seed funding, Liquid AI intends to commercialize these networks by offering a platform for customers to create their own models and providing on-premises AI infrastructure.
 
  More at:
+
   * [https://www.liquid.ai/](https://www.liquid.ai/)
 
  See also [L], ...
 
 
-## Liquid Neural Network
-## LNN
+## Liquid Neural Network (LNN)
 
  We introduce a new class of time-continuous recurrent neural network models. Instead of declaring a learning system's dynamics by implicit nonlinearities, we construct networks of linear first-order dynamical systems modulated via nonlinear interlinked gates. The resulting models represent dynamical systems with varying (i.e., liquid) time-constants coupled to their hidden state, with outputs being computed by numerical differential equation solvers. These neural networks exhibit stable and bounded behavior, yield superior expressivity within the family of neural ordinary differential equations, and give rise to improved performance on time-series prediction tasks. To demonstrate these properties, we first take a theoretical approach to find bounds over their dynamics and compute their expressive power by the trajectory length measure in latent trajectory space. We then conduct a series of time-series prediction experiments to manifest the approximation capability of Liquid Time-Constant Networks (LTCs) compared to classical and modern RNNs. 
 
@@ -1064,6 +1062,7 @@ print regr.score(X_test, y_test)
  {% youtube "https://www.youtube.com/watch?v=ql3ETcRDMEM" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2006.04439](https://arxiv.org/abs/2006.04439)
   * code - [https://github.com/raminmh/liquid_time_constant_networks](https://github.com/raminmh/liquid_time_constant_networks)
 
@@ -1078,6 +1077,7 @@ print regr.score(X_test, y_test)
   * LiveBench currently contains a set of 18 diverse tasks across 6 categories, and we will release new, harder tasks over time.
 
  Questions cover:
+
   * Math
   * Reasoning
   * Language
@@ -1088,6 +1088,7 @@ print regr.score(X_test, y_test)
  {% pdf "https://arxiv.org/pdf/2406.19314.pdf" %}
 
  More at:
+
   * site - [https://livebench.ai/](https://livebench.ai/)
   * leaderboard - [https://livebench.ai/#/](https://livebench.ai/#/)
   * paper - [https://arxiv.org/abs/2406.19314](https://arxiv.org/abs/2406.19314)
@@ -1100,6 +1101,7 @@ print regr.score(X_test, y_test)
  {% pdf "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/408725049_3688557441468029_8103913771964668529_n.pdf" %}
 
  More at:
+
   * site - [https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/](https://ai.meta.com/research/publications/llama-guard-llm-based-input-output-safeguard-for-human-ai-conversations/)
 
  See also [L], ...
@@ -1107,11 +1109,12 @@ print regr.score(X_test, y_test)
 
 ## LLaMA-Adapter Model
 
- We present LLaMA-Adapter, a lightweight adaption method to efficiently fine-tune [LLaMA][LLaMA Model] into an instruction-following model. Using 52K self-instruct demonstrations, LLaMA-Adapter only introduces 1.2M learnable parameters upon the frozen LLaMA 7B model, and costs less than one hour for fine-tuning on 8 A100 GPUs. Specifically, we adopt a set of learnable adaption prompts, and prepend them to the input text tokens at higher transformer layers. Then, a zero-init attention mechanism with zero gating is proposed, which adaptively injects the new instructional cues into LLaMA, while effectively preserves its pre-trained knowledge. With efficient training, LLaMA-Adapter generates high-quality responses, comparable to Alpaca with fully fine-tuned 7B parameters. Furthermore, our approach can be simply extended to multi-modal input, e.g., images, for image-conditioned [LLaMA][LLaMa Model], which achieves superior reasoning capacity on [ScienceQA][ScienceQA Dataset].
+ We present LLaMA-Adapter, a lightweight adaption method to efficiently fine-tune [LLaMA][LLaMA Model] into an instruction-following model. Using 52K self-instruct demonstrations, LLaMA-Adapter only introduces 1.2M learnable parameters upon the frozen LLaMA 7B model, and costs less than one hour for fine-tuning on 8 A100 GPUs. Specifically, we adopt a set of learnable adaption prompts, and prepend them to the input text tokens at higher transformer layers. Then, a zero-init attention mechanism with zero gating is proposed, which adaptively injects the new instructional cues into LLaMA, while effectively preserves its pre-trained knowledge. With efficient training, LLaMA-Adapter generates high-quality responses, comparable to Alpaca with fully fine-tuned 7B parameters. Furthermore, our approach can be simply extended to multi-modal input, e.g., images, for image-conditioned [LLaMa], which achieves superior reasoning capacity on [ScienceQA][ScienceQA Dataset].
 
  {% pdf "https://arxiv.org/pdf/2303.16199.pdf" %} 
 
  More at:
+
   * paper - [https://arxiv.org/abs/2303.16199](https://arxiv.org/abs/2303.16199)
 
  See also [L], ...
@@ -1131,6 +1134,7 @@ print regr.score(X_test, y_test)
  Discover, download, and run local LLMs. An alternative to [Ollama]
 
  More at:
+
   * site - [https://lmstudio.ai/](https://lmstudio.ai/)
 
  See also [L], ...
@@ -1145,14 +1149,19 @@ print regr.score(X_test, y_test)
  See also [L], ...
 
 
-## Local Sensitive Hashing
-## LSH
+## Local Outlier Factor (LOF)
+
+ See also [L], ...
+
+
+## Local Sensitive Hashing (LSH)
 
  ~ an algorithm used in [similarity search]
 
  a set of methods that is used to reduce the search scope by transforming data vectors into hash values while preserving information about their similarity.
 
  More at:
+
   * [https://towardsdatascience.com/similarity-search-part-5-locality-sensitive-hashing-lsh-76ae4b388203](https://towardsdatascience.com/similarity-search-part-5-locality-sensitive-hashing-lsh-76ae4b388203)
   * [https://srivatssan.medium.com/locality-sensitive-hashing-e70985c4e95d](https://srivatssan.medium.com/locality-sensitive-hashing-e70985c4e95d)
 
@@ -1171,6 +1180,7 @@ print regr.score(X_test, y_test)
  {% youtube "https://www.youtube.com/watch?v=LCDiQxB5S84" %}
 
  See also [L], ...
+
 
 ## Logical Reasoning
 
@@ -1194,8 +1204,7 @@ Aristotle is mortal!
  See also [L], [Reasoning]
 
 
-## Logistic Regression
-## LogReg
+## Logistic Regression (LogReg)
 
  Not how long it will take for my car to stop given my speed ([linear regression]), but whether I am going to hit the tree or not (logistic regression). used to model the probability of a certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick. This can be extended to model several classes of events such as determining whether an image contains a cat, dog, lion, etc... Each object being detected in the image would be assigned a probability between 0 and 1 and the sum adding to one.
 
@@ -1204,6 +1213,7 @@ Aristotle is mortal!
  ![](img/l/logistic_regression_fitting.png ){: width="100%"}
 
  Beware:
+
   * To turn a probability into a [classification], we need to use a threshold (if P>0.3 or P<0.3 then ...)!
    * What about using a different P threshold? ==> multiple confusion matrix ==> [ROC Curve]
 
@@ -1237,8 +1247,7 @@ Aristotle is mortal!
  See also [L], ...
 
 
-## Long Short-Term Memory Cell
-## LSTM Cell
+## Long Short-Term Memory (LSTM) Cell
 
  * overview
   * input signal = previous state + new info
@@ -1261,10 +1270,9 @@ Aristotle is mortal!
  See also [L], [Hidden State], [LSTM Network]
 
 
-## Long Short-Term Memory Network
-## LSTM Network
+## Long Short-Term Memory (LSTM) Network
 
- `A multi-layer Recurrent Neural Network, aka RNN, where a neuron is feeding its output to self, remembers its previous output. Good for sequences`. Used in speech recognition, Text to speech, handwriting recognition. Started becoming widespread in 2007. They are a type of Recurrent Neural Network that can efficiently learn via gradient descent. Using a gating mechanism, LSTMs are able to recognise and encode (short and very) long-term patterns (basic RNN can only remember a given length, i.e have short term memory because of vanishing gradient problem). LSTMs are extremely useful to solve problems where the network has to remember information for a long period of time as is the case in music and text generation.
+ ==A multi-layer Recurrent Neural Network, aka RNN, where a neuron is feeding its output to self, remembers its previous output. Good for sequences==. Used in speech recognition, Text to speech, handwriting recognition. Started becoming widespread in 2007. They are a type of Recurrent Neural Network that can efficiently learn via gradient descent. Using a gating mechanism, LSTMs are able to recognise and encode (short and very) long-term patterns (basic RNN can only remember a given length, i.e have short term memory because of vanishing gradient problem). LSTMs are extremely useful to solve problems where the network has to remember information for a long period of time as is the case in music and text generation.
  
  LSTMs also have the RNN chain like structure, but the repeating module has a different structure. Instead of having a single neural network layer, there are four, interacting in a very special way.
 
@@ -1311,10 +1319,12 @@ class Model(nn.Module):
 
  {% pdf "img/l/long_short_term_memory_paper.pdf" %}
 
- Beware:
-  * `Are now deprecated by attention-based models, such as transformers? Yes`
+/// warning
+  LSTM Are now deprecated by attention-based models, such as transformersD
+///
 
  More at
+
   * [https://en.wikipedia.org/wiki/Long_short-term_memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
   * LSTM code
     * pytorch - [https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial](https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial)
@@ -1327,13 +1337,15 @@ class Model(nn.Module):
 ## Longformer Architecture
 
  Models that have a long context window?
- * Use [Shifted Window Attention (SWA)][SWA]
 
- Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the [Longformer-Encoder-Decoder (LED)][LED], a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
+ * Use [Shifted Window Attention (SWA)]
+
+ Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the [Longformer-Encoder-Decoder (LED)], a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
 
  {% pdf "https://arxiv.org/pdf/2004.05150v2.pdf" %}
 
  More at:
+
   * site - [https://paperswithcode.com/method/sliding-window-attention](https://paperswithcode.com/method/sliding-window-attention)
   * paper - [https://arxiv.org/abs/2004.05150v2](https://arxiv.org/abs/2004.05150v2)
   * code - [https://github.com/allenai/longformer/](https://github.com/allenai/longformer/)
@@ -1341,8 +1353,7 @@ class Model(nn.Module):
  See also [L], ...
 
 
-## Longformer-Encoder-Decoder
-## LED
+## Longformer-Encoder-Decoder (LED)
 
  A derivative component of the [Longformer Architecture]
 
@@ -1356,8 +1367,9 @@ class Model(nn.Module):
  the idea of using a model of the world to reason into the future and produce better actions or outputs. 
 
  There are 2 variants:
-   * [Model Predictive Control (MPC)][MPC] - used on continuous states
-   * [Monte-Carlo Tree Search (MCTS)][MCTS] - used with discrete actions and states
+
+   * [Model Predictive Control (MPC)] - used on continuous states
+   * [Monte-Carlo Tree Search (MCTS)] - used with discrete actions and states
 
 ```
 Ask a LLLM, how many character will your next response have?
@@ -1366,8 +1378,7 @@ Ask a LLLM, how many character will your next response have?
  See also [L], ...
 
 
-## LoRA Exchange Serving
-## LoRAX Serving
+## LoRA Exchange (LoRAX) Serving
 
  ~ used to run 100's of fine-tuned models efficiently. Developed by [Predibase]
 
@@ -1383,6 +1394,7 @@ Ask a LLLM, how many character will your next response have?
  {% youtube "https://www.youtube.com/watch?v=Za9HavaK9ks" %}
 
  More at:
+
   * blog - [https://predibase.com/blog/lora-exchange-lorax-serve-100s-of-fine-tuned-llms-for-the-cost-of-one](https://predibase.com/blog/lora-exchange-lorax-serve-100s-of-fine-tuned-llms-for-the-cost-of-one)
 
  See also [L], [Ludwig Framework]
@@ -1394,9 +1406,10 @@ Ask a LLLM, how many character will your next response have?
 
  In most cases, the loss function is used for parameter estimation. Those parameters reflect the goal?
 
- `The loss function must encode what you want your model to do!` The loss function will take two items as input: the output value of our model and the ground truth expected value. The output of the loss function is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well. In most learning networks, error is calculated as the difference between the actual output y and the predicted output ŷ. The function that is used to compute this error is known as Loss Function also known as Cost function. The loss function allows us to find the best line. The model is iterated to minimize the loss function using the gradient descent algorithm. Selection of the proper loss function is critical for training an accurate model. Certain loss functions will have certain properties and help your model learn in a specific way. Some may put more weight on outliers, others on the majority.
+ ==The loss function must encode what you want your model to do!== The loss function will take two items as input: the output value of our model and the ground truth expected value. The output of the loss function is called the loss which is a measure of how well our model did at predicting the outcome. A high value for the loss means our model performed very poorly. A low value for the loss means our model performed very well. In most learning networks, error is calculated as the difference between the actual output y and the predicted output ŷ. The function that is used to compute this error is known as Loss Function also known as Cost function. The loss function allows us to find the best line. The model is iterated to minimize the loss function using the gradient descent algorithm. Selection of the proper loss function is critical for training an accurate model. Certain loss functions will have certain properties and help your model learn in a specific way. Some may put more weight on outliers, others on the majority.
 
  The most common loss functions are:
+
   * [Mean Squared Error (MSE)][MSE] - Used in a linear regression, the best line is the one that minimize the root-mean square of the error.
   * [Mean Absolute Error (MAE)][MAE] - Use the absolute error instead of the RMS error. Beware of [outliers].
   * [Hinge Loss Function]
@@ -1406,11 +1419,14 @@ Ask a LLLM, how many character will your next response have?
   * [Cross-entropy loss function]
   * [Contrastive loss function] and [triplet loss function]
   * another custom function !
+
  Choose your loss function based on
+
   * the original estimator function (?) e.g. linear or sigmoid
   * must have a global minimum and not local ones
 
  More at :
+
   * choosing a loss function - [https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)
 
  See also [L], [Activation Function], [Backpropagation], [Discriminator], [Gradient Descent Algorithm], [Linear Regression], [Optimizer], [Prediction Error], [Representation Space], [Residual]
@@ -1423,12 +1439,11 @@ Ask a LLLM, how many character will your next response have?
  See also [L], [Discriminator  Loss], [Generator Loss], [Loss Function]
 
 
-## Low-Rank Adaptation Fine-Tuning
-## LoRA Fine-Tuning
+## Low-Rank Adaptation (LoRA) Fine-Tuning
 
- A method for [parameter-efficient fine-tuning (PEFT)][PEFT]
+ A method for [parameter-efficient fine-tuning (PEFT)]
 
- LoRA performs on-par or better than finetuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike [adapters], no additional inference latency
+ LoRA performs on-par or better than fine-tuning in model quality on RoBERTa, DeBERTa, GPT-2, and GPT-3, despite having fewer trainable parameters, a higher training throughput, and, unlike [adapters], no additional inference latency
 
  {% youtube "https://www.youtube.com/watch?v=dA-NhCtrrVE" %}
 
@@ -1439,6 +1454,7 @@ Ask a LLLM, how many character will your next response have?
  {% pdf "https://arxiv.org/pdf/2106.09685.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2106.09685](https://arxiv.org/abs/2106.09685)
   * article(s)
     * [https://bdtechtalks.com/2023/05/22/what-is-lora/](https://bdtechtalks.com/2023/05/22/what-is-lora/)
@@ -1450,7 +1466,7 @@ Ask a LLLM, how many character will your next response have?
 ## Low-Rank Approximation
 
  Replace a high-rank matrix by an approximation returned by the multiplication of 2 low-rank matrices.
- To find the best low-rank approximation use [Single Value Decomposition (SVD)][SVD]!
+ To find the best low-rank approximation use [Singular Value Decomposition (SVD)]!
 
 ```
  Bm,n = Am,k  .  Ck,n
@@ -1476,6 +1492,7 @@ Ask a LLLM, how many character will your next response have?
  {% youtube "https://www.youtube.com/watch?v=NAyKpcOdHLE" %}
 
  More at:
+
   * site - [https://ludwig.ai/latest/](https://ludwig.ai/latest/)
   * code - [https://github.com/ludwig-ai/ludwig](https://github.com/ludwig-ai/ludwig)
   * notebooks for mistral fine-tuning - [https://colab.research.google.com/drive/1i_8A1n__b7ljRWHzIsAdhO7u7r49vUm4](https://colab.research.google.com/drive/1i_8A1n__b7ljRWHzIsAdhO7u7r49vUm4)

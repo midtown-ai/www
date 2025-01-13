@@ -5,6 +5,7 @@
  To reduce hallucination, look at [RAG]
 
  More at:
+
   * articles
     * Air Canada - [https://arstechnica.com/tech-policy/2024/02/air-canada-must-honor-refund-policy-invented-by-airlines-chatbot/](https://arstechnica.com/tech-policy/2024/02/air-canada-must-honor-refund-policy-invented-by-airlines-chatbot/)
     * [https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/](https://venturebeat.com/ai/whats-next-in-large-language-model-llm-research-heres-whats-coming-down-the-ml-pike/)
@@ -12,8 +13,7 @@
  See also [H], [Large Language Model]
 
 
-## Hand Gesture Recognition
-## HGR
+## Hand Gesture Recognition (HGR)
 
  Gesture recognition provides real-time data to a computer to make it fulfill the user’s commands. Motion sensors in a device can track and interpret gestures, using them as the primary source of data input. A majority of gesture recognition solutions feature a combination of 3D depth-sensing cameras and infrared cameras together with machine learning systems. Machine learning algorithms are trained based on labeled depth images of hands, allowing them to recognize hand and finger positions.
 
@@ -33,8 +33,8 @@
 
  Depth sensors are crucial for hand tracking technology since they allow users to put aside specialized wearables like gloves and make HCI more natural.
 
-
  More at:
+
   * [https://intellias.com/hand-tracking-and-gesture-recognition-using-ai-applications-and-challenges/](https://intellias.com/hand-tracking-and-gesture-recognition-using-ai-applications-and-challenges/)
 
  See also [H], ...
@@ -45,6 +45,7 @@
  ![](img/h/hand_tracking.gif )
 
  More at:
+
   * [https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html](https://ai.googleblog.com/2019/08/on-device-real-time-hand-tracking-with.html)
 
  See also [H], [Hand Gesture Recognition]
@@ -59,6 +60,7 @@
  {% youtube "https://www.youtube.com/watch?v=2vAtJYRwegg" %}
 
  More at:
+
   * [https://www.hansonrobotics.com/](https://www.hansonrobotics.com/) 
   * [https://en.wikipedia.org/wiki/Hanson_Robotics](https://en.wikipedia.org/wiki/Hanson_Robotics)
 
@@ -68,6 +70,7 @@
 ## Harvard University
 
  More at:
+
   * LIT or Learning, Innovation, and Tech Lab - [https://lit.gse.harvard.edu/](https://lit.gse.harvard.edu/)
   * MMLA - [https://mmla.gse.harvard.edu/](https://mmla.gse.harvard.edu/)
 
@@ -79,6 +82,7 @@
  "Neurons that fire together, wire together" Linked to learning and neural mechanism. Repeated or persistent firing changes synaptic weight due to increased efficiency. Synaptic modifications can be hebbian, anti-hebbian, or non-hebbian.
 
  More at :
+
   * [https://anthony-tan.com/Supervised-Hebbian-Learning/](https://anthony-tan.com/Supervised-Hebbian-Learning/)
 
  See also [H], 
@@ -91,6 +95,7 @@
  {% youtube "https://www.youtube.com/watch?v=dJTU48_yghs" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Her_(film)](https://en.wikipedia.org/wiki/Her_(film))
 
  See also [H], [AI Movie]
@@ -101,6 +106,7 @@
  A heuristic is a mental shortcut that allows an individual to make a decision, pass judgment, or solve a problem quickly and with minimal mental effort. While heuristics can reduce the burden of decision-making and free up limited cognitive resources, they can also be costly when they lead individuals to miss critical information or act on unjust [biases][Bias].
 
  The study of heuristics was developed by renowned psychologists Daniel Kahneman and Amos Tversky. Starting in the 1970s, Kahneman and Tversky identified several different kinds of heuristics, most notably the availability heuristic and the anchoring heuristic. Since then, researchers have continued their work and identified many different kinds of heuristics, including:
+
   * Familiarity heuristic
   * Fundamental attribution error
   * Representativeness heuristic
@@ -122,7 +128,9 @@ Satisficing is a decision-making strategy in which the first option that satisfi
 What is the fundamental attribution error?
 Sometimes called the attribution effect or correspondence bias, the term describes a tendency to attribute others’ behavior primarily to internal factors—like personality or character—while attributing one’s own behavior more to external or situational factors.
 ```
+
  When are heuristic wrong?
+
 ```
 What is an example of the fundamental attribution error?
 If one person steps on the foot of another in a crowded elevator, the victim may attribute it to carelessness. If, on the other hand, they themselves step on another’s foot, they may be more likely to attribute the mistake to being jostled by someone else.
@@ -131,6 +139,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 ```
 
  More at:
+
   * examples
     * [https://www.kaggle.com/code/alexisbcook/one-step-lookahead](https://www.kaggle.com/code/alexisbcook/one-step-lookahead)
   * [https://www.psychologytoday.com/us/basics/heuristics](https://www.psychologytoday.com/us/basics/heuristics)
@@ -146,14 +155,14 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], [Dropout Layer]
 
 
-## Hidden Markov Model
-## HMM
+## Hidden Markov Model (HMM)
 
  {% youtube "https://www.youtube.com/watch?v=kqSzLo9fenk" %}
 
  {% youtube "https://www.youtube.com/watch?v=fX5bYmnHqqE" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Hidden_Markov_model ](https://en.wikipedia.org/wiki/Hidden_Markov_model )
 
  See also [H], [Generative Classified], [Hidden State]
@@ -171,14 +180,10 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
  In [RL], Learn from failed episodes by pretending any state reached was the goal.
 
- More at:
-  * ...
-
  See also [H], ...
 
 
-## Hierarchical Navigable Small World Function
-## HNSW Function
+## Hierarchical Navigable Small World (HNSW) Function
 
  a state-of-the-art algorithm used for an approximate search of nearest neighbours. Under the hood, HNSW constructs optimized graph structures
 
@@ -187,6 +192,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  {% pdf "https://arxiv.org/pdf/1603.09320.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/1603.09320](https://arxiv.org/abs/1603.09320)
   * [https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37](https://towardsdatascience.com/similarity-search-part-4-hierarchical-navigable-small-world-hnsw-2aad4fe87d37)
   * small world network - [https://en.wikipedia.org/wiki/Small-world_network](https://en.wikipedia.org/wiki/Small-world_network)
@@ -195,13 +201,9 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], ...
 
 
-## Hierarchical Reinforcement Learning
 ## Hierarchical RL
 
  Decomposes problem into hierarchy of sub-policies over different timescales.
-
- More at:
-  * ...
 
  See also [H], ...
 
@@ -211,19 +213,20 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  The use of hinge loss is very common in binary classification problems where we want to separate a group of data points from those from another group. It also leads to a powerful machine learning algorithm called [Support Vector Machines (SVMs)] Let’s have a look at the mathematical definition of this function.
 
  More at:
+
   * [https://www.baeldung.com/cs/hinge-loss-vs-logistic-loss](https://www.baeldung.com/cs/hinge-loss-vs-logistic-loss)
 
  See also [H], [Loss Function]
 
 
-## High-Order Polynomial Projection Operators Framework
-## HiPPO Framework
+## High-Order Polynomial Projection Operators (HiPPO) Framework
 
  ~ a precursor of the [S4 Model]
 
  {% pdf "https://arxiv.org/pdf/2008.07669.pdf" %}
 
  More at:
+
   * paper - [https://arxiv.org/abs/2008.07669](https://arxiv.org/abs/2008.07669)
   * code - [https://github.com/HazyResearch/hippo-code](https://github.com/HazyResearch/hippo-code)
   * articles
@@ -232,8 +235,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], ...
 
 
-## Histogram Of Oriented Gradients
-## HoG
+## Histogram Of Oriented Gradients (HOG)
 
  Inspired by the [Neocognitron]
 
@@ -242,6 +244,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  {% youtube "https://www.youtube.com/watch?v=5nZGnYPyKLU" %}
   
  More at:
+
   * [https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)
 
  See also [H], ...
@@ -252,14 +255,14 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  See also [H], [Cross-Validation Sampling Method]
 
 
-## Holistic Evaluation of Language Model Benchmark
-## HELM Benchmark
+## Holistic Evaluation of Language Model (HELM) Benchmark
 
  A language model takes in text and produces text. Despite their simplicity, language models are increasingly functioning as the foundation for almost all language technologies from question answering to summarization. But their immense capabilities and risks are not well understood. Holistic Evaluation of Language Models (HELM) is a living benchmark that aims to improve the transparency of language models.
 
  ![](img/h/helm_benchmark.png ){: width="100%"}
 
  More at:
+
   * [https://crfm.stanford.edu/helm/latest/](https://crfm.stanford.edu/helm/latest/)
   * [https://github.com/stanford-crfm/helm](https://github.com/stanford-crfm/helm)
   * [https://crfm.stanford.edu/2022/11/17/helm.html](https://crfm.stanford.edu/2022/11/17/helm.html)
@@ -276,6 +279,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  {% youtube "https://www.youtube.com/watch?v=EkYXjmiolBg" %}
 
  More at:
+
   * [https://en.wikipedia.org/wiki/Homography](https://en.wikipedia.org/wiki/Homography)
 
  See also [H], ...
@@ -288,10 +292,12 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  A paradigm for information retrieval developed by John Hopfield in 1982
 
  Ex: protein folding that search / fold its most stable configuration ==> Folding is favorable for energy (capacity to do work or cause change) 
+
   * Energy landscape (protein minimize its potential energy)
   * Protein follow its steepest path to the valley (guided by the energy landscape) following the process of energy minimization
 
  Connections can be 
+
   * Direction
     * Symmetric = bidirectional, or same weight in both direction (Hopfield)
     * Asymmetric = unidirectional, or weight in one direction (Brain)
@@ -330,6 +336,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
  {% pdf "https://arxiv.org/pdf/2411.04998.pdf" %}
 
  More at:
+
   * site - [https://hourvideo.stanford.edu/](https://hourvideo.stanford.edu/)
   * paper - [https://arxiv.org/abs/2411.04998](https://arxiv.org/abs/2411.04998)
 
@@ -356,6 +363,7 @@ def huber_loss(y_pred, y, delta=1.0):
 ```
 
  Pros and Cons:
+
   * Advantages : Best of the MSE and the MAE ?
   * Disadvantages
    * For cases where [outliers] are very important to you, use the [MSE]! 
@@ -379,6 +387,7 @@ def huber_loss(y_pred, y, delta=1.0):
  {% youtube "https://www.youtube.com/watch?v=O7KbwmaK9Ck" $}
 
  More at:
+
   * site - [https://huggingface.co/](https://huggingface.co/)
   * docs - [https://huggingface.co/docs](https://huggingface.co/docs)
   * services
@@ -415,17 +424,18 @@ def huber_loss(y_pred, y, delta=1.0):
  {% youtube "https://www.youtube.com/watch?v=4W2kXBBFDw4" %}
 
  More at:
+
   * stanford HAI - [https://hai.stanford.edu/](https://hai.stanford.edu/)
 
  See also [H], [Artificial Intelligence]
 
 
-## Human-Centered Design
-## HCD
+## Human-Centered Design (HCD)
 
  When applied to AI, gives rise to [Human-Centered AI]
 
  More at:
+
   * [https://www.kaggle.com/code/var0101/human-centered-design-for-ai/tutorial#Introduction](https://www.kaggle.com/code/var0101/human-centered-design-for-ai/tutorial#Introduction)
 
  See also [H], ...
@@ -440,6 +450,7 @@ def huber_loss(y_pred, y, delta=1.0):
  {% youtube "https://www.youtube.com/watch?v=1H4SNFtEzys" %}
 
  More:
+
   * site - [https://humane.com/](https://humane.com/)
   * articles
     * sales vs daily returns - [https://www.theverge.com/2024/8/7/24211339/humane-ai-pin-more-daily-returns-than-sales](https://www.theverge.com/2024/8/7/24211339/humane-ai-pin-more-daily-returns-than-sales)
@@ -452,24 +463,25 @@ def huber_loss(y_pred, y, delta=1.0):
  A robot that is meant to resemble a human. 
 
  Examples:
+
   * [Figure-01]
 
  See also [H], [Robot]
 
 
-## Hybrid Artificial Intelligence
 ## Hybrid AI
 
  More at:
+
   * [https://www.mckinsey.com/about-us/new-at-mckinsey-blog/hybrid-intelligence-the-future-of-artificial-intelligence](https://www.mckinsey.com/about-us/new-at-mckinsey-blog/hybrid-intelligence-the-future-of-artificial-intelligence)
 
  See also [H], ...
 
 
-## Hybrid Artificial Intelligence System
 ## Hybrid AI System
 
  More at:
+
   * articles
     * [https://www.solulab.com/hybrid-ai/](https://www.solulab.com/hybrid-ai/)
 
@@ -483,6 +495,7 @@ def huber_loss(y_pred, y, delta=1.0):
  ![](img/h/hype_cycle_2021.png )
 
  Each Hype Cycle drills down into the five key phases of a technology’s life cycle.
+
   * Innovation Trigger: A potential technology breakthrough kicks things off. Early proof-of-concept stories and media interest trigger significant publicity. Often no usable products exist and commercial viability is unproven.
   * Peak of Inflated Expectations: Early publicity produces a number of success stories — often accompanied by scores of failures. Some companies take action; many do not.
   * Trough of Disillusionment: Interest wanes as experiments and implementations fail to deliver. Producers of the technology shake out or fail. Investments continue only if the surviving providers improve their products to the satisfaction of early adopters.
@@ -492,6 +505,7 @@ def huber_loss(y_pred, y, delta=1.0):
  {% youtube "https://www.youtube.com/watch?v=jB1RDz9jaj0" %}
 
  More at:
+
   * [https://www.gartner.com/en/research/methodologies/gartner-hype-cycle](https://www.gartner.com/en/research/methodologies/gartner-hype-cycle)
   * articles
     * [https://www.wired.com/story/ai-hype-cycle-burnout/](https://www.wired.com/story/ai-hype-cycle-burnout/)
@@ -507,9 +521,6 @@ def huber_loss(y_pred, y, delta=1.0):
 
  {% youtube "https://www.youtube.com/watch?v=dVjMiJsuR5o" %}
 
- More at:
-   * ...
-
  See also [H], [ControlNet External Network]
 
 
@@ -524,11 +535,13 @@ def huber_loss(y_pred, y, delta=1.0):
  `~ parameters to tune the performance of the ML model`. Any decision the algorithm author can't make for you. In machine learning, we use the term hyperparameter to distinguish from standard model parameters. So, it is worth to first understand what those are. A machine learning model is the definition of a mathematical formula with a number of parameters that need to be learned from the data. That is the crux of machine learning: fitting a model to the data. This is done through a process known as model training. In other words, by training a model with existing data, we are able to fit the model parameters. `However, there is another kind of parameters that cannot be directly learned from the regular training process`. These parameters express “higher-level” properties of the model such as its complexity or how fast it should learn. They are called hyperparameters. Hyperparameters are usually fixed before the actual training process begins. So, how are hyperparameters decided? That is probably beyond the scope of this question, but suffice to say that, broadly speaking, this is done by setting different values for those hyperparameters, training different models, and deciding which ones work best by testing them.
 
  So, to summarize. Hyperparameters:
+
   * Define higher level concepts about the model such as complexity, or capacity to learn.
   * Cannot be learned directly from the data in the standard model training process and need to be predefined.
   * Can be decided by setting different values, training different models, and choosing the values that test better
 
  Some examples of hyperparameters:
+
   * Number of leaves or depth of a tree
   * Number of trees
   * Number of latent factors in a matrix factorization
@@ -546,13 +559,12 @@ def huber_loss(y_pred, y, delta=1.0):
  See also [H], [Algorithmic], [Boosting Step Size], [Complexity], [Data Handling], [Drop Out], [Expressiveness], [Hyperparameter Optimization], [Learning Rate], [Parameter], [Regularization], [XGBoost]
 
 
-## Hyperparameter Optimization
-
-## HPO
+## Hyperparameter Optimization (HPO)
 
  Process used to tune the [hyperparameters][Hyperparameter] to get the best prediction (best is defined by a function!)
 
  Tuning strategies:
+
   1. Trial and Error, defaults, guess, experience, intuition, heuristics 
   1. Try everything using one of the 3 most popular HPO techniques:
    * [Random search] or the derived [Sobol Search]
@@ -560,7 +572,8 @@ def huber_loss(y_pred, y, delta=1.0):
    * [Bayes Search]
   1. Meta model ... Required to avoid over-fitting and under-fitting.
 
- :warning: High dimensional grid search, = the [curse of dimensionality]
+/// warning | High dimensional grid search, = the [curse of dimensionality]
+///
 
  In general, if the number of combinations is limited enough, we can use the [Grid Search] technique. But when the number of combinations increases, we should try [Random Search] or [Bayes Search] as they are less computationally expensive.
 
