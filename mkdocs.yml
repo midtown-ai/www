@@ -40,8 +40,8 @@ theme:
   #
   features:
     - announce.dismiss        # show cross-button to dismiss announcement
-    - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
-    - content.action.view     # add button to view source of page on github /!\ requires edit_uri
+  # - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
+  # - content.action.view     # add button to view source of page on github /!\ requires edit_uri
     - content.code.annotate   # offer a way to attach arbitrary content to specific sections of code blocks
     - content.code.copy       # code blocks have a button to allow user to copy code to clipboard
     - content.code.select     # code blocks have a button to allow for the selection of line ranges by user
@@ -88,7 +88,9 @@ theme:
     previous: fontawesome/solid/angle-left
     next: fontawesome/solid/angle-right
     admonition:
+      #
       # octicons
+      #
       abstract: octicons/checklist-16
       bug: octicons/bug-16
       # danger: octicons/zap-16
@@ -101,7 +103,9 @@ theme:
       success: octicons/check-16
       # tip: octicons/squirrel-16
       # warning: octicons/alert-16
-      # fontawesome
+      #
+      # fontawesome icons
+      #
       abstract: fontawesome/solid/book
       bug: fontawesome/solid/robot
       # danger: fontawesome/solid/skull
@@ -235,7 +239,7 @@ plugins:
   # - optimize                # optimize/compress media files for best latency
   # - privacy                 # all external asset URLs are rewritten to point to local copies
   # - projects                # split very large sites/projects into smaller ones
-  - search                    # add search bar to header
+  - search                    # add search bar to header and enable search
   # - social                  # used to build social card for post on WhatsApp, etc
   - tags                      # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
@@ -332,10 +336,12 @@ extra_javascript:
 #
 nav:
   - Home: index.md
-  - Tests: tests.md
-  - About: about.md
   - Blog:
     - blog/index.md
+  # - Projects:
+  #   - projects/index.md
+  #   - DeepRacer: projects/deepracer/index.md
+  #   - Pytorch: projects/pytorch/index.md
   - Glossary:
     - glossary/index.md
     - 0-9: glossary/0-9.md
@@ -365,4 +371,5 @@ nav:
     - X: glossary/x.md
     - Y: glossary/y.md
     - Z: glossary/z.md
-
+  - About: about.md
+  - Tests: tests.md

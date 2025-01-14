@@ -26,11 +26,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: |
-          pip install mkdocs-material
-          pip install mkdocs-autorefs
-          pip install mkdocs-mermaid2-plugin
-          pip install mkdocs-pdf
-          pip install mkdocs-video
-          # pip install mkdocs-git-revision-date-localized-plugin
-          # pip install mkdocs-include-markdown-plugin
+          pip install -r requirements.txt
+          # Other commands
       - run: mkdocs gh-deploy --force

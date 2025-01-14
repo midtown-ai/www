@@ -1,0 +1,7 @@
+mkdocs-autorefs
+# mkdocs-git-revision-date-localized-plugin
+# mkdocs-include-markdown-plugin
+mkdocs-material
+mkdocs-mermaid2-plugin
+mkdocs-pdf
+mkdocs-video
