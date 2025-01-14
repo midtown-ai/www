@@ -2,23 +2,25 @@ site_name: Midtown AI
 site_url: https://glossary.midtown.ai/
 site_author: Emmanuel Mayssat
 site_description: >-
-  A clean, responsive site
-  that is searchable, customizable
+  The best site to learn about Artificial Intelligence
+  5 minutes at a time...
 
 #
 # For the 'mkdocs gh-deploy' command
 #
 remote_branch: gh-pages
 remote_name: origin
-  
+ 
+#
 # Banner
+#
 # repo_name: midtown-ai/www   # banner link to documentation source
 # repo_url: "https://github.com/midtown-ai/www" # complete url for documentation source
 # edit_uri: edit/main/docs/   # used for page view/edit /!\ prepended with repo_url if provided
 edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
 
 # Footer
-# copyright: Copyright &copy; 2020 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
+copyright: Copyright &copy; 2024 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
 
 #
 # Directories
@@ -250,22 +252,22 @@ plugins:
   #
   # Built-in plugins
   #
-  # - blog                    # to create a blog
+  # - blog                    # enable blog on website
   # - group                   # enable/disable plugins in groups
   # - info                    # used to report bugs using zip files
   # - meta                    # set frontmatter for files in a directory
   # - offline                 # package site in a zip file to be shared
   # - optimize                # optimize/compress media files for best latency
   # - privacy                 # all external asset URLs are rewritten to point to local copies
-  # - projects                # split very large sites/projects into smaller ones
+  # - projects                # split very large sites into smaller ones for faster rebuild and parallel development
   - search                    # add search bar to header and enable search
   # - social                  # used to build social card for post on WhatsApp, etc
-  - tags                      # add support for categorization /!\ require tags in front matters of pages
+  # - tags                    # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
   #
   # External plugins
   #
-  # > pip install mkdocs-<plugin>
+  # check requirements.txt for module installation
   #
   # Shorter links between pages and anchor manipulation
   # @ https://github.com/mkdocstrings/autorefs
@@ -298,10 +300,10 @@ plugins:
   # Compress downloaded files to minimize latency
   # @ https://github.com/byrnereese/mkdocs-minify-plugin
   # pip install mkdocs-minify-plugin
-  - minify:
-      # minify_css: false       # Minify content of CSS files
-      minify_html: true         # Minify content of generated HTML files
-      # minify_js: false        # Minify content of JS files
+  ## - minify:
+  ##     # minify_css: false       # Minify content of CSS files
+  ##     minify_html: true         # Minify content of generated HTML files
+  ##     # minify_js: false        # Minify content of JS files
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
   # pip install mkdocs-rss-plugin
@@ -362,6 +364,7 @@ extra:
 extra_css:
   - stylesheets/custom_theme.css
   - stylesheets/icon_styles.css
+  - stylesheets/custom.7c86dd97.min.css      # included in override/main.html
 
 #
 # Extra JavaScript

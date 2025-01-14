@@ -7,4 +7,3 @@ social:
 ---
 
 This page is using the overrides/home.html template
-
