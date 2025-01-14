@@ -3,5 +3,7 @@ mkdocs-autorefs
 # mkdocs-include-markdown-plugin
 mkdocs-material
 mkdocs-mermaid2-plugin
+mkdocs-minify-plugin
 mkdocs-pdf
+# mkdocs-rss-plugin
 mkdocs-video

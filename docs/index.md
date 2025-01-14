@@ -1,4 +1,10 @@
-# Welcome to MkDocs
+---
+template: home.html
+title: Material for MkDocs
+social:
+  cards_layout_options:
+    title: Documentation that simply works
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This page is using the overrides/home.html template
 

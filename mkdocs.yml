@@ -20,9 +20,27 @@ edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
 # Footer
 # copyright: Copyright &copy; 2020 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
 
-# Directory to watch outside of 'docs'
-watch:
+#
+# Directories
+#
+docs_dir: docs                # directory containing the source markdown files
+watch:                        # other directories to watch
   - includes
+  - overrides
+site_dir: site                # directory where the output HTML and other files are created
+
+#
+# Hooks
+# or local plugins!
+#
+hooks:
+  # - hooks/create_zip_archive.py
+  - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
+  # - hooks/mkdocs_simple_example.py
+  # - hooks/share_on_social_media.py
+  # - hooks/shortcode.py
+  # - hooks/translations.py
+  # - hooks/youtube.py
 
 theme:
   language: en                # default language is english
@@ -167,7 +185,7 @@ markdown_extensions:
   - attr_list                 # allow addition of HTML and CSS to markdown ![](image.png){align:left}
   # - def_list                # enable the use of definition list
   - footnotes                 # allow footnotes in a page using[^1] and then [^1]: footnote text
-  - md_in_html                # allow md in html for grid /!\ require attr_listd
+  - md_in_html                # allow md in html for grid /!\ require attr_listDd
   - pymdownx.arithmatex:      # preserve LaTeX math equations /!\ require extra_javascript file
       generic: true           # - escape necessary symbols and wrap output
   # - pymdownx.betterm        # improve emphasis (bold and italic) handling
@@ -180,6 +198,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
       emoji_index: !!python/name:material.extensions.emoji.twemoji
   # - pymdownx.fancylist      # extends the list handling formats
+  # - pymdownx.keys           # better representation of keyboard kode code, e.g. ctrl-alt-del
   - pymdownx.highlight:       # adds support for highlighting in code fences(triple backticks) /!\ require superfences
       anchor_linenums: true   # - line numbers have a permalink, useful for sharing
       line_spans: __span      # 
@@ -276,6 +295,21 @@ plugins:
   # pip install mkdocs-video
   - mkdocs-video:
       is_video: False           # Use <video/> instead of <iframe/>
+  # Compress downloaded files to minimize latency
+  # @ https://github.com/byrnereese/mkdocs-minify-plugin
+  # pip install mkdocs-minify-plugin
+  - minify:
+      # minify_css: false       # Minify content of CSS files
+      minify_html: true         # Minify content of generated HTML files
+      # minify_js: false        # Minify content of JS files
+  # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
+  # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
+  # pip install mkdocs-rss-plugin
+  # - rss:
+  #   match_path: "blog/posts/.*"
+  #     date_from_meta:
+  #       as_creation: date.created
+  #       as_update: date.updated
 
 #
 # Hooks
@@ -295,19 +329,29 @@ plugins:
 extra:
   # analytics:
   #   provider: google
-  #   property: !ENV GOOGLE_ANALYTICS_KEY
+  #   property: !ENV GOOGLE_ANALYTICS_KEY   # Key is passed as an environment variable
   generator: false              # remove the 'Made with Material from MkDocs' notice from footer
   # homepage: https://www.google.com # Where you go when you click on logo in header and sidebar link to homepage
   social:                       
     # add social icon at bottom-right of page
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/midtown_ai
+      name: Follow us on X
     - icon: fontawesome/solid/paper-plane
       link: mailto:info@midtown.ai
+      name: Send us an email
+    # - icon: fontawesome/brans/mastodon
+    #   link: https://fosstodon.org/@midtown_ai
+    #   name: Midtown on Mastodon
     # - icon: fontawesome/brands/github
     #   link: https://github.com/midtown-ai
+    #   name: Star our Github repositories
     # - icon: fontawesome/brands/linkedin
     #   link: https://www.linkedin.com/in/emayssat/
+    #   name: Connect with us on LinkedIn
+    # - icon: /material/mailbox
+    #   name: contact us
+    #   link: /contact
   status:
     new: Recently added
     deprecated: Deprecated
@@ -332,7 +376,20 @@ extra_javascript:
     - javascript/tablesort.js
 
 #
+# Validation at build time
+# Validation is set to maximum strictness (recommended for most sites)
+#
+validation:
+  absolute_links: warn
+  # absolute_links: relative_to_docs
+  anchors: warn
+  omitted_files: warn
+  unrecognized_links: warn
+
+#
 # Documentation layout
+#
+# Everything in the navigation is built by default
 #
 nav:
   - Home: index.md
@@ -373,3 +430,8 @@ nav:
     - Z: glossary/z.md
   - About: about.md
   - Tests: tests.md
+
+#
+# What is NOT in the navigation that should NOT be built?
+#
+# not_in_nav:

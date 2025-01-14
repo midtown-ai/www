@@ -1,3 +1,9 @@
+---
+hide:
+  - footer
+# previous_page: a.md
+# next_page: b.md
+---
 # Welcome to Glossary
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
