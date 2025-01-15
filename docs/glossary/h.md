@@ -458,7 +458,7 @@ def huber_loss(y_pred, y, delta=1.0):
  See also [H], ...
 
 
-## Humanoid
+## Humanoid Robot
 
  A robot that is meant to resemble a human. 
 

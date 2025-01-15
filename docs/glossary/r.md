@@ -1582,14 +1582,31 @@ def reward_function(params):
 
 ## Robot
 
- Examples of [social robots]
+ A robot is the physical product or device created through the field of [robotics]. It is a programmable machine designed to perform specific tasks, often with a degree of autonomy.
 
-  * [Ameca] by [Engineered Arts].
-  * [Sophia] by [Hanson Robotics]
-  * [Pepper] by [Softbank Robotics]
+ It refers specifically to the hardware and software systems implemented to perform tasks.
+ Typically it includes sensors, actuators, controllers, and a power supply.
 
- Other 
-  * [Atlas] by [Boston Dynamics]
+ Key Components of a robot includes:
+
+  1. Mechanical Systems:
+    * Parts like arms, wheels, or joints for movement and interaction.
+    * Structural frameworks and actuators (e.g., motors, hydraulics).
+  1. Sensors:
+    * Detect physical stimuli (e.g., light, heat, pressure, or motion) to gather data about the environment.
+  1. Control Systems:
+    * Process information and dictate how the robot responds, often involving algorithms or AI.
+  1. Power Supply:
+    * Provides energy, often through batteries or electrical systems.
+  1. Software:
+    * Programs and algorithms for controlling and coordinating robot actions.
+
+ Example of robots includes:
+
+  * [Social robots] like [Ameca], [Sophia], [Pepper]
+  * Other [Humanoid robots] like [Atlas]
+  * [Industrial robots] assembling cars.
+  * [Service robots] like vacuum cleaners or delivery bots.
 
  {% youtube "https://www.youtube.com/watch?v=Oqq5tgday_w" %}
 
@@ -1601,6 +1618,13 @@ def reward_function(params):
 
  See also [R], ...
 
+## Robotics
+
+ Robotics is an interdisciplinary branch of science and engineering focused on the design, construction, operation, and use of [robots]. A robot is a machine capable of carrying out complex tasks automatically, often programmed to replicate or augment human actions. Robotics combines multiple fields, including:
+
+  * Mechanical Engineering: For the design and physical construction of robots.
+  * Electrical/Electronics Engineering: For powering robots and enabling sensory and control systems.
+  * Computer Science and AI: For programming, decision-making, and advanced functionality like perception, learning, and adaptability.
 
 ## Robotic Foundation Model (RFM) Family
 

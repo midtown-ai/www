@@ -438,6 +438,13 @@ model.summary()
  See also [I], [Abductive Reasoning], [Deductive Reasoning], [Truth]
 
 
+## Industrial Robot
+
+ A kind of [robots] that ...
+
+ See also [R], ...
+
+
 ## Inertial Measurement Unit (IMU)
 
  See also [I], [SLAM Algorithm]

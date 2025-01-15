@@ -206,6 +206,7 @@
 [Artificial General Intelligence]: a.md#artificial-general-intelligence-agi
 [AGI]: a.md#artificial-general-intelligence-agi
 [Artificial Intelligence (AI)]: a.md#artificial-intelligence-ai
+[Artificial Intelligence]: a.md#artificial-intelligence-ai
 [AI]: a.md#artificial-intelligence-ai
 [Artificial Intelligence (AI) Areas Of Study]: a.md#artificial-intelligence-ai-areas-of-study
 [Artificial Intelligence Areas Of Study]: a.md#artificial-intelligence-ai-areas-of-study
@@ -213,7 +214,7 @@
 [Artificial Intelligence (AI) Challenge]: a.md#artificial-intelligence-ai-challenge
 [Artificial Intelligence Challenge]: a.md#artificial-intelligence-ai-challenge
 [AI Challenge]: a.md#artificial-intelligence-ai-challenge
-[Artificial Intelligence (A) Complete]: a.md#artificial-intelligence-ai-complete
+[Artificial Intelligence (AI) Complete]: a.md#artificial-intelligence-ai-complete
 [Artificial Intelligence Complete]: a.md#artificial-intelligence-ai-complete
 [AI Complete]: a.md#artificial-intelligence-ai-complete
 [Artificial Intelligence (AI) Hard]: a.md#artificial-intelligence-ai-hard

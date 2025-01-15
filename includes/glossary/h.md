@@ -43,8 +43,10 @@
 [Human-Centered Design]: h.md#human-centered-design
 [Humane Company]: h.md#humane-company
 [Humane]: h.md#humane-company
-[Humanoid]: h.md#humanoid
-[Humanoids]: h.md#humanoid
+[Humanoid Robot]: h.md#humanoid-robot
+[Humanoid Robots]: h.md#humanoid-robot
+[Humanoid]: h.md#humanoid-robot
+[Humanoids]: h.md#humanoid-robot
 [Hybrid AI]: h.md#hybrid-ai
 [Hybrid AI System]: h.md#hybrid-ai-system
 [Hype Cycle]: h.md#hype-cycle

@@ -371,6 +371,27 @@ info = response.choices[0].message.content
  See also [T], ...
 
 
+## Text Generation
+
+ Text generation refers to the process of using algorithms to produce coherent and contextually relevant text. This can involve tasks such as:
+
+  * Completing sentences or paragraphs based on a prompt.
+  * Creative writing like poetry or storytelling.
+  * Generating responses in conversational AI systems.
+  * Producing summaries, translations, or descriptions.
+
+ The goal is for the generated text to appear as though it was written by a human, maintaining logical flow, grammar, and context.
+
+ Models capable of text generation include those trained using deep learning techniques, specifically in the domain of Natural Language Processing (NLP). Examples include:
+
+  * [GPT models]
+  * [T5 model]
+  * [Bert variants]
+  * mT5 and XLM-R
+
+ See also [T], ...
+
+
 ## Text Reconstruction
 
  ![](img/t/text_reconstruction.png ){: width="100%"}

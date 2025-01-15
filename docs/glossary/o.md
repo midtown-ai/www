@@ -428,7 +428,7 @@ cheese =>                                   # Prompt
   * [CLIP] - A model that can put a legend to an image
   * [Codex] - A [LLM] that specialize on generating code
   * [DALL-E] - A [Diffusion Model] that from text can generate images
-  * [GPT]: A Generative model for text
+  * [GPT] - A Generative model for text
   * [Jukebox] - Generative model for music
   * [OpenAI Five]: An agent that isnow world champion at the Dota2 game!
   * [OpenAI Gym Environment] - Environments for development of [Reinforcement Learning] algorithms.

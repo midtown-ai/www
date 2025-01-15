@@ -157,6 +157,8 @@
 [Riva Model]: r.md#riva-model
 [Riva]: r.md#riva-model
 [Robot]: r.md#robot
+[Robots]: r.md#robot
+[Robotics]: r.md#robotics
 [Robotics Foundation Model (RFM) Family]: r.md#robotics-foundation-model-rfm-family
 [RFM-1 Model]: r.md#robotics-foundation-model-rfm-family
 [RFM Model]: r.md#robotics-foundation-model-rfm-family
@@ -165,6 +167,7 @@
 [Robustly Optimized BERT Approach (RoBERTa) Model]: r.md#robustly-optimized-bert-approach-roberta-model
 [RoBERTa Model]: r.md#robustly-optimized-bert-approach-roberta-model
 [RoBERTa]: r.md#robustly-optimized-bert-approach-roberta-model
+[Robustness]: r.md#robustness
 [Rocket League (RL) Gym]: r.md#rocket-league-rl-gym
 [RL Gym]: r.md#rocket-league-rl-gym
 [Root Mean Square Error (RMSE)]: r.md#root-mean-square-error-rmse

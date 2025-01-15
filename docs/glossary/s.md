@@ -851,6 +851,13 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  The model in compact form, delivered to endpoint.
 
 
+## Service Robot
+
+ A type of [robots] that ...
+
+ See also [S], ...
+
+
 ## Shallow Neural Network
 
  See also [S], ...

@@ -36,7 +36,7 @@
 [Open-Worlds]: o.md#open-world-environment
 [Open Neural Network Exchange (ONNX) Format]: o.md#open-neural-network-exchange-onnx-format
 [ONNX Format]: o.md#open-neural-network-exchange-onnx-format
-[OpenAI Assitants API]: o.md#openai-assistants-api
+[OpenAI Assistants API]: o.md#openai-assistants-api
 [OpenAI Company]: o.md#openai-company
 [OpenAI]: o.md#openai-company
 [OpenAI Five Model]: o.md#openai-five-model

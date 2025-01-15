@@ -1,12 +1,17 @@
+
+MKDOCS_ENVIRONMENT+= PYTHONPATH=.
+MKDOCS_BIN?= mkdocs
+MKDOCS?= $(MKDOCS_ENVIRONMENT) $(MKDOCS_BIN) $(__MKDOCS_OPTIONS)
+
 __DIRTYRELOAD?= --dirtyreload
 
 # Run the builtin development server.
 serve:
-	mkdocs serve $(__DIRTYRELOAD)
+	$(MKDOCS) serve $(__DIRTYRELOAD)
 
 # Build the mkdocs documentation
 build_site:
-	mkdocs build
+	$(MKDOCS) build
 
 # Delete site
 delete_site:
@@ -14,15 +19,15 @@ delete_site:
 
 # Create a new MkDocs project.
 new_project:
-	mkdocs new .
+	$(MKDOCS) new .
 
 # Deploy your documentation to GitHub Pages.
 deploy_site: build_pages
-	mkdocs gh-deploy --force
+	$(MKDOCS) gh-deploy --force
 
 # Show required PyPI packages inferred from plugins in mkdocs.yml.
 check_deps:
-	mkdocs get-deps
+	$(MKDOCS) get-deps
 
 # Install dependencies
 install_deps:

@@ -38,6 +38,7 @@
 [Terminator]: t.md#terminator-movie
 [Test Set]: t.md#test-set
 [Text Embedding]: t.md#text-embedding
+[Text Generation]: t.md#text-generation
 [Text Reconstruction]: t.md#text-reconstruction
 [Text Summarization]: t.md#text-summarization
 [Text-To-Graph Utility]: t.md#text-to-graph-utility

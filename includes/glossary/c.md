@@ -115,6 +115,7 @@
 [Continuous Variable]: c.md#continuous-variable
 [Contrastive Language Image Pre-training (CLIP) Model]: c.md#contrastive-language-image-pre-training-clip-model
 [CLIP Model]: c.md#contrastive-language-image-pre-training-clip-model
+[CLIP]: c.md#contrastive-language-image-pre-training-clip-model
 [Contrastive Learning]: c.md#contrastive-learning
 [Contrastive Loss Function]: c.md#contrastive-loss-function
 [ControlNet External Network]: c.md#controlnet-external-network

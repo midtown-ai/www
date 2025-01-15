@@ -34,15 +34,16 @@ site_dir: site                # directory where the output HTML and other files 
 #
 # Hooks
 # or local plugins!
+# /!\ If priorities are not explicitly set, their order is important!
 #
 hooks:
   # - hooks/create_zip_archive.py
-  - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
+  - hooks/embed_youtube_video.py
+  # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
   # - hooks/mkdocs_simple_example.py
   # - hooks/share_on_social_media.py
   # - hooks/shortcode.py
   # - hooks/translations.py
-  # - hooks/youtube.py
 
 theme:
   language: en                # default language is english
@@ -265,6 +266,11 @@ plugins:
   # - tags                    # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
   #
+  # Internal plugins
+  #
+  # - youtube_embed_plugin:
+  #     module: plugins.youtube_embed_plugin
+  #
   # External plugins
   #
   # check requirements.txt for module installation
@@ -432,7 +438,13 @@ nav:
     - Y: glossary/y.md
     - Z: glossary/z.md
   - About: about.md
-  - Tests: tests.md
+  - Tests:
+    - tests/index.md
+    - Blocks: tests/blocks.md
+    - Custom Fences: tests/custom_fences.md
+    - Widgets: tests/widgets.md
+    - PDF Hook: tests/pdf_hook.md
+    - YouTube Hook: tests/youtube_hook.md
 
 #
 # What is NOT in the navigation that should NOT be built?

@@ -39,6 +39,7 @@
 [Generative Adversarial Network (GAN)]: g.md#generative-adversarial-network-gan
 [GAN]: g.md#generative-adversarial-network-gan
 [Generative AI (GenAI)]: g.md#generative-ai-genai
+[Generative AI]: g.md#generative-ai-genai
 [GenAI]: g.md#generative-ai-genai
 [Generative Classifier]: g.md#generative-classifier
 [Generative Design]: g.md#generative-design
@@ -53,6 +54,7 @@
 [GPT-3]: g.md#generative-pre-trained-transformer-gpt-model-family
 [GPT-4 Models]: g.md#generative-pre-trained-transformer-gpt-model-family
 [GPT-4]: g.md#generative-pre-trained-transformer-gpt-model-family
+[GPT]: g.md#generative-pre-trained-transformer-gpt-model-family
 [Generator]: g.md#generator
 [Generator Loss]: g.md#generator-loss
 [Genetic Programming]: g.md#genetic-programming

@@ -12,5 +12,6 @@
 [Joint-Embedding Predictive Architecture (JEPA)]: j.md#joint-embedding-predictive-architecture-jepa
 [JEPA]: j.md#joint-embedding-predictive-architecture-jepa
 [Jukebox Model]: j.md#jukebox-model
+[Jukebox]: j.md#jukebox-model
 [Jupyter Notebook]: j.md#jupyter-notebook
 [jupyter Server]: j.md#jupyter-server

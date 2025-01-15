@@ -43,6 +43,8 @@
 [IndexGPT Model]: i.md#indexgpt-model
 [Inductive Bias]: i.md#inductive-bias
 [Inductive Reasoning]: i.md#inductive-reasoning
+[Industrial Robot]: i.md#industrial-robot
+[Industrial Robots]: i.md#industrial-robot
 [Inference]: i.md#inference
 [Inference Configuration Parameter]: i.md#inference-configuration-parameter
 [Inference Point]: i.md#inference-point

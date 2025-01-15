@@ -15,6 +15,7 @@
 [Scaled Dot-Product (SDP)]: s.md#scaled-dot-product-sdp
 [SDP]: s.md#scaled-dot-product-sdp
 [Scaled Dot-Product (SDP) Attention]: s.md#scaled-dot-product-sdp-attention
+[Scaled Dot-Product Attention]: s.md#scaled-dot-product-sdp-attention
 [SDP Attention]: s.md#scaled-dot-product-sdp-attention
 [Scale-Invariant Feature Transform (SIFT)]: s.md#scale-invariant-feature-transform-sift
 [Scale-Invariant Feature Transform]: s.md#scale-invariant-feature-transform-sift
@@ -85,6 +86,8 @@
 [Seq2Seq Transformer]: s.md#sequence-to-sequence-seq2seq-transformer
 [Sequential Data]: s.md#sequential-data
 [Serialized Flat File]: s.md#serialized-flat-file
+[Service Robot]: s.md#service-robot
+[Service Robots]: s.md#service-robot
 [Shallow Neural Network]: s.md#shallow-neural-network
 [Shallow Neural Networks]: s.md#shallow-neural-network
 [Shane Legg Person]: s.md#shane-legg-person
