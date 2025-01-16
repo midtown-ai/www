@@ -20,6 +20,10 @@ serve:
 build_site:
 	$(MKDOCS) build
 
+distclean: delete_site delete_cache
+delete_cache:
+	rm -rf hooks/__pycache__
+
 # Delete site
 delete_site:
 	rm -rf ./site
@@ -39,4 +43,7 @@ check_deps:
 # Install dependencies
 install_deps:
 	pip install -r requirements.txt
+
+dig_site:
+	dig glossary-v3.midtown.ai
 

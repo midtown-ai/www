@@ -4,6 +4,6 @@ mkdocs-autorefs
 mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-minify-plugin
-mkdocs-pdf
+# mkdocs-pdf
 mkdocs-rss-plugin           # RSS for blog posts
-mkdocs-video
+# mkdocs-video

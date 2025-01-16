@@ -38,8 +38,8 @@ site_dir: site                # directory where the output HTML and other files 
 #
 hooks:
   # - hooks/create_zip_archive.py
-  - hooks/embed_pdf_file.py
-  - hooks/embed_youtube_video.py
+  ## - hooks/embed_pdf_file.py
+  ## - hooks/embed_youtube_video.py
   # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
   # - hooks/mkdocs_simple_example.py
   # - hooks/share_on_social_media.py
@@ -254,9 +254,9 @@ plugins:
   #
   # Built-in plugins
   #
-  - blog:                     # enable blog on website, posts are in 
-      enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
-      blog_dir: blog          # - where the content of the blog is located
+  ## - blog:                     # enable blog on website, posts are in 
+  ##    enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
+  ##    blog_dir: blog          # - where the content of the blog is located
   # - group                   # enable/disable plugins in groups
   # - info                    # used to report bugs using zip files
   # - meta                    # set frontmatter for files in a directory
@@ -302,36 +302,36 @@ plugins:
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
-  - mkdocs-pdf
+  ##- mkdocs-pdf
 
   # Support for embedded videos
   # @ https://github.com/soulless-viewer/mkdocs-video
   # pip install mkdocs-video
-  - mkdocs-video:
-      is_video: False           # Use <video/> instead of <iframe/>
+  ##- mkdocs-video:
+  ##    is_video: False           # Use <video/> instead of <iframe/>
 
   # Compress downloaded files to minimize latency
   # @ https://github.com/byrnereese/mkdocs-minify-plugin
   # pip install mkdocs-minify-plugin
-  - minify:
-      enabled: !ENV [MINIFY_PLUGIN_ENABLED, true]
-      # minify_css: false       # Minify content of CSS files
-      minify_html: true         # Minify content of generated HTML files
-      # minify_js: false        # Minify content of JS files
+  ##- minify:
+  ##    enabled: !ENV [MINIFY_PLUGIN_ENABLED, true]
+  ##    # minify_css: false       # Minify content of CSS files
+  ##    minify_html: true         # Minify content of generated HTML files
+  ##    # minify_js: false        # Minify content of JS files
 
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
   # pip install mkdocs-rss-plugin
-  - rss:
-      enabled: !ENV [RSS_PLUGIN_ENABLED, true]
-      match_path: "blog/posts/.*"  # url to be included in the feed
-      categories:                  # include posts' categories and tags in the feed
-        - categories
-        - tags
+  ##- rss:
+  ##    enabled: !ENV [RSS_PLUGIN_ENABLED, true]
+  ##    match_path: "blog/posts/.*"  # url to be included in the feed
+  ##    categories:                  # include posts' categories and tags in the feed
+  ##      - categories
+  ##      - tags
       # comments_path: "#__comments"
-      date_from_meta:              # which front matter property to use ...
-        as_creation: date.created  # - ... as creation date
-        as_update: date.updated    # - ... as update date
+      ##    date_from_meta:              # which front matter property to use ...
+      ##  as_creation: date.created  # - ... as creation date
+      ##  as_update: date.updated    # - ... as update date
 
 #
 # Hooks
@@ -406,8 +406,8 @@ extra_javascript:
 # Validation is set to maximum strictness (recommended for most sites)
 #
 validation:
-  # absolute_links: warn
-  absolute_links: relative_to_docs
+  absolute_links: warn
+  ## absolute_links: relative_to_docs
   anchors: warn
   omitted_files: warn
   unrecognized_links: warn
