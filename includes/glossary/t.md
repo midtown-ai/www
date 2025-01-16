@@ -56,6 +56,7 @@
 [The Matrix]: t.md#the-matrix-movie
 [Theano]: t.md#theano
 [Theory Of Mind (TOM)]: t.md#theory-of-mind-tom
+[Theory Of Mind]: t.md#theory-of-mind-tom
 [TOM]: t.md#theory-of-mind-tom
 [Thresholding]: t.md#thresholding
 [Time Step]: t.md#time-step

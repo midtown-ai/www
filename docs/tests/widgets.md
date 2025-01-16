@@ -1,6 +1,12 @@
 # Widgets
 
-## Grid of cards (md_in_html)
+## Buttons
+
+[Subscribe to our newsletter](#){ .md-button .md-button--primary }
+
+[Subscribe to our newsletter](#){ .md-button }
+
+[Send :fontawesome-solid-paper-plane:](#){ .md-button }## Grid of cards (md_in_html)
 
 ### card grids
 
@@ -18,6 +24,17 @@ First div must not be indented
 - :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
 
 </div>
+
+```
+<div class="grid cards" markdown>
+
+- :fontawesome-brands-html5: __HTML__ for content and structure
+- :fontawesome-brands-js: __JavaScript__ for interactivity
+- :fontawesome-brands-css3: __CSS__ for text running out of boxes
+- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+
+</div>
+```
 
 <div class="grid cards" markdown>
 
@@ -50,14 +67,50 @@ First div must not be indented
 
     ---
 
-```
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-```
+    Material for MkDocs is licensed under MIT and available on GitHub
 
     [:octicons-arrow-right-24: License](#)
 
 </div>
 
+```
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+
+    ---
+
+    Install [`mkdocs-material`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>
+```
 
 <div class="grid" markdown>
 
@@ -74,6 +127,23 @@ First div must not be indented
 
 </div>
 
+```
+<div class="grid" markdown>
+
+:fontawesome-brands-html5: __HTML__ for content and structure
+{ .card }
+
+:fontawesome-brands-js: __JavaScript__ for interactivity
+{ .card }
+
+:fontawesome-brands-css3: __CSS__ for text running out of boxes
+{ .card }
+
+> :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+
+</div>
+```
+
 ## Content Tabs
 
 ### simple
@@ -82,50 +152,36 @@ First div must not be indented
     In a different tab set.
 
 === "Tab B"
-    ```
     More content.
-    ```
 
-### linked tabs
+```
+=== "Tab A"
+    In a different tab set.
 
-=== "C"
+=== "Tab B"
+    More content.
 
-    C code linked tab
+```
 
-=== "C++"
+### Linked tabs
 
-    C++ code linked tab
+=== "First"
 
-===! "C"
+    This is the content of my first tab!
 
-    ``` c
-    #include <stdio.h>
+=== "Second"
 
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
+    Content of second tab
 
-=== "C++"
+===! "First"
 
-    ``` c++
-    #include <iostream>
+    Tab-names must match
 
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
+    New tab set is started with `===!`
 
+=== "Second"
 
-## Table
-
-| First Header | Second Header | Third Header
-| :----------- |:-------------:| -----------:
-| Left         | Center        | Right :material-check:
-| Left         | Center        | Right :material-check-all:
-| Left         | Center        | Right :material-close:
+    Tab-names is same as other tab above
 
 
 ## admonition
@@ -159,19 +215,47 @@ Warning with no Warning title!
 
 
 /// warning | warning ...
+Warning with Warning title!
 ///
+
+```
+# markdown
+
+/// warning | warning ...
+Warning with Warning title!
+///
+
+# to HTML
+
+<div class="admonition warning">
+<p class="admonition-title">warning ...</p>
+<p>Warning with Warning title!</p>
+</div>
+```
+
+
+/// warning | warning ...
+
+Beware the markdown is insert and interpreted before being turned in HTML. So you must use triple ticks to see the content, unless not markdown!
+```
+--8<-- "abbreviations.md"
+```
+///
+
+```
+<div class="admonition warning">
+<p class="admonition-title">warning ...</p>
+<p>Beware the markdown is insert and interpreted before being turned in HTML. So you must use triple ticks to see the content, unless not markdown!
+</p><div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>*[Toc]: Table of Contents
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>*[TOC]: Table Of Contents
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>*[GFM]: GitHub Flavored Markdown
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>*[FAQ]: Frequent Asked Questions
+</span></code></pre></div>
+</div>
+```
 
 #### Tentative
 
-/// warning | warning ...
-```
----8<--- abbreviations.md
-```
-///
-
-```
----8<--- abbreviations.md
-```
 
 /// example | e
 ///
@@ -184,12 +268,25 @@ Warning with no Warning title!
 /// details | danger ...
     type: danger
 ///
+
 /// details | tip ...
     type: tip
 ///
 /// details | question ...
     type: question
 ///
+
+```
+/// details | question ...
+    type: question
+///
+
+# HTML rendering
+
+<details class="question">
+<summary>question ...</summary>
+</details>
+```
 
 /// details | warning ...
     type: warning
@@ -198,9 +295,63 @@ Warning with no Warning title!
 Rendering of pymdownx.blocks.details is function of type, which is a CSS class!
 ///
 
+```
+/// details | warning ...
+    type: warning
+    open: True
+
+Rendering of pymdownx.blocks.details is function of type, which is a CSS class!
+///
+
+# HTML rendering
+
+<details class="warning" open="open">
+<summary>warning ...</summary>
+<p>Rendering of pymdownx.blocks.details is function of type, which is a CSS class!</p>
+</details>
+```
+
+/// details | tip ...
+    type: tip
+    open: True
+
+Beware the markdown is insert and interpreted before being turned in HTML. So you must use triple ticks to see the content, unless not markdown!
+```
+--8<-- "abbreviations.md"
+```
+///
+
 #### Tentative
 
 /// details | examplee
 Hello!
 ///
+
+
+### Custom admonition (old style) + CSS
+
+#### Tentative
+
+!!! note
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
+    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
+    massa, nec semper lorem quam in massa.
+
+***
+
+!!! mycustom "Custom Admonition :material-alert:"
+
+    This is an example of a custom admonition styled with a unique look.
+
+***
+
+!!! pied-piper "Pied Piper"
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+    euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo
+    purus auctor massa, nec semper lorem quam in massa.
+
+***
+
 

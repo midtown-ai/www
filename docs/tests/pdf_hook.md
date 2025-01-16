@@ -1,6 +1,27 @@
 # PDF hook
 
-## PDFs
+
+## hook
+
+ {% pdf "https://arxiv.org/pdf/2411.14251v1" %}
+
+### Object
+
+<object data="https://arxiv.org/pdf/2411.14251v1" type="application/pdf" width="100%" height="600px">
+    <p>Your browser does not support PDFs. Please download the PDF: 
+       <a href="path/to/your/file.pdf">Download PDF</a>.
+    </p>
+</object>
+
+```
+<object data="https://arxiv.org/pdf/2411.14251v1" type="application/pdf" width="100%" height="600px">
+    <p>Your browser does not support PDFs. Please download the PDF: 
+       <a href="path/to/your/file.pdf">Download PDF</a>.
+    </p>
+</object>
+```
+
+## PDFs plugins
 
 /// warning | Warning
 mkdocs-pdf creates an embed tag which is deprecated and replace with 'object' or 'iframe'

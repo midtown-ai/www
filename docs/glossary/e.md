@@ -390,6 +390,32 @@ Research on emotion has increased over the past two decades with many fields con
  See also [E], ...
 
 
+## Emotional Quotient (EQ)
+
+ EQ typically stands for Emotional Quotient, also known as [Emotional Intelligence (EI)]. It refers to a person's ability to:
+
+  1. Recognize, understand, and manage their own emotions.
+  1. Recognize, understand, and influence the emotions of others.
+
+ Components of EQ (Daniel Goleman’s Model):
+
+  1. Self-awareness: Understanding your own emotions and how they affect your thoughts and behavior.
+  1. Self-regulation: Controlling your impulses, adapting to change, and managing stress effectively.
+  1. Motivation: Using emotional factors to achieve goals, remain positive, and persist in the face of challenges.
+  1. Empathy: Understanding and sharing the feelings of others.
+  1. Social skills: Managing relationships, inspiring others, and resolving conflicts constructively.
+
+/// details | Why EQ is Important?
+    type: question
+
+  * Personal Relationships: Helps in fostering better communication and understanding.
+  * Professional Success: Important for leadership, teamwork, and managing workplace dynamics.
+  * Mental Well-being: Promotes resilience, adaptability, and a positive mindset.
+///
+
+ See also [E], ...
+
+
 ## Encoder
  
  ~ Let’s call encoder the process that produce the “new features” representation from the input or “old features” representation (by selection or by extraction) and decoder the reverse process. Dimensionality reduction can then be interpreted as data compression where the encoder compress the data (from the initial space to the encoded space, also called latent space) whereas the decoder decompress them. Of course, depending on the initial data distribution, the latent space dimension and the encoder definition, this compression/representation can be lossy, meaning that a part of the information is lost during the encoding process and cannot be recovered when decoding.

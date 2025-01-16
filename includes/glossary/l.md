@@ -29,6 +29,8 @@
 [LPU]: l.md#language-processing-unit-lpu
 [Large Language Model (LLM)]: l.md#large-language-model-llm
 [Large Language Models (LLMs)]: l.md#large-language-model-llm
+[Large Language Model]: l.md#large-language-model-llm
+[Large Language Models]: l.md#large-language-model-llm
 [LLM]: l.md#large-language-model-llm
 [LLMs]: l.md#large-language-model-llm
 [LLM Operating System (LLM OS)]: l.md#llm-operating-system-llm-os

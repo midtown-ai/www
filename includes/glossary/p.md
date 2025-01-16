@@ -95,7 +95,7 @@
 [Pretrained Models]: p.md#pretrained-model
 [Pretrained Objective]: p.md#pretrained-objective
 [Pretrained Objectives]: p.md#pretrained-objective
-[Principal Component Analysis (PSA)]: p.md#principal-component-analysis-pca
+[Principal Component Analysis (PCA)]: p.md#principal-component-analysis-pca
 [Principal Component Analysis]: p.md#principal-component-analysis-pca
 [PCA]: p.md#principal-component-analysis-pca
 [Prior]: p.md#prior

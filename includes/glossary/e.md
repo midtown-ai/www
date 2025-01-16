@@ -11,6 +11,7 @@
 [Elastic Net Regression]: e.md#elastic-net-regression
 [Elastic Net Regression Penalty]: e.md#elastic-net-regression-penalty
 [Elastic Weight Consolidation (EWC)]: e.md#elastic-weight-consolidation-ewc
+[Elastic Weight Consolidation]: e.md#elastic-weight-consolidation-ewc
 [EWC]: e.md#elastic-weight-consolidation-ewc
 [Electric Dreams Movie]: e.md#electric-dreams-movie
 [Electric Dreams]: e.md#electric-dreams-movie
@@ -35,10 +36,15 @@
 [EMO]: e.md#emote-portrait-alive-model
 [Emotion]: e.md#emotion
 [Emotions]: e.md#emotion
-[Emotional Intelligence (EQ)]: e.md#emotional-intelligence-eq
-[EQ]: e.md#emotional-intelligence-eq
+[Emotional Intelligence (EI)]: e.md#emotional-intelligence-ei
+[Emotional Intelligence]: e.md#emotional-intelligence-ei
+[EI]: e.md#emotional-intelligence-ei
 [Emotional Intelligence Benchmark (EQ-Bench)]: e.md#emotional-intelligence-benchmark-eq-bench
+[Emotional Intelligence Benchmark]: e.md#emotional-intelligence-benchmark-eq-bench
 [EQ-Bench]: e.md#emotional-intelligence-benchmark-eq-bench
+[Emotional Quotient (EQ)]: e.md#emotional-quotient-eq
+[Emotional Quotient]: e.md#emotional-quotient-eq
+[EQ]: e.md#emotional-quotient-eq
 [Encoder]: e.md#encoder
 [Encoders]: e.md#encoder
 [Encoder Representation]: e.md#encoder-representation
@@ -93,23 +99,27 @@
 [Evident AI Talent Report]: e.md#evident-ai-talent-report
 [Evident Insights Company]: e.md#evident-insights-company
 [Evident Insights]: e.md#evident-insights-company
-[Evolution Strategy (ES)]: e.md#evoluation-strategy-es
-[ES]: e.md#evoluation-strategy-es
-[Evolutionary AI]: e.md#evoluationary-ai
-[Evolutionary Scale AI Company]: e.md#evoluationary-scale-ai-company
-[Evolutionary Scale AI]: e.md#evoluationary-scale-ai-company
-[Evolutionary Scale Model (ESM) Family]: e.md#evoluationary-scale-model-esm-family
-[ESM]: e.md#evoluationary-scale-model-esm-family
-[ESM-1 Model]: e.md#evoluationary-scale-model-esm-family
-[ESM-1]: e.md#evoluationary-scale-model-esm-family
-[ESM-2 Model]: e.md#evoluationary-scale-model-esm-family
-[ESM-2]: e.md#evoluationary-scale-model-esm-family
-[ESM-3 Model]: e.md#evoluationary-scale-model-esm-family
-[ESM-3]: e.md#evoluationary-scale-model-esm-family
+[Evolution Strategy (ES)]: e.md#evolution-strategy-es
+[Evolution Strategy]: e.md#evolution-strategy-es
+[ES]: e.md#evolution-strategy-es
+[Evolutionary AI]: e.md#evolutionary-ai
+[Evolutionary Scale AI Company]: e.md#evolutionary-scale-ai-company
+[Evolutionary Scale AI]: e.md#evolutionary-scale-ai-company
+[Evolutionary Scale Model (ESM) Family]: e.md#evolutionary-scale-model-esm-family
+[Evolutionary Scale Model]: e.md#evolutionary-scale-model-esm-family
+[Evolutionary Scale Models]: e.md#evolutionary-scale-model-esm-family
+[ESM]: e.md#evolutionary-scale-model-esm-family
+[ESM-1 Model]: e.md#evolutionary-scale-model-esm-family
+[ESM-1]: e.md#evolutionary-scale-model-esm-family
+[ESM-2 Model]: e.md#evolutionary-scale-model-esm-family
+[ESM-2]: e.md#evolutionary-scale-model-esm-family
+[ESM-3 Model]: e.md#evolutionary-scale-model-esm-family
+[ESM-3]: e.md#evolutionary-scale-model-esm-family
 [Ex Machina Movie]: e.md#ex-machina-movie
 [Ex Machina]: e.md#ex-machina-movie
 [Example]: e.md#example
 [Example-Based Machine Translation (EBMT)]: e.md#example-based-machine-translation-ebmt
+[Example-Based Machine Translation]: e.md#example-based-machine-translation-ebmt
 [EBMT]: e.md#example-based-machine-translation-ebmt
 [Executive Order (EO) on AI]: e.md#executive-order-eo-on-ai
 [EO on AI]: e.md#executive-order-eo-on-ai
@@ -133,10 +143,12 @@
 [Exploitation]: e.md#exploitation
 [Exploration]: e.md#exploration
 [Exploratory Data Analysis (EDA)]: e.md#exploratory-data-analysis-eda
+[Exploratory Data Analysis]: e.md#exploratory-data-analysis-eda
 [EDA]: e.md#exploratory-data-analysis-eda
 [Exponential Linear Unit (ELU) Activation Function]: e.md#exponential-linear-unit-elu-activation-function
 [ELU Activation Function]: e.md#exponential-linear-unit-elu-activation-function
 [ELU]: e.md#exponential-linear-unit-elu-activation-function
 [Expressiveness]: e.md#expressiveness
 [Extreme Gradient Boosting (XGBoost)]: e.md#extreme-gradient-boosting-xgboost
+[Extreme Gradient Boosting]: e.md#extreme-gradient-boosting-xgboost
 [XGBoost]: e.md#extreme-gradient-boosting-xgboost

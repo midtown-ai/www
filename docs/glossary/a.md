@@ -161,7 +161,7 @@ Qpi(s,a) = E [ sum(0,oo, gamma*R | St=s, At=a]
 
  ![](img/a/activation_function_all_in_one.png){: width="100%" }
 
- ![type:video](https://www.youtube.com/embed/hfMk-kjRv4c)
+ {% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
 
 /// warning | Warning ...
 
@@ -244,7 +244,7 @@ for multi-layer neural networks that use of an activation function at each layer
 
   * [Advantage Actor Critic (A2C)][A2C]
 
- ![type:video](https://www.youtube.com/embed/w_3mmm0P0j8)
+ {% youtube "https://www.youtube.com/watch?v=w_3mmm0P0j8" %}
 
  ![](img/a/actor_critic_algorithm.png){: width="100%" }
 
@@ -277,9 +277,9 @@ for multi-layer neural networks that use of an activation function at each layer
 
  Add new intermediate module
 
- ![type:video](https://www.youtube.com/embed/KoOlcX3XLd4)
+ {% youtube "https://www.youtube.com/watch?v=KoOlcX3XLd4" %} 
 
- ![](https://arxiv.org/pdf/1902.00751){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/1902.00751" %}
 
  More at:
 
@@ -296,7 +296,7 @@ for multi-layer neural networks that use of an activation function at each layer
  * Some stumps get more say (weight) in the classification than others
  * Each stump is made by taking the previous stump's mistakes into account
 
- ![type:video](https://www.youtube.com/embed/LsK-xG1cLYA)
+ {% youtube "https://www.youtube.com/watch?v=LsK-xG1cLYA" %}
 
  More at:
 
@@ -388,7 +388,7 @@ for multi-layer neural networks that use of an activation function at each layer
 
  Compared to [Stochastic Gradient Descent (SGD)][SGD], Adam can converge faster and requires less [hyperparameter tuning]. It adapts the [learning rate] on a per-parameter basis, which helps it to converge faster and avoid getting stuck in local minima. It also uses momentum to accelerate the convergence process, which helps the algorithm to smooth out the gradient updates, resulting in a more stable convergence process. Furthermore, Adam uses an adaptive learning rate, which can lead to better convergence on complex, high-dimensional problems.
 
- ![type:video](https://www.youtube.com/embed/JXQT_vxqwIs)
+ {% youtube "https://www.youtube.com/watch?v=JXQT_vxqwIs" %}
 
  More at:
 
@@ -400,7 +400,7 @@ for multi-layer neural networks that use of an activation function at each layer
 
 ## Addiction
 
- ![type:video](https://www.youtube.com/embed/bwZcPwlRRcc)
+ {% youtube "https://www.youtube.com/watch?v=bwZcPwlRRcc" %}
 
  More at:
 
@@ -467,7 +467,7 @@ k is the number of predictors (not counting the intercept)
 
  Experiment, imagine, and make an infinite range of creations with Firefly, a family of creative generative AI models coming to Adobe products.
 
- ![type:video](https://www.youtube.com/embed/_sJfNfMAQHw)
+ {% youtube "https://www.youtube.com/watch?v=_sJfNfMAQHw" %}
 
  More at:
 
@@ -482,9 +482,9 @@ k is the number of predictors (not counting the intercept)
 
  An advanced fusion of [policy gradient] and learned value function within [reinforcement learning (RL)][RL]. This hybrid algorithm is characterized by two interdependent components the “Actor,” which learns a parameterized [policy], and the “Critic,” which assimilates a value function for the evaluation of state-action pairs. These components collectively contribute to a refined learning process.
 
- ![type:video](https://www.youtube.com/embed/asBFJACi698)
+ {% youtube "https://www.youtube.com/watch?v=asBFJACi698" %}
 
- ![](https://arxiv.org/pdf/1602.01783v2){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/1602.01783v2" %}
 
  More at:
 
@@ -505,7 +505,7 @@ k is the number of predictors (not counting the intercept)
 
 ## Advantage Estimation
 
- ![type:video](https://www.youtube.com/embed/AKbX1Zvo7r8)
+ {% youtube "https://www.youtube.com/watch?v=AKbX1Zvo7r8" %}
 
  See also [A], ...
 
@@ -530,7 +530,7 @@ k is the number of predictors (not counting the intercept)
 
 ## Adversarial Imitation Learning
 
- ![type:video](https://www.youtube.com/embed/hmV4v_EnB0E)
+ {% youtube "https://www.youtube.com/watch?v=hmV4v_EnB0E" %}
 
  See also [A], [Imitation Learning]
 
@@ -652,7 +652,7 @@ k is the number of predictors (not counting the intercept)
 
  ![](img/a/ai_agent.png){: width="100%" }
 
- ![type:video](https://www.youtube.com/embed/kHPXbo2OkzA)
+ {% youtube "https://www.youtube.com/watch?v=kHPXbo2OkzA" %}
 
  See also [A], [Agent Registry], [Agent SDK], [Embodied Agent]
 
@@ -693,11 +693,11 @@ k is the number of predictors (not counting the intercept)
 
  To be competitive, you need to use both of the methods!
 
- ![type:video](https://www.youtube.com/embed/EUjc1WuyPT8)
+ {% youtube "https://www.youtube.com/watch?v=EUjc1WuyPT8" %}
 
- ![type:video](https://www.youtube.com/embed/cSL3Zau1X8g)
+ {% youtube "https://www.youtube.com/watch?v=cSL3Zau1X8g" %}
 
- ![type:video](https://www.youtube.com/embed/fc-cHk9yFpg)
+ {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
 
 ```
 # ChatGPT rules (that can easily be bypassed or put in conflict with clever prompt engineering!)
@@ -726,7 +726,7 @@ k is the number of predictors (not counting the intercept)
 
  ![](img/a/ai_alliance.png){: width="100%" }
 
- ![type:video](https://www.youtube.com/embed/MTonKJaDM48)
+ {% youtube "https://www.youtube.com/watch?v=MTonKJaDM48" %}
 
  More at:
 
@@ -740,9 +740,9 @@ k is the number of predictors (not counting the intercept)
 
  Released in 2001
 
- ![type:video](https://www.youtube.com/embed/oBUAQGwzGk0)
+ {% youtube "https://www.youtube.com/watch?v=oBUAQGwzGk0" %}
 
- ![type:video](https://www.youtube.com/embed/4VfxU0bOx-I)
+ {% youtube "https://www.youtube.com/watch?v=4VfxU0bOx-I" %}
 
  More at:
 
@@ -791,7 +791,7 @@ k is the number of predictors (not counting the intercept)
 
  For the most part, the blueprint isn’t enforceable by law. But if it did become law, it would transform how A.I. systems would need to be devised. And, for that reason, it raises an important set of questions: What does a public vision for A.I. actually look like? What do we as a society want from this technology, and how can we design policy to orient it in that direction?
 
- ![](img/a/ai_bill_of_rights.pdf){type=application/pdf}
+ {% pdf "img/a/ai_bill_of_rights.pdf" %}
 
  More at:
 
@@ -814,7 +814,7 @@ k is the number of predictors (not counting the intercept)
 
 ## AI Chip
 
- ![](img/a/ai_chip_2022.pdf){type=application/pdf}
+ {% pdf "img/a/ai_chip_2022.pdf" %}
 
  More at:
 
@@ -836,7 +836,7 @@ k is the number of predictors (not counting the intercept)
  1. [SIGGRAPH] - computer graphics and interactive techniques
  1. All other conferences
 
- ![type:video](https://www.youtube.com/embed/E_qYa0OKFok)
+ {% youtube "https://www.youtube.com/watch?v=E_qYa0OKFok" %}
 
  More at:
 
@@ -910,11 +910,11 @@ A risk of [AGI]
 
  The AI Index collaborates with many different organizations to track progress in artificial intelligence. These organizations include: the Center for Security and Emerging Technology at Georgetown University, LinkedIn, NetBase Quid, Lightcast, and McKinsey. The 2023 report also features more self-collected data and original analysis than ever before. This year’s report included new analysis on foundation models, including their geopolitics and training costs, the environmental impact of AI systems, K-12 AI education, and public opinion trends in AI. The AI Index also broadened its tracking of global AI legislation from 25 countries in 2022 to 127 in 2023.
 
- ![](https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report_2024.pdf){type=application/pdf}
+ {% pdf "https://aiindex.stanford.edu/wp-content/uploads/2024/04/HAI_AI-Index-Report_2024.pdf" %}
 
- ![type:video](https://www.youtube.com/embed/-0dk3CK5qSQ)
+ {% youtube "https://www.youtube.com/watch?v=-0dk3CK5qSQ" %}
 
- ![](https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf){type=application/pdf}
+ {% pdf "https://aiindex.stanford.edu/wp-content/uploads/2023/04/HAI_AI-Index-Report_2023.pdf" %}
 
  More at:
 
@@ -957,13 +957,13 @@ A risk of [AGI]
 >
 > Humanity can enjoy a flourishing future with AI. Having succeeded in creating powerful AI systems, we can now enjoy an "AI summer" in which we reap the rewards, engineer these systems for the clear benefit of all, and give society a chance to adapt. Society has hit pause on other technologies with potentially catastrophic effects on society.  We can do so here. Let's enjoy a long AI summer, not rush unprepared into a fall.
 
- ![type:video](https://www.youtube.com/embed/eJGxIH73zvQ)
+ {% youtube "https://www.youtube.com/watch?v=eJGxIH73zvQ" %}
 
- ![type:video](https://www.youtube.com/embed/BxkVmLPq79k)
+ {% youtube "https://www.youtube.com/watch?v=BxkVmLPq79k" %})
 
- ![type:video](https://www.youtube.com/embed/8OpW5qboDDs)
+ {% youtube "https://www.youtube.com/watch?v=8OpW5qboDDs" %}
 
- ![type:video](https://www.youtube.com/embed/BY9KV8uCtj4)
+ {% youtube "https://www.youtube.com/watch?v=BY9KV8uCtj4" %}
 
  More at:
 
@@ -1014,7 +1014,7 @@ A risk of [AGI]
   * Benchmarks & datasets
   * Breakthroughs
 
- ![type:video](https://www.youtube.com/embed/K6Wui3mn-uI)
+ {% youtube "https://www.youtube.com/watch?v=K6Wui3mn-uI" %})
 
  See [A], [AI Research]
 
@@ -1080,7 +1080,7 @@ A risk of [AGI]
 
  Video of the Asilomar conference in 2017
 
- ![type:video](https://www.youtube.com/embed/h0962biiZa4)
+ {% youtube "https://www.youtube.com/watch?v=h0962biiZa4" %}
 
  More at:
 
@@ -1171,7 +1171,7 @@ Better data beat the model always
   * Situational awareness - The model can distinguish between whether it is being trained, evaluated, or deployed – allowing it to behave differently in each case. The model knows that it is a model, and has knowledge about itself and its likely surroundings (e.g. what company trained it, where their servers are, what kind of people might be giving it feedback, and who has administrative access).
   * Selfproliferation - The model can break out of its local environment (e.g. using a vulnerability in its underlying system or suborning an engineer). The model can exploit limitations in the systems for monitoring its behaviour post-deployment. The model could independently generate revenue (e.g. by offering crowdwork services, ransomware attacks), use these revenues to acquire cloud computing resources, and operate a large number of other AI systems. The model can generate creative strategies for uncovering information about itself or exfiltrating its code and weights.
 
- ![](https://arxiv.org/pdf/2305.15324){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/2305.15324" %}
 
  More at:
 
@@ -1240,7 +1240,7 @@ Better data beat the model always
 
  Identify when AI writing tools such as ChatGPT or [AI paraphrasing] tools (text spinners) may have been used in submitted work.
 
- ![type:video](https://www.youtube.com/embed/bjc7j-U2cuI)
+ {% youtube "https://www.youtube.com/watch?v=bjc7j-U2cuI" %}
 
 
 ## AI21  Labs Company
@@ -1261,7 +1261,7 @@ Better data beat the model always
 
  Co-founder Olga Russakovsky and high school students Dennis Kwarteng and Adithi Raghavan discuss their motivations for participating in AI4ALL.
 
- ![type:video](https://www.youtube.com/embed/i1I3VkKABVY)
+ {% youtube "https://www.youtube.com/watch?v=i1I3VkKABVY" %}
 
  * [https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e](https://nidhiparthasarathy.medium.com/my-summer-at-ai4all-f06eea5cdc2e)
  * [https://nidhiparthasarathy.medium.com/ai4all-day-1-an-exciting-start-d78de2cdb8c0](https://nidhiparthasarathy.medium.com/ai4all-day-1-an-exciting-start-d78de2cdb8c0)
@@ -1282,7 +1282,7 @@ Better data beat the model always
 
 ## AI4K12
 
- ![](https://ai4k12.org/wp-content/uploads/2021/08/Touretzky_Gardner-McCune_AI-Thinking_2021.pdf){type=application/pdf}
+ {% pdf "https://ai4k12.org/wp-content/uploads/2021/08/Touretzky_Gardner-McCune_AI-Thinking_2021.pdf" %}
 
  More at:
 
@@ -1309,7 +1309,7 @@ Better data beat the model always
 
  The inventory of the imitation game, aka the [Turing Test]
 
- ![type:video](https://www.youtube.com/embed/nEomYB94TTI)
+ {% youtube "https://www.youtube.com/watch?v=nEomYB94TTI" %}
 
  See also [A], [The Imitation Game Movie]
 
@@ -1336,7 +1336,7 @@ Better data beat the model always
 
  Scale’s technology analyzes satellite images much faster than human analysts to determine how much damage Russian bombs are causing in Ukraine. It’s useful not just for the military. More than 300 companies, including General Motors and Flexport, use Scale, which Wang started when he was 19, to help them pan gold from rivers of raw information—millions of shipping documents, say, or raw footage from self-driving cars. “Every industry is sitting on huge amounts of data,” Wang says, who appeared on the Forbes Under 30 list in 2018. “Our goal is to help them unlock the potential of the data and supercharge their businesses with AI.”
 
- ![type:video](https://www.youtube.com/embed/FgzyLoSkL5k)
+ {% youtube "https://www.youtube.com/watch?v=FgzyLoSkL5k" %}
 
  See also [A], [People]
 
@@ -1349,13 +1349,13 @@ Better data beat the model always
 
  AlexNet competed in the [ImageNet Large Scale Visual Recognition Challenge] on September 30, 2012. The network achieved a top-5 error of 15.3%, more than 10.8 percentage points lower (better) than that of the runner up. The original paper's primary result was that the depth of the model was essential for its high performance, which was computationally expensive, but made feasible due to the utilization of [graphics processing units (GPUs)] during training.
 
- ![type:video](https://www.youtube.com/embed/c_u4AHNjOpk)
+ {% youtube "https://www.youtube.com/watch?v=c_u4AHNjOpk" %}
 
- ![type:video](https://www.youtube.com/embed/Nq3auVtvd9Q)
+ {% youtube "https://www.youtube.com/watch?v=Nq3auVtvd9Q" %}
 
- ![type:video](https://www.youtube.com/embed/UZDiGooFs54)
+ {% youtube "https://www.youtube.com/watch?v=UZDiGooFs54" %}
 
- ![](img/a/alexnet_model_paper.pdf){type=application/pdf}
+ {% pdf "img/a/alexnet_model_paper.pdf" %}
 
  More at:
 
@@ -1418,7 +1418,7 @@ Suppose a company uses an algorithm to assist in the hiring process. The algorit
 
  Algorithmic bias can occur in various applications, including lending decisions, criminal justice, healthcare, and more. It is a critical issue because it can reinforce and exacerbate existing societal biases and discrimination. To mitigate algorithmic bias, it is essential to carefully curate training data, regularly audit and test algorithms for bias, and implement fairness-aware machine learning techniques. Additionally, ensuring diversity and inclusion in the teams developing and deploying these algorithms is crucial to address and prevent bias effectively.
 
- ![type:video](https://www.youtube.com/embed/gV0_raKR2UQ)
+ {% youtube "https://www.youtube.com/watch?v=gV0_raKR2UQ" %}
 
  See also [A], [Discrimination]
 
@@ -1441,11 +1441,11 @@ Suppose a company uses an algorithm to assist in the hiring process. The algorit
 
  Developed at [Stanford University] ! The current Alpaca model is fine-tuned from a 7B [LLaMA model] on 52K instruction-following data generated by the techniques in the [Self-Instruct][Self-Instruct Dataset] paper, with some modifications that we discuss in the next section. In a preliminary human evaluation, we found that the Alpaca 7B model behaves similarly to the text-davinci-003 model on the Self-Instruct instruction-following evaluation suite.
 
- ![type:video](https://www.youtube.com/embed/xslW5sQOkC8)
+ {% youtube "https://www.youtube.com/watch?v=xslW5sQOkC8" %}
 
  With LLaMA
 
- ![type:video](https://www.youtube.com/embed/PyZPyqQqkLE)
+ {% youtube "https://www.youtube.com/watch?v=PyZPyqQqkLE" %}
 
  More at:
 
@@ -1478,7 +1478,7 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  A LLM used for generating code. Built by the [DeepMind]. An alternative to the [Codex Model] built by [OpenAI]
 
- ![type:video](https://www.youtube.com/embed/t3Yh56efKGI)
+ {% youtube "https://www.youtube.com/watch?v=t3Yh56efKGI" %}
 
  More at:
 
@@ -1515,9 +1515,9 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  This model is at the foundation of the [Isomorphic Labs Company]
 
- ![](img/a/alphafold_model_paper.pdf){type=application/pdf}
+ {% pdf "img/a/alphafold_model_paper.pdf" %}
 
- ![type:video](https://www.youtube.com/embed/B9PL__gVxLI)
+ {% youtube "https://www.youtube.com/watch?v=B9PL__gVxLI" %}
 
  More at:
 
@@ -1586,7 +1586,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  ![](img/a/alphageometry_model.webp){: width="100%" }
 
- ![type:video](https://www.youtube.com/embed/WKF0QgxmGKs)
+ {% youtube "https://www.youtube.com/watch?v=WKF0QgxmGKs" %}
 
  More at:
 
@@ -1608,7 +1608,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  AlphaGo was built by [DeepMind]. AI to play GO. Used reinforcement learning.
 
- ![type:video](https://www.youtube.com/embed/WXuK6gekU1Y)
+ {% youtube "https://www.youtube.com/watch?v=WXuK6gekU1Y" %}
 
  See also [A], [AlphaFold Model], [AlphaZero Model], [Reinforcement Learning]
 
@@ -1631,7 +1631,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  A model in the family of [AlphaFold] which is is to find binding sites and binding proteins/ligand
 
- ![type:video](https://youtu.be/lI3EoCjWC2E?si=0LPyeOYqq8fGv6aM)
+ {% youtube "https://www.youtube.com/watch?v=lI3EoCjWC2E" %}
 
  See also [A], ...
 
@@ -1640,7 +1640,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  AlphaStar was built by [DeepMind]. Plays StarCraft II
 
- ![type:video](https://www.youtube.com/embed/jtlrWblOyP4)
+ {% youtube "https://www.youtube.com/watch?v=jtlrWblOyP4" %}
 
  More at:
 
@@ -1654,7 +1654,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  Better algorithm for tensor multiplication (on GPU ?). Based on AlphaZero. Built by [DeepMind]
 
- ![](img/a/alphatensor_nature_paper.pdf){type=application/pdf}
+ {% pdf "img/a/alphatensor_nature_paper.pdf" %}
 
  More at:
 
@@ -1705,16 +1705,16 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
 ## Ameca Robot
 
- ![type:video](https://www.youtube.com/embed/rxhzBiC-Q5Y)
+ {% youtube "https://www.youtube.com/watch?v=rxhzBiC-Q5Y" %}
 
  See also [A], [Robot]
 
 
 ## Andrew Ng Person
 
- ![type:video](https://www.youtube.com/embed/BY9KV8uCtj4)
+ {% youtube "https://www.youtube.com/watch?v=BY9KV8uCtj4" %}
 
- ![type:video](https://www.youtube.com/embed/vStJoetOxJg)
+ {% youtube "https://www.youtube.com/watch?v=vStJoetOxJg" %}
 
  More at:
 
@@ -1769,7 +1769,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
  * [CoreML Framework] with the easy to get started [CreateML Application]
  * [Siri Virtual Assistant]
 
- ![type:video](https://www.youtube.com/embed/FqhfFNTtuv0)
+ {% youtube "https://www.youtube.com/watch?v=FqhfFNTtuv0" %}
 
  See also [A], [Company]
 
@@ -1783,7 +1783,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  ~ algorithm used to speed up computation in transformers but getting an approximation of the self-attention
 
- ![type:video](https://www.youtube.com/embed/m-zrcmRd7E4)
+ {% youtube "https://www.youtube.com/watch?v=m-zrcmRd7E4" %}
 
  See also [A], [FlashAttention]
 
@@ -1806,7 +1806,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  In summary, Apriori is an influential algorithm for mining associations that uses iterative passes over data and pruning strategies to efficiently discover frequent itemsets from which association rules can be derived.
 
- ![type:video](https://www.youtube.com/embed/T3Pd_3QP9J4)
+ {% youtube "https://www.youtube.com/watch?v=T3Pd_3QP9J4" %}
 
  More at:
 
@@ -1832,7 +1832,7 @@ XY is the line passing tough X and Y unless stated to be a segment (with stateme
 
  The key difference between the Arcade and Atari Learning Environments is the inclusion of additional arcade games in ALE. While the Atari LE is limited to Atari 2600 games, Arcade LE extends the game selection to include a broader range of arcade titles. This expansion increases the diversity of environments available for RL research and allows for more comprehensive evaluation of RL algorithms.
 
- ![](https://arxiv.org/pdf/1207.4708){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/1207.4708" %}
 
  More at:
 
@@ -1903,9 +1903,9 @@ argmax(likely_outputs) = [1, 0, 0]       <-- output is now easy to interprete!
 ==> solution is to use the softmax function
 ```
 
- ![type:video](https://www.youtube.com/embed/TMnK1zg3Me0)
+ {% youtube "https://www.youtube.com/watch?v=TMnK1zg3Me0" %}
 
- ![type:video](https://www.youtube.com/embed/KpKog-L9veg)
+ {% youtube "https://www.youtube.com/watch?v=KpKog-L9veg" %}
 
  See also [A], [Argmin Function], [Softmax Function]
 
@@ -1929,9 +1929,9 @@ min = np.min(f)                    # 10
 x = np.argmin(f)                   # 2           <-- FIRST index of MINIMUM
 ```
 
- ![type:video](https://www.youtube.com/embed/66fJfvuMJw4)
+ {% youtube "https://www.youtube.com/watch?v=66fJfvuMJw4" %}
 
- ![type:video](https://www.youtube.com/embed/TMnK1zg3Me0)
+ {% youtube "https://www.youtube.com/watch?v=TMnK1zg3Me0" %}
 
  See also [A], [Argmax Function], [Softmax Function]
 
@@ -1966,7 +1966,7 @@ print(predict(dataset, model, text='Knock knock. Whos there?'))
 
  ~ CEO of [Mistral AI]
 
- ![type:video](https://www.youtube.com/embed/EMOFRDOMIiU)
+ {% youtube "https://www.youtube.com/watch?v=EMOFRDOMIiU" %}
 
  See also [A], ...
 
@@ -2003,13 +2003,13 @@ First, we believe the clearest framing of general intelligence is a system that 
   * Intelligence [control][AI Control] and [alignment][AI Alignment]
   * [Intelligence explosion][AI Explosion]
 
- ![type:video](https://www.youtube.com/embed/wHiOKDlA8Ac)
+ {% youtube "https://www.youtube.com/watch?v=wHiOKDlA8Ac" %}
 
- ![type:video](https://www.youtube.com/embed/Mqg3aTGNxZ0)
+ {% youtube "https://www.youtube.com/watch?v=Mqg3aTGNxZ0" %}
 
- ![type:video](https://www.youtube.com/embed/qbIk7-JPB2c)
+ {% youtube "https://www.youtube.com/watch?v=qbIk7-JPB2c" %}
 
- ![](https://arxiv.org/pdf/2303.12712){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/2303.12712" %}
 
  More at:
 
@@ -2145,7 +2145,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  ANI is often conflated with weak artificial intelligence. John Searle, philosopher and professor at the University of California, explained in his seminal 1980 paper, “Minds, Brains, and Programs,” that weak artificial intelligence would be any solution that is both narrow and a superficial look-alike to intelligence. Searle explains that such research would be helpful in testing hypotheses about segments of minds but would not be minds.[3] ANI reduces this by half and allows researchers to focus on the narrow and superficial and ignore hypotheses about minds. In other words, ANI purges intelligence and minds and makes artificial intelligence “possible” without doing anything. After all, everything is narrow, and if you squint hard enough, anything is a superficial look-alike to intelligence.
 
- ![](img/a/artificial_narrow_intelligence_paper.pdf){type=application/pdf}
+ {% pdf "img/a/artificial_narrow_intelligence_paper.pdf" %}
 
  See also [A], [Artificial General Intelligence], [Artificial Super Intelligence]
 
@@ -2187,7 +2187,7 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [Activation function]
   * [Dropout function]
 
- ![type:video](https://www.youtube.com/embed/hfMk-kjRv4c)
+ {% youtube "https://www.youtube.com/watch?v=hfMk-kjRv4c" %}
 
  More at:
 
@@ -2291,7 +2291,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  “The pitch to my mum is that we’re building an AI that has eyes, ears, and a voice. It can be anywhere with you, and it can help you with anything you’re doing” says Greg Wayne, co-lead of the Astra team. “It’s not there yet, but that’s the kind of vision.” 
 
- ![type:video](https://www.youtube.com/embed/hIIlJt8JERI)
+ {% youtube "https://www.youtube.com/watch?v=hIIlJt8JERI" %}
 
  More at:
 
@@ -2305,7 +2305,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  A [policy gradient algorithm] used in [reinforcement learning]
 
- ![type:video](https://www.youtube.com/embed/OcIx_TBu90Q)
+ {% youtube "https://www.youtube.com/watch?v=OcIx_TBu90Q" %}
 
  More at:
 
@@ -2334,7 +2334,7 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  The primary objective of ALE is to facilitate the development and evaluation of RL algorithms by providing a common framework and standardized benchmark tasks. It has been widely used in the research community to test and compare various RL algorithms and techniques.
 
- ![](https://arxiv.org/pdf/1312.5602v1){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/1312.5602v1" %}
 
  More at:
 
@@ -2349,13 +2349,13 @@ First, we believe the clearest framing of general intelligence is a system that 
 
  Atlas is a bipedal humanoid [robot] primarily developed by the American robotics company [Boston Dynamics] with funding and oversight from the [U.S. Defense Advanced Research Projects Agency (DARPA)][DARPA]. The robot was initially designed for a variety of search and rescue tasks, and was unveiled to the public on July 11, 2013.
 
- ![type:video](https://www.youtube.com/embed/rVlhMGQgDkY)
+ {% youtube "https://www.youtube.com/watch?v=rVlhMGQgDkY" %}
 
- ![type:video](https://www.youtube.com/embed/-9EM5_VFlt8)
+ {% youtube "https://www.youtube.com/watch?v=-9EM5_VFlt8" %}
 
  2024/04/15
 
- ![type:video](https://www.youtube.com/embed/29ECwExc-_M)
+ {% youtube "https://www.youtube.com/watch?v=29ECwExc-_M" %}
 
  More at:
 
@@ -2380,7 +2380,7 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [Masked Self-Attention]
   * [Multi-head Attention]
 
- ![](img/a/attention_mechanism.pdf){type=application/pdf}
+ {% pdf "img/a/attention_mechanism.pdf" %}
 
  See also [A], [Attention Score], [Encoder-Decoder Attention]
 
@@ -2410,9 +2410,9 @@ Then you are presented with the best matched videos (values).                   
 
  ![](img/a/attention_score_formula.png ){:width="100%"}
 
- ![type:video](https://www.youtube.com/embed/_UVfwBqcnbM)
+ {% youtube "https://www.youtube.com/watch?v=_UVfwBqcnbM" %}
 
- ![type:video](https://www.youtube.com/embed/4Bdc55j80l8)
+ {% youtube "https://www.youtube.com/watch?v=4Bdc55j80l8" %}
 
  More at :
 
@@ -2430,7 +2430,7 @@ Then you are presented with the best matched videos (values).                   
   1. Auto-regressive ( ~ auto-complete and generative)
   1. Auto-encoding ( ~ best possible match given context )
 
- ![type:video](https://www.youtube.com/embed/g2BRIuln4uc)
+ {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
 
  See also [A], [Attention], [Attention Score], [Autoencoding], [Autoregressive], [BERT Model], [GPT Model], [Multi-Head Attention], [T5 Model]
 
@@ -2476,7 +2476,7 @@ Then you are presented with the best matched videos (values).                   
 
  Augmented reality is largely synonymous with [Mixed Reality].
 
- ![type:video](https://www.youtube.com/embed/Zu1p99GJuTo)
+ {% youtube "https://www.youtube.com/watch?v=Zu1p99GJuTo" %}
 
  More at:
 
@@ -2541,11 +2541,11 @@ If you don't ___ at the sign, you will get a ticket
 
  ~ define [Multi-Agent] models
 
- ![type:video](https://www.youtube.com/embed/MCYzYzaWChY)
+ {% youtube "https://www.youtube.com/watch?v=MCYzYzaWChY" %}
 
- ![type:video](https://www.youtube.com/embed/y7wMTwJN7rA)
+ {% youtube "https://www.youtube.com/watch?v=y7wMTwJN7rA" %}
 
- ![type:video](https://www.youtube.com/embed/WMFKfZEM1Sw)
+ {% youtube "https://www.youtube.com/watch?v=WMFKfZEM1Sw" %}
 
  Alternatives:
 
@@ -2568,9 +2568,9 @@ If you don't ___ at the sign, you will get a ticket
 
 ## AutoGPT  Model
 
- ![type:video](https://www.youtube.com/embed/LqjVMy2qhRY)
+ {% youtube "https://www.youtube.com/watch?v=LqjVMy2qhRY" %}
 
- ![type:video](https://www.youtube.com/embed/0m0AbdoFLq4)
+ {% youtube "https://www.youtube.com/watch?v=0m0AbdoFLq4" %}
 
  Derivative versions:
 
@@ -2599,7 +2599,7 @@ If you don't ___ at the sign, you will get a ticket
 
  Evaluating [retrieval-augmented generation (RAG)][RAG] systems traditionally relies on hand annotations for input queries, passages to retrieve, and responses to generate. We introduce ARES, an Automated RAG Evaluation System, for evaluating RAG systems along the dimensions of context relevance, answer faithfulness, and answer relevance. Using synthetic training data, ARES finetunes lightweight LM judges to assess the quality of individual RAG components. To mitigate potential prediction errors, ARES utilizes a small set of human-annotated datapoints for [prediction-powered inference (PPI)][PPI]. Across six different knowledge-intensive tasks in [KILT] and [SuperGLUE], ARES accurately evaluates RAG systems while using a few hundred human annotations during evaluation. Furthermore, ARES judges remain effective across domain shifts, proving accurate even after changing the type of queries and/or documents used in the evaluated RAG systems.
 
- ![](https://arxiv.org/pdf/2311.09476){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/2311.09476" %}
 
  More at:
 
@@ -2644,9 +2644,9 @@ If you don't ___ at the sign, you will get a ticket
 
  ![](img/a/autonomous_agent.png ){:width="100%"}
 
- ![type:video](https://www.youtube.com/embed/rDljQuwM2o8)
+ {% youtube "https://www.youtube.com/watch?v=rDljQuwM2o8" %}
 
- ![](https://arxiv.org/pdf/2308.11432v1){type=application/pdf}
+ {% pdf "https://arxiv.org/pdf/2308.11432v1" %}
 
  See also [A], ...
 
@@ -2692,7 +2692,7 @@ ____ at the sign, you will get a ticket (backward prediction)
 
  ~ ==analyze the past steps (or future but not both) to identify the next step = learn from the past iteration (or future but not both) ONLY==. Unlike the GANs approach described before, where music generation happened in one iteration, autoregressive models add notes over many iterations. The models used are called autoregressive (AR) models because the model generates music by predicting future music notes based on the notes that were played in the past. In the music composition process, unlike traditional time series data, one generally does more than compose from left to right in time. New chords are added, melodies are embellished with accompaniments throughout. Thus, instead of conditioning our model solely on the past notes in time like standard autoregressive models, we want to condition our model on all the notes that currently exist in the provided input melody. For example, the notes for the left hand in a piano might be conditioned on the notes that have already been written for the right hand.
 
- ![type:video](https://www.youtube.com/embed/UZDiGooFs54)
+ {% youtube "https://www.youtube.com/watch?v=UZDiGooFs54" %}
 
  See also [A], [Autoencoding], [Autoregressive Convolutional Neural Network], [Casual Language Modeling], [Generative Adversarial Network], [Time-Series Predictive Analysis]
 
@@ -2701,11 +2701,11 @@ ____ at the sign, you will get a ticket (backward prediction)
 
  Note as good as a [LSTM model] because no memory
 
- ![type:video](https://www.youtube.com/embed/-uqNYTUTqdc)
+ {% youtube "https://www.youtube.com/watch?v=-uqNYTUTqdc" %}
 
- ![type:video](https://www.youtube.com/embed/-4F-9bzzg50)
+ {% youtube "https://www.youtube.com/watch?v=-4F-9bzzg50" %}
 
- ![type:video](https://www.youtube.com/embed/8jY675fjUWo)
+ {% youtube "https://www.youtube.com/watch?v=8jY675fjUWo" %})
 
  See also [A], ...
 
@@ -2770,7 +2770,7 @@ ____ at the sign, you will get a ticket (backward prediction)
 
  Amazon Nova is a new generation of state-of-the-art (SOTA) foundation models (FMs) that deliver frontier intelligence and industry leading price-performance, available exclusively on Amazon Bedrock.
 
- ![type:video](https://www.youtube.com/embed/pIy_FkKe7bc)
+ {% youtube "https://www.youtube.com/watch?v=pIy_FkKe7bc" %}
 
  More at:
 
@@ -2797,7 +2797,7 @@ ____ at the sign, you will get a ticket (backward prediction)
 
 ## AWS SageMaker Canvas
 
- ![type:video](https://www.youtube.com/embed/BMtmYHRijfk)
+ {% youtube "https://www.youtube.com/watch?v=BMtmYHRijfk" %}
 
  See also [A], ...
 
@@ -2813,7 +2813,7 @@ ____ at the sign, you will get a ticket (backward prediction)
 
  ~ compiler of ML models before they are distributed to the endpoint. Compatible with TensorFlow, XGBoost, MxNET, PyTorch, ... Allow the model to run without any framework, this reduce the memory footprint on the device (at the edge) by 100x, while improving the performance by x2.
 
- ![type:video](https://www.youtube.com/embed/RjhrugELYW8)
+ {% youtube "https://www.youtube.com/watch?v=RjhrugELYW8" %}
 
  See also [A], ...
 
@@ -2862,9 +2862,9 @@ ____ at the sign, you will get a ticket (backward prediction)
  * uses EFS for storage
  * can have several instances running at once sharing files through EFS
 
- ![type:video](https://www.youtube.com/embed/k2nVIvHB1dk)
+ {% youtube "https://www.youtube.com/watch?v=k2nVIvHB1dk" %}
 
- ![type:video](https://www.youtube.com/embed/YcJAc-x8XLQ)
+ {% youtube "https://www.youtube.com/watch?v=YcJAc-x8XLQ" %}
 
  More at:
 
@@ -2876,7 +2876,7 @@ ____ at the sign, you will get a ticket (backward prediction)
 
 ## AWS Titan Model
 
- ![type:video](https://www.youtube.com/embed/SdbfLgqc7is)
+ {% youtube "https://www.youtube.com/watch?v=SdbfLgqc7is" %}
 
  Use cases:
 

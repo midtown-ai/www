@@ -5,5 +5,5 @@ mkdocs-material
 mkdocs-mermaid2-plugin
 mkdocs-minify-plugin
 mkdocs-pdf
-# mkdocs-rss-plugin
+mkdocs-rss-plugin           # RSS for blog posts
 mkdocs-video

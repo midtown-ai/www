@@ -61,3 +61,35 @@ theme:
 1.  Look ma, less line noise!
 2.  Look ma, more noise!
 
+
+## Tab-Linked code blocks
+
+=== "C"
+
+    C code linked tab
+
+=== "C++"
+
+    C++ code linked tab
+
+===! "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```

@@ -38,6 +38,7 @@ site_dir: site                # directory where the output HTML and other files 
 #
 hooks:
   # - hooks/create_zip_archive.py
+  - hooks/embed_pdf_file.py
   - hooks/embed_youtube_video.py
   # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
   # - hooks/mkdocs_simple_example.py
@@ -253,7 +254,9 @@ plugins:
   #
   # Built-in plugins
   #
-  # - blog                    # enable blog on website
+  - blog:                     # enable blog on website, posts are in 
+      enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
+      blog_dir: blog          # - where the content of the blog is located
   # - group                   # enable/disable plugins in groups
   # - info                    # used to report bugs using zip files
   # - meta                    # set frontmatter for files in a directory
@@ -293,31 +296,42 @@ plugins:
   # @ https://github.com/fralau/mkdocs-mermaid2-plugin
   # pip install mkdocs-mermaid2-plugin
   # /!\ With material theme, use pymdownx.superfences
-  - mermaid2
+  - mermaid2:
+      enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
+
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
   - mkdocs-pdf
+
   # Support for embedded videos
   # @ https://github.com/soulless-viewer/mkdocs-video
   # pip install mkdocs-video
   - mkdocs-video:
       is_video: False           # Use <video/> instead of <iframe/>
+
   # Compress downloaded files to minimize latency
   # @ https://github.com/byrnereese/mkdocs-minify-plugin
   # pip install mkdocs-minify-plugin
-  ## - minify:
-  ##     # minify_css: false       # Minify content of CSS files
-  ##     minify_html: true         # Minify content of generated HTML files
-  ##     # minify_js: false        # Minify content of JS files
+  - minify:
+      enabled: !ENV [MINIFY_PLUGIN_ENABLED, true]
+      # minify_css: false       # Minify content of CSS files
+      minify_html: true         # Minify content of generated HTML files
+      # minify_js: false        # Minify content of JS files
+
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
   # pip install mkdocs-rss-plugin
-  # - rss:
-  #   match_path: "blog/posts/.*"
-  #     date_from_meta:
-  #       as_creation: date.created
-  #       as_update: date.updated
+  - rss:
+      enabled: !ENV [RSS_PLUGIN_ENABLED, true]
+      match_path: "blog/posts/.*"  # url to be included in the feed
+      categories:                  # include posts' categories and tags in the feed
+        - categories
+        - tags
+      # comments_path: "#__comments"
+      date_from_meta:              # which front matter property to use ...
+        as_creation: date.created  # - ... as creation date
+        as_update: date.updated    # - ... as update date
 
 #
 # Hooks
@@ -368,9 +382,12 @@ extra:
 # Extra CSS
 #
 extra_css:
+  - stylesheets/custom_admonitions.css
+  - stylesheets/custom_effects.css
+  - stylesheets/custom_tables.css
   - stylesheets/custom_theme.css
   - stylesheets/icon_styles.css
-  - stylesheets/custom.7c86dd97.min.css      # included in override/main.html
+  - stylesheets/custom.7c86dd97.min.css      # included in override/main.html Not needed here?
 
 #
 # Extra JavaScript
@@ -389,8 +406,8 @@ extra_javascript:
 # Validation is set to maximum strictness (recommended for most sites)
 #
 validation:
-  absolute_links: warn
-  # absolute_links: relative_to_docs
+  # absolute_links: warn
+  absolute_links: relative_to_docs
   anchors: warn
   omitted_files: warn
   unrecognized_links: warn
@@ -440,8 +457,12 @@ nav:
   - About: about.md
   - Tests:
     - tests/index.md
+    - Basics: tests/basics.md
     - Blocks: tests/blocks.md
+    - CSS: tests/css.md
     - Custom Fences: tests/custom_fences.md
+    - Images: tests/images.md
+    - Tables: tests/tables.md
     - Widgets: tests/widgets.md
     - PDF Hook: tests/pdf_hook.md
     - YouTube Hook: tests/youtube_hook.md
