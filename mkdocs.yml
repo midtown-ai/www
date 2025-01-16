@@ -36,7 +36,7 @@ site_dir: site                # directory where the output HTML and other files 
 # or local plugins!
 # /!\ If priorities are not explicitly set, their order is important!
 #
-hooks:
+## hooks:
   # - hooks/create_zip_archive.py
   ## - hooks/embed_pdf_file.py
   ## - hooks/embed_youtube_video.py
