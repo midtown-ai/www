@@ -45,5 +45,5 @@ install_deps:
 	pip install -r requirements.txt
 
 dig_site:
-	dig glossary-v3.midtown.ai
+	dig +short www2.midtown.ai.
 

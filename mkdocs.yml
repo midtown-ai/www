@@ -1,5 +1,5 @@
 site_name: Midtown AI
-site_url: https://glossary.midtown.ai/
+site_url: https://www2.midtown.ai/
 site_author: Emmanuel Mayssat
 site_description: >-
   The best site to learn about Artificial Intelligence
@@ -259,7 +259,7 @@ plugins:
   ##    blog_dir: blog          # - where the content of the blog is located
   # - group                   # enable/disable plugins in groups
   # - info                    # used to report bugs using zip files
-  # - meta                    # set frontmatter for files in a directory
+  # - meta                    # set frontmatter for files in a directory /!\ 
   # - offline                 # package site in a zip file to be shared
   # - optimize                # optimize/compress media files for best latency
   # - privacy                 # all external asset URLs are rewritten to point to local copies
@@ -296,9 +296,8 @@ plugins:
   # @ https://github.com/fralau/mkdocs-mermaid2-plugin
   # pip install mkdocs-mermaid2-plugin
   # /!\ With material theme, use pymdownx.superfences
-  - mermaid2:
-      enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
-
+  ## - mermaid2:
+  ##     enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
@@ -405,12 +404,12 @@ extra_javascript:
 # Validation at build time
 # Validation is set to maximum strictness (recommended for most sites)
 #
-validation:
-  absolute_links: warn
-  ## absolute_links: relative_to_docs
-  anchors: warn
-  omitted_files: warn
-  unrecognized_links: warn
+## validation:
+##   absolute_links: warn
+##   ## absolute_links: relative_to_docs
+##   anchors: warn
+##   omitted_files: warn
+##   unrecognized_links: warn
 
 #
 # Documentation layout
